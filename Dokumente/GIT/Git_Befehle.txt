@@ -1,0 +1,10 @@
+Status abfragen
+	git status	-- Bekomme Statusmeldung über gemachte Änderungen
+
+Hochladen (eigener Änderungen / Dateien)
+	git add . 	-- Füge alle Änderungen zum aktuellen Upload hinzu
+	git commit -m "Nachricht123"	-- Versehe den aktuellen Upload mit einer Nachricht, was geändert wurde
+	git push	-- Lade alle Änderungen hoch
+
+Runterladen (Aktualisieren des eigenen lokalen Ordners)
+	git pull
