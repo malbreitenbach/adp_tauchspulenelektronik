@@ -41,4 +41,26 @@
   uniqueid       = {HEB344102602},
 }
 
+@Book{stuhlmuller2004adwandler,
+  title          = {A-D-Wandler in embedded Systemen : Aufbau und Anwendung},
+  publisher      = {Franzis},
+  year           = {2004},
+  author         = {Stuhlmüller, Peter},
+  series         = {Elektronik},
+  address        = {Poing},
+  isbn           = {9783772353000},
+  format         = {book},
+  interhash      = {b49376d601ba5327337cae484ddb0ed8},
+  intrahash      = {219690c8f9235b124a9d6deffdea4d8a},
+  locations      = {102595879},
+  primaryauthor  = {Stuhlmüller, Peter},
+  shortsubtitle  = {: Aufbau und Anwendung},
+  shorttitle     = {A-D-Wandler in embedded Systemen : Aufbau und Anwendung},
+  signatures     = {/ZN 5660 S933},
+  subtitle       = {Aufbau und Anwendung / Peter Stuhlmüller},
+  titlestatement = {Peter Stuhlmüller},
+  uniqueid       = {HEB120280078},
+  url            = {http://scans.hebis.de/HEBCGI/show.pl?12028007_toc.pdf},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
