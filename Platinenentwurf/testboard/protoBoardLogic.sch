@@ -4270,7 +4270,6 @@ Metric Code Size 5664</description>
 <attribute name="VALUE" x="-54.61" y="7.62" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="HB_ST" gate="G$1" x="-33.02" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-31.75" y="83.82" size="1.778" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="-31.75" y="81.28" size="1.778" layer="96" rot="MR0" align="center-left"/>
 <attribute name="OC_FARNELL" x="-33.02" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MF" x="-33.02" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -4476,11 +4475,11 @@ Metric Code Size 5664</description>
 <label x="38.1" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="HB_ST" gate="G$1" pin="10"/>
-<wire x1="-55.88" y1="63.5" x2="-58.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="63.5" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="58.42" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="-63.5" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="HB_ST" gate="G$1" pin="8"/>
+<wire x1="-55.88" y1="66.04" x2="-60.96" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="66.04" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="63.5" x2="-63.5" y2="63.5" width="0.1524" layer="91"/>
+<label x="-63.5" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN1_RX" class="0">
@@ -4628,6 +4627,13 @@ Metric Code Size 5664</description>
 <wire x1="-30.48" y1="58.42" x2="-25.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="-25.4" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="HB_ST" gate="G$1" pin="10"/>
+<wire x1="-55.88" y1="63.5" x2="-58.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="63.5" x2="-58.42" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="58.42" x2="-63.5" y2="58.42" width="0.1524" layer="91"/>
+<label x="-63.5" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="IN_1" class="0">
 <segment>
@@ -4683,15 +4689,6 @@ Metric Code Size 5664</description>
 <wire x1="-27.94" y1="71.12" x2="-27.94" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="73.66" x2="-25.4" y2="73.66" width="0.1524" layer="91"/>
 <label x="-25.4" y="73.66" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="HB_ST" gate="G$1" pin="8"/>
-<wire x1="-55.88" y1="66.04" x2="-60.96" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="66.04" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="63.5" x2="-63.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="-63.5" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="V12" class="0">

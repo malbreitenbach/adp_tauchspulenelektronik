@@ -4190,7 +4190,7 @@ Metric Code Size 5664</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2" drill="5">
+<class number="0" name="default" width="0.2" drill="0.5">
 </class>
 </classes>
 <parts>
@@ -4236,9 +4236,7 @@ Metric Code Size 5664</description>
 <attribute name="MPN" value="M20-9980545"/>
 <attribute name="OC_FARNELL" value="1022235"/>
 </part>
-<part name="C_VR5_VO" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="4.7uF"/>
 <part name="C_VR5_VIN" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="1uF"/>
-<part name="C_VR33_VO" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="4.7uF"/>
 <part name="C_VR33_VIN" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="1uF"/>
 <part name="C_VCAP_2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="2.2uF"/>
 <part name="C_VCAP_1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="2.2uF"/>
@@ -4348,17 +4346,9 @@ P10 = V2P20</text>
 <attribute name="MF" x="-33.02" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="-33.02" y="73.66" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="C_VR5_VO" gate="G$1" x="157.48" y="99.06" smashed="yes">
-<attribute name="NAME" x="150.876" y="99.695" size="1.778" layer="95"/>
-<attribute name="VALUE" x="158.496" y="94.869" size="1.778" layer="96"/>
-</instance>
 <instance part="C_VR5_VIN" gate="G$1" x="218.44" y="99.06" smashed="yes">
 <attribute name="NAME" x="219.456" y="99.695" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.456" y="94.869" size="1.778" layer="96"/>
-</instance>
-<instance part="C_VR33_VO" gate="G$1" x="162.56" y="116.84" smashed="yes">
-<attribute name="NAME" x="155.956" y="117.475" size="1.778" layer="95"/>
-<attribute name="VALUE" x="163.576" y="112.649" size="1.778" layer="96"/>
 </instance>
 <instance part="C_VR33_VIN" gate="G$1" x="218.44" y="116.84" smashed="yes">
 <attribute name="NAME" x="219.456" y="117.475" size="1.778" layer="95"/>
@@ -4428,7 +4418,6 @@ P10 = V2P20</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="147.32" y1="109.22" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="109.22" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
 <junction x="162.56" y="109.22"/>
 <wire x1="200.66" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
@@ -4442,10 +4431,7 @@ P10 = V2P20</text>
 <pinref part="VREG_55" gate="G$1" pin="GND"/>
 <wire x1="165.1" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="88.9" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="101.6" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C_VR5_VO" gate="G$1" pin="1"/>
 <pinref part="C_VR5_VIN" gate="G$1" pin="1"/>
-<pinref part="C_VR33_VO" gate="G$1" pin="2"/>
 <pinref part="C_VR33_VIN" gate="G$1" pin="2"/>
 <pinref part="C_VR33_VO1" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="111.76" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
@@ -4848,15 +4834,6 @@ P10 = V2P20</text>
 </net>
 <net name="V33" class="0">
 <segment>
-<wire x1="162.56" y1="119.38" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="VREG_33" gate="G$1" pin="VOUT_1"/>
-<wire x1="162.56" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
-<junction x="162.56" y="121.92"/>
-<label x="147.32" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C_VR33_VO" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="154.94" y1="43.18" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U2" gate="B" pin="VBAT"/>
 <wire x1="154.94" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
@@ -4943,15 +4920,6 @@ P10 = V2P20</text>
 </segment>
 </net>
 <net name="V5" class="0">
-<segment>
-<pinref part="VREG_55" gate="G$1" pin="VOUT_1"/>
-<wire x1="165.1" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="86.36" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
-<junction x="157.48" y="86.36"/>
-<label x="147.32" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="C_VR5_VO" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <pinref part="C_VR5_VO1" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="93.98" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
