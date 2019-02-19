@@ -7154,7 +7154,9 @@ type 0309, grid 2.5 mm</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.2" drill="0">
+<class number="0" name="default" width="0.2" drill="0.508">
+</class>
+<class number="1" name="V12" width="0.6" drill="0.8">
 </class>
 </classes>
 <parts>
