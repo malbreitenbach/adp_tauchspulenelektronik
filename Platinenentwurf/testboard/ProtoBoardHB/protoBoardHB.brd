@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -162,10 +162,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0.08" y1="0" x2="78.41" y2="0" width="0" layer="20"/>
-<wire x1="78.41" y1="0" x2="78.41" y2="76.19" width="0" layer="20"/>
-<wire x1="78.41" y1="76.19" x2="0.08" y2="76.19" width="0" layer="20"/>
-<wire x1="0.08" y1="76.19" x2="0.08" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="80" y2="0" width="0" layer="20"/>
+<wire x1="80" y1="0" x2="80" y2="76" width="0" layer="20"/>
+<wire x1="80" y1="76" x2="0" y2="76" width="0" layer="20"/>
+<wire x1="0" y1="76" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="41.275" y1="19.685" x2="41.275" y2="14.605" width="0.1524" layer="21"/>
 <wire x1="41.275" y1="14.605" x2="43.815" y2="14.605" width="0.1524" layer="21"/>
 <wire x1="43.815" y1="14.605" x2="43.815" y2="19.685" width="0.1524" layer="21"/>
@@ -288,36 +288,36 @@
 <text x="21.9075" y="14.9225" size="0.3048" layer="21">V33</text>
 <text x="16.8275" y="21.59" size="0.3048" layer="21">NU</text>
 <text x="16.8275" y="14.9225" size="0.3048" layer="21">NU</text>
-<text x="44.7675" y="54.2925" size="0.3048" layer="21">IS_2</text>
-<text x="47.3075" y="54.2925" size="0.3048" layer="21">IS_1</text>
-<text x="49.53" y="54.2925" size="0.3048" layer="21">IN_M_2</text>
-<text x="52.07" y="54.2925" size="0.3048" layer="21">IN_M_1</text>
-<text x="54.61" y="54.2925" size="0.3048" layer="21">INH_EXT</text>
-<text x="54.2925" y="60.96" size="0.3048" layer="21">INH_EXT</text>
-<text x="52.07" y="60.96" size="0.3048" layer="21">GND</text>
-<text x="49.8475" y="60.96" size="0.3048" layer="21">V33</text>
-<text x="47.3075" y="60.96" size="0.3048" layer="21">NU</text>
-<text x="44.7675" y="60.96" size="0.3048" layer="21">NU</text>
-<text x="58.42" y="54.2925" size="0.3048" layer="21">NRST</text>
-<text x="60.6425" y="54.2925" size="0.3048" layer="21">TRACESWO</text>
-<text x="63.5" y="54.2925" size="0.3048" layer="21">SWCLK</text>
-<text x="66.04" y="54.2925" size="0.3048" layer="21">SWDIO</text>
-<text x="68.8975" y="54.2925" size="0.3048" layer="21">V33</text>
-<text x="68.8975" y="60.96" size="0.3048" layer="21">V33</text>
+<text x="49.8475" y="54.2925" size="0.3048" layer="21">IS_2</text>
+<text x="52.3875" y="54.2925" size="0.3048" layer="21">IS_1</text>
+<text x="54.61" y="54.2925" size="0.3048" layer="21">IN_M_2</text>
+<text x="57.15" y="54.2925" size="0.3048" layer="21">IN_M_1</text>
+<text x="59.69" y="54.2925" size="0.3048" layer="21">INH_EXT</text>
+<text x="59.3725" y="60.96" size="0.3048" layer="21">INH_EXT</text>
+<text x="57.15" y="60.96" size="0.3048" layer="21">GND</text>
+<text x="54.9275" y="60.96" size="0.3048" layer="21">V33</text>
+<text x="52.3875" y="60.96" size="0.3048" layer="21">NU</text>
+<text x="49.8475" y="60.96" size="0.3048" layer="21">NU</text>
+<text x="63.5" y="54.2925" size="0.3048" layer="21">NRST</text>
+<text x="65.7225" y="54.2925" size="0.3048" layer="21">TRACESWO</text>
+<text x="68.58" y="54.2925" size="0.3048" layer="21">SWCLK</text>
+<text x="71.12" y="54.2925" size="0.3048" layer="21">SWDIO</text>
+<text x="73.9775" y="54.2925" size="0.3048" layer="21">V33</text>
+<text x="73.9775" y="60.96" size="0.3048" layer="21">V33</text>
+<text x="71.4375" y="60.96" size="0.3048" layer="21">GND</text>
+<text x="68.8975" y="60.96" size="0.3048" layer="21">GND</text>
 <text x="66.3575" y="60.96" size="0.3048" layer="21">GND</text>
 <text x="63.8175" y="60.96" size="0.3048" layer="21">GND</text>
-<text x="61.2775" y="60.96" size="0.3048" layer="21">GND</text>
-<text x="58.7375" y="60.96" size="0.3048" layer="21">GND</text>
-<text x="43.4975" y="8.89" size="0.3048" layer="21">V33</text>
-<text x="45.4025" y="8.89" size="0.3048" layer="21">OUT_PA4</text>
-<text x="47.9425" y="8.89" size="0.3048" layer="21">OUT_PA6</text>
-<text x="50.4825" y="8.89" size="0.3048" layer="21">OUT_PA5</text>
-<text x="53.0225" y="8.89" size="0.3048" layer="21">OUT_PB1</text>
-<text x="53.34" y="2.2225" size="0.3048" layer="21">SS_VN</text>
-<text x="51.1175" y="2.2225" size="0.3048" layer="21">GND</text>
-<text x="48.5775" y="2.2225" size="0.3048" layer="21">NU</text>
-<text x="46.0375" y="2.2225" size="0.3048" layer="21">NU</text>
-<text x="43.4975" y="2.2225" size="0.3048" layer="21">NU</text>
+<text x="48.5775" y="8.89" size="0.3048" layer="21">V33</text>
+<text x="50.4825" y="8.89" size="0.3048" layer="21">OUT_PA4</text>
+<text x="53.0225" y="8.89" size="0.3048" layer="21">OUT_PA6</text>
+<text x="55.5625" y="8.89" size="0.3048" layer="21">OUT_PA5</text>
+<text x="58.1025" y="8.89" size="0.3048" layer="21">OUT_PB1</text>
+<text x="59.055" y="2.2225" size="0.3048" layer="21">SS_VN</text>
+<text x="56.8325" y="2.2225" size="0.3048" layer="21">GND</text>
+<text x="54.2925" y="2.2225" size="0.3048" layer="21">NU</text>
+<text x="51.7525" y="2.2225" size="0.3048" layer="21">NU</text>
+<text x="49.2125" y="2.2225" size="0.3048" layer="21">NU</text>
 <text x="51.435" y="71.12" size="2.54" layer="21">Protoboard</text>
 <hole x="45.43" y="57.88" drill="3.5"/>
 <wire x1="54.61" y1="53.34" x2="54.61" y2="48.26" width="0.2032" layer="21"/>
@@ -1253,7 +1253,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="ABRACON" x="113.665" y="51.435" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="815-ABLS-8.0MK4-T" x="113.665" y="51.435" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ABLS-8.000MHZ-K4T" x="113.665" y="51.435" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="42.126" y="32.47066875" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="39.154" y="27.85433125" size="0.762" layer="25" rot="R270" align="center"/>
 <attribute name="OC_FARNELL" value="2467758" x="113.665" y="51.435" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.126" y="28.66066875" size="1.27" layer="27" rot="R90" align="center"/>
 </element>

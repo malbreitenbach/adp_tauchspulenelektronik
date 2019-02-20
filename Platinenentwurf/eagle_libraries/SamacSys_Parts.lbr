@@ -60,6 +60,22 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
+<package name="1792106">
+<description>&lt;b&gt;1792106&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="4.25" y="-14.5" drill="1.8" diameter="2.7" />
+<pad name="2" x="11.75" y="-2" drill="1.8" diameter="2.7" />
+<text x="7.189" y="-8.748" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="7.189" y="-8.748" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="16" y2="0" width="0.2" layer="51" />
+<wire x1="16" y1="0" x2="16" y2="-19" width="0.2" layer="51" />
+<wire x1="16" y1="-19" x2="0" y2="-19" width="0.2" layer="51" />
+<wire x1="0" y1="-19" x2="0" y2="0" width="0.2" layer="51" />
+<wire x1="0" y1="-19" x2="0" y2="0" width="0.2" layer="21" />
+<wire x1="0" y1="0" x2="16" y2="0" width="0.2" layer="21" />
+<wire x1="16" y1="0" x2="16" y2="-19" width="0.2" layer="21" />
+<wire x1="16" y1="-19" x2="0" y2="-19" width="0.2" layer="21" />
+</package>
 <package name="HDRV2W64P0X254_1X2_508X254X864">
 <description>&lt;b&gt;M20-9990246&lt;/b&gt;&lt;br&gt;
 </description>
@@ -283,6 +299,16 @@
 </package>
 </packages>
 <symbols>
+<symbol name="1792106">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94" />
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94" />
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" />
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94" />
+<text x="16.51" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="16.51" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle" direction="io" rot="R0" />
+<pin name="2" x="20.32" y="0" length="middle" direction="io" rot="R180" />
+</symbol>
 <symbol name="M20-9990246">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
@@ -424,6 +450,30 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="1792106" prefix="J">
+<description>&lt;b&gt;Spring PCB terminal block 2 way 41A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/1792106.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1792106" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="1792106">
+<connects>
+<connect gate="G$1" pin="1" pad="1" />
+<connect gate="G$1" pin="2" pad="2" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="651-1792106" constant="no" />
+<attribute name="Manufacturer_Name" value="Phoenix Contact" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="1792106" constant="no" />
+<attribute name="Description" value="Spring PCB terminal block 2 way 41A" constant="no" />
+<attribute name="Height" value="mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="M20-9990246" prefix="J">
 <description>&lt;b&gt;HARWIN  M20-9990246.  Board-To-Board Connector, Straight, 2.54 mm, 2 Contacts, Header, M20 Series, Through Hole&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.mouser.com/datasheet/2/181/M20-999-1218971.pdf"&gt; Datasheet &lt;/a&gt;</description>
