@@ -1,0 +1,9 @@
+Vor dem Bearbeiten GitHub auf jeden Fall aktualisieren!
+
+Erstellen Kapitel: 
+- TeXnicCenter -> Datei -> neu -> Datei (Beispiel: bla.tex)
+- Speichern in dem ADP Ordner "input"
+- In ADP-Projekt-Hauptdatei (ADP.tex) die Datei im Bereich "Hier Tex-Datei includen" einbinden
+  wie es exemplarisch mit der Einleitung gemacht wurde
+- Zum Kompilieren F7 benutzen, damit Hauptdatei kompiliert
+- Unterteilungen Kapitel bla.tex durch \chapter{bla}, \section{Unterpunktname}, \subsection{Name}, etc.
