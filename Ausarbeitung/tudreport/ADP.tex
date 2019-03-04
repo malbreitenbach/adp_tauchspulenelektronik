@@ -1,0 +1,74 @@
+\documentclass[nochapterpage,bigchapter,linedtoc,longdoc,colorback,accentcolor=tud1c]{tudreport}
+\usepackage{ngerman}
+
+\usepackage[stable]{footmisc}
+\usepackage[ngerman]{hyperref}
+
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\hypersetup{%
+  pdftitle={Entwicklung und Test einer
+eingebetteten Elektronik für einen
+innovativen Schaltaktor},
+  pdfauthor={Malte Breitenbach, Johannes Faupel, Jonas Tautz, Johanna Vetter},
+  pdfsubject={Beispieltext},
+  pdfview=FitH,
+  pdfstartview=FitV
+}
+
+%%% Zum Tester der Marginalien %%%
+  \newif\ifTUDmargin\TUDmarginfalse
+  %%% Wird der Folgende Zeile einkommentiert,
+  %%% werden Marginalien gesetzt.
+  % \TUDmargintrue
+  \ifTUDmargin\makeatletter
+    \TUD@setmarginpar{2}
+  \makeatother\fi
+%%% ENDE: Zum Tester der Marginalien %%%
+
+\newlength{\longtablewidth}
+\setlength{\longtablewidth}{0.7\linewidth}
+\addtolength{\longtablewidth}{-\marginparsep}
+\addtolength{\longtablewidth}{-\marginparwidth}
+
+
+% \settitlepicture{tudreport-pic}
+% \printpicturesize
+
+\title{Entwicklung und Test einer eingebetteten Elektronik für einen innovativen Schaltaktor}
+\subtitle{Malte Breitenbach, Johannes Faupel, Jonas Tautz, Johanna Vetter}
+%\subsubtitle{email: \textaccent{tud-design@pro-kevin.de}}
+%\setinstitutionlogo[width]{TUD_sublogo}
+%\uppertitleback{(\textaccent{\textbackslash uppertitleback})}
+\lowertitleback{\hfill\today}
+\institution{ 
+Institut für Mechatronische Systeme im Maschinenbau\\
+     Prof. Dr.-Ing. Stephan Rinderknecht}
+%\dedication{Hier ist gen"ugend Platz\\
+  %f"ur eine Widmung (\textaccent{\textbackslash dedication}).\\
+  %\strut\\
+  %F"ur Annelore Schmidt\\
+  %aus dem Referat Kommunikation.\\
+  %Sie hat immer ein offenes Ohr\\
+  %f"ur unsere Fragen und Anregungen.}
+%\sponsor{\color{tud9b}\rule{\linewidth}{7mm}}
+%\sponsor{\hfill\includegraphics[height=6ex]{tud_logo}\hspace{1em}\includegraphics[height=6ex]{TUD_chaos}}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Hier könnte Ihr Abstract stehen.
+\end{abstract}  
+
+\tableofcontents
+
+%% Hier Tex-Dateien includen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./input/Einleitung}
+\input{./input/Pruefstand}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\listoffigures\addcontentsline{toc}{chapter}{\listfigurename}
+\end{document}
