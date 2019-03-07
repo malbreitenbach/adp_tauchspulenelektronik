@@ -1,1 +1,28 @@
 \chapter{Einleitung}
+\section{Motivation}
+
+\section{Ziele der Arbeit}
+Auch das Institut für Mechatronische Systeme (IMS) der TU Darmstadt nimmt sich dieser Aufgabe an und arbeitet im Rahmen des Projektes Speed4E, dass einen elektrifizierten Antriebsstrang mit Peak-Antriebsdrehzahlen von bis zu $50.000/min$ zum Ziel hat, an einem innovativem Schaltaktor. Im Verlauf vorheriger Arbeiten wurde bereits ein Tauchspulenaktor ausgelegt sowie eine Elektronik für ihn entwickelt. Das Ziel dieser Arbeit ist es nun, die bisherigen Funktionen auf einen Mikrocontroller zu implementieren sowie eine eingebettete Elektronik zu entwerfen, die den Aktor zu einem Smart Actuator transformiert. Des Weiteren sollen Sicherheits- und Überwachungsfunktionen für den Aktor entwickelt werden und Statusmeldungen per CAN gesendet werden. 
+
+\section{Anforderungsliste}
+Um das übergeordnete Ziel weiter zu spezifizieren wurde zunächst  eine Anforderungsliste erstellt. In dieser sind alle Forderungen an das Endprodukt gesammelt, sie dient damit als Basis und Referenz für die Produktentwicklung. Die Liste ist hierbei dynamisch, das heißt sie kann im Verlauf des Entwicklungsprozesses verändert oder ergänzt werden.  Die formulierten Anforderungen werden schließlich noch nach Priorität kategorisiert und einer der vier folgenden Anforderungsarten (Quelle: Pahl (2004): Konstruktionslehre - Grundlagen erfolgreicher Produktentwicklung - Methoden und Anwendung S. 189.) zugeteilt:
+Festforderungen (FF) sind unter allen Umständen einzuhalten. Eine Erfüllung ist für eine erfolgreiche Lösung notwendig.
+Bereichsforderungen (BF) geben einen Toleranzbereich an, innerhalb dessen sich der schlussendlich erreichte Wert befinden muss.
+Zielforderungen (ZF) geben an, welcher Wert (auch im Hinsicht auf spätere Entwicklungen) angestrebt wird.
+Wünsche (W) sollten nach Möglichkeit erfüllt werden, sind aber keine Voraussetzung. 
+
+\begin{table}[h]
+	\centering
+		\begin{tabular}{lcr}
+			Relevanz & Anforderung & Erläuterung \\
+			FF & Benutzerfreundliche Kommunikation durch CAN Schnittstelle & Empfang von Befehlen, Senden von Statusmeldungen \\
+			FF & Nichtflüchtige Kalibrierung & Eine Kalibrierung ist nur einmalig und zur Rekalibrierung notwendig \\
+			BF & Schaltzeit & < 100 ms (Latenz zwischen Senden des Befehls und vollständig ausgeführtem Gangwechsel) \\
+			FF & Selbstständige Fehlererkennung & Überstrom, Temperatur, Eingangsspannung (OVP/UVP), Dekalibrierung \\
+			FF & Schnittstellen & CAN, 8-12VDC Versorgung (max XA), Programmierschnittstelle (für Updates & Bugfixes) \\
+			W & Wartbarkeit & Sicherung wechseln im eingebauten Zustand \\
+			
+		\end{tabular}
+	\caption{Anforderungsliste}
+	\label{tab:Anforderungsliste}
+\end{table}

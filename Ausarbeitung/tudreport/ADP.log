@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  7 MAR 2019 17:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  7 MAR 2019 18:32
 entering extended mode
 **./ADP.tex
 (ADP.tex
@@ -1114,14 +1114,18 @@ go/tud_logo.pdf>] [0
 
 
 ] (ADP.toc
+Package tocbasic Info: Using my definition of `\numberline' on input line 2.
 Package tocbasic Info: Using my definition of `\numberline' on input line 3.
 Package tocbasic Info: Using my definition of `\numberline' on input line 4.
-Package tocbasic Info: Using my definition of `\numberline' on input line 5.
 Package tocbasic Info: Using my definition of `\numberline' on input line 6.
 Package tocbasic Info: Using my definition of `\numberline' on input line 7.
 Package tocbasic Info: Using my definition of `\numberline' on input line 8.
 Package tocbasic Info: Using my definition of `\numberline' on input line 9.
 Package tocbasic Info: Using my definition of `\numberline' on input line 10.
+Package tocbasic Info: Using my definition of `\numberline' on input line 11.
+Package tocbasic Info: Using my definition of `\numberline' on input line 12.
+Package tocbasic Info: Using my definition of `\numberline' on input line 13.
+Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 )
 \tf@toc=\write4
 \openout4 = `ADP.toc'.
@@ -1131,17 +1135,31 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 10.
 
 ]
 chapter 1.
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.22 ..., Programmierschnittstelle (für Updates &
+                                                   Bugfixes) \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (216.92667pt too wide) in paragraph at lines 16--26
+ [][] 
+ []
+
 ) (input/Pruefstand.tex [5] [6
 
 
 ]
 chapter 2.
-<Bilder/Pruefstand.jpg, id=77, 458.46281pt x 292.09125pt>
+<Bilder/Pruefstand.jpg, id=89, 458.46281pt x 292.09125pt>
 File: Bilder/Pruefstand.jpg Graphic file (type jpg)
 <use Bilder/Pruefstand.jpg>
 Package pdftex.def Info: Bilder/Pruefstand.jpg  used on input line 7.
 (pdftex.def)             Requested size: 458.46169pt x 292.09052pt.
-<Bilder/Fahrzeuggetriebe.jpg, id=79, 458.46281pt x 292.09125pt>
+<Bilder/Fahrzeuggetriebe.jpg, id=91, 458.46281pt x 292.09125pt>
 File: Bilder/Fahrzeuggetriebe.jpg Graphic file (type jpg)
 <use Bilder/Fahrzeuggetriebe.jpg>
 Package pdftex.def Info: Bilder/Fahrzeuggetriebe.jpg  used on input line 19.
@@ -1153,7 +1171,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: File `Bilder/Querschnitt Aktor.jpg' not found on input line 35.
 
-<Bilder/Querschnitt Aktor.jpg, id=86, 458.46281pt x 292.09125pt>
+<Bilder/Querschnitt Aktor.jpg, id=98, 458.46281pt x 292.09125pt>
 File: Bilder/Querschnitt Aktor.jpg Graphic file (type jpg)
 <use Bilder/Querschnitt Aktor.jpg>
 Package pdftex.def Info: Bilder/Querschnitt Aktor.jpg  used on input line 35.
@@ -1164,7 +1182,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: File `Bilder/Kennlinie Aktor.png' not found on input line 49.
 
-<Bilder/Kennlinie Aktor.png, id=88, 387.69844pt x 306.39468pt>
+<Bilder/Kennlinie Aktor.png, id=100, 387.69844pt x 306.39468pt>
 File: Bilder/Kennlinie Aktor.png Graphic file (type png)
 <use Bilder/Kennlinie Aktor.png>
 Package pdftex.def Info: Bilder/Kennlinie Aktor.png  used on input line 49.
@@ -1173,7 +1191,7 @@ Package pdftex.def Info: Bilder/Kennlinie Aktor.png  used on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Sensor.png, id=97, 252.19218pt x 240.9pt>
+<Bilder/Sensor.png, id=108, 252.19218pt x 240.9pt>
 File: Bilder/Sensor.png Graphic file (type png)
 <use Bilder/Sensor.png>
 Package pdftex.def Info: Bilder/Sensor.png  used on input line 66.
@@ -1209,21 +1227,22 @@ Package rerunfilecheck Info: File `ADP.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 12504 strings out of 492946
- 201727 string characters out of 3135522
+ 12512 strings out of 492946
+ 201810 string characters out of 3135522
  417023 words of memory out of 3000000
- 16087 multiletter control sequences out of 15000+200000
+ 16091 multiletter control sequences out of 15000+200000
  92591 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,100p,9105b,451s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/fr
 ontpage/5fpm8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb>
-Output written on ADP.pdf (15 pages, 426069 bytes).
+nts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-
+chr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
+Output written on ADP.pdf (15 pages, 436980 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
