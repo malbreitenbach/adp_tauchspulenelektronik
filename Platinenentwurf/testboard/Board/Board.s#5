@@ -8330,7 +8330,6 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="2.54" y1="251.46" x2="2.54" y2="248.92" width="0.1524" layer="91"/>
-<label x="2.54" y="248.92" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="V_MOT_MIN" class="0">
@@ -8347,7 +8346,6 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="5.08" y1="251.46" x2="5.08" y2="248.92" width="0.1524" layer="91"/>
-<label x="5.08" y="248.92" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="IN_M_1" class="0">
