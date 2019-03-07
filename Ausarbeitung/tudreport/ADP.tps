@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=539
-NormalPos.bottom=324
+NormalPos.right=881
+NormalPos.bottom=94
 Class=LaTeXView
 Document=ADP.tex
 
 [Frame0_View0,0]
-TopLine=70
-Cursor=2140
+TopLine=0
+Cursor=269
 
 [Frame1]
 Flags=0
@@ -29,14 +29,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=539
-NormalPos.bottom=324
+NormalPos.right=881
+NormalPos.bottom=94
 Class=LaTeXView
 Document=input\Einleitung.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=0
+Cursor=20
 
 [Frame2]
 Flags=0
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=539
-NormalPos.bottom=324
+NormalPos.right=881
+NormalPos.bottom=94
 Class=LaTeXView
 Document=input\Pruefstand.tex
 
 [Frame2_View0,0]
 TopLine=0
-Cursor=19
+Cursor=364
 
 [SessionInfo]
 FrameCount=3

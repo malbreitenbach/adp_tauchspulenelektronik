@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  1 MAR 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  7 MAR 2019 11:55
 entering extended mode
 **./TUDarticle.tex
 (TUDarticle.tex
@@ -1147,7 +1147,7 @@ go/tud_logo.pdf>] [1
 
 
 ]
-<TUDreport-fig.pdf, id=64, 518.93875pt x 429.605pt>
+<TUDreport-fig.pdf, id=57, 518.93875pt x 429.605pt>
 File: TUDreport-fig.pdf Graphic file (type pdf)
 <use TUDreport-fig.pdf>
 Package pdftex.def Info: TUDreport-fig.pdf  used on input line 97.
@@ -1284,12 +1284,24 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
  ) 
 Here is how much of TeX's memory you used:
  12351 strings out of 492946
- 198319 string characters out of 3135522
+ 198617 string characters out of 3135522
  402880 words of memory out of 3000000
  15923 multiletter control sequences out of 15000+200000
  150120 words of font info for 140 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,13n,75p,9112b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc
+}<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/ch
+arter/5chr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:/Program Files/tuddesign/fonts
+/type1/softmake/frontpage/5fpr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/stafford/5sfr8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mat
+hdesign/mdbch/md-chr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7v.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb
+>
+Output written on TUDarticle.pdf (15 pages, 200831 bytes).
+PDF statistics:
+ 236 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!pdfTeX error: pdflatex.exe (file 5chb8r): Font 5chb8r at 474 not found
- ==> Fatal error occurred, no output PDF file produced!
