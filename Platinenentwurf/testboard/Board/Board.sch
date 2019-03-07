@@ -974,6 +974,22 @@
 <wire x1="-0.075" y1="-1" x2="-0.075" y2="1" width="0.2" layer="21"/>
 <wire x1="-1.575" y1="1.175" x2="-0.425" y2="1.175" width="0.2" layer="21"/>
 </package>
+<package name="PHEONIX-5.08PITCH-2PIN">
+<description>&lt;b&gt;PHEONIX-5.08PITCH-2PIN&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65"/>
+<pad name="2" x="5.08" y="0" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<wire x1="-2.54" y1="5.9" x2="7.62" y2="5.9" width="0.1" layer="21"/>
+<wire x1="7.62" y1="5.9" x2="7.62" y2="-5.3" width="0.1" layer="21"/>
+<wire x1="7.62" y1="-5.3" x2="-2.54" y2="-5.3" width="0.1" layer="21"/>
+<wire x1="-2.54" y1="-5.3" x2="-2.54" y2="5.9" width="0.1" layer="21"/>
+<wire x1="-2.54" y1="5.9" x2="7.62" y2="5.9" width="0.1" layer="51"/>
+<wire x1="7.62" y1="5.9" x2="7.62" y2="-5.3" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-5.3" x2="-2.54" y2="-5.3" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="-5.3" x2="-2.54" y2="5.9" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ABLS-8.000MHZ-K4T">
@@ -1084,6 +1100,16 @@
 <vertex x="8.89" y="-2.032"/>
 <vertex x="9.398" y="-3.048"/>
 </polygon>
+</symbol>
+<symbol name="1711725">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1281,6 +1307,31 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/308/MMBT3904WT1-D-110229.p
 <attribute name="MANUFACTURER_NAME" value="ON Semiconductor" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SMMBT3904WT1G" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="863-SMMBT3904WT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1711725" prefix="IC">
+<description>&lt;b&gt;Non-Fused Terminal Block Through Hole, 2 Way, Solder, Nylon, 250 V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1711725" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PHEONIX-5.08PITCH-2PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Non-Fused Terminal Block Through Hole, 2 Way, Solder, Nylon, 250 V" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Phoenix Contact" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1711725" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="651-1711725" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=651-1711725" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7659,6 +7710,7 @@ type 0309, grid 2.5 mm</description>
 <part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
 <part name="H5" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
 <part name="H6" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
+<part name="IC1" library="SamacSys_Parts" deviceset="1711725" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7964,6 +8016,10 @@ type 0309, grid 2.5 mm</description>
 <instance part="H6" gate="G$1" x="-86.36" y="256.54" smashed="yes">
 <attribute name="NAME" x="-83.566" y="257.1242" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-83.566" y="254.0762" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="G$1" x="-137.16" y="208.28" smashed="yes">
+<attribute name="NAME" x="-120.65" y="215.9" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-120.65" y="213.36" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
