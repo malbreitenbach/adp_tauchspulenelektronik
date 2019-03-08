@@ -1,14 +1,12 @@
 \chapter{Aufbau des Prüfstands und Grundlagen}
 \section{Grundlagen des Prüfstandes}
 In diesem Kapitel wird der verwendete Schaltaktorikprüfstand des IMS vorgestellt, an dem  die Entwicklung des Smart Actuators stattgefunden hat. Die Konstruktion des Prüfstandes erfolgte in vorangegangenen Arbeiten und wurde seitdem stetig weiterentwickelt. An ihm werden Schaltaktoriksysteme für Fahrzeugantriebe untersucht. Abbildung \ref{fig:Pruefstand} zeigt die in dieser Arbeit verwendeten Subsysteme des Prüfstandes. Im Folgenden erfolgt zunächst die Vorstellung des mechanischen Aufbaus, woraufhin der elektronische Aufbau anschließt. 
-
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/Pruefstand.jpg}
 	\caption{Prüfstand}
 	\label{fig:Pruefstand}
 \end{figure}
-
 \subsection{Getriebe allgemein}
 
 Ein Getriebe ist im Automobil dafür zuständig, die Drehzahl des Motors in ein Drehmoment umzuwandeln, welches die Räder antreibt. Da Motoren nur einen kleinen Bereich von Motordrehzahlen abdecken werden mehrstufige Getriebe verwendet, die verschiedene Raddrehzahlen durch unterschiedliche Übersetzungsverhältnisse bereitstellen können.  Das Einstellen des jeweiligen Ganges kann dabei per Hand (Handschaltgetriebe) oder automatisiert über einen Aktor (Schaltaktorik) erfolgen. 
@@ -68,7 +66,14 @@ Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen
 	\label{fig:Sensor}
 \end{figure}
 Der Sensor wird an die MicroAutoBox zwecks Spannungsversorgung sowie zur Durchführung der Kalibrierung angeschlossen. Die Kalibrierung wurde in (Quelle) entwickelt und erfolgt bisher bei jedem Start. 
-Die bisherige Regelung der Schaltgabelposition wurde in einem vorherigen Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu KP =2,6\%V/mm, KI =20\%V/smm und KD =1,6\%Vs/mm bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung dargestellt.
+
+Die bisherige Regelung der Schaltgabelposition wurde in einem vorherigen Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu KP =2,6\%V/mm, KI =20\%V/smm und KD =1,6\%Vs/mm bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
+\begin{figure}[h]
+	\centering
+		\includegraphics{Bilder/Sprungantwort Schaltgabelposition.png}
+	\caption{Sprungantwort Schaltgabelposition}
+	\label{fig:Sprungantwort Schaltgabelposition}
+\end{figure}
 
 \section{Grundlagen Löten}
 Löten gehört zu den Fügeverfahren und bezeichnet das Verbinden zweier Metalle durch eine Metalllegierung unter Einfluss von Wärme (Quelle: TdF Skript). Die Metalllegierung wird dabei als Lot bezeichnet und hat eine geringere Schmelztemperatur (Liquidustemperatur) als die beiden zu verbindenden Metalle (Solidustemperatur). Durch das Löten entsteht eine feste, korrosionsbeständige sowie strom- und wärmeleitende Verbindung. Lötverfahren werden nach Arbeitstemperatur eingeteilt: es wird unterschieden in Weichlöten (bis 450°C), Hartlöten (450°C - 900°C) und Hochtemperaturlöten (über 900°C). Im Rahmen dieses Projektes wurde das Verfahren Weichlöten mit Lötkolben angewendet, um die elektrischen Bauteile auf der Platine anzubringen. Dazu konnten die vom Institut bereitgestellten Lötstationen und –materialien verwendet werden. 
