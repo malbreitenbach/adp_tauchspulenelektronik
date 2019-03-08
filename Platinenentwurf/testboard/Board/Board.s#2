@@ -959,6 +959,26 @@
 <wire x1="7.5" y1="4.05" x2="-2.5" y2="4.05" width="0.2" layer="21"/>
 <wire x1="-2.5" y1="4.05" x2="-2.5" y2="0" width="0.2" layer="21"/>
 </package>
+<package name="HDRV2W64P0X254_1X2_508X254X864">
+<description>&lt;b&gt;M20-9990246&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.1" diameter="1.65" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.1" diameter="1.65"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.695" y1="1.52" x2="4.235" y2="1.52" width="0.05" layer="51"/>
+<wire x1="4.235" y1="1.52" x2="4.235" y2="-1.52" width="0.05" layer="51"/>
+<wire x1="4.235" y1="-1.52" x2="-1.695" y2="-1.52" width="0.05" layer="51"/>
+<wire x1="-1.695" y1="-1.52" x2="-1.695" y2="1.52" width="0.05" layer="51"/>
+<wire x1="-1.445" y1="1.27" x2="3.985" y2="1.27" width="0.1" layer="51"/>
+<wire x1="3.985" y1="1.27" x2="3.985" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="3.985" y1="-1.27" x2="-1.445" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="-1.445" y1="-1.27" x2="-1.445" y2="1.27" width="0.1" layer="51"/>
+<wire x1="0" y1="1.27" x2="3.985" y2="1.27" width="0.2" layer="21"/>
+<wire x1="3.985" y1="1.27" x2="3.985" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="3.985" y1="-1.27" x2="-1.445" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="-1.445" y1="-1.27" x2="-1.445" y2="0" width="0.2" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ABLS-8.000MHZ-K4T">
@@ -1044,6 +1064,16 @@
 <pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
 <symbol name="282836-2">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="M20-9990246">
 <wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -1241,6 +1271,30 @@ Source: &lt;a href="http://www.mouser.com/datasheet/2/418/NG_CD_282836_H10-12480
 <attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="282836-2" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="571-2828362" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M20-9990246" prefix="J">
+<description>&lt;b&gt;HARWIN  M20-9990246.  Board-To-Board Connector, Straight, 2.54 mm, 2 Contacts, Header, M20 Series, Through Hole&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.mouser.com/datasheet/2/181/M20-999-1218971.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="M20-9990246" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HDRV2W64P0X254_1X2_508X254X864">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="HARWIN  M20-9990246.  Board-To-Board Connector, Straight, 2.54 mm, 2 Contacts, Header, M20 Series, Through Hole" constant="no"/>
+<attribute name="HEIGHT" value="8.64mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="HARWIN" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9990246" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="855-M20-9990246" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7298,7 +7352,7 @@ type 0309, grid 2.5 mm</description>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J2" library="SamacSys_Parts" deviceset="282836-2" device=""/>
 <part name="J3" library="SamacSys_Parts" deviceset="282836-2" device=""/>
-<part name="J4" library="SamacSys_Parts" deviceset="282836-2" device=""/>
+<part name="J4" library="SamacSys_Parts" deviceset="M20-9990246" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7606,9 +7660,9 @@ type 0309, grid 2.5 mm</description>
 <attribute name="NAME" x="96.52" y="222.25" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="99.06" y="222.25" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="J4" gate="G$1" x="91.44" y="205.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.82" y="222.25" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="86.36" y="222.25" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="J4" gate="G$1" x="58.42" y="205.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.8" y="222.25" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="53.34" y="222.25" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -7841,6 +7895,11 @@ type 0309, grid 2.5 mm</description>
 <pinref part="J1" gate="G$1" pin="11"/>
 <wire x1="66.04" y1="170.18" x2="66.04" y2="167.64" width="0.1524" layer="91"/>
 <label x="66.04" y="167.64" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="205.74" x2="104.14" y2="203.2" width="0.1524" layer="91"/>
+<label x="104.14" y="203.2" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CAN1_RX" class="0">
@@ -8200,6 +8259,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="91.44" y1="170.18" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 <label x="91.44" y="167.64" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="205.74" x2="106.68" y2="203.2" width="0.1524" layer="91"/>
+<label x="106.68" y="203.2" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="V5" class="0">
 <segment>
@@ -8367,6 +8431,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="60.96" y1="170.18" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
 <label x="60.96" y="167.64" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="205.74" x2="119.38" y2="203.2" width="0.1524" layer="91"/>
+<label x="119.38" y="203.2" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="Z_1" class="0">
 <segment>
@@ -8436,6 +8505,11 @@ type 0309, grid 2.5 mm</description>
 <wire x1="58.42" y1="170.18" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
 <label x="58.42" y="167.64" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="205.74" x2="116.84" y2="203.2" width="0.1524" layer="91"/>
+<label x="116.84" y="203.2" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="T_1" class="0">
 <segment>
@@ -8459,12 +8533,22 @@ type 0309, grid 2.5 mm</description>
 <wire x1="50.8" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
 <label x="33.02" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="205.74" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
+<label x="60.96" y="203.2" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="U_RX" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PA3"/>
 <wire x1="50.8" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="33.02" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="205.74" x2="58.42" y2="203.2" width="0.1524" layer="91"/>
+<label x="58.42" y="203.2" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_RS" class="0">
