@@ -36,7 +36,7 @@ Document=input\Einleitung.tex
 
 [Frame1_View0,0]
 TopLine=21
-Cursor=0
+Cursor=2065
 
 [Frame2]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=input\Pruefstand.tex
 
 [Frame2_View0,0]
-TopLine=108
-Cursor=8395
+TopLine=140
+Cursor=8963
 
 [Frame3]
 Flags=0
@@ -71,10 +71,10 @@ Class=LaTeXView
 Document=input\Prototyp.tex
 
 [Frame3_View0,0]
-TopLine=16
-Cursor=2411
+TopLine=22
+Cursor=986
 
 [SessionInfo]
 FrameCount=4
-ActiveFrame=2
+ActiveFrame=3
 

@@ -174,4 +174,15 @@
   url            = {http://deposit.d-nb.de/cgi-bin/dokserv?id=3463635&prov=M&dok_var=1&dok_ext=htm},
 }
 
+@Book{UweBrinkschulte2010,
+  title     = {Mikrocontroller und Mikroprozessoren},
+  publisher = {Springer-Verlag GmbH},
+  year      = {2010},
+  author    = {Uwe Brinkschulte, Theo Ungerer},
+  isbn      = {3642053971},
+  date      = {2010-08-06},
+  ean       = {9783642053979},
+  url       = {https://www.ebook.de/de/product/11410038/uwe_brinkschulte_theo_ungerer_mikrocontroller_und_mikroprozessoren.html},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
