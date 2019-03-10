@@ -1552,8 +1552,7 @@ design rules under a new name.</description>
 <vertex x="49" y="26"/>
 <vertex x="41" y="26"/>
 <vertex x="40" y="27"/>
-<vertex x="40" y="35"/>
-<vertex x="42" y="37"/>
+<vertex x="40" y="37"/>
 <vertex x="59" y="37"/>
 </polygon>
 </signal>
@@ -1569,8 +1568,7 @@ design rules under a new name.</description>
 <vertex x="48" y="25"/>
 <vertex x="41" y="25"/>
 <vertex x="40" y="24"/>
-<vertex x="40" y="13.714284375"/>
-<vertex x="42.375" y="11"/>
+<vertex x="40" y="11"/>
 <vertex x="59" y="11"/>
 </polygon>
 </signal>
@@ -1687,6 +1685,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$23">
 <contactref element="J1" pad="11"/>
+</signal>
+<signal name="N$1">
+<via x="42" y="35" extent="1-16" drill="2.5" shape="square"/>
+</signal>
+<signal name="N$2">
+<via x="42" y="13" extent="1-16" drill="2.5" shape="square"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
