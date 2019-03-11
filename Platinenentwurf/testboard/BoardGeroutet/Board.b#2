@@ -2202,7 +2202,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="ABRACON" x="-33.34" y="88.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="815-ABLS-8.0MK4-T" x="-33.34" y="88.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ABLS-8.000MHZ-K4T" x="-33.34" y="88.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.41433125" y="6.081" size="0.7" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="19.41433125" y="4.081" size="0.7" layer="25" rot="R180" align="center"/>
 <attribute name="OC_FARNELL" value="2467758" x="-33.34" y="88.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.91433125" y="2.581" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
@@ -2372,7 +2372,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="7" y="13.5" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0" x="15" y="9" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.5" y="12.5" size="0.7" layer="25" rot="R180"/>
+<attribute name="NAME" x="16" y="13" size="0.7" layer="25" rot="R180"/>
 <attribute name="VALUE" x="17.54" y="8.365" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220" x="18" y="9" smashed="yes" rot="R90">
