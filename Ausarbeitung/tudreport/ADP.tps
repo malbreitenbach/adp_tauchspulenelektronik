@@ -17,7 +17,7 @@ Class=LaTeXView
 Document=ADP.tex
 
 [Frame0_View0,0]
-TopLine=57
+TopLine=55
 Cursor=2309
 
 [Frame1]
@@ -35,8 +35,8 @@ Class=LaTeXView
 Document=input\Einleitung.tex
 
 [Frame1_View0,0]
-TopLine=21
-Cursor=2065
+TopLine=0
+Cursor=44
 
 [Frame2]
 Flags=0
@@ -76,5 +76,5 @@ Cursor=986
 
 [SessionInfo]
 FrameCount=4
-ActiveFrame=3
+ActiveFrame=1
 
