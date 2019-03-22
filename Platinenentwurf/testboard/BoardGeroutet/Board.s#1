@@ -12086,8 +12086,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="100nF"/>
 <part name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="100nF"/>
 <part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="4.7uF"/>
-<part name="CQ1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="22pF"/>
-<part name="CQ2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="22pF"/>
+<part name="CQ1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="18pF"/>
+<part name="CQ2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="18pF"/>
 <part name="C_CAN" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="100nF"/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="4.7uF"/>
 <part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:6240335/1" value="4.7uF"/>
@@ -12393,8 +12393,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="VALUE" x="-29.464" y="107.569" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="-58.42" y="111.76" smashed="yes">
-<attribute name="NAME" x="-61.595" y="105.156" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-61.849" y="112.776" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="-59.055" y="105.156" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-59.309" y="112.776" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J1" gate="G$1" x="76.2" y="180.34" smashed="yes" rot="R270">
 <attribute name="NAME" x="94.5081" y="185.42558125" size="1.77995" layer="95" rot="R270"/>
@@ -12489,7 +12489,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </instance>
 <instance part="R17" gate="G$1" x="-66.04" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="-67.5386" y="105.41" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-62.738" y="105.41" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-70.358" y="105.41" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
