@@ -1,4 +1,4 @@
-\chapter{Erster Prototyp und verwendete Bauteile}
+\chapter{Komponentenauswahl und Schaltungsdesign}
 \section{H-Brücke}
 Zur Ansteuerung des Aktors wird eine H-Brücke verwendet. 
 Als Halbbrücken dienen zwei BTN8982 (Datenblatt in Anhang !!!) mit jeweils einem p-channel highside MOSFET und einem n-channel lowside MOSFET mit bereits integrierten Schutzmechanismen wie Abschaltung bei zu geringer Spannung oder Übertemperatur beinhalten.  Die Halbbrücken sind für Ströme bis zu 55 Ampere sowie Spannungen bis zu 40 Volt ausgelegt und sind temperaturbeständig bis 150° Celsius. Das Blockdiagramm dieser Halbbrücken ist in nachstehender Abbildung dargestellt.
@@ -30,5 +30,8 @@ Der Status Pin liefert dabei für eine Halbbrücke im High Switch Mode eine zum 
 
 Die Brückenschaltung orientiert sich an der Schaltung des zuvor verwendeten Motortreibers sowie an der vorgeschlagenen Schaltung aus dem Datenblatt der Halbbrücken und erlaubt, dass sich der Motor je nach Durchschalten in beide Richtungen drehen kann.
 Im ersten Entwicklungsschritt wurde die geplante Schaltung auf einem Steckbrett getestet und anstatt des Aktors zwei LEDs in die Brückenschaltung eingebaut. Die Schaltung wurde an die jeweiligen Pins des Mikrocontroller angeschlossen und testweise mit einer 8 Volt Batterie versorgt. Mit einem Testskript wurde die Funktionalität nachgewiesen und erste PWM-Signale zur Einstellung unterschiedlicher Helligkeit der LEDs gesendet.
-Für den ersten allgemeinen Prototypen wurde die geplante Schaltung auf einer Lochrasterplatine verwirklicht, die mit THT- Bauteilen (\textit{through hole technology} bestückt wurde, welche anschließend verlötet wurden.  
+Für den ersten allgemeinen Prototypen wurde die geplante Schaltung auf einer Lochrasterplatine verwirklicht, die mit THT- Bauteilen (\textit{through hole technology}) bestückt wurde, welche anschließend verlötet wurden.  
 Beim Test dieses Prototypen wurden einige Fehlerquellen erkannt, die durch die neuen Erkenntnisse behoben werden konnten. Dazu gehörte BLABLA
+
+\section{Spannungsversorgung}
+Die komplette Elektronik wird auch weiterhin mit dem bisher verwendeten Manson SBC-2130 Battery Charger versorgt. Dieser stellt eine konstante Spannung von 13,8 Volt. Da die verschiedenen Komponenten jedoch Versorgerspannungen von 3,3 Volt und 5 Volt benötigen, muss die Schaltung durch einen Spannungsregler erweitert werden. Zusätzlich werden dadurch Schwankungen in der Eingangsspannung geglättet. 
