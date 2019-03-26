@@ -1,22 +1,32 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  26 MAR 2019 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.9)  26 MAR 2019 21:58
 entering extended mode
 **./ADP.tex
 (ADP.tex
-LaTeX2e <2018-12-01>
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign\tudreport.cls"
-Document Class: tudreport 2009/11/17 1.13 Clemens von Loewenich's and Joe Werner's TUD-Design package
-("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\tudreport.cls"
+Document Class: tudreport 2009/11/17 1.13 Clemens von Loewenich's and Joe Werne
+r's TUD-Design package
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval
+.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyv
+al.tex"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
+ils.tex"
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\keyval.tex"))
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyva
+l.tex"))
 \XKV@depth=\count80
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+))
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 Class tudreport Info: Option `paper=a4report' selected. on input line 142.
@@ -25,25 +35,36 @@ Class tudreport Info: Option `paper=a4report' selected. on input line 142.
 Class tudreport Warning: Option 'nochapterpage` not supported.
 (tudreport)              Use article instead! on input line 144.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\scrreprt.cls"
-Document Class: scrreprt 2019/02/01 v3.26b KOMA-Script document class (report)
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\scrkbase.sty"
-Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\scrbase.sty"
-Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+reprt.cls"
+Document Class: scrreprt 2018/03/30 v3.25 KOMA-Script document class (report)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\scrlfile.sty"
-Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+kbase.sty"
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+base.sty"
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+lfile.sty"
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
 )))
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\tocbasic.sty"
-Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\toc
+basic.sty"
+Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
-\scr@dte@tocline@numbox=\box27
+\scr@dte@tocline@numbox=\box26
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 136.
+Package tocbasic Info: defining new hook before heading of `' on input line 166
+7.
 Class scrreprt Info: You've used standard option `openright'.
 (scrreprt)           This is correct!
 (scrreprt)           Internally I'm using `open=right'.
@@ -51,13 +72,17 @@ Class scrreprt Info: You've used standard option `openright'.
 (scrreprt)           you'd have to use `open=right' there
 (scrreprt)           instead of `openright', too.
 Class scrreprt Info: File `scrsize11pt.clo' used instead of
-(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2373.
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 232
+8.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\scrsize11pt.clo"
-File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11pt)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+size11pt.clo"
+File: scrsize11pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (11pt
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/koma-script\typearea.sty"
-Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typ
+earea.sty"
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count81
 \ta@hblk=\skip43
@@ -80,7 +105,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1715.
+(typearea)              on input line 1706.
 )
 \c@part=\count82
 \c@chapter=\count83
@@ -89,54 +114,30 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count86
 \c@paragraph=\count87
 \c@subparagraph=\count88
-\scr@dte@chapter@maxnumwidth=\skip47
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 5305.
-\scr@dte@section@maxnumwidth=\skip48
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 5315.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 5315.
-\scr@dte@part@maxnumwidth=\skip49
-Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 5324.
+\scr@dte@part@maxnumwidth=\skip47
+\scr@dte@chapter@maxnumwidth=\skip48
+\scr@dte@section@maxnumwidth=\skip49
 \scr@dte@subsection@maxnumwidth=\skip50
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 5334.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 5334.
 \scr@dte@subsubsection@maxnumwidth=\skip51
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 5344.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 5344.
 \scr@dte@paragraph@maxnumwidth=\skip52
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 5354.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 5354.
 \scr@dte@subparagraph@maxnumwidth=\skip53
-Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 5364.
-Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 5364.
 \abovecaptionskip=\skip54
 \belowcaptionskip=\skip55
-\c@pti@nb@sid@b@x=\box28
+\c@pti@nb@sid@b@x=\box27
+\scr@dte@figure@maxnumwidth=\skip56
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6613.
-\scr@dte@figure@maxnumwidth=\skip56
+(tocbasic)             for `lof' on input line 6247.
 \c@figure=\count89
+\scr@dte@table@maxnumwidth=\skip57
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6630.
-\scr@dte@table@maxnumwidth=\skip57
+(tocbasic)             for `lot' on input line 6264.
 \c@table=\count90
-Class scrreprt Info: Redefining `\numberline' on input line 6799.
+Class scrreprt Info: Redefining `\numberline' on input line 6433.
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
@@ -149,17 +150,24 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip60
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/colours\tudcolours.sty"
-Package: tudcolours 2009/03/12 1.9 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\colours\tudcolours.sty"
+Package: tudcolours 2009/03/12 1.9 Clemens von Loewenich's and Joe Werner's TUD
+-Design package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.s
+ty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\co
+lor.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Package option `override' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -172,26 +180,35 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/colours\tudcolours.cfg"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\colours\tudcolours.cfg"
 File: tudcolours.cfg 2008/12/03
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/colours\tudcolours.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\colours\tudcolours.def"
 File: tudcolours.def 2008/12/03
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/report\tudreprt_fonts.sty"
-Package: tudreprt_fonts 2009/00/18 1.11 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\report\tudreprt_fonts.sty"
+Package: tudreprt_fonts 2009/00/18 1.11 Clemens von Loewenich's and Joe Werner'
+s TUD-Design package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudfonts.sty"
-Package: tudfonts 2009/09/18 1.12 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudfonts.sty"
+Package: tudfonts 2009/09/18 1.12 Clemens von Loewenich's and Joe Werner's TUD-
+Design package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.s
+ty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -205,13 +222,16 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 Package textcomp Info: Changing ? sub-encoding to TS1/4 on input line 80.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -308,6 +328,7 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -345,27 +366,37 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/base\fix-cm.sty"
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+"
 Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mathdesign.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\math
+design.sty"
 Package: mathdesign 2013/08/29 v2.31 Math Design Project
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\mdbch.cfg")
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\mdbch.sty"
-Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Design Project)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\mdbch.cfg")
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\mdbch.sty"
+Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Desig
+n Project)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdfont.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdfo
+nt.def"
 File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdsffont.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdsf
+font.def"
 File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdttfont.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdtt
+font.def"
 File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
 )
 \symmdcal=\mathgroup4
@@ -418,9 +449,11 @@ LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
 LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 (Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
-LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186.
+LaTeX Font Info:    Try loading font information for T1+mdbch on input line 186
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\t1mdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\t1mdbch.fd"
 File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -442,10 +475,12 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
 \rulethickness=\skip61
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- ("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
 \symutopiasymbol=\mathgroup9
@@ -456,7 +491,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathmb' in version `bold'
 LaTeX Info: Redefining \em on input line 37.
 \fontheight=\skip62
 \fontdepth=\skip63
-\fontstrutbox=\box29
+\fontstrutbox=\box28
 LaTeX Info: Redefining \LaTeX on input line 108.
 )
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
@@ -464,20 +499,30 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 )
 \TUD@headfootsep=\skip64
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudpage.sty"
-Package: tudpage 2009/08/11 1.10 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudpage.sty"
+Package: tudpage 2009/08/11 1.10 Clemens von Loewenich's and Joe Werner's TUD-D
+esign package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudpaper.sty"
-Package: tudpaper 2009/01/28 1.9 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudpaper.sty"
+Package: tudpaper 2009/01/28 1.9 Clemens von Loewenich's and Joe Werner's TUD-D
+esign package
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -485,19 +530,24 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic
+.sty"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\atbegshi.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbe
+gshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )))
 \TUD@logo@height=\skip65
@@ -516,8 +566,10 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 \TUD@cols@sep=\skip78
 \c@TUD@cols@n=\count94
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudrules.sty"
-Package: tudrules 2008/10/09 1.6 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudrules.sty"
+Package: tudrules 2008/10/09 1.6 Clemens von Loewenich's and Joe Werner's TUD-D
+esign package
 \TUD@indentbar@height=\skip79
 \TUD@indentbar@depth=\skip80
 \TUD@indentbar@totalheight=\skip81
@@ -529,14 +581,17 @@ Package: tudrules 2008/10/09 1.6 Clemens von Loewenich's and Joe Werner's TUD-De
 )
 \TUD@indentbarheight=\skip87
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvt
+ex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxet
+ex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count95
@@ -552,7 +607,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen114
 \Gm@dimlist=\toks17
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")))
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.cfg")))
 \TUD@footparindent=\skip88
 
 
@@ -569,8 +625,11 @@ Class scrreprt Warning: Usage of package `fancyhdr' together
 (scrreprt)              Nevertheless, using requested
 (scrreprt)              package `fancyhdr' on input line 47.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyh
+dr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
 \f@nch@headwidth=\skip89
 \f@nch@O@elh=\skip90
 \f@nch@O@erh=\skip91
@@ -581,8 +640,10 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@olf=\skip96
 \f@nch@O@orf=\skip97
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudheading.sty"
-Package: tudheading 2009/12/31 1.17 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudheading.sty"
+Package: tudheading 2009/12/31 1.17 Clemens von Loewenich's and Joe Werner's TU
+D-Design package
 
 
 Class scrreprt Warning: Usage of package `titlesec' together
@@ -595,9 +656,11 @@ Class scrreprt Warning: Usage of package `titlesec' together
 (scrreprt)              Nevertheless, using requested
 (scrreprt)              package `titlesec' on input line 12.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titles
+ec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box30
+\ttl@box=\box29
 \beforetitleunit=\skip98
 \aftertitleunit=\skip99
 \ttl@plus=\dimen115
@@ -638,11 +701,13 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 19.20013pt on input line 75.
 \@TUD@above@headskip=\skip101
 \@TUD@below@headskip=\skip102
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudheading.def"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudheading.def"
 File: tudheading.def 2009/07/14
 \TUD@part@tmp@height=\skip103
 \TUD@part@tmp@depth=\skip104
-\@TUD@partbox=\box31
+\@TUD@partbox=\box30
 )
 \TUD@parind=\skip105
 \TUD@chapind=\skip106
@@ -650,46 +715,83 @@ File: tudheading.def 2009/07/14
 \TUD@subsecind=\skip108
 \TUD@subsubsecind=\skip109
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\block.tss"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\block.
+tss"
 File: block.tss 2016/03/15
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titletoc.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlet
+oc.sty"
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen120
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/base\tudredef.sty"
-Package: tudredef 2010/04/10 1.2 Clemens von Loewenich's and Joe Werner's TUD-Design package
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\base\tudredef.sty"
+Package: tudredef 2010/04/10 1.2 Clemens von Loewenich's and Joe Werner's TUD-D
+esign package
 \TUD@abstract@count=\count99
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tuddesign/report\tudreprt_title.sty"
-Package: tudreprt_title 2014/09/20 1.12 Clemens von Loewenich's and Joe Werner's TUD-Design package
-\TUD@sponsorlogo=\box32
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesi
+gn\report\tudreprt_title.sty"
+Package: tudreprt_title 2014/09/20 1.12 Clemens von Loewenich's and Joe Werner'
+s TUD-Design package
+\TUD@sponsorlogo=\box31
 \TUD@titleskip=\skip110
 ))
-("C:\Program Files\MiKTeX 2.9\tex/generic/german\ngerman.sty" v2.5e 1998-07-08
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\german\ngerma
+n.sty" v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen121
 ngerman -- \language number for naustrian undefined, default 45 used.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/footmisc\footmisc.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfi
+gure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip111
+\subfigcapskip=\skip112
+\subfigcaptopadj=\dimen122
+\subfigbottomskip=\skip113
+\subfigcapmargin=\dimen123
+\subfiglabelskip=\skip114
+\c@subfigure=\count100
+\c@lofdepth=\count101
+\c@subtable=\count102
+\c@lotdepth=\count103
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfigure\subfi
+gure.cfg")
+\subfig@top=\skip115
+\subfig@bottom=\skip116
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmi
+sc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks19
-\footnotemargin=\dimen122
-\c@pp@next@reset=\count100
+\footnotemargin=\dimen124
+\c@pp@next@reset=\count104
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
 Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
-Package footmisc Info: Declaring symbol style lamport* on input line 903.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-hyperref.sty"
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperr
+ef.sty"
+Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobs
+ub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\hobsub-generic.sty"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobs
+ub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -700,15 +802,21 @@ Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -722,309 +830,396 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhoo
+k.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen123
-\Hy@linkcounter=\count101
-\Hy@pagecounter=\count102
+\@linkdim=\dimen125
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc
+.def"
+File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count103
+\Hy@SavedSpaceFactor=\count107
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperr
+ef.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 4393.
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Option `colorlinks' set `false' on input line 4409.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count104
- ("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count108
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen124
-\Fld@menulength=\count105
-\Field@Width=\dimen125
-\Fld@charsize=\dimen126
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count106
-\c@Item=\count107
-\c@Hfootnote=\count108
+LaTeX Info: Redefining \url on input line 5141.
+\XeTeXLinkMargin=\dimen126
+\Fld@menulength=\count109
+\Field@Width=\dimen127
+\Fld@charsize=\dimen128
+Package hyperref Info: Hyper figures OFF on input line 6396.
+Package hyperref Info: Link nesting OFF on input line 6401.
+Package hyperref Info: Hyper index ON on input line 6404.
+Package hyperref Info: backreferencing OFF on input line 6411.
+Package hyperref Info: Link coloring OFF on input line 6416.
+Package hyperref Info: Link coloring with OCG OFF on input line 6421.
+Package hyperref Info: PDF/A mode OFF on input line 6426.
+LaTeX Info: Redefining \ref on input line 6466.
+LaTeX Info: Redefining \pageref on input line 6470.
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count109
-\c@bookmark@seq@number=\count110
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdfte
+x.def"
+File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunf
+ilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 )
-\Hy@SectionHShift=\skip111
+\Hy@SectionHShift=\skip117
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\longtable.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
+.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip118
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext
+.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
+sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen129
+))
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
+sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen130
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
+sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count115
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count116
+\leftroot@=\count117
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count118
+\DOTSCASE@=\count119
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen131
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count120
+\c@MaxMatrixCols=\count121
+\dotsspace@=\muskip11
+\c@parentequation=\count122
+\dspbrk@lvl=\count123
+\tag@help=\toks21
+\row@=\count124
+\column@=\count125
+\maxfields@=\count126
+\andhelp@=\toks22
+\eqnshift@=\dimen132
+\alignsep@=\dimen133
+\tagshift@=\dimen134
+\tagwidth@=\dimen135
+\totwidth@=\dimen136
+\lineht@=\dimen137
+\@envbody=\toks23
+\multlinegap=\skip119
+\multlinetaggap=\skip120
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable
+.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip112
-\LTright=\skip113
-\LTpre=\skip114
-\LTpost=\skip115
-\LTchunksize=\count111
-\LTcapwidth=\dimen127
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
-\LT@cols=\count112
-\LT@rows=\count113
-\c@LT@tables=\count114
-\c@LT@chunks=\count115
-\LT@p@ftn=\toks20
+\LTleft=\skip121
+\LTright=\skip122
+\LTpre=\skip123
+\LTpost=\skip124
+\LTchunksize=\count127
+\LTcapwidth=\dimen138
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
+\LT@cols=\count128
+\LT@rows=\count129
+\c@LT@tables=\count130
+\c@LT@chunks=\count131
+\LT@p@ftn=\toks25
 )
 Class scrreprt Info: longtable captions redefined on input line 8.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
-Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip116
-\multirow@cntb=\count116
-\multirow@dima=\skip117
-\bigstrutjot=\dimen128
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multir
+ow.sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip125
+\multirow@cntb=\count132
+\multirow@dima=\skip126
+\bigstrutjot=\dimen139
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\bookta
+bs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen129
-\lightrulewidth=\dimen130
-\cmidrulewidth=\dimen131
-\belowrulesep=\dimen132
-\belowbottomsep=\dimen133
-\aboverulesep=\dimen134
-\abovetopsep=\dimen135
-\cmidrulesep=\dimen136
-\cmidrulekern=\dimen137
-\defaultaddspace=\dimen138
-\@cmidla=\count117
-\@cmidlb=\count118
-\@aboverulesep=\dimen139
-\@belowrulesep=\dimen140
-\@thisruleclass=\count119
-\@lastruleclass=\count120
-\@thisrulewidth=\dimen141
+\heavyrulewidth=\dimen140
+\lightrulewidth=\dimen141
+\cmidrulewidth=\dimen142
+\belowrulesep=\dimen143
+\belowbottomsep=\dimen144
+\aboverulesep=\dimen145
+\abovetopsep=\dimen146
+\cmidrulesep=\dimen147
+\cmidrulekern=\dimen148
+\defaultaddspace=\dimen149
+\@cmidla=\count133
+\@cmidlb=\count134
+\@aboverulesep=\dimen150
+\@belowrulesep=\dimen151
+\@thisruleclass=\count135
+\@lastruleclass=\count136
+\@thisrulewidth=\dimen152
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblat
+ex.sty"
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolb
+ox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count121
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
+\etb@tempcnta=\count137
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.s
+ty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count122
- ("C:\Program Files\MiKTeX 2.9\tex/latex/logreq\logreq.def"
+\lrq@indent=\count138
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.d
+ef"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count123
-\c@listtotal=\count124
-\c@listcount=\count125
-\c@liststart=\count126
-\c@liststop=\count127
-\c@citecount=\count128
-\c@citetotal=\count129
-\c@multicitecount=\count130
-\c@multicitetotal=\count131
-\c@instcount=\count132
-\c@maxnames=\count133
-\c@minnames=\count134
-\c@maxitems=\count135
-\c@minitems=\count136
-\c@citecounter=\count137
-\c@maxcitecounter=\count138
-\c@savedcitecounter=\count139
-\c@uniquelist=\count140
-\c@uniquename=\count141
-\c@refsection=\count142
-\c@refsegment=\count143
-\c@maxextratitle=\count144
-\c@maxextratitleyear=\count145
-\c@maxextraname=\count146
-\c@maxextradate=\count147
-\c@maxextraalpha=\count148
-\c@abbrvpenalty=\count149
-\c@highnamepenalty=\count150
-\c@lownamepenalty=\count151
-\c@maxparens=\count152
-\c@parenlevel=\count153
-\blx@tempcnta=\count154
-\blx@tempcntb=\count155
-\blx@tempcntc=\count156
-\blx@maxsection=\count157
-\blx@maxsegment@0=\count158
-\blx@notetype=\count159
-\blx@parenlevel@text=\count160
-\blx@parenlevel@foot=\count161
-\blx@sectionciteorder@0=\count162
-\blx@entrysetcounter=\count163
-\labelnumberwidth=\skip118
-\labelalphawidth=\skip119
-\biblabelsep=\skip120
-\bibitemsep=\skip121
-\bibnamesep=\skip122
-\bibinitsep=\skip123
-\bibparsep=\skip124
-\bibhang=\skip125
+\c@tabx@nest=\count139
+\c@listtotal=\count140
+\c@listcount=\count141
+\c@liststart=\count142
+\c@liststop=\count143
+\c@citecount=\count144
+\c@citetotal=\count145
+\c@multicitecount=\count146
+\c@multicitetotal=\count147
+\c@instcount=\count148
+\c@maxnames=\count149
+\c@minnames=\count150
+\c@maxitems=\count151
+\c@minitems=\count152
+\c@citecounter=\count153
+\c@maxcitecounter=\count154
+\c@savedcitecounter=\count155
+\c@uniquelist=\count156
+\c@uniquename=\count157
+\c@refsection=\count158
+\c@refsegment=\count159
+\c@maxextratitle=\count160
+\c@maxextratitleyear=\count161
+\c@maxextraname=\count162
+\c@maxextradate=\count163
+\c@maxextraalpha=\count164
+\c@abbrvpenalty=\count165
+\c@highnamepenalty=\count166
+\c@lownamepenalty=\count167
+\c@maxparens=\count168
+\c@parenlevel=\count169
+\blx@tempcnta=\count170
+\blx@tempcntb=\count171
+\blx@tempcntc=\count172
+\blx@maxsection=\count173
+\blx@maxsegment@0=\count174
+\blx@notetype=\count175
+\blx@parenlevel@text=\count176
+\blx@parenlevel@foot=\count177
+\blx@sectionciteorder@0=\count178
+\blx@entrysetcounter=\count179
+\labelnumberwidth=\skip127
+\labelalphawidth=\skip128
+\biblabelsep=\skip129
+\bibitemsep=\skip130
+\bibnamesep=\skip131
+\bibinitsep=\skip132
+\bibparsep=\skip133
+\bibhang=\skip134
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count164
-\c@maxcomprange=\count165
-\c@mincompwidth=\count166
+\c@mincomprange=\count180
+\c@maxcomprange=\count181
+\c@mincompwidth=\count182
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-dm.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm
+.def"
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count167
-\c@savedafterword=\count168
-\c@annotator=\count169
-\c@savedannotator=\count170
-\c@author=\count171
-\c@savedauthor=\count172
-\c@bookauthor=\count173
-\c@savedbookauthor=\count174
-\c@commentator=\count175
-\c@savedcommentator=\count176
-\c@editor=\count177
-\c@savededitor=\count178
-\c@editora=\count179
-\c@savededitora=\count180
-\c@editorb=\count181
-\c@savededitorb=\count182
-\c@editorc=\count183
-\c@savededitorc=\count184
-\c@foreword=\count185
-\c@savedforeword=\count186
-\c@holder=\count187
-\c@savedholder=\count188
-\c@introduction=\count189
-\c@savedintroduction=\count190
-\c@namea=\count191
-\c@savednamea=\count192
-\c@nameb=\count193
-\c@savednameb=\count194
-\c@namec=\count195
-\c@savednamec=\count196
-\c@translator=\count197
-\c@savedtranslator=\count198
-\c@shortauthor=\count199
-\c@savedshortauthor=\count266
-\c@shorteditor=\count267
-\c@savedshorteditor=\count268
-\c@labelname=\count269
-\c@savedlabelname=\count270
-\c@institution=\count271
-\c@savedinstitution=\count272
-\c@lista=\count273
-\c@savedlista=\count274
-\c@listb=\count275
-\c@savedlistb=\count276
-\c@listc=\count277
-\c@savedlistc=\count278
-\c@listd=\count279
-\c@savedlistd=\count280
-\c@liste=\count281
-\c@savedliste=\count282
-\c@listf=\count283
-\c@savedlistf=\count284
-\c@location=\count285
-\c@savedlocation=\count286
-\c@organization=\count287
-\c@savedorganization=\count288
-\c@origlocation=\count289
-\c@savedoriglocation=\count290
-\c@origpublisher=\count291
-\c@savedorigpublisher=\count292
-\c@publisher=\count293
-\c@savedpublisher=\count294
-\c@language=\count295
-\c@savedlanguage=\count296
-\c@origlanguage=\count297
-\c@savedoriglanguage=\count298
-\c@pageref=\count299
-\c@savedpageref=\count300
-\shorthandwidth=\skip126
-\shortjournalwidth=\skip127
-\shortserieswidth=\skip128
-\shorttitlewidth=\skip129
-\shortauthorwidth=\skip130
-\shorteditorwidth=\skip131
-\locallabelnumberwidth=\skip132
-\locallabelalphawidth=\skip133
-\localshorthandwidth=\skip134
-\localshortjournalwidth=\skip135
-\localshortserieswidth=\skip136
-\localshorttitlewidth=\skip137
-\localshortauthorwidth=\skip138
-\localshorteditorwidth=\skip139
+\c@afterword=\count183
+\c@savedafterword=\count184
+\c@annotator=\count185
+\c@savedannotator=\count186
+\c@author=\count187
+\c@savedauthor=\count188
+\c@bookauthor=\count189
+\c@savedbookauthor=\count190
+\c@commentator=\count191
+\c@savedcommentator=\count192
+\c@editor=\count193
+\c@savededitor=\count194
+\c@editora=\count195
+\c@savededitora=\count196
+\c@editorb=\count197
+\c@savededitorb=\count198
+\c@editorc=\count199
+\c@savededitorc=\count266
+\c@foreword=\count267
+\c@savedforeword=\count268
+\c@holder=\count269
+\c@savedholder=\count270
+\c@introduction=\count271
+\c@savedintroduction=\count272
+\c@namea=\count273
+\c@savednamea=\count274
+\c@nameb=\count275
+\c@savednameb=\count276
+\c@namec=\count277
+\c@savednamec=\count278
+\c@translator=\count279
+\c@savedtranslator=\count280
+\c@shortauthor=\count281
+\c@savedshortauthor=\count282
+\c@shorteditor=\count283
+\c@savedshorteditor=\count284
+\c@labelname=\count285
+\c@savedlabelname=\count286
+\c@institution=\count287
+\c@savedinstitution=\count288
+\c@lista=\count289
+\c@savedlista=\count290
+\c@listb=\count291
+\c@savedlistb=\count292
+\c@listc=\count293
+\c@savedlistc=\count294
+\c@listd=\count295
+\c@savedlistd=\count296
+\c@liste=\count297
+\c@savedliste=\count298
+\c@listf=\count299
+\c@savedlistf=\count300
+\c@location=\count301
+\c@savedlocation=\count302
+\c@organization=\count303
+\c@savedorganization=\count304
+\c@origlocation=\count305
+\c@savedoriglocation=\count306
+\c@origpublisher=\count307
+\c@savedorigpublisher=\count308
+\c@publisher=\count309
+\c@savedpublisher=\count310
+\c@language=\count311
+\c@savedlanguage=\count312
+\c@origlanguage=\count313
+\c@savedoriglanguage=\count314
+\c@pageref=\count315
+\c@savedpageref=\count316
+\shorthandwidth=\skip135
+\shortjournalwidth=\skip136
+\shortserieswidth=\skip137
+\shorttitlewidth=\skip138
+\shortauthorwidth=\skip139
+\shorteditorwidth=\skip140
+\locallabelnumberwidth=\skip141
+\locallabelalphawidth=\skip142
+\localshorthandwidth=\skip143
+\localshortjournalwidth=\skip144
+\localshortserieswidth=\skip145
+\localshorttitlewidth=\skip146
+\localshortauthorwidth=\skip147
+\localshorteditorwidth=\skip148
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\blx-compat.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-co
+mpat.def"
 File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.def"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblat
+ex.def"
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count301
-\c@textcitetotal=\count302
-\c@textcitemaxnames=\count303
-\c@biburlnumpenalty=\count304
-\c@biburlucpenalty=\count305
-\c@biburllcpenalty=\count306
-\c@smartand=\count307
+\c@textcitecount=\count317
+\c@textcitetotal=\count318
+\c@textcitemaxnames=\count319
+\c@biburlnumpenalty=\count320
+\c@biburlucpenalty=\count321
+\c@biburllcpenalty=\count322
+\c@smartand=\count323
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\numeric.bbx"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\nu
+meric.bbx"
 File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/bbx\standard.bbx"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\st
+andard.bbx"
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count308
-\c@bbx:relatedtotal=\count309
+\c@bbx:relatedcount=\count324
+\c@bbx:relatedtotal=\count325
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric.cbx"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\nu
+meric.cbx"
 File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -1041,36 +1236,35 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex\biblatex.cfg"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblat
+ex.cfg"
 File: biblatex.cfg 
-)) ("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count310
-\float@exts=\toks21
-\float@box=\box37
-\@float@everytoks=\toks22
-\@floatcapt=\box38
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/SIstyle\sistyle.sty"
-Package: sistyle 2008/07/16 v2.3a SI units and numbers (DNJ Els)
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01 AMS text
- ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
-\ex@=\dimen142
 ))
-\ttoks@A=\toks24
-\ttoks@B=\toks25
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count326
+\float@exts=\toks26
+\float@box=\box38
+\@float@everytoks=\toks27
+\@floatcapt=\box39
 )
-\longtablewidth=\skip140
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\SIstyle\sistyle
+.sty"
+Package: sistyle 2008/07/16 v2.3a SI units and numbers (DNJ Els)
+\ttoks@A=\toks28
+\ttoks@B=\toks29
+)
+\longtablewidth=\skip149
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/biblatex/lbx\english.lbx"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\en
+glish.lbx"
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
-\@quotelevel=\count311
-\@quotereset=\count312
+\@quotelevel=\count327
+\@quotereset=\count328
  (ADP.aux
 
 LaTeX Warning: Label `fig:LDO' multiply defined.
@@ -1094,14 +1288,17 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 65.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 65.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdacmr.fd"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdac
+mr.fd"
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 65.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 65.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign\mdbcmr.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+mr.fd"
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 65.
@@ -1109,34 +1306,40 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Try loading font information for T1+5ch on input line 65.
 
-("C:/Program Files/tuddesign\tex/latex/tex-tudfonts/softmake/charter\t15ch.fd"
+("C:/Program Files/tuddesign\tex\latex\tex-tudfonts\softmake\charter\t15ch.fd"
 File: t15ch.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5ch.
 )
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen143
-\scratchbox=\box39
-\nofMPsegments=\count314
-\nofMParguments=\count315
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen144
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
-\everyMPtoPDFconversion=\toks27
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+\scratchcounter=\count329
+\scratchdimen=\dimen153
+\scratchbox=\box40
+\nofMPsegments=\count330
+\nofMParguments=\count331
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen154
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
+\everyMPtoPDFconversion=\toks31
+)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box40
+\AtBeginShipoutBox=\box41
 
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -1171,15 +1374,18 @@ Package grfext Info: Graphics extension search list:
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\TUD@part@topskip=\skip141
+\TUD@part@topskip=\skip150
 Package hyperref Info: Link coloring OFF on input line 65.
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namere
+f.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gett
+itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count319
+\c@section@level=\count335
 )
 LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
@@ -1188,23 +1394,6 @@ LaTeX Info: Redefining \nameref on input line 65.
 \@outlinefile=\write4
 \openout4 = `ADP.out'.
 
-Class scrreprt Info: loading recommended package `bookmark'.
-(scrreprt)           Using `bookmark' together with `hyperref' is recommended,
-(scrreprt)           because of handling of possible bookmark level gaps.
-(scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
-(scrreprt)           `bookmarkpackage=false' before \begin{document} and
-(scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 65.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
-Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bkm-pdftex.def"
-File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-Package auxhook Info: \AddLineBeginMainAux comes a little late,
-(auxhook)             because the main .aux file is already opened on input line 164.
-\BKM@id=\count320
-))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1215,9 +1404,11 @@ Package biblatex Info: ... file 'ADP.bbl' found.
  (ADP.bbl)
 Package biblatex Info: Reference section=0 on input line 65.
 Package biblatex Info: Reference segment=0 on input line 65.
-LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\ot1mdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\ot1mdbch.fd"
 File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
 )
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
@@ -1226,9 +1417,11 @@ LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 6.62404pt on input line 65.
 LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
 (Font)              scaled to size 5.66403pt on input line 65.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 65.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\omlmdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\omlmdbch.fd"
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
@@ -1237,9 +1430,11 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 (Font)              scaled to size 6.62404pt on input line 65.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
 (Font)              scaled to size 5.66403pt on input line 65.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\omsmdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\omsmdbch.fd"
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
@@ -1248,9 +1443,11 @@ LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 6.62404pt on input line 65.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
 (Font)              scaled to size 5.66403pt on input line 65.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 65.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\omxmdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\omxmdbch.fd"
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
@@ -1265,9 +1462,11 @@ LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 6.62404pt on input line 65.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
 (Font)              scaled to size 5.66403pt on input line 65.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 65.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\mdamdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\mdamdbch.fd"
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
@@ -1276,9 +1475,11 @@ LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 6.62404pt on input line 65.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
 (Font)              scaled to size 5.66403pt on input line 65.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 65.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdbch\mdbmdbch.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdbc
+h\mdbmdbch.fd"
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
@@ -1287,9 +1488,11 @@ LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 6.62404pt on input line 65.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
 (Font)              scaled to size 5.66403pt on input line 65.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 65.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 65
+.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/mathdesign/mdput\omlmdput.fd"
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathdesign\mdpu
+t\omlmdput.fd"
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
@@ -1310,40 +1513,42 @@ LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 7.50404pt on input line 65.
 LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
 (Font)              scaled to size 6.43204pt on input line 65.
-\@TUD@tmp@baselineskip=\skip142
-\@TUD@tmp@parwidth=\skip143
-\TUD@titleboxheight=\skip144
-\TUD@titleboxdepth=\skip145
-\TUD@subtitleboxheight=\skip146
-\TUD@subtitleboxdepth=\skip147
-\TUD@logoboxheight=\skip148
-\TUD@logoboxwidth=\skip149
-\TUD@colorbackheight=\skip150
-\TUD@colorbacktitleheight=\skip151
-\TUD@instboxheight=\skip152
-\TUD@instboxdepth=\skip153
-\TUD@instboxwidth=\skip154
-\TUD@instlogoheight=\skip155
-\TUD@instlogowidth=\skip156
-\TUD@sponsorheight=\skip157
-\TUD@titlebox=\box41
-\TUD@subtitlebox=\box42
-\TUD@logobox=\box43
-\TUD@instbox=\box44
-\TUD@sponsorbox=\box45
-\TUD@tmp@height=\skip158
-\TUD@tmp@depth=\skip159
+\@TUD@tmp@baselineskip=\skip151
+\@TUD@tmp@parwidth=\skip152
+\TUD@titleboxheight=\skip153
+\TUD@titleboxdepth=\skip154
+\TUD@subtitleboxheight=\skip155
+\TUD@subtitleboxdepth=\skip156
+\TUD@logoboxheight=\skip157
+\TUD@logoboxwidth=\skip158
+\TUD@colorbackheight=\skip159
+\TUD@colorbacktitleheight=\skip160
+\TUD@instboxheight=\skip161
+\TUD@instboxdepth=\skip162
+\TUD@instboxwidth=\skip163
+\TUD@instlogoheight=\skip164
+\TUD@instlogowidth=\skip165
+\TUD@sponsorheight=\skip166
+\TUD@titlebox=\box42
+\TUD@subtitlebox=\box43
+\TUD@logobox=\box44
+\TUD@instbox=\box45
+\TUD@sponsorbox=\box46
+\TUD@tmp@height=\skip167
+\TUD@tmp@depth=\skip168
 LaTeX Font Info:    Try loading font information for T1+5fp on input line 67.
 
-("C:/Program Files/tuddesign\tex/latex/tex-tudfonts/softmake/frontpage\t15fp.fd"
+("C:/Program Files/tuddesign\tex\latex\tex-tudfonts\softmake\frontpage\t15fp.fd
+"
 File: t15fp.fd 2009/08/06 Fontinst v1.927 font definitions for T1/5fp.
 )
-\@TUD@titlelines=\count321
+\@TUD@titlelines=\count336
 
 
-Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 67.
+Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 6
+7.
 
-<tud_logo.pdf, id=3, 157.58875pt x 63.23625pt>
+<tud_logo.pdf, id=191, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
 Package pdftex.def Info: tud_logo.pdf  used on input line 67.
@@ -1352,21 +1557,16 @@ File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
 Package pdftex.def Info: tud_logo.pdf  used on input line 67.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
-\@TUD@logolines=\count322
-
-Package Fancyhdr Warning: \footskip is too small (12.0pt): 
-Make it at least 13.59999pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
+\@TUD@logolines=\count337
 [-1
 Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
 
 Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
-{C:/Users/Johanna/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Program Files/MiKTeX 2.9/tex/latex/tuddesign/lo
-go/tud_logo.pdf>] [0
+{C:/Users/Johannes/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users
+/Johannes/AppData/Local/Programs/MiKTeX 2.9/tex/latex/pslatex/tuddesign/logo/tu
+d_logo.pdf>] [0
 
 ] [1
 
@@ -1397,16 +1597,28 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 43.
 Package tocbasic Info: Using my definition of `\numberline' on input line 49.
 Package tocbasic Info: Using my definition of `\numberline' on input line 53.
 Package tocbasic Info: Using my definition of `\numberline' on input line 55.
+Package tocbasic Info: Using my definition of `\numberline' on input line 57.
+Package tocbasic Info: Using my definition of `\numberline' on input line 59.
+Package tocbasic Info: Using my definition of `\numberline' on input line 61.
 Package tocbasic Info: Using my definition of `\numberline' on input line 63.
 Package tocbasic Info: Using my definition of `\numberline' on input line 65.
-)
+Package tocbasic Info: Using my definition of `\numberline' on input line 71.
+Package tocbasic Info: Using my definition of `\numberline' on input line 73.
+Package tocbasic Info: Using my definition of `\numberline' on input line 75.
+Package tocbasic Info: Using my definition of `\numberline' on input line 79.
+Package tocbasic Info: Using my definition of `\numberline' on input line 81.
+Package tocbasic Info: Using my definition of `\numberline' on input line 83.
+Package tocbasic Info: Using my definition of `\numberline' on input line 85.
+Package tocbasic Info: Using my definition of `\numberline' on input line 87.
+Package tocbasic Info: Using my definition of `\numberline' on input line 89.
+Package tocbasic Info: Using my definition of `\numberline' on input line 91.
+Package tocbasic Info: Using my definition of `\numberline' on input line 97.
+Package tocbasic Info: Using my definition of `\numberline' on input line 99.
+ [3])
 \tf@toc=\write5
 \openout5 = `ADP.toc'.
 
- (input/1_Einleitung.tex [3] [4
-
-
-]
+ (input/1_Einleitung.tex [4]
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -1437,17 +1649,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 LaTeX Font Info:    Try loading font information for TS1+5ch on input line 27.
-("C:/Program Files/tuddesign\tex/latex/tex-tudfonts/softmake/charter\ts15ch.fd"
+("C:/Program Files/tuddesign\tex\latex\tex-tudfonts\softmake\charter\ts15ch.fd"
 File: ts15ch.fd 2008/06/23 Fontinst v1.927 font definitions for TS1/5ch.
-)) (input/2_Pruefstand.tex [5pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) has been alre
-ady used, duplicate ignored
+)) (input/2_Pruefstand.tex [5
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
              Aufbau des Prüfstands und Grundlagen}] [6]
 chapter 2.
-<Bilder/Pruefstand.pdf, id=130, 399.05087pt x 202.95824pt>
+<Bilder/Pruefstand.pdf, id=301, 399.05087pt x 202.95824pt>
 File: Bilder/Pruefstand.pdf Graphic file (type pdf)
 <use Bilder/Pruefstand.pdf>
 Package pdftex.def Info: Bilder/Pruefstand.pdf  used on input line 6.
@@ -1460,9 +1675,9 @@ LaTeX Warning: Citation 'adp' on page 7 undefined on input line 7.
 
 
 
-pdfTeX warning: pdflatex.exe (file ./Bilder/Fahrzeuggetriebe.pdf): PDF inclusion: found PDF version <1.7>, but at most v
-ersion <1.5> allowed
-<Bilder/Fahrzeuggetriebe.pdf, id=132, 458.46281pt x 292.09125pt>
+pdfTeX warning: pdflatex.exe (file ./Bilder/Fahrzeuggetriebe.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Bilder/Fahrzeuggetriebe.pdf, id=303, 458.46281pt x 292.09125pt>
 File: Bilder/Fahrzeuggetriebe.pdf Graphic file (type pdf)
 <use Bilder/Fahrzeuggetriebe.pdf>
 Package pdftex.def Info: Bilder/Fahrzeuggetriebe.pdf  used on input line 17.
@@ -1473,61 +1688,59 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [7
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.27 \subsection{Aktor}
                         <./Bilder/Pruefstand.pdf>]
-
-LaTeX Warning: File `Bilder/Querschnitt Aktor.pdf' not found on input line 34.
-
-<Bilder/Querschnitt Aktor.pdf, id=146, 330.5148pt x 178.86826pt>
-File: Bilder/Querschnitt Aktor.pdf Graphic file (type pdf)
-<use Bilder/Querschnitt Aktor.pdf>
-Package pdftex.def Info: Bilder/Querschnitt Aktor.pdf  used on input line 34.
+<Bilder/QuerschnittAktor.pdf, id=317, 330.5148pt x 178.86826pt>
+File: Bilder/QuerschnittAktor.pdf Graphic file (type pdf)
+<use Bilder/QuerschnittAktor.pdf>
+Package pdftex.def Info: Bilder/QuerschnittAktor.pdf  used on input line 34.
 (pdftex.def)             Requested size: 330.51398pt x 178.86781pt.
 
-LaTeX Warning: Citation 'Hahn2018' on page 8 undefined on input line 35.
-
 
 LaTeX Warning: Citation 'Hahn2018' on page 8 undefined on input line 35.
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignore
-d
+
+LaTeX Warning: Citation 'Hahn2018' on page 8 undefined on input line 35.
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.41 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already use
-d, duplicate ignored
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{figure.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.41 \begin{equation}
-                      <./Bilder/Fahrzeuggetriebe.pdf> <./Bilder/Querschnitt Aktor.pdf>]
-
-LaTeX Warning: File `Bilder/Kennlinie Aktor.pdf' not found on input line 49.
-
-<Bilder/Kennlinie Aktor.pdf, id=162, 369.13408pt x 291.07494pt>
-File: Bilder/Kennlinie Aktor.pdf Graphic file (type pdf)
-<use Bilder/Kennlinie Aktor.pdf>
-Package pdftex.def Info: Bilder/Kennlinie Aktor.pdf  used on input line 49.
+                      <./Bilder/Fahrzeuggetriebe.pdf> <./Bilder/QuerschnittAkto
+r.pdf>]
+<Bilder/KennlinieAktor.pdf, id=333, 369.13408pt x 291.07494pt>
+File: Bilder/KennlinieAktor.pdf Graphic file (type pdf)
+<use Bilder/KennlinieAktor.pdf>
+Package pdftex.def Info: Bilder/KennlinieAktor.pdf  used on input line 49.
 (pdftex.def)             Requested size: 369.13318pt x 291.07422pt.
 
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 50.
-
 
 LaTeX Warning: Citation 'adp' on page 9 undefined on input line 50.
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignore
-d
+
+LaTeX Warning: Citation 'adp' on page 9 undefined on input line 50.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.64 
-      <./Bilder/Kennlinie Aktor.pdf>]
-<Bilder/Sensor.pdf, id=224, 216.20775pt x 218.37582pt>
+      <./Bilder/KennlinieAktor.pdf>]
+<Bilder/Sensor.pdf, id=395, 216.20775pt x 218.37582pt>
 File: Bilder/Sensor.pdf Graphic file (type pdf)
 <use Bilder/Sensor.pdf>
 Package pdftex.def Info: Bilder/Sensor.pdf  used on input line 67.
@@ -1542,13 +1755,12 @@ LaTeX Warning: Citation 'adp' on page 10 undefined on input line 68.
 
 LaTeX Warning: Citation 'messtechnik' on page 10 undefined on input line 71.
 
-
-LaTeX Warning: File `Bilder/Sprungantwort Schaltgabelposition.pdf' not found on input line 81.
-
-<Bilder/Sprungantwort Schaltgabelposition.pdf, id=226, 439.32672pt x 284.92487pt>
-File: Bilder/Sprungantwort Schaltgabelposition.pdf Graphic file (type pdf)
-<use Bilder/Sprungantwort Schaltgabelposition.pdf>
-Package pdftex.def Info: Bilder/Sprungantwort Schaltgabelposition.pdf  used on input line 81.
+<Bilder/SprungantwortSchaltgabelposition.pdf, id=397, 439.32672pt x 284.92487pt
+>
+File: Bilder/SprungantwortSchaltgabelposition.pdf Graphic file (type pdf)
+<use Bilder/SprungantwortSchaltgabelposition.pdf>
+Package pdftex.def Info: Bilder/SprungantwortSchaltgabelposition.pdf  used on i
+nput line 81.
 (pdftex.def)             Requested size: 439.32564pt x 284.92416pt.
 
 LaTeX Warning: Citation 'adp' on page 10 undefined on input line 82.
@@ -1563,16 +1775,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Citation 'l\IeC {\"o}ten' on page 10 undefined on input line 87.
 
 
-LaTeX Warning: File `Bilder/Blockschaltbild Mikrocontroller.pdf' not found on input line 93.
 
 
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/Blockschaltbild Mikrocontroller.pdf): PDF inclusion: found PDF version <1.7>
-, but at most version <1.5> allowed
-<Bilder/Blockschaltbild Mikrocontroller.pdf, id=227, 365.11406pt x 274.02374pt>
-File: Bilder/Blockschaltbild Mikrocontroller.pdf Graphic file (type pdf)
-<use Bilder/Blockschaltbild Mikrocontroller.pdf>
-Package pdftex.def Info: Bilder/Blockschaltbild Mikrocontroller.pdf  used on input line 93.
+pdfTeX warning: pdflatex.exe (file ./Bilder/BlockschaltbildMikrocontroller.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Bilder/BlockschaltbildMikrocontroller.pdf, id=398, 365.11406pt x 274.02374pt>
+File: Bilder/BlockschaltbildMikrocontroller.pdf Graphic file (type pdf)
+<use Bilder/BlockschaltbildMikrocontroller.pdf>
+Package pdftex.def Info: Bilder/BlockschaltbildMikrocontroller.pdf  used on inp
+ut line 93.
 (pdftex.def)             Requested size: 365.11316pt x 274.02307pt.
 
 LaTeX Warning: Citation 'Bernstein2015' on page 10 undefined on input line 94.
@@ -1585,8 +1796,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `T1/5ch/b/it' in size <9.5> not available
 (Font)              Font shape `T1/5ch/b/sl' tried instead on input line 98.
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignor
-ed
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1605,25 +1816,26 @@ LaTeX Warning: Citation 'Broy2003' on page 11 undefined on input line 114.
 LaTeX Warning: Citation 'smartactuator' on page 11 undefined on input line 116.
 
 
+
 LaTeX Warning: Citation 'smartaktor' on page 11 undefined on input line 118.
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignor
-ed
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.119 
-       <./Bilder/Sprungantwort Schaltgabelposition.pdf>]
+       <./Bilder/SprungantwortSchaltgabelposition.pdf>]
 
 LaTeX Warning: Citation 'Werner2014' on page 12 undefined on input line 122.
 
 
 LaTeX Warning: Citation 'Woern2006' on page 12 undefined on input line 122.
 
-<Bilder/CAN.pdf, id=280, 461.04245pt x 339.18721pt>
-File: Bilder/CAN.pdf Graphic file (type pdf)
-<use Bilder/CAN.pdf>
-Package pdftex.def Info: Bilder/CAN.pdf  used on input line 127.
+<Bilder/CAN2.pdf, id=451, 461.04245pt x 339.18721pt>
+File: Bilder/CAN2.pdf Graphic file (type pdf)
+<use Bilder/CAN2.pdf>
+Package pdftex.def Info: Bilder/CAN2.pdf  used on input line 127.
 (pdftex.def)             Requested size: 461.04132pt x 339.18639pt.
 
 LaTeX Warning: Citation 'manual' on page 12 undefined on input line 128.
@@ -1640,30 +1852,31 @@ LaTeX Warning: Citation 'Lawrenz2010' on page 12 undefined on input line 133.
 
 LaTeX Warning: Citation 'Werner2014' on page 12 undefined on input line 134.
 
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignor
-ed
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.141 I
-       m Folgenden wird speziell auf die in dieser Arbeit eingerichtete CAN-... <./Bilder/Blockschaltbild Mikrocontrolle
-r.pdf>]
+       m Folgenden wird speziell auf die in dieser Arbeit eingerichtete CAN-...
+ <./Bilder/BlockschaltbildMikrocontroller.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ./Bilder/PWM.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
-allowed
-<Bilder/PWM.pdf, id=290, 255.95625pt x 76.78688pt>
+pdfTeX warning: pdflatex.exe (file ./Bilder/PWM.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<Bilder/PWM.pdf, id=461, 255.95625pt x 76.78688pt>
 File: Bilder/PWM.pdf Graphic file (type pdf)
 <use Bilder/PWM.pdf>
 Package pdftex.def Info: Bilder/PWM.pdf  used on input line 164.
 (pdftex.def)             Requested size: 255.95561pt x 76.78668pt.
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignor
-ed
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.167 \end{figure}
-                   <./Bilder/CAN.pdf>]) (input/3_Vorgehensweise.tex [14pdfTeX warning (ext4): destination with the same 
-identifier (name{figure.2.9}) has been already used, duplicate ignored
+                   <./Bilder/CAN2.pdf>]) (input/3_Vorgehensweise.tex [14pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.2.9}) has bee
+n already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1676,7 +1889,7 @@ LaTeX Warning: Citation 'BasSof' on page 15 undefined on input line 6.
 
 LaTeX Warning: Citation 'ISO_25010' on page 15 undefined on input line 6.
 
-<./Bilder/fig_v_modell.pdf, id=312, 473.49486pt x 236.71333pt>
+<./Bilder/fig_v_modell.pdf, id=483, 473.49486pt x 236.71333pt>
 File: ./Bilder/fig_v_modell.pdf Graphic file (type pdf)
 <use ./Bilder/fig_v_modell.pdf>
 Package pdftex.def Info: ./Bilder/fig_v_modell.pdf  used on input line 22.
@@ -1711,13 +1924,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 LaTeX Warning: Citation 'BasSof' on page 16 undefined on input line 36.
 
 ngerman: "nn is now obsolete, please use nnn instead on input line 37.
-<./Bilder/fig_klass.pdf, id=320, 844.4649pt x 425.65077pt>
+<./Bilder/fig_klass.pdf, id=491, 844.4649pt x 425.65077pt>
 File: ./Bilder/fig_klass.pdf Graphic file (type pdf)
 <use ./Bilder/fig_klass.pdf>
 Package pdftex.def Info: ./Bilder/fig_klass.pdf  used on input line 39.
 (pdftex.def)             Requested size: 497.92325pt x 250.98239pt.
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignor
-ed
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1726,98 +1939,445 @@ l.47
 
 LaTeX Warning: Citation 'BasSof' on page 17 undefined on input line 48.
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignor
-ed
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.53 
       <./Bilder/fig_klass.pdf>]
-<./Bilder/fig_entw_evo.png, id=350, 2038.61626pt x 1930.96407pt>
+<./Bilder/fig_entw_evo.png, id=521, 2038.61626pt x 1930.96407pt>
 File: ./Bilder/fig_entw_evo.png Graphic file (type png)
 <use ./Bilder/fig_entw_evo.png>
 Package pdftex.def Info: ./Bilder/fig_entw_evo.png  used on input line 71.
 (pdftex.def)             Requested size: 298.75697pt x 282.97322pt.
-) (input/4_Komponentenauswahl.tex [18pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has b
-een already used, duplicate ignored
+) (input/4_Komponentenauswahl.tex [18pdfTeX warning (ext4): destination with th
+e same identifier (name{table.3.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Komponentenauswahl und Schaltungsdesign}pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.3.3}) has been already used, duplicate ignored
+             Auswahl elektronischer Komponenten und Verschaltung}\label{ch:k...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Komponentenauswahl und Schaltungsdesign} <./Bilder/fig_entw_evo.png>]
+             Auswahl elektronischer Komponenten und Verschaltung}\label{ch:k...
+ <./Bilder/fig_entw_evo.png>]
 chapter 4.
 
-LaTeX Warning: File `Bilder/Blockdiagramm Halbbruecken.jpg' not found on input line 7.
-
-<Bilder/Blockdiagramm Halbbruecken.jpg, id=358, 458.46281pt x 357.58594pt>
-File: Bilder/Blockdiagramm Halbbruecken.jpg Graphic file (type jpg)
-<use Bilder/Blockdiagramm Halbbruecken.jpg>
-Package pdftex.def Info: Bilder/Blockdiagramm Halbbruecken.jpg  used on input line 7.
-(pdftex.def)             Requested size: 458.46169pt x 357.58505pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19
+LaTeX Warning: Citation 'haendschke' on page 19 undefined on input line 3.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+LaTeX Warning: Citation 'aecq' on page 19 undefined on input line 3.
+
+
+LaTeX Warning: Citation 'ldo' on page 19 undefined on input line 5.
+
+<./Bilder/anf.pdf, id=529, 1008.31772pt x 398.11223pt>
+File: ./Bilder/anf.pdf Graphic file (type pdf)
+<use ./Bilder/anf.pdf>
+Package pdftex.def Info: ./Bilder/anf.pdf  used on input line 10.
+(pdftex.def)             Requested size: 300.0pt x 118.44441pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+
+]
+
+LaTeX Warning: Citation 'stm32' on page 20 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'decoupling' on page 20 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'stm32' on page 20 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'stm32' on page 20 undefined on input line 18.
+
+<./Bilder/MCU_MIN.pdf, id=535, 777.82593pt x 234.19496pt>
+File: ./Bilder/MCU_MIN.pdf Graphic file (type pdf)
+<use ./Bilder/MCU_MIN.pdf>
+Package pdftex.def Info: ./Bilder/MCU_MIN.pdf  used on input line 21.
+(pdftex.def)             Requested size: 497.92325pt x 149.91998pt.
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.35 
-      <./Bilder/Blockdiagramm Halbbruecken.jpg>]
-<Bilder/LDO.png, id=366, 525.46312pt x 284.56313pt>
-File: Bilder/LDO.png Graphic file (type png)
-<use Bilder/LDO.png>
-Package pdftex.def Info: Bilder/LDO.png  used on input line 42.
-(pdftex.def)             Requested size: 525.46184pt x 284.56242pt.
+l.27 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.2}) has been already used, duplicate ignored
 
-Overfull \hbox (27.53859pt too wide) in paragraph at lines 42--43
- [][] 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+      <./Bilder/anf.pdf> <./Bilder/MCU_MIN.pdf>]
+<./Bilder/MCU_PINS.pdf, id=556, 373.31471pt x 358.65996pt>
+File: ./Bilder/MCU_PINS.pdf Graphic file (type pdf)
+<use ./Bilder/MCU_PINS.pdf>
+Package pdftex.def Info: ./Bilder/MCU_PINS.pdf  used on input line 29.
+(pdftex.def)             Requested size: 373.44243pt x 358.77946pt.
+
+Overfull \hbox (55.02112pt too wide) in paragraph at lines 32--57
+[][] 
  []
 
-) (input/5_Platinendesign.tex [20pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been 
-already used, duplicate ignored
+
+Overfull \hbox (7.56406pt too wide) in paragraph at lines 59--71
+$[]$ $[]$   
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
+
+ []
+
+
+LaTeX Warning: Citation 'stmref' on page 21 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'stmref' on page 21 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'stmref' on page 21 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'stmquarz' on page 21 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'stmquarz' on page 21 undefined on input line 84.
+
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{table.4.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{table.4.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \begin{align*}
+                    <./Bilder/MCU_PINS.pdf>]
+<./Bilder/quarz.pdf, id=576, 575.06844pt x 228.17245pt>
+File: ./Bilder/quarz.pdf Graphic file (type pdf)
+<use ./Bilder/quarz.pdf>
+Package pdftex.def Info: ./Bilder/quarz.pdf  used on input line 92.
+(pdftex.def)             Requested size: 300.0pt x 119.02985pt.
+<./Bilder/can.pdf, id=578, 593.13593pt x 364.68246pt>
+File: ./Bilder/can.pdf Graphic file (type pdf)
+<use ./Bilder/can.pdf>
+Package pdftex.def Info: ./Bilder/can.pdf  used on input line 101.
+(pdftex.def)             Requested size: 400.0pt x 245.93858pt.
+
+
+LaTeX Warning: Citation 'cantrans' on page 22 undefined on input line 105.
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.106 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.106 
+       <./Bilder/quarz.pdf> <./Bilder/can.pdf>]
+<./Bilder/LDO.png, id=602, 525.46312pt x 284.56313pt>
+File: ./Bilder/LDO.png Graphic file (type png)
+<use ./Bilder/LDO.png>
+Package pdftex.def Info: ./Bilder/LDO.png  used on input line 115.
+(pdftex.def)             Requested size: 350.0pt x 189.54907pt.
+
+
+LaTeX Warning: Citation 'ldo' on page 23 undefined on input line 123.
+
+<./Bilder/volt.pdf, id=605, 651.35344pt x 323.5287pt>
+File: ./Bilder/volt.pdf Graphic file (type pdf)
+<use ./Bilder/volt.pdf>
+Package pdftex.def Info: ./Bilder/volt.pdf  used on input line 127.
+(pdftex.def)             Requested size: 400.0pt x 198.68018pt.
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.130 \end{figure}
+                   <./Bilder/LDO.png>]
+<./Bilder/stecker.pdf, id=617, 347.21721pt x 270.32996pt>
+File: ./Bilder/stecker.pdf Graphic file (type pdf)
+<use ./Bilder/stecker.pdf>
+Package pdftex.def Info: ./Bilder/stecker.pdf  used on input line 137.
+(pdftex.def)             Requested size: 200.0pt x 155.71487pt.
+) (input/5_Platinendesign.tex [24pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Platinendesign}pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been alre
+             Platinenentwurf}pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.4.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter{
+             Platinenentwurf} <./Bilder/volt.pdf> <./Bilder/stecker.pdf>]
+[25] [26
+
+
+]
+chapter 5.
+<./Bilder/Elektronik_Gehauese_ver3.png, id=650, 683.55376pt x 473.51906pt>
+File: ./Bilder/Elektronik_Gehauese_ver3.png Graphic file (type png)
+<use ./Bilder/Elektronik_Gehauese_ver3.png>
+Package pdftex.def Info: ./Bilder/Elektronik_Gehauese_ver3.png  used on input l
+ine 8.
+(pdftex.def)             Requested size: 300.0pt x 207.82156pt.
+
+LaTeX Warning: Citation 'w\IeC {\"u}rth' on page 27 undefined on input line 14.
+
+
+<./Bilder/Elektronik_Gehauese.png, id=652, 532.23843pt x 364.36125pt>
+File: ./Bilder/Elektronik_Gehauese.png Graphic file (type png)
+<use ./Bilder/Elektronik_Gehauese.png>
+Package pdftex.def Info: ./Bilder/Elektronik_Gehauese.png  used on input line 1
+8.
+(pdftex.def)             Requested size: 300.0pt x 205.38078pt.
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 D
+      ie vier Schrauben, mit denen Platine, Aluminiumplatte und Platinengeh�...
+ <./Bilder/Elektronik_Gehauese_ver3.png>]
+
+LaTeX Warning: Citation 'bopla' on page 28 undefined on input line 23.
+
+
+LaTeX Warning: Citation 'Gwinner2006' on page 28 undefined on input line 23.
+
+
+LaTeX Warning: Citation 'emcdes' on page 28 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'emcdes' on page 28 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'stmquarz' on page 28 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'stmquarz' on page 28 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'emcdes' on page 28 undefined on input line 27.
+
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.28 
+      <./Bilder/Elektronik_Gehauese.png>]
+<./Bilder/docu.pdf, id=666, 592.5337pt x 328.74818pt>
+File: ./Bilder/docu.pdf Graphic file (type pdf)
+<use ./Bilder/docu.pdf>
+Package pdftex.def Info: ./Bilder/docu.pdf  used on input line 31.
+(pdftex.def)             Requested size: 380.0pt x 210.82951pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.73 \end{equation}
+                    <./Bilder/docu.pdf>]
+Package epstopdf Info: Source file: <./Bilder/temp.eps>
+(epstopdf)                    date: 2019-03-09 16:35:06
+(epstopdf)                    size: 75528 bytes
+(epstopdf)             Output file: <./Bilder/temp-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-09 16:36:05
+(epstopdf)                    size: 29609 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Bilder/temp-eps-converted
+-to.pdf ./Bilder/temp.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/temp-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Bilder/temp-eps-converted-to.pdf, id=691, 421.575pt x 316.18124pt>
+File: ./Bilder/temp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Bilder/temp-eps-converted-to.pdf>
+Package pdftex.def Info: ./Bilder/temp-eps-converted-to.pdf  used on input line
+ 91.
+(pdftex.def)             Requested size: 247.0pt x 185.25233pt.
+Package epstopdf Info: Source file: <./Bilder/quer.eps>
+(epstopdf)                    date: 2019-03-09 16:35:27
+(epstopdf)                    size: 64927 bytes
+(epstopdf)             Output file: <./Bilder/quer-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-09 16:40:51
+(epstopdf)                    size: 26286 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Bilder/quer-eps-converted
+-to.pdf ./Bilder/quer.eps>
+(epstopdf)             \includegraphics on input line 92.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/quer-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Bilder/quer-eps-converted-to.pdf, id=692, 421.575pt x 316.18124pt>
+File: ./Bilder/quer-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Bilder/quer-eps-converted-to.pdf>
+Package pdftex.def Info: ./Bilder/quer-eps-converted-to.pdf  used on input line
+ 92.
+(pdftex.def)             Requested size: 247.0pt x 185.25233pt.
+
+LaTeX Warning: Citation 'Stiny2015' on page 30 undefined on input line 98.
+
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118 \end{table}
+                  <./Bilder/temp-eps-converted-to.pdf> <./Bilder/quer-eps-conve
+rted-to.pdf>]
+
+LaTeX Warning: Citation 'haendschke' on page 31 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'haendschke' on page 31 undefined on input line 122.
+
+<./Bilder/layer.pdf, id=723, 356.25473pt x 157.06233pt>
+File: ./Bilder/layer.pdf Graphic file (type pdf)
+<use ./Bilder/layer.pdf>
+Package pdftex.def Info: ./Bilder/layer.pdf  used on input line 125.
+(pdftex.def)             Requested size: 300.0pt x 132.26218pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31pdfTeX warning (ext4): destination with the same identifier (name{table.5.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.129 P
+       rinzipiell können Platinen mit deutlich mehr Layer-Ebenen entworfen ...
+]
+
+LaTeX Warning: Citation 'emcdes' on page 32 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'emcdes' on page 32 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'Franz2012' on page 32 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'emcdes' on page 32 undefined on input line 130.
+
+<./Bilder/logb.pdf, id=734, 334.25047pt x 326.42123pt>
+File: ./Bilder/logb.pdf Graphic file (type pdf)
+<use ./Bilder/logb.pdf>
+Package pdftex.def Info: ./Bilder/logb.pdf  used on input line 139.
+(pdftex.def)             Requested size: 250.0pt x 244.15286pt.
+
+LaTeX Warning: Citation 'Franz2012' on page 32 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Franz2012' on page 32 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'gndbnc' on page 32 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Franz2012' on page 32 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'emcdes' on page 32 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Franz2012' on page 32 undefined on input line 143.
+
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.144 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.144 
+       <./Bilder/layer.pdf> <./Bilder/logb.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/logb.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>]
+<./Bilder/top2.pdf, id=896, 450.0012pt x 258.48569pt>
+File: ./Bilder/top2.pdf Graphic file (type pdf)
+<use ./Bilder/top2.pdf>
+Package pdftex.def Info: ./Bilder/top2.pdf  used on input line 149.
+(pdftex.def)             Requested size: 400.0pt x 229.7636pt.
+<./Bilder/bottom2.pdf, id=899, 450.0012pt x 266.51572pt>
+File: ./Bilder/bottom2.pdf Graphic file (type pdf)
+<use ./Bilder/bottom2.pdf>
+Package pdftex.def Info: ./Bilder/bottom2.pdf  used on input line 156.
+(pdftex.def)             Requested size: 400.0pt x 236.90137pt.
+
+Underfull \vbox (badness 1888) has occurred while \output is active []
+
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.159 \end{figure}
+                   <./Bilder/top2.pdf>]) (input/6_Software.tex [34pdfTeX warnin
+g (ext4): destination with the same identifier (name{figure.5.8}) has been alre
 ady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Platinendesign} <./Bilder/LDO.png>] [21] [22
-
-
-]
-chapter 5.
-) (input/6_Software.tex [23] [24
-
-
-]
+             Software} <./Bilder/bottom2.pdf>]
 chapter 6.
-) (input/7_Analyse.tex [25] [26
+) (input/7_Analyse.tex [35
+
+
+] [36
 
 
 ]
 chapter 7.
-<./Bilder/Platinenkosten.pdf, id=400, 719.60843pt x 359.66371pt>
+<./Bilder/Platinenkosten.pdf, id=936, 719.60843pt x 359.66371pt>
 File: ./Bilder/Platinenkosten.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten.pdf  used on input line 41.
 (pdftex.def)             Requested size: 248.96162pt x 124.42986pt.
-<./Bilder/Platinenkosten-tausend.pdf, id=401, 719.60843pt x 353.6412pt>
+<./Bilder/Platinenkosten-tausend.pdf, id=937, 719.60843pt x 353.6412pt>
 File: ./Bilder/Platinenkosten-tausend.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten-tausend.pdf>
-Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input line 44.
+Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input lin
+e 44.
 (pdftex.def)             Requested size: 248.96162pt x 122.34628pt.
 
 Overfull \hbox (2.0045pt too wide) in paragraph at lines 40--46
@@ -1827,28 +2387,29 @@ Overfull \hbox (2.0045pt too wide) in paragraph at lines 40--46
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (input/8_Fazit.tex [27pdfTeX warning (ext4): destination with the same identifier (name{table.7.1}) has been already u
-sed, duplicate ignored
+) (input/8_Fazit.tex [37pdfTeX warning (ext4): destination with the same identi
+fier (name{table.7.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Fazit und Ausblick}] [28pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has 
-been already used, duplicate ignored
+             Fazit und Ausblick}] [38pdfTeX warning (ext4): destination with th
+e same identifier (name{figure.7.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Fazit und Ausblick} <./Bilder/Platinenkosten.pdf> <./Bilder/Platinenkosten-tausend.pdf
+             Fazit und Ausblick} <./Bilder/Platinenkosten.pdf> <./Bilder/Platin
+enkosten-tausend.pdf
 
-pdfTeX warning: pdflatex.exe (file ./Bilder/Platinenkosten-tausend.pdf): PDF inclusion: multiple pdfs with page group in
-cluded in a single page
+pdfTeX warning: pdflatex.exe (file ./Bilder/Platinenkosten-tausend.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
 >]
 chapter 8.
-) [29
+) [39
 
 
-] [30
+] [40
 
 
 ] (ADP.lof
@@ -1866,19 +2427,37 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 29.
 Package tocbasic Info: Using my definition of `\numberline' on input line 31.
 Package tocbasic Info: Using my definition of `\numberline' on input line 35.
 Package tocbasic Info: Using my definition of `\numberline' on input line 37.
+Package tocbasic Info: Using my definition of `\numberline' on input line 39.
+Package tocbasic Info: Using my definition of `\numberline' on input line 41.
+Package tocbasic Info: Using my definition of `\numberline' on input line 43.
 Package tocbasic Info: Using my definition of `\numberline' on input line 45.
+Package tocbasic Info: Using my definition of `\numberline' on input line 47.
+Package tocbasic Info: Using my definition of `\numberline' on input line 49.
+Package tocbasic Info: Using my definition of `\numberline' on input line 53.
+Package tocbasic Info: Using my definition of `\numberline' on input line 55.
+Package tocbasic Info: Using my definition of `\numberline' on input line 57.
+Package tocbasic Info: Using my definition of `\numberline' on input line 59.
+Package tocbasic Info: Using my definition of `\numberline' on input line 61.
+Package tocbasic Info: Using my definition of `\numberline' on input line 63.
+Package tocbasic Info: Using my definition of `\numberline' on input line 65.
+Package tocbasic Info: Using my definition of `\numberline' on input line 67.
+Package tocbasic Info: Using my definition of `\numberline' on input line 73.
 )
 \tf@lof=\write6
 \openout6 = `ADP.lof'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
- [31]
+ [41]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (ADP.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `ADP.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: E7D516C5F12841B0BB66BF45599BECC4;3332.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.45998pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
@@ -1897,24 +2476,33 @@ Package logreq Info: Writing requests to 'ADP.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 19523 strings out of 492946
- 332874 string characters out of 3135522
- 896755 words of memory out of 3000000
- 22940 multiletter control sequences out of 15000+200000
- 110355 words of font info for 87 fonts, out of 3000000 for 9000
+ 20137 strings out of 492970
+ 347039 string characters out of 3125262
+ 894132 words of memory out of 3000000
+ 23440 multiletter control sequences out of 15000+200000
+ 133542 words of font info for 135 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,13n,100p,9105b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc
-}<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/ch
-arter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tuddesign/fonts/t
-ype1/softmake/charter/5chri8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/frontpage/5fpm8a.pfb><C:/Program File
-s/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathde
-sign/mdbch/md-chr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
-Output written on ADP.pdf (33 pages, 14226499 bytes).
+ 59i,13n,100p,9105b,1581s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
+enc}{C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ly1/te
+xnansi.enc}<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chb8a.pfb>
+<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chb8a.pfb><C:/Program
+ Files/tuddesign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tudd
+esign/fonts/type1/softmake/charter/5chri8a.pfb><C:/Program Files/tuddesign/font
+s/type1/softmake/frontpage/5fpm8a.pfb><C:/Program Files/tuddesign/fonts/type1/s
+oftmake/frontpage/5fpr8a.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Johannes/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Johannes/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/U
+sers/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md
+-chr7t.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mat
+hdesign/mdbch/md-chr7v.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Johannes/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb><C:/Users/Johannes/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
+Output written on ADP.pdf (43 pages, 15970150 bytes).
 PDF statistics:
- 621 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1093 PDF objects out of 1200 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 549 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame0_View0,0]
-TopLine=127
-Cursor=8806
+TopLine=47
+Cursor=3745
 
 [Frame1]
 Flags=0
@@ -29,8 +29,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\7_Analyse.tex
 
@@ -47,8 +47,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\6_Software.tex
 
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\5_Platinendesign.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=0
+TopLine=139
+Cursor=12479
 
 [Frame4]
 Flags=0
@@ -83,8 +83,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
@@ -101,8 +101,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\3_Vorgehensweise.tex
 
@@ -119,8 +119,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\8_Fazit.tex
 
@@ -137,14 +137,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=ADP.tex
 
 [Frame7_View0,0]
 TopLine=0
-Cursor=2341
+Cursor=320
 
 [Frame8]
 Flags=0
@@ -155,16 +155,16 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=339
+NormalPos.right=1660
+NormalPos.bottom=634
 Class=LaTeXView
 Document=input\1_Einleitung.tex
 
 [Frame8_View0,0]
-TopLine=38
+TopLine=27
 Cursor=48
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=0
+ActiveFrame=7
 
