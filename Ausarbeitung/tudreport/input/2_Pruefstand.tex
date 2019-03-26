@@ -1,6 +1,6 @@
 \chapter{Aufbau des Prüfstands und Grundlagen}
 \section{Grundlagen des Prüfstandes}
-In diesem Kapitel wird der verwendete Schaltaktorikprüfstand des IMS vorgestellt, an dem  die Entwicklung des Smart Actuators stattgefunden hat. Beschrieben wird der Aufbau des Prüfstands, wie er vor den Änderungen im Rahmen dieses Projektes vorlag. Die Konstruktion des Prüfstandes erfolgte in vorangegangenen Arbeiten und wurde seitdem stetig weiterentwickelt. An ihm werden Schaltaktoriksysteme für Fahrzeugantriebe untersucht. Abbildung \ref{fig:Pruefstand} zeigt die in dieser Arbeit verwendeten Subsysteme des Prüfstandes. Im Folgenden erfolgt zunächst die Vorstellung des mechanischen Aufbaus, woraufhin der elektronische Aufbau anschließt. 
+In diesem Kapitel wird der verwendete Schaltaktorikprüfstand des IMS vorgestellt, an dem  die Entwicklung des Smart Actuators stattgefunden hat. Beschrieben wird der Aufbau des Prüfstands, wie er vor den Änderungen im Rahmen dieses Projektes vorlag. Die Konstruktion des Prüfstandes erfolgte in vorangegangenen Arbeiten und wurde seitdem stetig weiterentwickelt. An ihm werden Schaltaktoriksysteme für Fahrzeugantriebe untersucht. Abbildung \ref{fig:Pruefstand} zeigt die in dieser Arbeit verwendeten Subsysteme des Prüfstandes. Es erfolgt zunächst die Vorstellung des mechanischen Aufbaus, woraufhin der elektronische Aufbau anschließt. 
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/Pruefstand.jpg}
@@ -38,8 +38,9 @@ Sein Querschnitt ist in folgender Abbildung schematisch dargestellt.
 
 Sein Aufbau ist zylindrisch und kann in den ortsfesten Stator und den beweglichen Läufer unterteilt werden. Der Stator des Aktors besteht aus zwei in Reihe geschalteten Kupferspulen, welche fest in dem Gehäuse aus Weicheisen liegen und nach oben und unten mit Deckeln aus Aluminium fixiert werden. Der Läufer besteht aus einer nichtmagnetischen Läuferwelle, auf der sich fünf Permanentmagneten aus Neodym-Eisen-Bor befinden, welche mit Hilfe von zwei Polstücken aus Weicheisen axial auf der Läuferstange montiert sind. 
 Werden nun die Kupferspulen von Strom durchflossen, so wirkt eine vom Magnetfeld der Permanentmagneten induzierte Lorentzkraft orthogonal auf sie. Diese Kraft ist abhängig von der Stromstärke I, der magnetischen Flussdichte der Permanentmagneten B und der vom Magnetfeld durchsetzten Leiterlänge l:
-	\[F=I*l*B
-\]
+\begin{equation}
+F=I\cdot l\cdot B
+\end{equation}
 Da die Spulen jedoch fest im Gehäuse verbaut sind, wirkt eine entgegengerichtete Kraft auf die Permanentmagneten, die auf der axial verschiebbaren Läuferwelle lagern. Diese Kraft bewirkt dann eine translatorische Bewegung der Welle und somit auch der Schaltgabel. Die Richtung der translatorischen Bewegung kann dabei über die Richtung des in den Spulen fließenden Stromes, der Betrag der Kraft über den Betrag des Stromes eingestellt werden.
 Anhand von Abbildung \ref{fig:Kennlinie Aktor} ist zu erkennen, dass die Kraft-Weg Kennlinien des Aktor innerhalb des Nutzungsbereichs von -10 Millimeter bis +10 Millimeter bei verschiedenen Stromstärken annähernd linear verlaufen. 
 
@@ -67,9 +68,14 @@ Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen
 	\caption{Einbauposition PLCD Sensor an der Schaltgabel \cite[S.14]{adp}}
 	\label{fig:Sensor}
 \end{figure}
-Der Sensor wird an die MicroAutoBox zwecks Spannungsversorgung sowie zur Durchführung der Kalibrierung angeschlossen. Die Kalibrierung wurde in (Quelle) entwickelt und erfolgt bisher bei jedem Start. 
+Der Sensor wird an die MicroAutoBox zwecks Spannungsversorgung sowie zur Durchführung der Kalibrierung angeschlossen. Die Kalibrierung wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bisher bei jedem Start, damit es bei unbeabsichtlichen Verstellungen des Sensors nicht zu verfälschten Messergebnissen kommt. Zu Beginn des Einfahrvorgangs der Schaltwalze wird dabei das Spannungssignal U\textsubscript{0} ausgelesen, welches der Ausgangslage von x\textsubscript{0}=0mm entspricht. Anschließend werden die Spannungssignale U\textsubscript{1} und U\textsubscript{2} an beiden Anschlägen gemessen. Die Wegdifferenz zwischen den beiden beträgt x\textsubscript{ges}=16,97mm. Nun kann eine Geradengleichung zur Bestimmung der aktuellen Schaltgabelposition aufgestellt werden. U\textsubscript{a} entspricht dabei immer dem aktuellen Ausgangssignal.
 
-Die bisherige Regelung der Schaltgabelposition wurde in einem vorherigen Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu KP =2,6\%V/mm, KI =20\%V/smm und KD =1,6\%Vs/mm bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
+\begin{equation}
+	x=-\frac{-(U\textsubscript{a} -U\textsubscript{0})}{U\textsubscript{1}-U\textsubscript{2}}\cdot x\textsubscript{ges}
+\end{equation}
+ 
+
+Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenem Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu KP =2,6\%V/mm, KI =20\%V/smm und KD =1,6\%Vs/mm bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/Sprungantwort Schaltgabelposition.png}
@@ -118,8 +124,8 @@ Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an d
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/CAN.pdf \cite[S.158]{manual}}
-	\caption{Aufbau CAN-Bus}
+		\includegraphics{Bilder/CAN.pdf}
+	\caption{Aufbau CAN-Bus \cite[S.158]{manual}}
 	\label{fig:CAN}
 \end{figure}
 
@@ -130,8 +136,6 @@ Die Geschwindigkeit der Datenübertragung zwischen den Teilnehmer ist dabei von 
 	Buslaenge\leq 40...50 m\cdot \frac{1MBit/s}{Bitrate}
 	\label{eq:CAN}
 \end{equation}
-
-
 berechnet werden.
 
 Im Folgenden wird speziell auf die in dieser Arbeit eingerichtete CAN-Kommunikation und den Aufbau der CAN-Nachrichten eingegangen: Es wird ein CAN-Bus verwendet, mit dem lediglich zwei Teilnehmer miteinander verbunden werden. Diese sind zum einen die MicroAutoBox und zum anderen der Mikrocontroller des Smart Actuators. Die Länge der Leitungen zwischen den beiden ist wesentlich kürzer als 3m, wodurch nach Formel (\ref{eq:CAN}) die maximale Bitrate von 1Mbit/s genutzt wird.

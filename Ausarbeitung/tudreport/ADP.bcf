@@ -2004,16 +2004,23 @@
     <bcf:citekey order="7">adp</bcf:citekey>
     <bcf:citekey order="8">adp</bcf:citekey>
     <bcf:citekey order="9">adp</bcf:citekey>
-    <bcf:citekey order="10">adp</bcf:citekey>
+    <bcf:citekey order="10">messtechnik</bcf:citekey>
     <bcf:citekey order="11">adp</bcf:citekey>
-    <bcf:citekey order="12">l\IeC {\&quot;o}ten</bcf:citekey>
-    <bcf:citekey order="13">Bernstein2015</bcf:citekey>
+    <bcf:citekey order="12">adp</bcf:citekey>
+    <bcf:citekey order="13">l\IeC {\&quot;o}ten</bcf:citekey>
     <bcf:citekey order="14">Bernstein2015</bcf:citekey>
-    <bcf:citekey order="15">Brinkschulte</bcf:citekey>
-    <bcf:citekey order="16">Gessler2014</bcf:citekey>
-    <bcf:citekey order="17">Broy2003</bcf:citekey>
-    <bcf:citekey order="18">smartactuator</bcf:citekey>
-    <bcf:citekey order="19">smartaktor</bcf:citekey>
+    <bcf:citekey order="15">Bernstein2015</bcf:citekey>
+    <bcf:citekey order="16">Brinkschulte</bcf:citekey>
+    <bcf:citekey order="17">Gessler2014</bcf:citekey>
+    <bcf:citekey order="18">Broy2003</bcf:citekey>
+    <bcf:citekey order="19">smartactuator</bcf:citekey>
+    <bcf:citekey order="20">smartaktor</bcf:citekey>
+    <bcf:citekey order="21">Werner2014</bcf:citekey>
+    <bcf:citekey order="22">Woern2006</bcf:citekey>
+    <bcf:citekey order="23">manual</bcf:citekey>
+    <bcf:citekey order="24">manual</bcf:citekey>
+    <bcf:citekey order="25">Lawrenz2010</bcf:citekey>
+    <bcf:citekey order="26">Werner2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  26 MAR 2019 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.1)  26 MAR 2019 14:38
 entering extended mode
 **./ADP.tex
 (ADP.tex
@@ -1473,68 +1473,71 @@ d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.45 
+l.46 
       <./Bilder/Fahrzeuggetriebe.pdf>]
 
-LaTeX Warning: File `Bilder/Kennlinie Aktor.png' not found on input line 48.
+LaTeX Warning: File `Bilder/Kennlinie Aktor.png' not found on input line 49.
 
-<Bilder/Kennlinie Aktor.png, id=141, 387.69844pt x 306.39468pt>
+<Bilder/Kennlinie Aktor.png, id=142, 387.69844pt x 306.39468pt>
 File: Bilder/Kennlinie Aktor.png Graphic file (type png)
 <use Bilder/Kennlinie Aktor.png>
-Package pdftex.def Info: Bilder/Kennlinie Aktor.png  used on input line 48.
+Package pdftex.def Info: Bilder/Kennlinie Aktor.png  used on input line 49.
 (pdftex.def)             Requested size: 387.69748pt x 306.39394pt.
 
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 49.
+LaTeX Warning: Citation 'adp' on page 9 undefined on input line 50.
 
 
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 49.
+LaTeX Warning: Citation 'adp' on page 9 undefined on input line 50.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Sensor.png, id=143, 252.19218pt x 240.9pt>
+<Bilder/Sensor.png, id=144, 252.19218pt x 240.9pt>
 File: Bilder/Sensor.png Graphic file (type png)
 <use Bilder/Sensor.png>
-Package pdftex.def Info: Bilder/Sensor.png  used on input line 66.
+Package pdftex.def Info: Bilder/Sensor.png  used on input line 67.
 (pdftex.def)             Requested size: 252.19156pt x 240.8994pt.
 
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 67.
+LaTeX Warning: Citation 'adp' on page 9 undefined on input line 68.
 
 
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 67.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: File `Bilder/Sprungantwort Schaltgabelposition.png' not found on input line 75.
-
-<Bilder/Sprungantwort Schaltgabelposition.png, id=145, 456.95718pt x 298.86656pt>
-File: Bilder/Sprungantwort Schaltgabelposition.png Graphic file (type png)
-<use Bilder/Sprungantwort Schaltgabelposition.png>
-Package pdftex.def Info: Bilder/Sprungantwort Schaltgabelposition.png  used on input line 75.
-(pdftex.def)             Requested size: 456.95605pt x 298.86581pt.
-
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 76.
-
-
-LaTeX Warning: Citation 'adp' on page 9 undefined on input line 76.
+LaTeX Warning: Citation 'adp' on page 9 undefined on input line 68.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation 'l\IeC {\"o}ten' on page 9 undefined on input line 81.
+LaTeX Warning: Citation 'messtechnik' on page 9 undefined on input line 71.
 
 [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.82 
-      <./Bilder/Querschnitt Aktor.jpg>]
+l.75 \end{equation}
+                    <./Bilder/Querschnitt Aktor.jpg>]
 
-LaTeX Warning: File `Bilder/Blockschaltbild Mikrocontroller.pdf' not found on input line 87.
+LaTeX Warning: File `Bilder/Sprungantwort Schaltgabelposition.png' not found on input line 81.
+
+<Bilder/Sprungantwort Schaltgabelposition.png, id=152, 456.95718pt x 298.86656pt>
+File: Bilder/Sprungantwort Schaltgabelposition.png Graphic file (type png)
+<use Bilder/Sprungantwort Schaltgabelposition.png>
+Package pdftex.def Info: Bilder/Sprungantwort Schaltgabelposition.png  used on input line 81.
+(pdftex.def)             Requested size: 456.95605pt x 298.86581pt.
+
+LaTeX Warning: Citation 'adp' on page 10 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'adp' on page 10 undefined on input line 82.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'l\IeC {\"o}ten' on page 10 undefined on input line 87.
+
+
+LaTeX Warning: File `Bilder/Blockschaltbild Mikrocontroller.pdf' not found on input line 93.
 
 
 
@@ -1543,56 +1546,73 @@ pdfTeX warning: pdflatex.exe (file ./Bilder/Blockschaltbild Mikrocontroller.pdf)
 <Bilder/Blockschaltbild Mikrocontroller.pdf, id=153, 365.11406pt x 274.02374pt>
 File: Bilder/Blockschaltbild Mikrocontroller.pdf Graphic file (type pdf)
 <use Bilder/Blockschaltbild Mikrocontroller.pdf>
-Package pdftex.def Info: Bilder/Blockschaltbild Mikrocontroller.pdf  used on input line 87.
+Package pdftex.def Info: Bilder/Blockschaltbild Mikrocontroller.pdf  used on input line 93.
 (pdftex.def)             Requested size: 365.11316pt x 274.02307pt.
 
-LaTeX Warning: Citation 'Bernstein2015' on page 10 undefined on input line 88.
+LaTeX Warning: Citation 'Bernstein2015' on page 10 undefined on input line 94.
 
 
-LaTeX Warning: Citation 'Bernstein2015' on page 10 undefined on input line 88.
+LaTeX Warning: Citation 'Bernstein2015' on page 10 undefined on input line 94.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `T1/5ch/b/it' in size <9.5> not available
-(Font)              Font shape `T1/5ch/b/sl' tried instead on input line 92.
+(Font)              Font shape `T1/5ch/b/sl' tried instead on input line 98.
 [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.100 
        <./Bilder/Kennlinie Aktor.png>]
 
-LaTeX Warning: Citation 'Brinkschulte' on page 11 undefined on input line 102.
+LaTeX Warning: Citation 'Brinkschulte' on page 11 undefined on input line 108.
 
 
-LaTeX Warning: Citation 'Gessler2014' on page 11 undefined on input line 108.
+LaTeX Warning: Citation 'Gessler2014' on page 11 undefined on input line 114.
 
 
-LaTeX Warning: Citation 'Broy2003' on page 11 undefined on input line 108.
+LaTeX Warning: Citation 'Broy2003' on page 11 undefined on input line 114.
 
 
-LaTeX Warning: Citation 'smartactuator' on page 11 undefined on input line 110.
+LaTeX Warning: Citation 'smartactuator' on page 11 undefined on input line 116.
 
 
-LaTeX Warning: Citation 'smartaktor' on page 11 undefined on input line 112.
+LaTeX Warning: Citation 'smartaktor' on page 11 undefined on input line 118.
 
 [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignor
 ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.118 
+l.119 
        <./Bilder/Sensor.png>]
-<Bilder/CAN.pdf, id=170, 461.04245pt x 339.18721pt>
+
+LaTeX Warning: Citation 'Werner2014' on page 12 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'Woern2006' on page 12 undefined on input line 122.
+
+<Bilder/CAN.pdf, id=172, 461.04245pt x 339.18721pt>
 File: Bilder/CAN.pdf Graphic file (type pdf)
 <use Bilder/CAN.pdf>
-Package pdftex.def Info: Bilder/CAN.pdf  used on input line 121.
+Package pdftex.def Info: Bilder/CAN.pdf  used on input line 127.
 (pdftex.def)             Requested size: 461.04132pt x 339.18639pt.
+
+LaTeX Warning: Citation 'manual' on page 12 undefined on input line 128.
+
+
+LaTeX Warning: Citation 'manual' on page 12 undefined on input line 128.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'Lawrenz2010' on page 12 undefined on input line 133.
+
+
+LaTeX Warning: Citation 'Werner2014' on page 12 undefined on input line 134.
 
 ) (input/3_Vorgehensweise.tex [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been
  already used, duplicate ignored
@@ -1606,18 +1626,18 @@ h the same identifier (name{figure.2.7}) has been already used, duplicate ignore
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Vorgehensweise}pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been alre
-ady used, duplicate ignored
+             Vorgehensweise} <./Bilder/Blockschaltbild Mikrocontroller.pdf>] [14pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.2.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Vorgehensweise} <./Bilder/Blockschaltbild Mikrocontroller.pdf> <./Bilder/CAN.pdf>] [14
-
-
-]
+             Vorgehensweise} <./Bilder/CAN.pdf>]
 chapter 3.
-) (input/4_Komponentenauswahl.tex [15] [16
+) (input/4_Komponentenauswahl.tex [15
+
+
+] [16
 
 
 ]
@@ -1625,7 +1645,7 @@ chapter 4.
 
 LaTeX Warning: File `Bilder/Blockdiagramm Halbbruecken.jpg' not found on input line 7.
 
-<Bilder/Blockdiagramm Halbbruecken.jpg, id=204, 458.46281pt x 357.58594pt>
+<Bilder/Blockdiagramm Halbbruecken.jpg, id=206, 458.46281pt x 357.58594pt>
 File: Bilder/Blockdiagramm Halbbruecken.jpg Graphic file (type jpg)
 <use Bilder/Blockdiagramm Halbbruecken.jpg>
 Package pdftex.def Info: Bilder/Blockdiagramm Halbbruecken.jpg  used on input line 7.
@@ -1640,7 +1660,7 @@ ed
                                                   \fi \fi 
 l.35 
       <./Bilder/Blockdiagramm Halbbruecken.jpg>]
-<Bilder/LDO.png, id=213, 525.46312pt x 284.56313pt>
+<Bilder/LDO.png, id=215, 525.46312pt x 284.56313pt>
 File: Bilder/LDO.png Graphic file (type png)
 <use Bilder/LDO.png>
 Package pdftex.def Info: Bilder/LDO.png  used on input line 42.
@@ -1677,12 +1697,12 @@ chapter 6.
 
 ]
 chapter 7.
-<./Bilder/Platinenkosten.pdf, id=246, 719.60843pt x 359.66371pt>
+<./Bilder/Platinenkosten.pdf, id=248, 719.60843pt x 359.66371pt>
 File: ./Bilder/Platinenkosten.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten.pdf  used on input line 41.
 (pdftex.def)             Requested size: 248.96162pt x 124.42986pt.
-<./Bilder/Platinenkosten-tausend.pdf, id=247, 719.60843pt x 353.6412pt>
+<./Bilder/Platinenkosten-tausend.pdf, id=249, 719.60843pt x 353.6412pt>
 File: ./Bilder/Platinenkosten-tausend.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten-tausend.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input line 44.
@@ -1761,13 +1781,13 @@ Package logreq Info: Writing requests to 'ADP.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 19287 strings out of 492946
- 330098 string characters out of 3135522
- 893658 words of memory out of 3000000
- 22743 multiletter control sequences out of 15000+200000
- 103283 words of font info for 77 fonts, out of 3000000 for 9000
+ 19291 strings out of 492946
+ 330146 string characters out of 3135522
+ 893797 words of memory out of 3000000
+ 22744 multiletter control sequences out of 15000+200000
+ 106495 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,100p,9105b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,13n,100p,9105b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/ly1/texnansi.enc
 }<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/ch
 arter/5chb8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tuddesign/fonts/t
@@ -1776,9 +1796,9 @@ s/tuddesign/fonts/type1/softmake/frontpage/5fpr8a.pfb><C:/Program Files/MiKTeX 2
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathde
 sign/mdbch/md-chr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb>
-Output written on ADP.pdf (31 pages, 876151 bytes).
+Output written on ADP.pdf (31 pages, 878435 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
  302 words of extra memory for PDF output out of 10000 (max. 10000000)
 
