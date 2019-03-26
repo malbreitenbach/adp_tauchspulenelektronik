@@ -34,6 +34,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Controller Area Network (CAN)}{12}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}P}{13}{section.2.6}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Vorgehensweise}{15}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Komponentenauswahl und Schaltungsdesign}{17}{chapter.4}% 
