@@ -10,131 +10,17 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-<<<<<<< HEAD
 NormalPos.top=36
 NormalPos.right=3482
 NormalPos.bottom=1539
-=======
-NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=394
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
 Class=LaTeXView
 Document=ADP.tex
 
 [Frame0_View0,0]
-<<<<<<< HEAD
-TopLine=27
-Cursor=2311
-=======
-TopLine=0
-Cursor=336
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
-
-[Frame1]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-<<<<<<< HEAD
-NormalPos.top=36
-NormalPos.right=3482
-NormalPos.bottom=1539
-=======
-NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=394
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
-Class=LaTeXView
-Document=input\Einleitung.tex
-
-[Frame1_View0,0]
-TopLine=0
-<<<<<<< HEAD
-Cursor=2113
-=======
-Cursor=44
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
-
-[Frame2]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-<<<<<<< HEAD
-NormalPos.top=36
-NormalPos.right=3482
-NormalPos.bottom=1539
-=======
-NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=394
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
-Class=LaTeXView
-Document=input\Pruefstand.tex
-
-[Frame2_View0,0]
-<<<<<<< HEAD
-TopLine=73
-Cursor=5422
-=======
-TopLine=161
-Cursor=13331
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
-
-[Frame3]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-<<<<<<< HEAD
-NormalPos.top=36
-NormalPos.right=3482
-NormalPos.bottom=1539
-=======
-NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=394
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
-Class=LaTeXView
-Document=input\Prototyp.tex
-
-[Frame3_View0,0]
-TopLine=0
-<<<<<<< HEAD
-Cursor=1812
-=======
-Cursor=4094
-
-[Frame4]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1238
-NormalPos.bottom=394
-Class=LaTeXView
-Document=input\Analyse.tex
-
-[Frame4_View0,0]
-TopLine=0
-Cursor=84
->>>>>>> 3f3105d937aa5d426f7fe192a7764b7f8dfa2b87
+TopLine=31
+Cursor=2341
 
 [SessionInfo]
-FrameCount=5
-ActiveFrame=2
+FrameCount=1
+ActiveFrame=0
 
