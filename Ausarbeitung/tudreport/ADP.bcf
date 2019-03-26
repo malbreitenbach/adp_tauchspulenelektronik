@@ -2009,20 +2009,6 @@
     <bcf:citekey order="12">adp</bcf:citekey>
     <bcf:citekey order="13">l\IeC {\&quot;o}ten</bcf:citekey>
     <bcf:citekey order="14">Bernstein2015</bcf:citekey>
-<<<<<<< HEAD
-    <bcf:citekey order="15">Brinkschulte</bcf:citekey>
-    <bcf:citekey order="16">Gessler2014</bcf:citekey>
-    <bcf:citekey order="17">Broy2003</bcf:citekey>
-    <bcf:citekey order="18">smartactuator</bcf:citekey>
-    <bcf:citekey order="19">BasSof</bcf:citekey>
-    <bcf:citekey order="20">ISO_25010</bcf:citekey>
-    <bcf:citekey order="21">Boehm 79</bcf:citekey>
-    <bcf:citekey order="22">Boehm 79</bcf:citekey>
-    <bcf:citekey order="23">Boehm 79</bcf:citekey>
-    <bcf:citekey order="24">BasSof</bcf:citekey>
-    <bcf:citekey order="25">BasSof</bcf:citekey>
-    <bcf:citekey order="26">BasSof</bcf:citekey>
-=======
     <bcf:citekey order="15">Bernstein2015</bcf:citekey>
     <bcf:citekey order="16">Brinkschulte</bcf:citekey>
     <bcf:citekey order="17">Gessler2014</bcf:citekey>
@@ -2035,7 +2021,14 @@
     <bcf:citekey order="24">manual</bcf:citekey>
     <bcf:citekey order="25">Lawrenz2010</bcf:citekey>
     <bcf:citekey order="26">Werner2014</bcf:citekey>
->>>>>>> 264d820eab6424e3d3ea87032cc90d0820c7a38b
+    <bcf:citekey order="27">BasSof</bcf:citekey>
+    <bcf:citekey order="28">ISO_25010</bcf:citekey>
+    <bcf:citekey order="29">Boehm 79</bcf:citekey>
+    <bcf:citekey order="30">Boehm 79</bcf:citekey>
+    <bcf:citekey order="31">Boehm 79</bcf:citekey>
+    <bcf:citekey order="32">BasSof</bcf:citekey>
+    <bcf:citekey order="33">BasSof</bcf:citekey>
+    <bcf:citekey order="34">BasSof</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
