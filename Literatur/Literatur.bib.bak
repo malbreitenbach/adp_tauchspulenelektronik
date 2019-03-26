@@ -324,4 +324,9 @@
   year         = {2017},
 }
 
+@Unpublished{messtechnik,
+  author = {Carroccia, Mario; Lanfermann, Felix; Mehren, Michale; Möbius, Tjarko},
+  title  = {Messtechnische Erweiterung eines Schaltaktorikprüfstands},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

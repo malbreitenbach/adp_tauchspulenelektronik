@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame0_View0,0]
-TopLine=85
-Cursor=6346
+TopLine=79
+Cursor=6320
 
 [Frame1]
 Flags=0
