@@ -14,7 +14,7 @@ Im Fahrzeuggetriebe, beispielhaft dargestellt in \ref{fig:Fahrzeuggetriebe} ist 
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/Fahrzeuggetriebe.jpg}
+		\includegraphics{Bilder/Fahrzeuggetriebe.pdf}
 	\caption{Fahrzeuggetriebe}
 	\label{fig:Fahrzeuggetriebe}
 \end{figure}
@@ -84,19 +84,19 @@ Löten gehört zu den Fügeverfahren und bezeichnet das Verbinden zweier Metalle
 Ein Mikrocontroller (\textit{MCU: microcontroller unit}) ist ein hochintegrierter Halbleiterchip, der ein komplettes Mikrorechnersystem enthält. Prozessoren, Speicher, Ein- und Ausgabegeräte sind somit auf einem kleinen Chip enthalten der zum Ziel hat, Steuerungs- und Kommunikationsaufgaben möglichst simpel mit wenig Bauelementen zu bearbeiten. 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/Blockschaltbild Mikrocontroller.png}
+		\includegraphics{Bilder/Blockschaltbild Mikrocontroller.pdf}
 	\caption{Blockschaltbild eines typischen Mikrocontrollers \cite[S.3]{Bernstein2015}}
 	\label{fig:Blockschaltbild Mikrocontroller}
 \end{figure}
 
-In Abbildung \ref{fig:Blockschaltbild Mikrocontroller} ist der typische Aufbau eines Mikrocontroller dargestellt. Die Schnittstellen zur Peripherie sind durch einen Betriebsspannungsanschluss, einen Takteingang, an den in der Regel ein Quarz angeschlossen wird, sowie die Portleitungen  gegeben. Bei den Ports wird zwischen Eingangskanälen (\textit{\textbf{I}nput Port}), die digitale Signale lesen, und Ausgangskanälen (\textit{\textbf{O}utput Port}, die digitale Signale setzen beziehungsweise löschen, unterschieden. Des weiteren können I/O Pins digital oder analog sein, wobei analoge Signale mithilfe eines Analog/Digital Wandlers (AD-Wandler) zuerst in digital Signale umgewandelt werden müssen, damit der Mikrocontroller sie verarbeiten kann.
+In Abbildung \ref{fig:Blockschaltbild Mikrocontroller} ist der typische Aufbau eines Mikrocontroller dargestellt. Die Schnittstellen zur Peripherie sind durch einen Betriebsspannungsanschluss, einen Takteingang, an den in der Regel ein Quarz angeschlossen wird, sowie die Portleitungen  gegeben. Bei den Ports wird zwischen Eingangskanälen (\textit{\textbf{I}nput Port}), die digitale Signale lesen, und Ausgangskanälen (\textit{\textbf{O}utput Port}), die digitale Signale setzen beziehungsweise löschen, unterschieden. Des weiteren können I/O Pins digital oder analog sein, wobei analoge Signale mithilfe eines Analog/Digital Wandlers (AD-Wandler) zuerst in digital Signale umgewandelt werden müssen, damit der Mikrocontroller sie verarbeiten kann.
 Eine Spezialform von Eingängskanälen sind die Interrupt-Pins, die bei bestimmten Ereignissen Unterbrechungen des laufenden Programms verursachen, um temporär einen anderen Vorgang zu bearbeiten. 
 
 Intern sind die einzelnen Bausteine, die im folgenden kurz erläutert werden, über ein Bussystem verbunden.
-Der Prozessor (\textit{CPU: central processing unit} führt Berechnungen und logische Operationen durch.
+Der Prozessor (\textit{CPU: central processing unit}) führt Berechnungen und logische Operationen durch.
 Der Taktgenerator gibt die Arbeitsfrequenz an, also wie schnell der CPU arbeiten soll.
-Der Arbeitsspeicher (\textit{RAM: random access memory} speichert temporär Daten, die aber spätestens nach dem Entfernen der Betriebsspannung gelöscht werden.
-Der Festspeicher (\textit{ROM: read only memory} behält seinen Speicherinhalt auch nach dem Entfernen der Betriebsspannung und enthält aufgrund dessen das Programm sowie Einstellungen und wichtige Daten. Im Vergleich zum RAM hat er eine langsame Schreibgeschwindigkeit. 
+Der Arbeitsspeicher (\textit{RAM: random access memory}) speichert temporär Daten, die aber spätestens nach dem Entfernen der Betriebsspannung gelöscht werden.
+Der Festspeicher (\textit{ROM: read only memory}) behält seinen Speicherinhalt auch nach dem Entfernen der Betriebsspannung und enthält aufgrund dessen das Programm sowie Einstellungen und wichtige Daten. Im Vergleich zum RAM hat er eine langsame Schreibgeschwindigkeit. 
 Der Timer hilft dabei, Anzahlen von Ereignissen zu zählen oder Zeitabstände zu messen, indem er Spannungswechsel an einem Eingangskanal zählt. 
 
 Die genaue Ausführung des Chips kann je nach Aufgabentyp variieren, sodass eine Vielzahl an verschiedenen Mikrocontrollern erhältlich ist. Diese unterscheiden sich meistens in der Größe des Speichers, in der Anzahl der Anschlüsse beziehungsweise Schnittstellen, in der Bitbreite, in den Taktraten sowie in der Bauform. Typischerweise werden Mikrocontroller in eingebetteten Systemen (\textit{embedded systems} verwendet, bei denen die Steuereinheit direkt im System selbst integriert ist. Übliche Anwendungen für Mikrocontroller sind Roboter, Handys, Temperaturregler oder Motorsteuerungen \cite{Brinkschulte}. 
@@ -127,9 +127,10 @@ Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an d
 Sollten mehrere Teilnehmer gleichzeitig versuchen eine Nachricht zu senden und somit ein gleichzeitiger Buszugriff vorliegt, kommt es zu einer Kollision. Um diese Aufzulösen wird ein CSMA/CR-Verfahren (\textit{Carrier Sense Multiple Access/Collision Resolution}) verwendet, bei dem die höher gewichtete (dominante) Nachricht die niedriger gewichtete (rezessive) Nachricht überschreibt, sodass der Übertragungsversuch beendet wird. Die Einteilung der Relevanz einer Nachricht erfolgt auf Basis der sogenannten Identifier(ID)-Bits, wobei niedrige ID-Bits eine höhere Relevanz als höhere ID-Bits haben. Dadurch wird eine Hierarchie der Nachrichten erzeugt, wodurch die Nachricht mit der niedrigsten ID immer gesendet werden darf. Dementsprechend werden wichtigen Nachrichten niedrige IDs zugeteilt (QUELLE). 
 Die Geschwindigkeit der Datenübertragung zwischen den Teilnehmer ist dabei von der Länge der Leitungen abhängig und beträgt maximal 1Mbit/s. Nach [ZS14, S. 58] kann die Bitrate überschlagsmäßig mit 
 \begin{equation}
-	Buslaenge<40...50+++++++
+	Buslaenge\leq 40...50 m\cdot \frac{1MBit/s}{Bitrate}
 	\label{eq:CAN}
 \end{equation}
+
 
 berechnet werden.
 
