@@ -32,25 +32,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Eingebettete Systeme und Smart Actuators}{11}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Vorgehensweise}{13}{chapter.3}
+\contentsline {chapter}{\numberline {3}Vorgehensweise und Testverfahren}{13}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Komponentenauswahl und Schaltungsdesign}{15}{chapter.4}
+\contentsline {section}{\numberline {3.1}Entwicklungsmodell}{13}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}H-Br\IeC {\"u}cke}{15}{section.4.1}
+\contentsline {subsection}{\numberline {3.1.1}Das V-Modell}{13}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Spannungsversorgung}{16}{section.4.2}
+\contentsline {subsubsection}{Konstruktive Entwicklung (linker Zweig)}{13}{subsubsection*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Platinendesign}{19}{chapter.5}
+\contentsline {subsubsection}{Testaktivit\IeC {\"a}ten (rechter Zweig)}{14}{subsubsection*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Software}{21}{chapter.6}
+\contentsline {subsection}{\numberline {3.1.2}Konkretes Vorgehen mit inkrementellem Entwicklungsansatz}{15}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Analyse und Performance}{23}{chapter.7}
+\contentsline {chapter}{\numberline {4}Komponentenauswahl und Schaltungsdesign}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Beurteilung der Anforderungserf\IeC {\"u}llung}{23}{section.7.1}
+\contentsline {section}{\numberline {4.1}H-Br\IeC {\"u}cke}{17}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Kostenaufstellung}{23}{section.7.2}
+\contentsline {section}{\numberline {4.2}Spannungsversorgung}{18}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{25}{chapter.8}
+\contentsline {chapter}{\numberline {5}Platinendesign}{21}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{27}{section*.9}
+\contentsline {chapter}{\numberline {6}Software}{23}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Analyse und Performance}{25}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Beurteilung der Anforderungserf\IeC {\"u}llung}{25}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Kostenaufstellung}{25}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{27}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbildungsverzeichnis}{29}{section*.11}
 \contentsfinish 

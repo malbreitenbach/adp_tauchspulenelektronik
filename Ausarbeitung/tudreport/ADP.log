@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2019.3.26)  26 MAR 2019 11:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2019.3.26)  26 MAR 2019 17:35
 entering extended mode
 **./ADP.tex
 (ADP.tex
@@ -1061,11 +1061,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box37
 )
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\SIstyle\sistyle.sty
+Package: sistyle 2008/07/16 v2.3a SI units and numbers (DNJ Els)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen142
+))
+\ttoks@A=\toks24
+\ttoks@B=\toks25
+)
 \longtablewidth=\skip140
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
+ (C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 \@quotelevel=\count311
@@ -1077,36 +1089,36 @@ LaTeX Warning: Label `fig:LDO' multiply defined.
 )
 \openout1 = `ADP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 65.
  (C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 64.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 65.
 
 (C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for T1+5ch on input line 64.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for T1+5ch on input line 65.
 
 ("C:/Program Files/tuddesign\tex\latex\tex-tudfonts\softmake\charter\t15ch.fd"
 File: t15ch.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5ch.
@@ -1114,16 +1126,16 @@ File: t15ch.fd 2008/06/23 Fontinst v1.927 font definitions for T1/5ch.
 (C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count313
-\scratchdimen=\dimen142
+\scratchdimen=\dimen143
 \scratchbox=\box38
 \nofMPsegments=\count314
 \nofMParguments=\count315
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks26
 \MPscratchCnt=\count316
-\MPscratchDim=\dimen143
+\MPscratchDim=\dimen144
 \MPnumerator=\count317
 \makeMPintoPDFobject=\count318
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks27
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1171,7 +1183,7 @@ Package grfext Info: Graphics extension search list:
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \TUD@part@topskip=\skip141
-Package hyperref Info: Link coloring OFF on input line 64.
+Package hyperref Info: Link coloring OFF on input line 65.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1180,9 +1192,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count319
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
  (ADP.out) (ADP.out)
 \@outlinefile=\write4
 \openout4 = `ADP.out'.
@@ -1193,7 +1205,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           You can avoid loading `bookmark' with KOMA-Script option
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message with `\usepackage{bookmark}'
-(scrreprt)           before \begin{document} on input line 64.
+(scrreprt)           before \begin{document} on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -1212,8 +1224,103 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ADP.bbl' found.
  (ADP.bbl)
-Package biblatex Info: Reference section=0 on input line 64.
-Package biblatex Info: Reference segment=0 on input line 64.
+Package biblatex Info: Reference section=0 on input line 65.
+Package biblatex Info: Reference segment=0 on input line 65.
+LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdbch.fd
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Try loading font information for OML+mdbch on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd
+File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd
+File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.fd
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd
+File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
+)
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 9.50406pt on input line 65.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 6.62404pt on input line 65.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.66403pt on input line 65.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 65.
+
+(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdput\omlmdput.fd
+File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
+)
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 9.30602pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 6.48601pt on input line 65.
+LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
+(Font)              scaled to size 5.546pt on input line 65.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 10.39001pt on input line 65.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 7.27301pt on input line 65.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 6.23401pt on input line 65.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 10.72006pt on input line 65.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 7.50404pt on input line 65.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 65.
 \@TUD@tmp@baselineskip=\skip142
 \@TUD@tmp@parwidth=\skip143
 \TUD@titleboxheight=\skip144
@@ -1237,107 +1344,24 @@ Package biblatex Info: Reference segment=0 on input line 64.
 \TUD@sponsorbox=\box44
 \TUD@tmp@height=\skip158
 \TUD@tmp@depth=\skip159
-LaTeX Font Info:    Try loading font information for T1+5fp on input line 66.
+LaTeX Font Info:    Try loading font information for T1+5fp on input line 67.
 
 ("C:/Program Files/tuddesign\tex\latex\tex-tudfonts\softmake\frontpage\t15fp.fd"
 File: t15fp.fd 2009/08/06 Fontinst v1.927 font definitions for T1/5fp.
 )
-LaTeX Font Info:    Try loading font information for OT1+mdbch on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\ot1mdbch.fd
-File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
-)
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Try loading font information for OML+mdbch on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omlmdbch.fd
-File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
-)
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Try loading font information for OMS+mdbch on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omsmdbch.fd
-File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
-)
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Try loading font information for OMX+mdbch on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\omxmdbch.fd
-File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
-)
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Try loading font information for MDA+mdbch on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdamdbch.fd
-File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
-)
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Try loading font information for MDB+mdbch on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdbch\mdbmdbch.fd
-File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
-)
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.50406pt on input line 66.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.62404pt on input line 66.
-LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.66403pt on input line 66.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 66.
-
-(C:\Users\Malte\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdput\omlmdput.fd
-File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
-)
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.30602pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.48601pt on input line 66.
-LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.546pt on input line 66.
 \@TUD@titlelines=\count321
 
 
-Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 66.
+Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 67.
 
 <tud_logo.pdf, id=3, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
-Package pdftex.def Info: tud_logo.pdf  used on input line 66.
+Package pdftex.def Info: tud_logo.pdf  used on input line 67.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
-Package pdftex.def Info: tud_logo.pdf  used on input line 66.
+Package pdftex.def Info: tud_logo.pdf  used on input line 67.
 (pdftex.def)             Requested size: 134.92238pt x 62.59605pt.
 \@TUD@logolines=\count322
 
@@ -1377,10 +1401,13 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 27.
 Package tocbasic Info: Using my definition of `\numberline' on input line 29.
 Package tocbasic Info: Using my definition of `\numberline' on input line 31.
 Package tocbasic Info: Using my definition of `\numberline' on input line 33.
+Package tocbasic Info: Using my definition of `\numberline' on input line 37.
 Package tocbasic Info: Using my definition of `\numberline' on input line 39.
-Package tocbasic Info: Using my definition of `\numberline' on input line 41.
+Package tocbasic Info: Using my definition of `\numberline' on input line 45.
 Package tocbasic Info: Using my definition of `\numberline' on input line 49.
 Package tocbasic Info: Using my definition of `\numberline' on input line 51.
+Package tocbasic Info: Using my definition of `\numberline' on input line 59.
+Package tocbasic Info: Using my definition of `\numberline' on input line 61.
 )
 \tf@toc=\write5
 \openout5 = `ADP.toc'.
@@ -1429,7 +1456,7 @@ ady used, duplicate ignored
 l.1 \chapter{
              Aufbau des Prüfstands und Grundlagen}] [6]
 chapter 2.
-<Bilder/Pruefstand.jpg, id=120, 458.46281pt x 292.09125pt>
+<Bilder/Pruefstand.jpg, id=126, 458.46281pt x 292.09125pt>
 File: Bilder/Pruefstand.jpg Graphic file (type jpg)
 <use Bilder/Pruefstand.jpg>
 Package pdftex.def Info: Bilder/Pruefstand.jpg  used on input line 6.
@@ -1440,7 +1467,7 @@ LaTeX Warning: Citation 'adp' on page 7 undefined on input line 7.
 
 LaTeX Warning: Citation 'adp' on page 7 undefined on input line 7.
 
-<Bilder/Fahrzeuggetriebe.jpg, id=122, 458.46281pt x 292.09125pt>
+<Bilder/Fahrzeuggetriebe.jpg, id=128, 458.46281pt x 292.09125pt>
 File: Bilder/Fahrzeuggetriebe.jpg Graphic file (type jpg)
 <use Bilder/Fahrzeuggetriebe.jpg>
 Package pdftex.def Info: Bilder/Fahrzeuggetriebe.jpg  used on input line 17.
@@ -1460,7 +1487,7 @@ l.26
 
 LaTeX Warning: File `Bilder/Querschnitt Aktor.jpg' not found on input line 34.
 
-<Bilder/Querschnitt Aktor.jpg, id=129, 458.46281pt x 292.09125pt>
+<Bilder/Querschnitt Aktor.jpg, id=135, 458.46281pt x 292.09125pt>
 File: Bilder/Querschnitt Aktor.jpg Graphic file (type jpg)
 <use Bilder/Querschnitt Aktor.jpg>
 Package pdftex.def Info: Bilder/Querschnitt Aktor.jpg  used on input line 34.
@@ -1484,7 +1511,7 @@ l.45
 
 LaTeX Warning: File `Bilder/Kennlinie Aktor.png' not found on input line 48.
 
-<Bilder/Kennlinie Aktor.png, id=138, 387.69844pt x 306.39468pt>
+<Bilder/Kennlinie Aktor.png, id=144, 387.69844pt x 306.39468pt>
 File: Bilder/Kennlinie Aktor.png Graphic file (type png)
 <use Bilder/Kennlinie Aktor.png>
 Package pdftex.def Info: Bilder/Kennlinie Aktor.png  used on input line 48.
@@ -1498,7 +1525,7 @@ LaTeX Warning: Citation 'adp' on page 9 undefined on input line 49.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Bilder/Sensor.png, id=140, 252.19218pt x 240.9pt>
+<Bilder/Sensor.png, id=146, 252.19218pt x 240.9pt>
 File: Bilder/Sensor.png Graphic file (type png)
 <use Bilder/Sensor.png>
 Package pdftex.def Info: Bilder/Sensor.png  used on input line 65.
@@ -1515,7 +1542,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: File `Bilder/Sprungantwort Schaltgabelposition.png' not found on input line 74.
 
-<Bilder/Sprungantwort Schaltgabelposition.png, id=142, 456.95718pt x 298.86656pt>
+<Bilder/Sprungantwort Schaltgabelposition.png, id=148, 456.95718pt x 298.86656pt>
 File: Bilder/Sprungantwort Schaltgabelposition.png Graphic file (type png)
 <use Bilder/Sprungantwort Schaltgabelposition.png>
 Package pdftex.def Info: Bilder/Sprungantwort Schaltgabelposition.png  used on input line 74.
@@ -1542,7 +1569,7 @@ l.81
 
 LaTeX Warning: File `Bilder/Blockschaltbild Mikrocontroller.png' not found on input line 86.
 
-<Bilder/Blockschaltbild Mikrocontroller.png, id=150, 373.395pt x 280.79906pt>
+<Bilder/Blockschaltbild Mikrocontroller.png, id=156, 373.395pt x 280.79906pt>
 File: Bilder/Blockschaltbild Mikrocontroller.png Graphic file (type png)
 <use Bilder/Blockschaltbild Mikrocontroller.png>
 Package pdftex.def Info: Bilder/Blockschaltbild Mikrocontroller.png  used on input line 86.
@@ -1583,33 +1610,122 @@ LaTeX Warning: Citation 'smartactuator' on page 11 undefined on input line 105.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Vorgehensweise} <./Bilder/Sensor.png>] [12pdfTeX warning (ext4): destination with the same identifier (name
-{figure.2.6}) has been already used, duplicate ignored
+             Vorgehensweise und Testverfahren} <./Bilder/Sensor.png>] [12pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Vorgehensweise}pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been alre
-ady used, duplicate ignored
+             Vorgehensweise und Testverfahren}pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Vorgehensweise} <./Bilder/Sprungantwort Schaltgabelposition.png> <./Bilder/Blockschaltbild Mikrocontroller.
-png>]
+             Vorgehensweise und Testverfahren} <./Bilder/Sprungantwort Schaltgabelposition.png> <./Bilder/Blockschaltbil
+d Mikrocontroller.png>]
 chapter 3.
-) (input/4_Komponentenauswahl.tex [13
+
+LaTeX Warning: Citation 'BasSof' on page 13 undefined on input line 6.
 
 
-] [14
+LaTeX Warning: Citation 'ISO_25010' on page 13 undefined on input line 6.
+
+<./Bilder/fig_v_modell.pdf, id=179, 473.49486pt x 236.71333pt>
+File: ./Bilder/fig_v_modell.pdf Graphic file (type pdf)
+<use ./Bilder/fig_v_modell.pdf>
+Package pdftex.def Info: ./Bilder/fig_v_modell.pdf  used on input line 22.
+(pdftex.def)             Requested size: 497.92325pt x 248.93558pt.
+
+LaTeX Warning: Citation 'Boehm 79' on page 13 undefined on input line 23.
+
+
+LaTeX Warning: Citation 'Boehm 79' on page 13 undefined on input line 23.
+
+
+LaTeX Warning: Citation 'Boehm 79' on page 13 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'BasSof' on page 13 undefined on input line 27.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[13
 
 
 ]
+
+LaTeX Warning: Citation 'BasSof' on page 14 undefined on input line 36.
+
+ngerman: "nn is now obsolete, please use nnn instead on input line 37.
+<./Bilder/fig_klass.pdf, id=187, 844.4649pt x 425.65077pt>
+File: ./Bilder/fig_klass.pdf Graphic file (type pdf)
+<use ./Bilder/fig_klass.pdf>
+Package pdftex.def Info: ./Bilder/fig_klass.pdf  used on input line 39.
+(pdftex.def)             Requested size: 497.92325pt x 250.98239pt.
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.47 
+      <./Bilder/fig_v_modell.pdf>]
+
+LaTeX Warning: Citation 'BasSof' on page 15 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig_entw_evo' on page 15 undefined on input line 52.
+
+
+LaTeX Warning: Reference `tab_entw_evo' on page 15 undefined on input line 52.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.53 
+      <./Bilder/fig_klass.pdf>]
+
+! LaTeX Error: File `./Bilder/fig_entw_evo' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...width=\columnwidth]{./Bilder/fig_entw_evo}
+                                                  %
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (input/4_Komponentenauswahl.tex [16pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has b
+een already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter{
+             Komponentenauswahl und Schaltungsdesign}pdfTeX warning (ext4): destination with the same identifier (name{f
+igure.3.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter{
+             Komponentenauswahl und Schaltungsdesign}]
 chapter 4.
 
 LaTeX Warning: File `Bilder/Blockdiagramm Halbbruecken.jpg' not found on input line 7.
 
-<Bilder/Blockdiagramm Halbbruecken.jpg, id=180, 458.46281pt x 357.58594pt>
+<Bilder/Blockdiagramm Halbbruecken.jpg, id=221, 458.46281pt x 357.58594pt>
 File: Bilder/Blockdiagramm Halbbruecken.jpg Graphic file (type jpg)
 <use Bilder/Blockdiagramm Halbbruecken.jpg>
 Package pdftex.def Info: Bilder/Blockdiagramm Halbbruecken.jpg  used on input line 7.
@@ -1617,14 +1733,16 @@ Package pdftex.def Info: Bilder/Blockdiagramm Halbbruecken.jpg  used on input li
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignor
-ed
+[17
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.35 
       <./Bilder/Blockdiagramm Halbbruecken.jpg>]
-<Bilder/LDO.png, id=188, 525.46312pt x 284.56313pt>
+<Bilder/LDO.png, id=230, 525.46312pt x 284.56313pt>
 File: Bilder/LDO.png Graphic file (type png)
 <use Bilder/LDO.png>
 Package pdftex.def Info: Bilder/LDO.png  used on input line 42.
@@ -1634,7 +1752,7 @@ Overfull \hbox (27.53859pt too wide) in paragraph at lines 42--43
  [][] 
  []
 
-) (input/5_Platinendesign.tex [16pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been 
+) (input/5_Platinendesign.tex [18pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been 
 already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1646,27 +1764,27 @@ ady used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Platinendesign} <./Bilder/LDO.png>] [17] [18
+             Platinendesign} <./Bilder/LDO.png>] [19] [20
 
 
 ]
 chapter 5.
-) (input/6_Software.tex [19] [20
+) (input/6_Software.tex [21] [22
 
 
 ]
 chapter 6.
-) (input/7_Analyse.tex [21] [22
+) (input/7_Analyse.tex [23] [24
 
 
 ]
 chapter 7.
-<./Bilder/Platinenkosten.pdf, id=221, 719.60843pt x 359.66371pt>
+<./Bilder/Platinenkosten.pdf, id=263, 719.60843pt x 359.66371pt>
 File: ./Bilder/Platinenkosten.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten.pdf  used on input line 41.
 (pdftex.def)             Requested size: 248.96162pt x 124.42986pt.
-<./Bilder/Platinenkosten-tausend.pdf, id=222, 719.60843pt x 353.6412pt>
+<./Bilder/Platinenkosten-tausend.pdf, id=264, 719.60843pt x 353.6412pt>
 File: ./Bilder/Platinenkosten-tausend.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten-tausend.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input line 44.
@@ -1679,13 +1797,13 @@ Overfull \hbox (2.0045pt too wide) in paragraph at lines 40--46
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (input/8_Fazit.tex [23pdfTeX warning (ext4): destination with the same identifier (name{table.7.1}) has been already u
+) (input/8_Fazit.tex [25pdfTeX warning (ext4): destination with the same identifier (name{table.7.1}) has been already u
 sed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter{
-             Fazit und Ausblick}] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has 
+             Fazit und Ausblick}] [26pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1}) has 
 been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1697,10 +1815,10 @@ pdfTeX warning: pdflatex.exe (file ./Bilder/Platinenkosten-tausend.pdf): PDF inc
 cluded in a single page
 >]
 chapter 8.
-) [25
+) [27
 
 
-] [26
+] [28
 
 
 ] (ADP.lof
@@ -1711,19 +1829,21 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 15.
 Package tocbasic Info: Using my definition of `\numberline' on input line 17.
 Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
 Package tocbasic Info: Using my definition of `\numberline' on input line 25.
-Package tocbasic Info: Using my definition of `\numberline' on input line 27.
-Package tocbasic Info: Using my definition of `\numberline' on input line 35.
+Package tocbasic Info: Using my definition of `\numberline' on input line 29.
+Package tocbasic Info: Using my definition of `\numberline' on input line 31.
+Package tocbasic Info: Using my definition of `\numberline' on input line 39.
 )
 \tf@lof=\write6
 \openout6 = `ADP.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
- [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+ [29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (ADP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `ADP.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1741,14 +1861,14 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'ADP.run.xml'.
 \openout1 = `ADP.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 19278 strings out of 492970
- 330963 string characters out of 3135855
- 893212 words of memory out of 3000000
- 22716 multiletter control sequences out of 15000+200000
- 103283 words of font info for 77 fonts, out of 3000000 for 9000
+ 19508 strings out of 492970
+ 333828 string characters out of 3135855
+ 896031 words of memory out of 3000000
+ 22903 multiletter control sequences out of 15000+200000
+ 107143 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,100p,9105b,1560s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Users/Malte/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/ly
@@ -1759,10 +1879,10 @@ design/fonts/type1/softmake/charter/5chri8a.pfb><C:/Program Files/tuddesign/font
 e1/bitstrea/charter/bchr8a.pfb><C:/Users/Malte/AppData/Roaming/MiKTeX/2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/U
 sers/Malte/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/Malte/AppData/Roaming/MiKTeX/2
 .9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Malte/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-
-chri7m.pfb>
-Output written on ADP.pdf (29 pages, 840502 bytes).
+chri7m.pfb><C:/Users/Malte/AppData/Roaming/MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
+Output written on ADP.pdf (31 pages, 889898 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 86 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2013,6 +2013,14 @@
     <bcf:citekey order="16">Gessler2014</bcf:citekey>
     <bcf:citekey order="17">Broy2003</bcf:citekey>
     <bcf:citekey order="18">smartactuator</bcf:citekey>
+    <bcf:citekey order="19">BasSof</bcf:citekey>
+    <bcf:citekey order="20">ISO_25010</bcf:citekey>
+    <bcf:citekey order="21">Boehm 79</bcf:citekey>
+    <bcf:citekey order="22">Boehm 79</bcf:citekey>
+    <bcf:citekey order="23">Boehm 79</bcf:citekey>
+    <bcf:citekey order="24">BasSof</bcf:citekey>
+    <bcf:citekey order="25">BasSof</bcf:citekey>
+    <bcf:citekey order="26">BasSof</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
