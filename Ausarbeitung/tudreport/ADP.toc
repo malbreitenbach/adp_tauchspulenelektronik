@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Anforderungsliste}{5}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Vorgehen der Arbeit}{6}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}Aufbau der Arbeit}{6}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Aufbau des Pr\IeC {\"u}fstands und Grundlagen}{7}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
@@ -34,5 +34,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}H-Br\IeC {\"u}cke}{13}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{15}{section*.9}% 
+\contentsline {section}{\numberline {3.2}Spannungsversorgung}{14}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Analyse und Performance}{17}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}}{17}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Kostenaufstellung}{17}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbildungsverzeichnis}{19}{section*.9}% 
 \contentsfinish 

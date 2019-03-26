@@ -6,8 +6,7 @@
 Auch das Institut für Mechatronische Systeme (IMS) der TU Darmstadt nimmt sich dieser Aufgabe an und arbeitet im Rahmen des Projektes Speed4E, dass einen elektrifizierten Antriebsstrang mit Peak-Antriebsdrehzahlen von bis zu $50.000/min$ zum Ziel hat, an einem innovativem Schaltaktor. Im Verlauf vorheriger Arbeiten wurde bereits ein Tauchspulenaktor ausgelegt sowie eine Elektronik für ihn entwickelt. Das Ziel dieser Arbeit ist es nun, die bisherigen Funktionen auf einen Mikrocontroller zu implementieren sowie eine eingebettete Elektronik zu entwerfen, die den Aktor zu einem Smart Actuator transformiert. Des Weiteren sollen Sicherheits- und Überwachungsfunktionen für den Aktor entwickelt werden und Statusmeldungen per CAN gesendet werden. 
 
 \section{Anforderungsliste}
-Um das übergeordnete Ziel weiter zu spezifizieren wurde zunächst  eine Anforderungsliste erstellt. In dieser sind alle Forderungen an das Endprodukt gesammelt, sie dient damit als Basis und Referenz für die Produktentwicklung. Die Liste ist hierbei dynamisch, das heißt sie kann im Verlauf des Entwicklungsprozesses verändert oder ergänzt werden.  Die formulierten Anforderungen werden schließlich noch nach Priorität kategorisiert und einer der vier folgenden Anforderungsarten (Quelle: Pahl (2004): Konstruktionslehre - Grundlagen erfolgreicher Produktentwicklung - Methoden und Anwendung S. 189.) zugeteilt:
-Festforderungen (FF) sind unter allen Umständen einzuhalten. Eine Erfüllung ist für eine erfolgreiche Lösung notwendig.
+Um das übergeordnete Ziel weiter zu spezifizieren wurde zunächst  eine Anforderungsliste erstellt. In dieser sind alle Forderungen an das Endprodukt gesammelt, sie dient damit als Basis und Referenz für die Produktentwicklung. Die Liste ist hierbei dynamisch, das heißt sie kann im Verlauf des Entwicklungsprozesses verändert oder ergänzt werden.  Die formulierten Anforderungen werden schließlich noch nach Priorität kategorisiert und einer der vier folgenden Anforderungsarten \cite[S. 189]{2013a}: Festforderungen (FF) sind unter allen Umständen einzuhalten. Eine Erfüllung ist für eine erfolgreiche Lösung notwendig.
 Bereichsforderungen (BF) geben einen Toleranzbereich an, innerhalb dessen sich der schlussendlich erreichte Wert befinden muss.
 Zielforderungen (ZF) geben an, welcher Wert (auch im Hinsicht auf spätere Entwicklungen) angestrebt wird.
 Wünsche (W) sollten nach Möglichkeit erfüllt werden, sind aber keine Voraussetzung. 
@@ -34,6 +33,8 @@ Wünsche (W) sollten nach Möglichkeit erfüllt werden, sind aber keine Vorausse
 	\label{tab:Anforderungsliste}
 \end{table}
 
-\section{Vorgehen der Arbeit}
-Nachdem in der oben stehenden Anforderungsliste die Ziele der vorliegenden Arbeit definiert wurden, soll nun das weitere Vorgehen zum Erreichen der Zielsetzung erläutert werden. Zunächst werden in Kapitel 2 der Stand des Prüfstands vor Beginn des ADPs sowie wichtige Grundlagen als Basis für die weitere Bearbeitung und zum besseren Verständnis dargelegt. In Kapitel 3 werden die verschiedenen Bauteile, die für die eingebettete Elektronik benötigt werden, und ihre Funktionen beschrieben. Außerdem wird der erste Prototyp und sein Entwicklungsprozess beschrieben. Kapitel 4 beschäftigt sich mit der Implementierung der Funktionalität in Matlab Simulink BLABLABLA
-In Kapitel 5 soll schließlich das endgültige Platinendesign vorgestellt werden.
+\section{Aufbau der Arbeit}
+Nachdem in der oben stehenden Anforderungsliste die Ziele der vorliegenden Arbeit definiert wurden, soll nun das weitere Vorgehen zum Erreichen der Zielsetzung erläutert werden. Zunächst werden in Kapitel 2 der Stand des Prüfstands vor Beginn des ADPs sowie wichtige Grundlagen als Basis für die weitere Bearbeitung und zum besseren Verständnis dargelegt. Kapitel 3 stellt das allgemeine methodische Vorgehen für das Entwerfen der eingebetteten Elektronik dar.
+In Kapitel 4 werden die verschiedenen Komponenten, die für die Elektronik benötigt werden, und ihre Funktionen beschrieben. Es wird erklärt, wie die einzelnen Komponenten miteinander interagieren und wie ihre Schaltung funktioniert. 
+In Kapitel 5 soll schließlich das endgültige Platinendesign und inklusive schematischem Aufbau vorgestellt werden.
+Darauf folgt in Kapitel 6 die Vorstellung des Programms.
