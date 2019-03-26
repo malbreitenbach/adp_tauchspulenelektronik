@@ -12,13 +12,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame0_View0,0]
-TopLine=235
-Cursor=18115
+TopLine=127
+Cursor=8806
 
 [Frame1]
 Flags=0
@@ -30,7 +30,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\7_Analyse.tex
 
@@ -48,7 +48,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\6_Software.tex
 
@@ -66,7 +66,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\5_Platinendesign.tex
 
@@ -84,7 +84,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
@@ -102,7 +102,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\3_Vorgehensweise.tex
 
@@ -120,7 +120,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\8_Fazit.tex
 
@@ -138,12 +138,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=ADP.tex
 
 [Frame7_View0,0]
-TopLine=30
+TopLine=0
 Cursor=2341
 
 [Frame8]
@@ -156,12 +156,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=353
+NormalPos.bottom=339
 Class=LaTeXView
 Document=input\1_Einleitung.tex
 
 [Frame8_View0,0]
-TopLine=0
+TopLine=38
 Cursor=48
 
 [SessionInfo]
