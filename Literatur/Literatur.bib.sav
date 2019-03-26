@@ -213,7 +213,7 @@
   title         = {Pahl/Beitz Konstruktionslehre},
   publisher     = {Springer Berlin Heidelberg},
   year          = {2013},
-  __markedentry = {[Johanna:6]},
+  __markedentry = {[Johanna:]},
   date          = {2013-10-18},
   ean           = {9783642295690},
   url           = {https://www.ebook.de/de/product/25035698/pahl_beitz_konstruktionslehre.html},
@@ -227,6 +227,38 @@
   series    = {DVS Fachbücher},
   edition   = {161},
   isbn      = {978-3-945023-49-5},
+}
+
+@Book{Gessler2014,
+  title     = {Entwicklung Eingebetteter Systeme},
+  publisher = {Vieweg+Teubner Verlag},
+  year      = {2014},
+  author    = {Gessler, Ralf},
+  isbn      = {3834813176},
+  date      = {2014-06-05},
+  ean       = {9783834813176},
+  url       = {https://www.ebook.de/de/product/10708327/ralf_gessler_entwicklung_eingebetteter_systeme.html},
+}
+
+@Article{Broy2003,
+  author        = {Broy, Manfred},
+  title         = {Requirements Engineering for Embedded Systems},
+  year          = {2003},
+  month         = {09},
+  __markedentry = {[Johanna:6]},
+}
+
+@InProceedings{s,
+  author    = {Go, Seok-Jo and Park, Min-Kyu and Lee, Young-Jin},
+  title     = {Development of Smart Actuator and Its Application},
+  booktitle = {Intelligent Robotics and Applications},
+  year      = {2013},
+  editor    = {Lee, Jangmyung and Lee, Min Cheol and Liu, Honghai and Ryu, Jee-Hwan},
+  pages     = {442--449},
+  address   = {Berlin, Heidelberg},
+  publisher = {Springer Berlin Heidelberg},
+  abstract  = {This study is dealing with an industrial robot with smart actuators for applying an industrial manufacturing process. A smart actuator is defined as the integrated actuator of all components such as motor, controller, sensors, and communication unit. The robot which is linked to a smart actuator can be assembled or disassembled and reconfigured. Therefore, there are increasing demands from industries for a smart actuator. We develop a smart actuator and an industrial robot with the developed smart actuator. We also introduce a robot control simulator for operating and monitoring the robot. Finally, trajectory tracking control is performed in experiment for evaluating a performance.},
+  isbn      = {978-3-642-40849-6},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
