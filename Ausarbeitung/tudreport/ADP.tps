@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame0_View0,0]
-TopLine=43
-Cursor=3745
+TopLine=85
+Cursor=6346
 
 [Frame1]
 Flags=0
@@ -71,7 +71,7 @@ Class=LaTeXView
 Document=input\5_Platinendesign.tex
 
 [Frame3_View0,0]
-TopLine=259
+TopLine=305
 Cursor=12479
 
 [Frame4]
@@ -166,5 +166,5 @@ Cursor=4406
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=8
+ActiveFrame=0
 
