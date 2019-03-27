@@ -12,7 +12,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\1_Einleitung.tex
 
@@ -30,13 +30,13 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=ADP.tex
 
 [Frame1_View0,0]
-TopLine=0
-Cursor=2597
+TopLine=81
+Cursor=3937
 
 [Frame2]
 Flags=0
@@ -48,12 +48,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
 [Frame2_View0,0]
-TopLine=388
+TopLine=480
 Cursor=17945
 
 [Frame3]
@@ -66,12 +66,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame3_View0,0]
-TopLine=271
+TopLine=274
 Cursor=20156
 
 [Frame4]
@@ -84,7 +84,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\3_Vorgehensweise.tex
 
@@ -102,12 +102,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\7_Analyse.tex
 
 [Frame5_View0,0]
-TopLine=48
+TopLine=52
 Cursor=4213
 
 [Frame6]
@@ -120,12 +120,12 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\5_Platinendesign.tex
 
 [Frame6_View0,0]
-TopLine=44
+TopLine=45
 Cursor=4695
 
 [Frame7]
@@ -138,7 +138,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\6_Software.tex
 
@@ -156,7 +156,7 @@ MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1238
-NormalPos.bottom=425
+NormalPos.bottom=364
 Class=LaTeXView
 Document=input\8_Fazit.tex
 
@@ -166,5 +166,5 @@ Cursor=39
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=5
+ActiveFrame=1
 
