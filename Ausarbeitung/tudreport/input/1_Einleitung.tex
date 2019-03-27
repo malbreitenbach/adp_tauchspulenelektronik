@@ -1,9 +1,8 @@
 \chapter{Einleitung}
-\section{Motivation}
-
-
-\section{Ziele der Arbeit}
-Auch das Institut für Mechatronische Systeme (IMS) der TU Darmstadt nimmt sich dieser Aufgabe an und arbeitet im Rahmen des Projektes Speed4E, dass einen elektrifizierten Antriebsstrang mit Peak-Antriebsdrehzahlen von bis zu $50.000/min$ zum Ziel hat, an einem innovativem Schaltaktor. Im Verlauf vorheriger Arbeiten wurde bereits ein Tauchspulenaktor ausgelegt sowie eine Elektronik für ihn entwickelt. Das Ziel dieser Arbeit ist es nun, die bisherigen Funktionen auf einen Mikrocontroller zu implementieren sowie eine eingebettete Elektronik zu entwerfen, die den Aktor zu einem Smart Actuator transformiert. Des Weiteren sollen Sicherheits- und Überwachungsfunktionen für den Aktor entwickelt werden und Statusmeldungen per CAN gesendet werden. 
+\section{Motivation und Ziele der Arbeit}
+Dass sich elektrifizierte Antriebssysteme auf lange Sicht durchsetzen werden, steht für die Akteure der Automobilbranche außer Frage. Doch obwohl Elektroautos schon seit Jahren auf dem Markt vertreten sind, bleibt die Nachfrage gering. Besonders bezüglich der Aspekte Kosten und Reichweite bestehen noch große Mängel, die die Akzeptanz und Verbreitung einschränken, obwohl seitens Politik und Industrie immer weiter in die Elektromobilität investiert wird. Um die Defizite der E-Mobilität zu beheben wird seit Jahren ausgiebig an der Effizienz und den Kosten von elektrischen Automobilen geforscht und gearbeitet.
+Auch das Institut für Mechatronische Systeme (IMS) der TU Darmstadt nimmt sich dieser Aufgabe an und arbeitet im Rahmen des Projektes Speed4E (Nachfolgerprojekt von Speed2E), das einen elektrifizierten Antriebsstrang mit Peak-Antriebsdrehzahlen von bis zu $50.000/min$ zum Ziel hat, an einem innovativem Schaltaktor. Das Projekt testete dabei einen neuartigen Antriebsstrang, bestehend aus zwei elektrischen Antriebseinheiten, deren Leistung sich über zwei parallelen Teilgetriebe, von denen eines schaltbar ist, summiert. Denn nicht nur in konventionellen Antrieben, sondern auch in elektrifizierten und hybriden Antrieben optimieren Getriebe und die damit einhergehende Einstellung der Drehzahl die Fahrleistung und die Effizienz \cite{Tsch14}.
+  Im Verlauf vorheriger Arbeiten wurden bereits ein linearer Tauchspulenaktor für das Zwei-Gang-Teilgetriebe ausgelegt sowie eine Elektronik und Positionsregelung dafür entwickelt. Das Ziel dieser Arbeit ist es nun, die bisherigen Funktionen auf einen Mikrocontroller zu implementieren sowie eine eingebettete Elektronik zu entwerfen, die den Aktor zu einem Smart Actuator transformiert. Die bisher zum Steuern benötigte Autobox fällt dabei weg und die gesamte Elektronik wird auf einer Platine untergebracht. Die Vorteile hierbei sind die enorme Bauraum- und Gewichtreduzierung sowie weniger Verkabelung, die geringere Komplexität und die gesenkten Kosten. Weiterhin sind die bessere Kontrollierbarkeit und die ürzere Installationsdauer zu nennen. Das Gesamtsystem ist leichter anzusteuern und besteht nicht mehr aus mehreren einzelnen Komponenten. Ein weiteres Ziel ist das Einrichten von Schutzmechanismen und Überwachungsfunktionen für den Aktor. Fehlzustände sollen erkannt und über CAN-Kommunikation übermittelt werden, sodass das System handeln kann. Der Smart Actuator kann somit seinen Status diagnostizieren und in Echtzeit auf Störungen reagieren.  
 
 \section{Anforderungsliste}
 Um das übergeordnete Ziel weiter zu spezifizieren wurde zunächst  eine Anforderungsliste erstellt. In dieser sind alle Forderungen an das Endprodukt gesammelt, sie dient damit als Basis und Referenz für die Produktentwicklung. Die Liste ist hierbei dynamisch, das heißt sie kann im Verlauf des Entwicklungsprozesses verändert oder ergänzt werden.  Die formulierten Anforderungen werden schließlich noch nach Priorität kategorisiert und einer der vier folgenden Anforderungsarten \cite[S. 189]{2013a}: Festforderungen (FF) sind unter allen Umständen einzuhalten. Eine Erfüllung ist für eine erfolgreiche Lösung notwendig.
@@ -11,23 +10,23 @@ Bereichsforderungen (BF) geben einen Toleranzbereich an, innerhalb dessen sich d
 Zielforderungen (ZF) geben an, welcher Wert (auch im Hinsicht auf spätere Entwicklungen) angestrebt wird.
 Wünsche (W) sollten nach Möglichkeit erfüllt werden, sind aber keine Voraussetzung. 
 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 		\begin{tabular}{l|p{7cm}|p{7cm}}
 			\textbf{Relevanz} & \textbf{Anforderung} & \textbf{Erläuterung} \\ \hline
 			& &\\
-			FF & Benutzerfreundliche Kommunikation durch CAN Schnittstelle & Empfang von Befehlen, Senden von Statusmeldungen \\
-			FF & Nichtflüchtige Kalibrierung & Eine Kalibrierung ist nur einmalig und zur Rekalibrierung notwendig \\
-			BF & Schaltzeit & < 100 ms (Latenz zwischen Senden des Befehls und vollständig ausgeführtem Gangwechsel) \\
-			FF & Selbstständige Fehlererkennung & Überstrom, Temperatur, Eingangsspannung (OVP/UVP), Dekalibrierung \\
-			FF & Schnittstellen & CAN, 8-12VDC Versorgung (max XA), Programmierschnittstelle (für Updates \& Bugfixes) \\
-			W & Wartbarkeit & Sicherung wechseln im eingebauten Zustand \\
-			BF & kompakte Baugröße & \\ 
-			BF & Effizienz (gemittelt über einen Schaltvorgang) & elektrischer Wirkungsgrad > 90 \% \\
-			FF & Temperaturbeständigkeit & bis 105°C \\
-			BF & Aktorüberschwingen & Toleriert, solange kein unbeabsichtigter Gangwechsel \\
-			W & Schaltgabelkraft am Anschlag & möglichst gering \\
-			FF & Standby & Standbyleistungsaufnahme < 5W \\
+			FF & Benutzerfreundliche Kommunikation durch CAN Schnittstelle & Empfang von Befehlen, Senden von Statusmeldungen \\ \hline
+			FF & Nichtflüchtige Kalibrierung & Eine Kalibrierung ist nur einmalig und zur Rekalibrierung notwendig \\ \hline
+			BF & Schaltzeit & < 100 ms (Latenz zwischen Senden des Befehls und vollständig ausgeführtem Gangwechsel) \\ \hline
+			FF & Selbstständige Fehlererkennung & Überstrom, Temperatur, Eingangsspannung (OVP/UVP), Dekalibrierung \\ \hline
+			FF & Schnittstellen & CAN, 8-12VDC Versorgung (max XA), Programmierschnittstelle (für Updates \& Bugfixes) \\ \hline
+			W & Wartbarkeit & Sicherung wechseln im eingebauten Zustand \\ \hline
+			BF & kompakte Baugröße & \\ \hline
+			BF & Effizienz (gemittelt über einen Schaltvorgang) & elektrischer Wirkungsgrad > 90 \% \\ \hline
+			FF & Temperaturbeständigkeit & bis 105°C \\ \hline
+			BF & Aktorüberschwingen & Toleriert, solange kein unbeabsichtigter Gangwechsel \\ \hline
+			W & Schaltgabelkraft am Anschlag & möglichst gering \\ \hline
+			FF & Standby & Standbyleistungsaufnahme < 5W \\ \hline
 		\end{tabular}
 	\caption{Anforderungsliste}
 	\label{tab:Anforderungsliste}

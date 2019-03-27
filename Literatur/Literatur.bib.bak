@@ -329,4 +329,39 @@
   title  = {Messtechnische Erweiterung eines Schaltaktorikprüfstands},
 }
 
+@Book{2014,
+  title     = {Die Elektrifizierung des Antriebsstrangs},
+  publisher = {Vieweg+Teubner Verlag},
+  year      = {2014},
+  isbn      = {3658046430},
+  date      = {2014-12-14},
+  ean       = {9783658046439},
+  url       = {https://www.ebook.de/de/product/22745288/die_elektrifizierung_des_antriebsstrangs.html},
+}
+
+@TechReport{würth,
+  author      = {Heinz, Bert},
+  title       = {Wärmemanagement bei Leiterplatten},
+  institution = {Würth Elektronik},
+}
+
+@TechReport{bopla,
+  title       = {EMV Broschüre},
+  institution = {Bopla},
+  address     = {https://www.bopla.de/fileadmin/_migrated/content_uploads/EMV-Brosch%C3%BCre_GB_19.pdf},
+}
+
+@Article{Gwinner2006,
+  author    = {Dieter Gwinner},
+  title     = {Abschirmung von Kunststoffen durch Beschichtung im Vakuum},
+  journal   = {Vakuum in Forschung und Praxis},
+  year      = {2006},
+  volume    = {18},
+  number    = {5},
+  pages     = {17--21},
+  month     = {oct},
+  doi       = {10.1002/vipr.200600300},
+  publisher = {Wiley},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
