@@ -1,17 +1,18 @@
 \documentclass[nochapterpage,bigchapter,linedtoc,longdoc,colorback,accentcolor=tud1c]{tudreport}
 \usepackage{ngerman}
-\usepackage{subfigure}
+\usepackage{subfigure} 
 \usepackage[stable]{footmisc}
 \usepackage[ngerman]{hyperref}
-\usepackage{amsmath}
+\usepackage{sistyle}
 \usepackage{longtable}
 \usepackage{multirow}
 \usepackage{booktabs}
 \usepackage{graphicx}
-\usepackage{biblatex}
+\usepackage[backend=bibtex,style=numeric]{biblatex}
+\bibliography{./bibtex/library}
+\usepackage{amsmath}
+\usepackage{caption}
 \usepackage{float}
-\usepackage{sistyle}
-\bibliography{literatur}
 
 
 \hypersetup{%
@@ -64,9 +65,6 @@ Institut für Mechatronische Systeme im Maschinenbau\\
 
 \begin{document}
 \maketitle
-\begin{abstract}
-Hier könnte Ihr Abstract stehen.
-\end{abstract}  
 
 \tableofcontents
 
@@ -77,10 +75,12 @@ Hier könnte Ihr Abstract stehen.
 \input{./input/3_Vorgehensweise}
 \input{./input/4_Komponentenauswahl}
 \input{./input/5_Platinendesign}
-\input{./input/6_Software}
-\input{./input/7_Analyse}
-\input{./input/8_Fazit}
+%\input{./input/6_Software}
+%\input{./input/7_Analyse}
+%\input{./input/8_Fazit}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \listoffigures\addcontentsline{toc}{chapter}{\listfigurename}
+\printbibliography
+
 \end{document}

@@ -1,0 +1,923 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{manual}{manual}{}
+    \list{organization}{1}{%
+      {RoboteQ}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Advanced Brush and Brushless Digital Motor Controllers User
+  Manual}
+    \list{location}{1}{%
+  {https://www.roboteq.com/index.php/docman/motor-controllers-documents-and-files/documentation/user-manual/272-roboteq-controllers-user-manual-v17/file}%
+    }
+    \field{month}{08}
+    \field{year}{2017}
+  \endentry
+
+  \entry{aecq}{standard}{}
+    \list{organization}{1}{%
+      {Automotive Electronics Council}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{AEC-Q200 REV D}
+    \list{institution}{1}{%
+      {Component Technical Committee}%
+    }
+  \endentry
+
+  \entry{gndbnc}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={ALTERA},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Minimizing Ground Bounce \& VCC Sag}
+  \endentry
+
+  \entry{stmquarz}{manual}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{AN2867 - Oscillator design guide for STM8AF/AL/S and STM32
+  microcontrollers}
+  \endentry
+
+  \entry{Bernstein2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BH}{%
+         family={Bernstein},
+         familyi={B\bibinitperiod},
+         given={Herbert},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vieweg+Teubner Verlag}%
+    }
+    \strng{namehash}{BH1}
+    \strng{fullhash}{BH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{isbn}{3658028122}
+    \field{title}{Mikrocontroller}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/23476220/herbert_bernstein_mikrocontr
+    \verb oller.html
+    \endverb
+    \field{day}{16}
+    \field{month}{03}
+    \field{year}{2015}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{wuerth}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=BH}{%
+         family={Bert},
+         familyi={B\bibinitperiod},
+         given={Heinz},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BH2}
+    \strng{fullhash}{BH2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Wärmemanagement bei Leiterplatten}
+    \list{institution}{1}{%
+      {Würth Elektronik}%
+    }
+  \endentry
+
+  \entry{Boehm79}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=BBW}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={B.\bibnamedelima W.},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=SPA}{%
+         family={Samet},
+         familyi={S\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {North Holland}%
+    }
+    \keyw{engineering software}
+    \strng{namehash}{BBW1}
+    \strng{fullhash}{BBW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{Euro IFIP 79}
+    \field{pages}{711\bibrangedash 719}
+    \field{title}{Guidelines for Verifying and Validating Software Requirements
+  and Design Specifications}
+    \field{year}{1979}
+  \endentry
+
+  \entry{adp}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=BJea}{%
+         family={Brandau},
+         familyi={B\bibinitperiod},
+         given={Jörg et\bibnamedelima al.},
+         giveni={J\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim
+  a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJea1}
+    \strng{fullhash}{BJea1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Entwicklung und Test einer Elektronik für eine sensorlose
+  Positionsregelung eines Tauchspulenaktors}
+    \field{year}{August}
+  \endentry
+
+  \entry{Broy2003}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=BM}{%
+         family={Broy},
+         familyi={B\bibinitperiod},
+         given={Manfred},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM1}
+    \strng{fullhash}{BM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Requirements Engineering for Embedded Systems}
+    \field{month}{09}
+    \field{year}{2003}
+  \endentry
+
+  \entry{messtechnik}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=CMea}{%
+         family={Carroccia},
+         familyi={C\bibinitperiod},
+         given={Mario et\bibnamedelima al.},
+         giveni={M\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim
+  a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CMea1}
+    \strng{fullhash}{CMea1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{note}{-}
+    \field{title}{Messtechnische Erweiterung eines Schaltaktorikprüfstands}
+  \endentry
+
+  \entry{Conrads2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CD}{%
+         family={Conrads},
+         familyi={C\bibinitperiod},
+         given={Dieter},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vieweg \& Teubner}%
+    }
+    \strng{namehash}{CD1}
+    \strng{fullhash}{CD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{4}
+    \field{isbn}{3-528-44589-0}
+    \field{title}{Telekommunikation - Grundlagen, Verfahren, Netze}
+    \field{year}{2004}
+  \endentry
+
+  \entry{decoupling}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={Cypress},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Using Decoupling Capacitors - AN1032}
+  \endentry
+
+  \entry{smartaktor}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DX}{%
+         family={Desforges},
+         familyi={D\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Habbadi},
+         familyi={H\bibinitperiod},
+         given={Abdallah},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Archim},
+         familyi={A\bibinitperiod},
+         given={Bernard},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier {BV}}%
+    }
+    \strng{namehash}{DXHAAB1}
+    \strng{fullhash}{DXHAAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1016/j.rcim.2011.03.004
+    \endverb
+    \field{number}{6}
+    \field{pages}{963\bibrangedash 976}
+    \field{title}{Design methodology for smart actuator services for machine
+  tool and machining control and monitoring}
+    \field{volume}{27}
+    \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{bopla}{booklet}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{EMV Broschüre}
+  \endentry
+
+  \entry{Franz2012}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FJ}{%
+         family={Franz},
+         familyi={F\bibinitperiod},
+         given={Joachim},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Fachmedien Wiesbaden}%
+    }
+    \strng{namehash}{FJ1}
+    \strng{fullhash}{FJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{EMV}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/20512147/joachim_franz_emv.html
+    \endverb
+    \field{day}{13}
+    \field{month}{12}
+    \field{year}{2012}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{Gessler2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GR}{%
+         family={Gessler},
+         familyi={G\bibinitperiod},
+         given={Ralf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vieweg+Teubner Verlag}%
+    }
+    \strng{namehash}{GR1}
+    \strng{fullhash}{GR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{isbn}{3834813176}
+    \field{title}{Entwicklung Eingebetteter Systeme}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/10708327/ralf_gessler_entwicklung_ein
+    \verb gebetteter_systeme.html
+    \endverb
+    \field{day}{05}
+    \field{month}{06}
+    \field{year}{2014}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{smartactuator}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GSJ}{%
+         family={Go},
+         familyi={G\bibinitperiod},
+         given={Seok-Jo},
+         giveni={S\bibinithyphendelim J\bibinitperiod},
+      }}%
+      {{hash=PMK}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Min-Kyu},
+         giveni={M\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=LYJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Young-Jin},
+         giveni={Y\bibinithyphendelim J\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=LJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jangmyung},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LMC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Min\bibnamedelima Cheol},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Honghai},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=RJH}{%
+         family={Ryu},
+         familyi={R\bibinitperiod},
+         given={Jee-Hwan},
+         giveni={J\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{GSJPMKLYJ1}
+    \strng{fullhash}{GSJPMKLYJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    This study is dealing with an industrial robot with smart actuators for
+  applying an industrial manufacturing process. A smart actuator is defined as
+  the integrated actuator of all components such as motor, controller, sensors,
+  and communication unit. The robot which is linked to a smart actuator can be
+  assembled or disassembled and reconfigured. Therefore, there are increasing
+  demands from industries for a smart actuator. We develop a smart actuator and
+  an industrial robot with the developed smart actuator. We also introduce a
+  robot control simulator for operating and monitoring the robot. Finally,
+  trajectory tracking control is performed in experiment for evaluating a
+  performance.%
+    }
+    \field{booktitle}{Intelligent Robotics and Applications}
+    \field{isbn}{978-3-642-40849-6}
+    \field{pages}{442\bibrangedash 449}
+    \field{title}{Development of Smart Actuator and Its Application}
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2013}
+  \endentry
+
+  \entry{Gwinner2006}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GD}{%
+         family={Gwinner},
+         familyi={G\bibinitperiod},
+         given={Dieter},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{GD1}
+    \strng{fullhash}{GD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{doi}
+    \verb 10.1002/vipr.200600300
+    \endverb
+    \field{number}{5}
+    \field{pages}{17\bibrangedash 21}
+    \field{title}{Abschirmung von Kunststoffen durch Beschichtung im Vakuum}
+    \field{volume}{18}
+    \field{journaltitle}{Vakuum in Forschung und Praxis}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Hahn2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HO}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HO1}
+    \strng{fullhash}{HO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Entwicklung und Test eines elektrodynamischen Linearaktors in
+  elektrifizierten Antrieben}
+    \field{month}{04}
+    \field{year}{2018}
+  \endentry
+
+  \entry{haendschke}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HJ}{%
+         family={Händschke},
+         familyi={H\bibinitperiod},
+         given={Jürgen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Eugen G. Leuze Verlag}%
+    }
+    \strng{namehash}{HJ1}
+    \strng{fullhash}{HJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{isbn}{3874802191}
+    \field{title}{Leiterplattendesign : ein Handbuch nicht nur für Praktiker}
+    \field{year}{2006}
+  \endentry
+
+  \entry{emcdes}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={Infineon},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{AP24026 - EMC Design Guidelines}
+  \endentry
+
+  \entry{swd}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=IT}{%
+         family={Instruments},
+         familyi={I\bibinitperiod},
+         given={Texas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IT1}
+    \strng{fullhash}{IT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Serial Wire Debug—Ideal for Microcontrollers}
+  \endentry
+
+  \entry{ISO_25010}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{ISO/IEC 25010 Systems and software engineering -Systems and
+  software Quality Requirements and Evaluation (SQuaRE)}
+    \field{month}{03}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Lawrenz2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LW}{%
+         family={Lawrenz},
+         familyi={L\bibinitperiod},
+         given={Wolfhard;},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=ON}{%
+         family={Obermöller},
+         familyi={O\bibinitperiod},
+         given={Nils},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vde Verlag GmbH}%
+    }
+    \strng{namehash}{LW1}
+    \strng{fullhash}{LW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{isbn}{3800733323}
+    \field{title}{CAN}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/14971886/can.html
+    \endverb
+    \field{day}{01}
+    \field{month}{05}
+    \field{year}{2010}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{ldo}{manual}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{LDL1117 - Datasheet - production data}
+  \endentry
+
+  \entry{2013a}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PB}{%
+         family={Pahl},
+         familyi={P\bibinitperiod},
+         given={Beitz},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{PB1}
+    \strng{fullhash}{PB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Konstruktionslehre}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/25035698/pahl_beitz_konstruktionslehr
+    \verb e.html
+    \endverb
+    \field{day}{18}
+    \field{month}{10}
+    \field{year}{2013}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{loeten}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RLUS}{%
+         family={Reisgen},
+         familyi={R\bibinitperiod},
+         suffix={Uwe;\bibnamedelima Stein},
+         suffixi={U\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {DVS Media GmbH}%
+    }
+    \strng{namehash}{RUSL1}
+    \strng{fullhash}{RUSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{edition}{161}
+    \field{isbn}{978-3-945023-49-5}
+    \field{series}{DVS Fachbücher}
+    \field{title}{Grundlagen der Fügetechnik - Schweißen, Löten und Kleben}
+    \field{year}{2016}
+  \endentry
+
+  \entry{stmref}{manual}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{RM0090 - Reference manual}
+  \endentry
+
+  \entry{cantrans}{manual}{}
+    \list{organization}{1}{%
+      {Texas Instruments}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{SGLS398A}
+  \endentry
+
+  \entry{BasSof}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Spillner},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {dpunkt.verlag}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{edition}{5., überarb. und aktualisierte Aufl.}
+    \field{howpublished}{dpunkt.verlag}
+    \field{isbn}{9783864900242}
+    \field{title}{Basiswissen Softwaretest : Aus- und Weiterbildung zum
+  Certified Tester}
+    \verb{url}
+    \verb http://d-nb.info/1024745341/04
+    \endverb
+    \list{location}{1}{%
+      {Heidelberg}%
+    }
+    \field{year}{2012}
+  \endentry
+
+  \entry{Stiny2015}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SL}{%
+         family={Stiny},
+         familyi={S\bibinitperiod},
+         given={Leonhard},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Fachmedien Wiesbaden}%
+    }
+    \strng{namehash}{SL1}
+    \strng{fullhash}{SL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Passive elektronische Bauelemente}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/25002965/leonhard_stiny_passive_elekt
+    \verb ronische_bauelemente.html
+    \endverb
+    \field{day}{07}
+    \field{month}{09}
+    \field{year}{2015}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{stm32}{manual}{}
+    \list{organization}{1}{%
+      {STMicroelectronics N.V.}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{STM32F405xx, STM32F407xx - Datasheet - production data}
+  \endentry
+
+  \entry{ADC}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SP}{%
+         family={Stuhlmüller},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SP1}
+    \strng{fullhash}{SP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{isbn}{3772353002}
+    \field{series}{Elektronik}
+    \field{title}{A-D-Wandler in embedded Systemen : Aufbau und Anwendung}
+    \verb{url}
+    \verb http://scans.hebis.de/HEBCGI/show.pl?12028007_toc.pdf
+    \endverb
+    \list{location}{1}{%
+      {Poing}%
+    }
+    \field{year}{2004}
+  \endentry
+
+  \entry{Tsch14}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TH}{%
+         family={Tschoeke},
+         familyi={T\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Vieweg+Teubner Verlag}%
+    }
+    \strng{namehash}{TH1}
+    \strng{fullhash}{TH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{isbn}{3658046430}
+    \field{title}{Die Elektrifizierung des Antriebsstrangs}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/22745288/die_elektrifizierung_des_ant
+    \verb riebsstrangs.html
+    \endverb
+    \field{day}{14}
+    \field{month}{12}
+    \field{year}{2014}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{Brinkschulte}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UBTU}{%
+         family={Uwe\bibnamedelima Brinkschulte},
+         familyi={U\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Theo\bibnamedelima Ungerer},
+         giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag GmbH}%
+    }
+    \strng{namehash}{UBTU1}
+    \strng{fullhash}{UBTU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{isbn}{3642053971}
+    \field{title}{Mikrocontroller und Mikroprozessoren}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/11410038/uwe_brinkschulte_theo_ungere
+    \verb r_mikrocontroller_und_mikroprozessoren.html
+    \endverb
+    \field{day}{06}
+    \field{month}{08}
+    \field{year}{2010}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{Werner2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WZRS}{%
+         family={Werner\bibnamedelima Zimmermann},
+         familyi={W\bibinitperiod\bibinitdelim Z\bibinitperiod},
+         given={Ralf\bibnamedelima Schmidgall},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Fachmedien Wiesbaden}%
+    }
+    \strng{namehash}{WZRS1}
+    \strng{fullhash}{WZRS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Bussysteme in der Fahrzeugtechnik}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/22595832/werner_zimmermann_ralf_schmi
+    \verb dgall_bussysteme_in_der_fahrzeugtechnik.html
+    \endverb
+    \field{day}{08}
+    \field{month}{07}
+    \field{year}{2014}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{Wolfsperger}{online}{}
+    \name{author}{1}{}{%
+      {{hash=WHA}{%
+         family={Wolfsperger},
+         familyi={W\bibinitperiod},
+         given={Hans\bibnamedelima A},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WHA1}
+    \strng{fullhash}{WHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{isbn}{9783540769125}
+    \field{series}{VDI-Buch}
+    \field{title}{Elektromagnetische Schirmung : Theorie und Praxisbeispiele}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/978-3-540-76913-2
+    \endverb
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2008}
+  \endentry
+
+  \entry{Woern2006}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WH}{%
+         family={Wörn},
+         familyi={W\bibinitperiod},
+         given={Heinz},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{WH1}
+    \strng{fullhash}{WH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Echtzeitsysteme}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/22005409/heinz_woern_echtzeitsysteme.
+    \verb html
+    \endverb
+    \field{day}{02}
+    \field{month}{05}
+    \field{year}{2006}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+\enddatalist
+\endinput

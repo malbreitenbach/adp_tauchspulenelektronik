@@ -1,5 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: ADP.aux
-I found no \citation commands---while reading file ADP.aux
-I found no \bibdata command---while reading file ADP.aux
-I found no \bibstyle command---while reading file ADP.aux
-(There were 3 error messages)
+The style file: biblatex.bst
+Database file #1: ADP-blx.bib
+Database file #2: ./bibtex/library.bib
+Warning--entry type for "Hahn2018" isn't style-file defined
+--line 322 of file ./bibtex/library.bib
+Biblatex version: 3.11
+(There was 1 warning)
