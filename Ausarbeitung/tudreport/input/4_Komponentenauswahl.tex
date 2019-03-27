@@ -122,7 +122,6 @@ Der Differenzverstärker vergleicht die Ausgangsspannung mit einer stabilen Refe
 
 \subsubsection{Verschaltung auf Platine}
 Grund für die Wahl dieser Art von Spannungsreglern für die Platine ist ihre kompakte Bauform, ihr günstiger Einkaufspreis und das geringe Rauschen im Vergleich zu Schaltreglern da keine Schaltvorgänge auftreten. Auf der Platine werden LDOs vom Typ LDL1117 von STMicroelectronics verwendet. Für die \SI{3,3}{V} Versorgung ist dies der LDL1117S33R und für die \SI{5}{V} der LDL1117S50R LDO. Nach dem Datenblatt \cite[S.7]{ldo} ist die Eingangskapazität zu \SI{1}{\mu F} und die Ausgangskapazität zu \SI{4,7}{\mu F} zu wählen. Diese werden aus Stabilitätsgründen und zur Entkopplung verwendet. Empfohlen wird weiterhin Keramikkondensatoren zu verwenden, welche X5R oder X7R Dielektrika aufweisen. In \autoref{fig:volt} ist der Schaltplan der Spannungsversorgung für die Platine zu sehen. An VIN wird die Batteriespannung angelegt, welche mit \SI{1}{\mu F} gegen GND entkoppelt wird. An VOUT liegen die jeweiligen \SI{3,3}{V} bzw. \SI{5}{V} an, welche jeweils über \SI{4,7}{\mu F} gegen GND geschaltet sind. Zur allgemeinen Spannungsglättung wird eine große Kapazität zwischen der Batteriespannung und GND geschaltet, welche starke Schwankungen beim Durchschalten der H-Brücke verhindern soll.
-
 \begin{figure}[H]%
 \centering
 \includegraphics[width=400pt]{./Bilder/volt.pdf}%
@@ -132,6 +131,8 @@ Grund für die Wahl dieser Art von Spannungsreglern für die Platine ist ihre ko
 
 \section{Platinenanschluss}
 Die Platine wird mit einem 1-776267-1 von TE Connectivity verbunden um notwendige Signalleitungen nach außen zu führen und zusätzlich Spannungsversorgung und Lagesensorik mit der Platine verbinden zu können. In \autoref{fig:stecker} ist die Pin-Belegung des Steckers zu sehen. Um den Mikrocontroller über SWD programmieren zu können, muss der Stecker die notwendigen Signalleitungen SWDIO, SWCLK, TRACESWO, V33 und GND nach außen führen. Über diese Pins können über einen ST-Link/V2 Programme von einem Computer auf den Mikrocontroller übertragen werden. Weiterhin soll der Mikrocontroller über CAN-Signale mit der MicroAutobox kommunizieren können. Dazu werden die Schnittstellen CANH(CAN-HIGH) und CANL(CAN-LOW) über den Stecker nach außen geführt. Die Steckerpins V5, L\_1, L\_2 und GND werden für die Lagesensorik benötigt. Pin 4 und Pin 5 sind beide mit der Batterie verbunden und bilden die Spannungsversorgung der gesamten Platine. Aufgrund der potentiell hohen Ströme wird die Versorgung über zwei Pins zugeführt. Über den NRST-Pin lässt sich der Mikrocontroller zurücksetzen.
+Als Gegenstück des Steckers existieren drei verschiedene Varianten. Jeweils eine Variante sind Programmier- und Betriebsstecker, die dritte Variante vereint diese beiden Optionen. Der Programmierstecker beinhaltet dabei alle Eingänge der oben genannten Signalleitungen, die zum Flashen des Mikrocontrollers über SWD nötig sind, und wird nur kurzzeitig verwendet. Den Rest der Zeit wird der Betriebsstecker verbunden, welcher die Leitungen zur Spannungsversorgung und Lagesensorik führt. Der kombinierte Stecker ist vor allem in der Entwicklungsphase hilfreich, um nicht ständig den Anschluss wechseln zu müssen. 
+
 
 \begin{figure}[H]%
 \centering

@@ -4,87 +4,87 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Pr\IeC {\"u}fstand \cite [S.5]{adp}\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Pr\IeC {\"u}fstand \cite [S.5]{adp}\relax }}{5}{figure.caption.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Fahrzeuggetriebe\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fahrzeuggetriebe\relax }}{6}{figure.caption.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Querschnitt Tauchspulenaktor \cite [S.30]{Hahn2018}\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Querschnitt Tauchspulenaktor \cite [S.30]{Hahn2018}\relax }}{6}{figure.caption.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Kraft-Weg-Strom Kennlinien des Tauchspulenaktors \cite [S.12]{adp}\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Kraft-Weg-Strom Kennlinien des Tauchspulenaktors \cite [S.12]{adp}\relax }}{7}{figure.caption.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Einbauposition PLCD Sensor an der Schaltgabel \cite [S.14]{adp}\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Einbauposition PLCD Sensor an der Schaltgabel \cite [S.14]{adp}\relax }}{8}{figure.caption.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sprungantwort Schaltgabelposition \cite [S.35]{adp}\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sprungantwort Schaltgabelposition \cite [S.35]{adp}\relax }}{9}{figure.caption.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Blockschaltbild eines Mikrocontrollers \cite [S.3]{Bernstein2015}\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Blockschaltbild eines Mikrocontrollers \cite [S.3]{Bernstein2015}\relax }}{10}{figure.caption.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Aufbau CAN-Bus \cite [S.158]{manual}\relax }}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Aufbau CAN-Bus \cite [S.158]{manual}\relax }}{11}{figure.caption.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces beispielhaftes PWM Signal\relax }}{12}{figure.caption.13}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces V-Modell nach \cite {Boehm79}\relax }}{14}{figure.caption.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Klassifikationsbaum am Beispiel der H-Br\IeC {\"u}cke\relax }}{15}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Bildliche Darstellung des Prototypings (Iterationsprozesses)\relax }}{16}{figure.caption.19}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces beispielhaftes PWM Signal\relax }}{12}{figure.caption.13}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ben\IeC {\"o}tigte Ebenen der Verschaltung\relax }}{17}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces V-Modell nach \cite {Boehm79}\relax }}{14}{figure.caption.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Minimalbeschaltung des STM32F405RGT7\relax }}{18}{figure.caption.21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Klassifikationsbaum am Beispiel der H-Br\IeC {\"u}cke\relax }}{15}{figure.caption.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Pin-Belegung des Mikrocontrollers\relax }}{19}{figure.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Anschluss externer Quarz\relax }}{20}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces CAN-Transciever Verschaltung\relax }}{20}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Blockschaltbild LDO\relax }}{21}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Schaltplan Spannungsversorgung\relax }}{22}{figure.caption.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Anschlusspins Stecker\relax }}{22}{figure.caption.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Vereinfachter Aufbau einer H-Br\IeC {\"u}cke\relax }}{23}{figure.caption.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Blockdiagramm der BTN8982 Halbbr\IeC {\"u}cke\relax }}{23}{figure.caption.31}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Funktionsweise des IS-Pins\relax }}{24}{figure.caption.33}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematischer Aufbau und Logiktabelle des CD74HCT125 Leitungsverst\IeC {\"a}rkers\relax }}{25}{figure.caption.34}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Strommessung mit und ohne Leitungsverst\IeC {\"a}rker bei unterschiedlichen PWM-Signalen\relax }}{25}{figure.caption.35}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Schematischer Aufbau der H-Br\IeC {\"u}cke\relax }}{26}{figure.caption.36}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces (a):durchgeschalteter Strom aufgetragen \IeC {\"u}ber der Zeit,(b): Welligkeit des durchgeschalteten Stroms\relax }}{27}{figure.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Wheatstone-Br\IeC {\"u}ckenschaltung\relax }}{28}{figure.caption.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Schaltung zum Auslesen des Thermistors\relax }}{29}{figure.caption.39}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Bildliche Darstellung des Prototypings (Iterationsprozesses)\relax }}{16}{figure.caption.19}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Derzeitiger Entwurf des Elektronikgeh\IeC {\"a}uses\relax }}{31}{figure.caption.40}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ben\IeC {\"o}tigte Ebenen der Verschaltung\relax }}{17}{figure.caption.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces R\IeC {\"u}ckseite des Elektronikgeh\IeC {\"a}uses zur Darstellung der Aktoranbindung\relax }}{32}{figure.caption.41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Minimalbeschaltung des STM32F405RGT7\relax }}{18}{figure.caption.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Platzierungsgrafik der Bauteile\relax }}{33}{figure.caption.42}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Pin-Belegung des Mikrocontrollers\relax }}{19}{figure.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Dimensionierungsauswirkungen Temperatur und Leitungsquerschnitt\relax }}{34}{figure.caption.43}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Anschluss externer Quarz\relax }}{20}{figure.caption.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Darstellung einer zwei Layer Platine inklusive Via\relax }}{36}{figure.caption.45}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces CAN-Transciever Verschaltung\relax }}{20}{figure.caption.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Logikboard zur Endplatine inklusive Versorgungsleitungen\relax }}{36}{figure.caption.46}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Blockschaltbild LDO\relax }}{21}{figure.caption.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Darstellung des Top-Layers\relax }}{37}{figure.caption.47}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Schaltplan Spannungsversorgung\relax }}{22}{figure.caption.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Darstellung des Bottom-Layers\relax }}{38}{figure.caption.48}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Anschlusspins Stecker\relax }}{22}{figure.caption.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Top-Layer nach dem Fertigungsprozess\relax }}{39}{figure.caption.49}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Vereinfachter Aufbau einer H-Br\IeC {\"u}cke\relax }}{23}{figure.caption.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Bottom-Layer nach dem Fertigungsprozess\relax }}{39}{figure.caption.50}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Blockdiagramm der BTN8982 Halbbr\IeC {\"u}cke\relax }}{23}{figure.caption.31}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Funktionsweise des IS-Pins\relax }}{24}{figure.caption.33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Schematischer Aufbau und Logiktabelle des CD74HCT125 Leitungsverst\IeC {\"a}rkers\relax }}{25}{figure.caption.34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Strommessung mit und ohne Leitungsverst\IeC {\"a}rker bei unterschiedlichen PWM-Signalen\relax }}{25}{figure.caption.35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Schematischer Aufbau der H-Br\IeC {\"u}cke\relax }}{26}{figure.caption.36}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces (a):durchgeschalteter Strom aufgetragen \IeC {\"u}ber der Zeit,(b): Welligkeit des durchgeschalteten Stroms\relax }}{27}{figure.caption.37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Wheatstone-Br\IeC {\"u}ckenschaltung\relax }}{28}{figure.caption.38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Schaltung zum Auslesen des Thermistors\relax }}{29}{figure.caption.39}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Derzeitiger Entwurf des Elektronikgeh\IeC {\"a}uses\relax }}{31}{figure.caption.40}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces R\IeC {\"u}ckseite des Elektronikgeh\IeC {\"a}uses zur Darstellung der Aktoranbindung\relax }}{32}{figure.caption.41}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Platzierungsgrafik der Bauteile\relax }}{33}{figure.caption.42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Dimensionierungsauswirkungen Temperatur und Leitungsquerschnitt\relax }}{34}{figure.caption.43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Darstellung einer zwei Layer Platine inklusive Via\relax }}{36}{figure.caption.45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Logikboard zur Endplatine inklusive Versorgungsleitungen\relax }}{36}{figure.caption.46}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Darstellung des Top-Layers\relax }}{37}{figure.caption.47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Darstellung des Bottom-Layers\relax }}{38}{figure.caption.48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Top-Layer nach dem Fertigungsprozess\relax }}{39}{figure.caption.49}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Bottom-Layer nach dem Fertigungsprozess\relax }}{39}{figure.caption.50}% 
 \contentsfinish 
