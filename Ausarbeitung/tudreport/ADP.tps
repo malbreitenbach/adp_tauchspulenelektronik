@@ -35,7 +35,7 @@ Class=LaTeXView
 Document=ADP.tex
 
 [Frame1_View0,0]
-TopLine=66
+TopLine=0
 Cursor=2597
 
 [Frame2]
@@ -53,7 +53,7 @@ Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
 [Frame2_View0,0]
-TopLine=308
+TopLine=388
 Cursor=17945
 
 [Frame3]
@@ -107,8 +107,8 @@ Class=LaTeXView
 Document=input\7_Analyse.tex
 
 [Frame5_View0,0]
-TopLine=46
-Cursor=4038
+TopLine=48
+Cursor=4213
 
 [Frame6]
 Flags=0
