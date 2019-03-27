@@ -53,7 +53,7 @@ Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
 [Frame2_View0,0]
-TopLine=228
+TopLine=308
 Cursor=17945
 
 [Frame3]
@@ -107,8 +107,8 @@ Class=LaTeXView
 Document=input\7_Analyse.tex
 
 [Frame5_View0,0]
-TopLine=34
-Cursor=3540
+TopLine=46
+Cursor=4038
 
 [Frame6]
 Flags=0
@@ -166,5 +166,5 @@ Cursor=39
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=2
+ActiveFrame=5
 
