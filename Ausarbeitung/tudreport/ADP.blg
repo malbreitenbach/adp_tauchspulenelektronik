@@ -4,6 +4,8 @@ Database file #1: ADP-blx.bib
 Database file #2: ./bibtex/library.bib
 Warning--entry type for "Hahn2018" isn't style-file defined
 --line 322 of file ./bibtex/library.bib
+Warning--I didn't find a database entry for "automated"
+Warning--I didn't find a database entry for "VorgaengerADP"
 Warning--I didn't find a database entry for "Bowden2001"
 Biblatex version: 3.11
-(There were 2 warnings)
+(There were 4 warnings)

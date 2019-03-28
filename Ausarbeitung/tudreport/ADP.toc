@@ -2,9 +2,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Kurzfassung}{i}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{iii}{section*.3}
+\contentsline {chapter}{Abbildungsverzeichnis}{iv}{section*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{vi}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Nomenklatur}{vii}{section*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -50,9 +52,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Das V-Modell}{11}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Konstruktive Entwicklung (linker Zweig)}{11}{subsubsection*.18}
+\contentsline {subsubsection}{Konstruktive Entwicklung (linker Zweig)}{11}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Testaktivit\IeC {\"a}ten (rechter Zweig)}{12}{subsubsection*.19}
+\contentsline {subsubsection}{Testaktivit\IeC {\"a}ten (rechter Zweig)}{12}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.2}Konkretes Vorgehen mit inkrementellem Entwicklungsansatz}{13}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
@@ -72,9 +74,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Spannungsversorgung}{19}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Low Dropout Spannungsregler}{19}{subsubsection*.28}
+\contentsline {subsubsection}{Low Dropout Spannungsregler}{19}{subsubsection*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verschaltung auf Platine}{19}{subsubsection*.30}
+\contentsline {subsubsection}{Verschaltung auf Platine}{19}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Platinenanschluss}{20}{section.4.3}
 \defcounter {refsection}{0}\relax 
@@ -108,27 +110,53 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Software}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Analyse und Performance}{41}{chapter.7}
+\contentsline {section}{\numberline {6.1}Toolchain}{39}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Beurteilung der Anforderungserf\IeC {\"u}llung}{41}{section.7.1}
+\contentsline {section}{\numberline {6.2}Vorstellung des Hauptprogramms}{39}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Kostenaufstellung}{41}{section.7.2}
+\contentsline {subsection}{\numberline {6.2.1}Gesamtsystem}{40}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Regelergebnisse}{42}{section.7.3}
+\contentsline {subsection}{\numberline {6.2.2}Hauptzustandsautomat (MAIN)}{41}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Schalten in Gang 2}{42}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {6.2.3}Positionsermittlung (POS)}{43}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Schalten in Neutral}{42}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {6.2.4}CAN-Kommunikation (CAN)}{44}{subsection.6.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Diskussion der Regelergebnisse}{42}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {6.2.5}Sensorik (SEN)}{44}{subsection.6.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.4}Schaltgabelkraft am Anschlag}{44}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {6.2.6}Fehlererkennung (ERR)}{45}{subsection.6.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Platinendesign-Analyse}{45}{section.7.4}
+\contentsline {subsection}{\numberline {6.2.7}Kalibrierung (CAL)}{45}{subsection.6.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Produktvergleich mit Anforderungsliste}{45}{section.7.5}
+\contentsline {subsection}{\numberline {6.2.8}Regelung (CONS/CONH)}{46}{subsection.6.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{49}{chapter.8}
+\contentsline {subsection}{\numberline {6.2.9}Auswahlglied f\IeC {\"u}r PWM-Signal (PWM)}{46}{subsection.6.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Ausblick}{49}{section.8.1}
+\contentsline {subsection}{\numberline {6.2.10}Motortreiber (MOT)}{47}{subsection.6.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Codegenerierung und Performanceoptimierung}{47}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Einleitung in benutzerseitige CAN Schnittstelle}{48}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Analyse und Performance}{53}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Produktvergleich mit Anforderungsliste}{53}{section.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Kostenaufstellung}{54}{section.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Platinendesign-Analyse}{55}{section.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Regelergebnisse}{56}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.1}Schalten in Gang 2}{56}{subsection.7.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.2}Schalten in Neutral}{56}{subsection.7.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.3}Diskussion der Regelergebnisse}{56}{subsection.7.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.4}Schaltgabelkraft am Anschlag}{58}{subsection.7.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{61}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Ausblick}{62}{section.8.1}
 \contentsfinish 

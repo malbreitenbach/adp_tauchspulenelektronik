@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.9)  28 MAR 2019 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.9)  28 MAR 2019 12:42
 entering extended mode
 **./ADP.tex
 (ADP.tex
@@ -1049,7 +1049,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count171
@@ -1167,12 +1167,12 @@ File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 \c@biburllcpenalty=\count310
 \c@smartand=\count311
 )
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
 
-("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\nu
-meric.bbx"
-File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\al
+phabetic.bbx"
+File: alphabetic.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -1182,18 +1182,17 @@ File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count312
 \c@bbx:relatedtotal=\count313
 ))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
 
-("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\nu
-meric.cbx"
-File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\al
+phabetic.cbx"
+File: alphabetic.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
@@ -1308,11 +1307,7 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 \@quotelevel=\count329
 \@quotereset=\count330
- (ADP.aux
-
-LaTeX Warning: Label `tab:Anforderungsliste' multiply defined.
-
-)
+ (ADP.aux)
 \openout1 = `ADP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -1609,12 +1604,12 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Werner2014':
+(biblatex)                with 'Woern2006':
 (biblatex)                - Can't use 'date' + 'year'.
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Woern2006':
+(biblatex)                with 'Werner2014':
 (biblatex)                - Can't use 'date' + 'year'.
 
 )
@@ -1658,7 +1653,7 @@ File: t15fp.fd 2009/08/06 Fontinst v1.927 font definitions for T1/5fp.
 Package  Warning: Title has more then 3 lines. Fontsize reduced on input line 6
 8.
 
-<tud_logo.pdf, id=251, 157.58875pt x 63.23625pt>
+<tud_logo.pdf, id=307, 157.58875pt x 63.23625pt>
 File: tud_logo.pdf Graphic file (type pdf)
 <use tud_logo.pdf>
 Package pdftex.def Info: tud_logo.pdf  used on input line 68.
@@ -1733,23 +1728,35 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 83.
 Package tocbasic Info: Using my definition of `\numberline' on input line 85.
 Package tocbasic Info: Using my definition of `\numberline' on input line 87.
 Package tocbasic Info: Using my definition of `\numberline' on input line 89.
+Package tocbasic Info: Using my definition of `\numberline' on input line 93.
 Package tocbasic Info: Using my definition of `\numberline' on input line 95.
 Package tocbasic Info: Using my definition of `\numberline' on input line 97.
 Package tocbasic Info: Using my definition of `\numberline' on input line 99.
 Package tocbasic Info: Using my definition of `\numberline' on input line 101.
+Package tocbasic Info: Using my definition of `\numberline' on input line 103.
 Package tocbasic Info: Using my definition of `\numberline' on input line 105.
+Package tocbasic Info: Using my definition of `\numberline' on input line 107.
+Package tocbasic Info: Using my definition of `\numberline' on input line 109.
+Package tocbasic Info: Using my definition of `\numberline' on input line 111.
+ [3]
+Package tocbasic Info: Using my definition of `\numberline' on input line 113.
+Package tocbasic Info: Using my definition of `\numberline' on input line 115.
+Package tocbasic Info: Using my definition of `\numberline' on input line 117.
+Package tocbasic Info: Using my definition of `\numberline' on input line 119.
+Package tocbasic Info: Using my definition of `\numberline' on input line 121.
+Package tocbasic Info: Using my definition of `\numberline' on input line 125.
+Package tocbasic Info: Using my definition of `\numberline' on input line 127.
+Package tocbasic Info: Using my definition of `\numberline' on input line 129.
+Package tocbasic Info: Using my definition of `\numberline' on input line 131.
+Package tocbasic Info: Using my definition of `\numberline' on input line 135.
 )
 \tf@lof=\write5
 \openout5 = `ADP.lof'.
 
- [3] [4
-
-
-] (ADP.toc
-Package tocbasic Info: Using my definition of `\numberline' on input line 11.
+ [4] (ADP.toc
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 15.
-Package tocbasic Info: Using my definition of `\numberline' on input line 19.
+Package tocbasic Info: Using my definition of `\numberline' on input line 17.
 Package tocbasic Info: Using my definition of `\numberline' on input line 21.
 Package tocbasic Info: Using my definition of `\numberline' on input line 23.
 Package tocbasic Info: Using my definition of `\numberline' on input line 25.
@@ -1763,31 +1770,35 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 39.
 Package tocbasic Info: Using my definition of `\numberline' on input line 41.
 Package tocbasic Info: Using my definition of `\numberline' on input line 43.
 Package tocbasic Info: Using my definition of `\numberline' on input line 45.
-Package tocbasic Info: Using my definition of `\numberline' on input line 49.
+Package tocbasic Info: Using my definition of `\numberline' on input line 47.
 Package tocbasic Info: Using my definition of `\numberline' on input line 51.
-Package tocbasic Info: Using my definition of `\numberline' on input line 57.
-Package tocbasic Info: Using my definition of `\numberline' on input line 61.
+Package tocbasic Info: Using my definition of `\numberline' on input line 53.
+Package tocbasic Info: Using my definition of `\numberline' on input line 59.
 Package tocbasic Info: Using my definition of `\numberline' on input line 63.
 Package tocbasic Info: Using my definition of `\numberline' on input line 65.
 Package tocbasic Info: Using my definition of `\numberline' on input line 67.
 Package tocbasic Info: Using my definition of `\numberline' on input line 69.
 Package tocbasic Info: Using my definition of `\numberline' on input line 71.
 Package tocbasic Info: Using my definition of `\numberline' on input line 73.
-Package tocbasic Info: Using my definition of `\numberline' on input line 79.
+Package tocbasic Info: Using my definition of `\numberline' on input line 75.
 Package tocbasic Info: Using my definition of `\numberline' on input line 81.
 Package tocbasic Info: Using my definition of `\numberline' on input line 83.
 Package tocbasic Info: Using my definition of `\numberline' on input line 85.
 Package tocbasic Info: Using my definition of `\numberline' on input line 87.
 Package tocbasic Info: Using my definition of `\numberline' on input line 89.
-Package tocbasic Info: Using my definition of `\numberline' on input line 93.
+Package tocbasic Info: Using my definition of `\numberline' on input line 91.
+ [5
+
+
+]
 Package tocbasic Info: Using my definition of `\numberline' on input line 95.
- [5]
 Package tocbasic Info: Using my definition of `\numberline' on input line 97.
 Package tocbasic Info: Using my definition of `\numberline' on input line 99.
 Package tocbasic Info: Using my definition of `\numberline' on input line 101.
 Package tocbasic Info: Using my definition of `\numberline' on input line 103.
 Package tocbasic Info: Using my definition of `\numberline' on input line 105.
 Package tocbasic Info: Using my definition of `\numberline' on input line 107.
+Package tocbasic Info: Using my definition of `\numberline' on input line 109.
 Package tocbasic Info: Using my definition of `\numberline' on input line 113.
 Package tocbasic Info: Using my definition of `\numberline' on input line 115.
 Package tocbasic Info: Using my definition of `\numberline' on input line 117.
@@ -1797,12 +1808,33 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 123.
 Package tocbasic Info: Using my definition of `\numberline' on input line 125.
 Package tocbasic Info: Using my definition of `\numberline' on input line 127.
 Package tocbasic Info: Using my definition of `\numberline' on input line 129.
+Package tocbasic Info: Using my definition of `\numberline' on input line 131.
 Package tocbasic Info: Using my definition of `\numberline' on input line 133.
+Package tocbasic Info: Using my definition of `\numberline' on input line 135.
+Package tocbasic Info: Using my definition of `\numberline' on input line 137.
+Package tocbasic Info: Using my definition of `\numberline' on input line 139.
+Package tocbasic Info: Using my definition of `\numberline' on input line 143.
+Package tocbasic Info: Using my definition of `\numberline' on input line 145.
+Package tocbasic Info: Using my definition of `\numberline' on input line 147.
+Package tocbasic Info: Using my definition of `\numberline' on input line 149.
+Package tocbasic Info: Using my definition of `\numberline' on input line 151.
+Package tocbasic Info: Using my definition of `\numberline' on input line 153.
+Package tocbasic Info: Using my definition of `\numberline' on input line 155.
+Package tocbasic Info: Using my definition of `\numberline' on input line 157.
+Package tocbasic Info: Using my definition of `\numberline' on input line 161.
 )
 \tf@toc=\write6
 \openout6 = `ADP.toc'.
 
- [6] (input/1_Einleitung.tex
+ (input/Akronymverzeichnis.tex [6])
+Underfull \hbox (badness 10000) in paragraph at lines 3--84
+
+ []
+
+[7
+
+
+] (input/1_Einleitung.tex
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -1836,7 +1868,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [2]
 chapter 2.
-<Bilder/Pruefstand.pdf, id=495, 399.05087pt x 202.95824pt>
+<Bilder/Pruefstand.pdf, id=600, 399.05087pt x 202.95824pt>
 File: Bilder/Pruefstand.pdf Graphic file (type pdf)
 <use Bilder/Pruefstand.pdf>
 Package pdftex.def Info: Bilder/Pruefstand.pdf  used on input line 7.
@@ -1845,7 +1877,7 @@ Package pdftex.def Info: Bilder/Pruefstand.pdf  used on input line 7.
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/Fahrzeuggetriebe.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<Bilder/Fahrzeuggetriebe.pdf, id=499, 458.46281pt x 292.09125pt>
+<Bilder/Fahrzeuggetriebe.pdf, id=604, 458.46281pt x 292.09125pt>
 File: Bilder/Fahrzeuggetriebe.pdf Graphic file (type pdf)
 <use Bilder/Fahrzeuggetriebe.pdf>
 Package pdftex.def Info: Bilder/Fahrzeuggetriebe.pdf  used on input line 18.
@@ -1857,24 +1889,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./Bilder/Pruefstand.pdf>]
-<Bilder/QuerschnittAktor.pdf, id=511, 330.5148pt x 178.86826pt>
+<Bilder/QuerschnittAktor.pdf, id=616, 330.5148pt x 178.86826pt>
 File: Bilder/QuerschnittAktor.pdf Graphic file (type pdf)
 <use Bilder/QuerschnittAktor.pdf>
 Package pdftex.def Info: Bilder/QuerschnittAktor.pdf  used on input line 35.
 (pdftex.def)             Requested size: 330.51398pt x 178.86781pt.
  [4 <./Bilder/Fahrzeuggetriebe.pdf> <./Bilder/QuerschnittAktor.pdf>]
-<Bilder/KennlinieAktor.pdf, id=528, 369.13408pt x 291.07494pt>
+<Bilder/KennlinieAktor.pdf, id=634, 369.13408pt x 291.07494pt>
 File: Bilder/KennlinieAktor.pdf Graphic file (type pdf)
 <use Bilder/KennlinieAktor.pdf>
 Package pdftex.def Info: Bilder/KennlinieAktor.pdf  used on input line 50.
 (pdftex.def)             Requested size: 369.13318pt x 291.07422pt.
  [5 <./Bilder/KennlinieAktor.pdf>]
-<Bilder/Sensor.pdf, id=592, 216.20775pt x 218.37582pt>
+<Bilder/Sensor.pdf, id=697, 216.20775pt x 218.37582pt>
 File: Bilder/Sensor.pdf Graphic file (type pdf)
 <use Bilder/Sensor.pdf>
 Package pdftex.def Info: Bilder/Sensor.pdf  used on input line 69.
 (pdftex.def)             Requested size: 216.20721pt x 218.37527pt.
-<Bilder/SprungantwortSchaltgabelposition.pdf, id=597, 439.32672pt x 284.92487pt
+<Bilder/SprungantwortSchaltgabelposition.pdf, id=702, 439.32672pt x 284.92487pt
 >
 File: Bilder/SprungantwortSchaltgabelposition.pdf Graphic file (type pdf)
 <use Bilder/SprungantwortSchaltgabelposition.pdf>
@@ -1889,7 +1921,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/BlockschaltbildMikrocontroller.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Bilder/BlockschaltbildMikrocontroller.pdf, id=601, 365.11406pt x 274.02374pt>
+<Bilder/BlockschaltbildMikrocontroller.pdf, id=706, 365.11406pt x 274.02374pt>
 File: Bilder/BlockschaltbildMikrocontroller.pdf Graphic file (type pdf)
 <use Bilder/BlockschaltbildMikrocontroller.pdf>
 Package pdftex.def Info: Bilder/BlockschaltbildMikrocontroller.pdf  used on inp
@@ -1902,7 +1934,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Font shape `T1/5ch/b/it' in size <9.5> not available
 (Font)              Font shape `T1/5ch/b/sl' tried instead on input line 99.
 [7 <./Bilder/SprungantwortSchaltgabelposition.pdf>]
-<Bilder/CAN2.pdf, id=663, 461.04245pt x 339.18721pt>
+<Bilder/CAN2.pdf, id=768, 461.04245pt x 339.18721pt>
 File: Bilder/CAN2.pdf Graphic file (type pdf)
 <use Bilder/CAN2.pdf>
 Package pdftex.def Info: Bilder/CAN2.pdf  used on input line 124.
@@ -1915,17 +1947,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [8 <./Bilder/BlockschaltbildMikrocontroller.pdf>] [9 <./Bilder/CAN2.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/PWM.pdf): PDF inclusion: found PDF 
-version <1.7>, but at most version <1.5> allowed
-<Bilder/PWM.pdf, id=696, 255.95625pt x 76.78688pt>
+<Bilder/PWM.pdf, id=802, 437.44064pt x 123.94235pt>
 File: Bilder/PWM.pdf Graphic file (type pdf)
 <use Bilder/PWM.pdf>
 Package pdftex.def Info: Bilder/PWM.pdf  used on input line 160.
-(pdftex.def)             Requested size: 255.95561pt x 76.78668pt.
-) (input/3_Vorgehensweise.tex [10 <./Bilder/PWM.pdf>]
+(pdftex.def)             Requested size: 437.43958pt x 123.94205pt.
+)
+(input/3_Vorgehensweise.tex [10 <./Bilder/PWM.pdf>]
 chapter 3.
-<./Bilder/fig_v_modell.pdf, id=709, 473.49486pt x 236.71333pt>
+<./Bilder/fig_v_modell.pdf, id=817, 473.49486pt x 236.71333pt>
 File: ./Bilder/fig_v_modell.pdf Graphic file (type pdf)
 <use ./Bilder/fig_v_modell.pdf>
 Package pdftex.def Info: ./Bilder/fig_v_modell.pdf  used on input line 22.
@@ -1940,7 +1970,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-<./Bilder/fig_klass.pdf, id=716, 844.4649pt x 425.65077pt>
+<./Bilder/fig_klass.pdf, id=824, 844.4649pt x 425.65077pt>
 File: ./Bilder/fig_klass.pdf Graphic file (type pdf)
 <use ./Bilder/fig_klass.pdf>
 Package pdftex.def Info: ./Bilder/fig_klass.pdf  used on input line 39.
@@ -1949,7 +1979,7 @@ Package pdftex.def Info: ./Bilder/fig_klass.pdf  used on input line 39.
 
 
 ] [12 <./Bilder/fig_v_modell.pdf>] [13 <./Bilder/fig_klass.pdf>]
-<./Bilder/fig_entw_evo.png, id=753, 2038.61626pt x 1930.96407pt>
+<./Bilder/fig_entw_evo.png, id=860, 2038.61626pt x 1930.96407pt>
 File: ./Bilder/fig_entw_evo.png Graphic file (type png)
 <use ./Bilder/fig_entw_evo.png>
 Package pdftex.def Info: ./Bilder/fig_entw_evo.png  used on input line 71.
@@ -1957,7 +1987,7 @@ Package pdftex.def Info: ./Bilder/fig_entw_evo.png  used on input line 71.
 )
 (input/4_Komponentenauswahl.tex [14 <./Bilder/fig_entw_evo.png>]
 chapter 4.
-<./Bilder/anf.pdf, id=763, 1008.31772pt x 398.11223pt>
+<./Bilder/anf.pdf, id=870, 1008.31772pt x 398.11223pt>
 File: ./Bilder/anf.pdf Graphic file (type pdf)
 <use ./Bilder/anf.pdf>
 Package pdftex.def Info: ./Bilder/anf.pdf  used on input line 11.
@@ -1966,12 +1996,12 @@ Package pdftex.def Info: ./Bilder/anf.pdf  used on input line 11.
 
 
  <./Bilder/anf.pdf>]
-<./Bilder/MCU_MIN.pdf, id=778, 777.82593pt x 234.19496pt>
+<./Bilder/MCU_MIN.pdf, id=885, 777.82593pt x 234.19496pt>
 File: ./Bilder/MCU_MIN.pdf Graphic file (type pdf)
 <use ./Bilder/MCU_MIN.pdf>
 Package pdftex.def Info: ./Bilder/MCU_MIN.pdf  used on input line 22.
 (pdftex.def)             Requested size: 497.92325pt x 149.91998pt.
-<./Bilder/MCU_PINS.pdf, id=781, 373.31471pt x 358.65996pt>
+<./Bilder/MCU_PINS.pdf, id=888, 373.31471pt x 358.65996pt>
 File: ./Bilder/MCU_PINS.pdf Graphic file (type pdf)
 <use ./Bilder/MCU_PINS.pdf>
 Package pdftex.def Info: ./Bilder/MCU_PINS.pdf  used on input line 30.
@@ -1981,10 +2011,7 @@ Overfull \hbox (55.02112pt too wide) in paragraph at lines 33--58
 [][] 
  []
 
-
-Underfull \vbox (badness 1867) has occurred while \output is active []
-
- [16 <./Bilder/MCU_MIN.pdf>]
+[16 <./Bilder/MCU_MIN.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 61.
@@ -2005,13 +2032,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--72
 
  []
 
-<./Bilder/quarz.pdf, id=806, 575.06844pt x 228.17245pt>
+<./Bilder/quarz.pdf, id=914, 575.06844pt x 228.17245pt>
 File: ./Bilder/quarz.pdf Graphic file (type pdf)
 <use ./Bilder/quarz.pdf>
 Package pdftex.def Info: ./Bilder/quarz.pdf  used on input line 93.
 (pdftex.def)             Requested size: 300.0pt x 119.02985pt.
 [17 <./Bilder/MCU_PINS.pdf>]
-<./Bilder/can.pdf, id=826, 593.13593pt x 364.68246pt>
+<./Bilder/can.pdf, id=933, 593.13593pt x 364.68246pt>
 File: ./Bilder/can.pdf Graphic file (type pdf)
 <use ./Bilder/can.pdf>
 Package pdftex.def Info: ./Bilder/can.pdf  used on input line 102.
@@ -2020,12 +2047,12 @@ Package pdftex.def Info: ./Bilder/can.pdf  used on input line 102.
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
  [18 <./Bilder/quarz.pdf> <./Bilder/can.pdf>]
-<./Bilder/LDO.png, id=851, 525.46312pt x 284.56313pt>
+<./Bilder/LDO.png, id=958, 525.46312pt x 284.56313pt>
 File: ./Bilder/LDO.png Graphic file (type png)
 <use ./Bilder/LDO.png>
 Package pdftex.def Info: ./Bilder/LDO.png  used on input line 116.
 (pdftex.def)             Requested size: 350.0pt x 189.54907pt.
-<./Bilder/volt.pdf, id=855, 651.35344pt x 323.5287pt>
+<./Bilder/volt.pdf, id=962, 651.35344pt x 323.5287pt>
 File: ./Bilder/volt.pdf Graphic file (type pdf)
 <use ./Bilder/volt.pdf>
 Package pdftex.def Info: ./Bilder/volt.pdf  used on input line 128.
@@ -2034,7 +2061,7 @@ Package pdftex.def Info: ./Bilder/volt.pdf  used on input line 128.
 Underfull \vbox (badness 2495) has occurred while \output is active []
 
  [19 <./Bilder/LDO.png>]
-<./Bilder/stecker.pdf, id=864, 347.21721pt x 270.32996pt>
+<./Bilder/stecker.pdf, id=971, 347.21721pt x 270.32996pt>
 File: ./Bilder/stecker.pdf Graphic file (type pdf)
 <use ./Bilder/stecker.pdf>
 Package pdftex.def Info: ./Bilder/stecker.pdf  used on input line 139.
@@ -2048,7 +2075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 Underfull \vbox (badness 5431) has occurred while \output is active []
 
  [20 <./Bilder/volt.pdf> <./Bilder/stecker.pdf>]
-<Bilder/hbruecke.pdf, id=888, 222.86118pt x 118.58058pt>
+<Bilder/hbruecke.pdf, id=995, 222.86118pt x 118.58058pt>
 File: Bilder/hbruecke.pdf Graphic file (type pdf)
 <use Bilder/hbruecke.pdf>
 Package pdftex.def Info: Bilder/hbruecke.pdf  used on input line 149.
@@ -2058,7 +2085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<Bilder/btn8982.pdf, id=890, 335.37129pt x 225.53123pt>
+<Bilder/btn8982.pdf, id=997, 335.37129pt x 225.53123pt>
 File: Bilder/btn8982.pdf Graphic file (type pdf)
 <use Bilder/btn8982.pdf>
 Package pdftex.def Info: Bilder/btn8982.pdf  used on input line 158.
@@ -2075,28 +2102,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-<Bilder/IS_Pin.pdf, id=988, 369.22878pt x 221.89243pt>
+<Bilder/IS_Pin.pdf, id=1095, 369.22878pt x 221.89243pt>
 File: Bilder/IS_Pin.pdf Graphic file (type pdf)
 <use Bilder/IS_Pin.pdf>
 Package pdftex.def Info: Bilder/IS_Pin.pdf  used on input line 185.
 (pdftex.def)             Requested size: 348.54475pt x 209.46597pt.
 [22 <./Bilder/IS_Pin.pdf>]
-<Bilder/buffer.pdf, id=1030, 127.84335pt x 171.30522pt>
+<Bilder/buffer.pdf, id=1138, 127.84335pt x 171.30522pt>
 File: Bilder/buffer.pdf Graphic file (type pdf)
 <use Bilder/buffer.pdf>
 Package pdftex.def Info: Bilder/buffer.pdf  used on input line 203.
 (pdftex.def)             Requested size: 142.13992pt x 190.4557pt.
-<Bilder/tabelle.pdf, id=1031, 239.13951pt x 89.34079pt>
+<Bilder/tabelle.pdf, id=1139, 239.13951pt x 89.34079pt>
 File: Bilder/tabelle.pdf Graphic file (type pdf)
 <use Bilder/tabelle.pdf>
 Package pdftex.def Info: Bilder/tabelle.pdf  used on input line 208.
 (pdftex.def)             Requested size: 179.93437pt x 67.21986pt.
-<Bilder/Strommessung.png, id=1033, 421.575pt x 316.18124pt>
+<Bilder/Strommessung.png, id=1141, 421.575pt x 316.18124pt>
 File: Bilder/Strommessung.png Graphic file (type png)
 <use Bilder/Strommessung.png>
 Package pdftex.def Info: Bilder/Strommessung.png  used on input line 219.
 (pdftex.def)             Requested size: 298.75697pt x 224.07051pt.
-<Bilder/schematisch_hbruecke.pdf, id=1035, 545.53004pt x 313.49033pt>
+<Bilder/schematisch_hbruecke.pdf, id=1143, 545.53004pt x 313.49033pt>
 File: Bilder/schematisch_hbruecke.pdf Graphic file (type pdf)
 <use Bilder/schematisch_hbruecke.pdf>
 Package pdftex.def Info: Bilder/schematisch_hbruecke.pdf  used on input line 22
@@ -2107,7 +2134,7 @@ Package pdftex.def Info: Bilder/schematisch_hbruecke.pdf  used on input line 22
 pdfTeX warning: pdflatex.exe (file ./Bilder/tabelle.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 > <./Bilder/Strommessung.png (PNG copy)>]
-<Bilder/Simulationsergebnisse.pdf, id=1156, 1173.8768pt x 635.65012pt>
+<Bilder/Simulationsergebnisse.pdf, id=1263, 1173.8768pt x 635.65012pt>
 File: Bilder/Simulationsergebnisse.pdf Graphic file (type pdf)
 <use Bilder/Simulationsergebnisse.pdf>
 Package pdftex.def Info: Bilder/Simulationsergebnisse.pdf  used on input line 2
@@ -2122,7 +2149,7 @@ Overfull \hbox (8.90096pt too wide) in paragraph at lines 254--257
 -sung mit-tels Heiÿ-lei-tern ist die Wheatstonsche-Brückenschaltung
  []
 
-<Bilder/wheatstone.pdf, id=1240, 136.30507pt x 120.66626pt>
+<Bilder/wheatstone.pdf, id=1347, 136.30507pt x 120.66626pt>
 File: Bilder/wheatstone.pdf Graphic file (type pdf)
 <use Bilder/wheatstone.pdf>
 Package pdftex.def Info: Bilder/wheatstone.pdf  used on input line 260.
@@ -2131,7 +2158,7 @@ Package pdftex.def Info: Bilder/wheatstone.pdf  used on input line 260.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25 <./Bilder/Simulationsergebnisse.pdf>]
-<./Bilder/fig_ther_elek.pdf, id=1271, 395.66322pt x 303.17213pt>
+<./Bilder/fig_ther_elek.pdf, id=1378, 395.66322pt x 303.17213pt>
 File: ./Bilder/fig_ther_elek.pdf Graphic file (type pdf)
 <use ./Bilder/fig_ther_elek.pdf>
 Package pdftex.def Info: ./Bilder/fig_ther_elek.pdf  used on input line 275.
@@ -2150,13 +2177,13 @@ ther_elek.pdf>] [28
 
 ]
 chapter 5.
-<./Bilder/Elektronik_Gehauese_ver3.png, id=1318, 683.55376pt x 473.51906pt>
+<./Bilder/Elektronik_Gehauese_ver3.png, id=1426, 683.55376pt x 473.51906pt>
 File: ./Bilder/Elektronik_Gehauese_ver3.png Graphic file (type png)
 <use ./Bilder/Elektronik_Gehauese_ver3.png>
 Package pdftex.def Info: ./Bilder/Elektronik_Gehauese_ver3.png  used on input l
 ine 9.
 (pdftex.def)             Requested size: 300.0pt x 207.82156pt.
-<./Bilder/Elektronik_Gehauese.png, id=1321, 532.23843pt x 364.36125pt>
+<./Bilder/Elektronik_Gehauese.png, id=1429, 532.23843pt x 364.36125pt>
 File: ./Bilder/Elektronik_Gehauese.png Graphic file (type png)
 <use ./Bilder/Elektronik_Gehauese.png>
 Package pdftex.def Info: ./Bilder/Elektronik_Gehauese.png  used on input line 1
@@ -2164,7 +2191,7 @@ Package pdftex.def Info: ./Bilder/Elektronik_Gehauese.png  used on input line 1
 (pdftex.def)             Requested size: 300.0pt x 205.38078pt.
 [29 <./Bilder/Elektronik_Gehauese_ver3.png>] [30 <./Bilder/Elektronik_Gehauese.
 png>]
-<./Bilder/docu.pdf, id=1345, 592.5337pt x 328.74818pt>
+<./Bilder/docu.pdf, id=1452, 592.5337pt x 328.74818pt>
 File: ./Bilder/docu.pdf Graphic file (type pdf)
 <use ./Bilder/docu.pdf>
 Package pdftex.def Info: ./Bilder/docu.pdf  used on input line 32.
@@ -2184,7 +2211,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/temp-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Bilder/temp-eps-converted-to.pdf, id=1369, 421.575pt x 316.18124pt>
+<./Bilder/temp-eps-converted-to.pdf, id=1476, 421.575pt x 316.18124pt>
 File: ./Bilder/temp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Bilder/temp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Bilder/temp-eps-converted-to.pdf  used on input line
@@ -2204,14 +2231,14 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/quer-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./Bilder/quer-eps-converted-to.pdf, id=1370, 421.575pt x 316.18124pt>
+<./Bilder/quer-eps-converted-to.pdf, id=1477, 421.575pt x 316.18124pt>
 File: ./Bilder/quer-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Bilder/quer-eps-converted-to.pdf>
 Package pdftex.def Info: ./Bilder/quer-eps-converted-to.pdf  used on input line
  93.
 (pdftex.def)             Requested size: 247.0pt x 185.25233pt.
 [32 <./Bilder/temp-eps-converted-to.pdf> <./Bilder/quer-eps-converted-to.pdf>]
-<./Bilder/layer.pdf, id=1403, 356.25473pt x 157.06233pt>
+<./Bilder/layer.pdf, id=1510, 356.25473pt x 157.06233pt>
 File: ./Bilder/layer.pdf Graphic file (type pdf)
 <use ./Bilder/layer.pdf>
 Package pdftex.def Info: ./Bilder/layer.pdf  used on input line 126.
@@ -2220,7 +2247,7 @@ Package pdftex.def Info: ./Bilder/layer.pdf  used on input line 126.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-<./Bilder/logb.pdf, id=1417, 334.25047pt x 326.42123pt>
+<./Bilder/logb.pdf, id=1524, 334.25047pt x 326.42123pt>
 File: ./Bilder/logb.pdf Graphic file (type pdf)
 <use ./Bilder/logb.pdf>
 Package pdftex.def Info: ./Bilder/logb.pdf  used on input line 140.
@@ -2231,12 +2258,12 @@ Package pdftex.def Info: ./Bilder/logb.pdf  used on input line 140.
 pdfTeX warning: pdflatex.exe (file ./Bilder/logb.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
 >]
-<./Bilder/top2.pdf, id=1585, 450.0012pt x 258.48569pt>
+<./Bilder/top2.pdf, id=1693, 450.0012pt x 258.48569pt>
 File: ./Bilder/top2.pdf Graphic file (type pdf)
 <use ./Bilder/top2.pdf>
 Package pdftex.def Info: ./Bilder/top2.pdf  used on input line 150.
 (pdftex.def)             Requested size: 400.0pt x 229.7636pt.
-<./Bilder/bottom2.pdf, id=1588, 450.0012pt x 266.51572pt>
+<./Bilder/bottom2.pdf, id=1696, 450.0012pt x 266.51572pt>
 File: ./Bilder/bottom2.pdf Graphic file (type pdf)
 <use ./Bilder/bottom2.pdf>
 Package pdftex.def Info: ./Bilder/bottom2.pdf  used on input line 157.
@@ -2245,12 +2272,12 @@ Package pdftex.def Info: ./Bilder/bottom2.pdf  used on input line 157.
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [35 <./Bilder/top2.pdf>] [36 <./Bilder/bottom2.pdf>]
-<./Bilder/pla_top2.jpg, id=1617, 2752.2825pt x 1574.88374pt>
+<./Bilder/pla_top2.jpg, id=1724, 2752.2825pt x 1574.88374pt>
 File: ./Bilder/pla_top2.jpg Graphic file (type jpg)
 <use ./Bilder/pla_top2.jpg>
 Package pdftex.def Info: ./Bilder/pla_top2.jpg  used on input line 167.
 (pdftex.def)             Requested size: 400.0pt x 228.86896pt.
-<./Bilder/pla_bot2.jpg, id=1618, 2761.31625pt x 1620.0525pt>
+<./Bilder/pla_bot2.jpg, id=1725, 2761.31625pt x 1620.0525pt>
 File: ./Bilder/pla_bot2.jpg Graphic file (type jpg)
 <use ./Bilder/pla_bot2.jpg>
 Package pdftex.def Info: ./Bilder/pla_bot2.jpg  used on input line 173.
@@ -2261,117 +2288,352 @@ Package pdftex.def Info: ./Bilder/pla_bot2.jpg  used on input line 173.
 
 ]
 chapter 6.
-) (input/7_Analyse.tex [39] [40
+
+LaTeX Warning: Reference `waijung' on page 39 undefined on input line 5.
+
+
+LaTeX Warning: Reference `simulinkCoder' on page 39 undefined on input line 5.
+
+
+LaTeX Warning: Reference `embeddedCoder' on page 39 undefined on input line 5.
+
+<./Bilder/fig_toolchain.pdf, id=1735, 785.87462pt x 331.97827pt>
+File: ./Bilder/fig_toolchain.pdf Graphic file (type pdf)
+<use ./Bilder/fig_toolchain.pdf>
+Package pdftex.def Info: ./Bilder/fig_toolchain.pdf  used on input line 10.
+(pdftex.def)             Requested size: 398.3401pt x 168.27328pt.
+
+LaTeX Warning: Citation 'automated' on page 39 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'automated' on page 39 undefined on input line 17.
+
+<./Bilder/fig_arch.pdf, id=1737, 577.31584pt x 346.57857pt>
+File: ./Bilder/fig_arch.pdf Graphic file (type pdf)
+<use ./Bilder/fig_arch.pdf>
+Package pdftex.def Info: ./Bilder/fig_arch.pdf  used on input line 21.
+(pdftex.def)             Requested size: 398.3401pt x 239.13417pt.
+[39 <./Bilder/fig_toolchain.pdf>]
+<./Bilder/fig_gesamtsystem.pdf, id=1747, 654.57144pt x 487.36829pt>
+File: ./Bilder/fig_gesamtsystem.pdf Graphic file (type pdf)
+<use ./Bilder/fig_gesamtsystem.pdf>
+Package pdftex.def Info: ./Bilder/fig_gesamtsystem.pdf  used on input line 54.
+(pdftex.def)             Requested size: 448.12788pt x 333.65933pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40 <./Bilder/fig_arch.pdf>]
+<./Bilder/fig_main.pdf, id=1762, 92.9217pt x 108.76979pt>
+File: ./Bilder/fig_main.pdf Graphic file (type pdf)
+<use ./Bilder/fig_main.pdf>
+Package pdftex.def Info: ./Bilder/fig_main.pdf  used on input line 64.
+(pdftex.def)             Requested size: 199.16626pt x 233.17166pt.
+ [41 <./Bilder/fig_gesamtsystem.pdf> <./Bilder/fig_main.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/fig_main.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `CAN_Nachrichten' on page 42 undefined on input line 8
+6.
+
+
+LaTeX Warning: Reference `CAN_Nachrichten' on page 42 undefined on input line 8
+7.
+
+<./Bilder/fig_main_detail.pdf, id=2138, 798.23372pt x 448.35222pt>
+File: ./Bilder/fig_main_detail.pdf Graphic file (type pdf)
+<use ./Bilder/fig_main_detail.pdf>
+Package pdftex.def Info: ./Bilder/fig_main_detail.pdf  used on input line 96.
+(pdftex.def)             Requested size: 298.75697pt x 167.80328pt.
+[42]
+<./Bilder/fig_POS.pdf, id=2143, 77.15518pt x 50.2933pt>
+File: ./Bilder/fig_POS.pdf Graphic file (type pdf)
+<use ./Bilder/fig_POS.pdf>
+Package pdftex.def Info: ./Bilder/fig_POS.pdf  used on input line 104.
+(pdftex.def)             Requested size: 149.37848pt x 97.38928pt.
+<./Bilder/fig_can.pdf, id=2145, 196.26942pt x 111.41624pt>
+File: ./Bilder/fig_can.pdf Graphic file (type pdf)
+<use ./Bilder/fig_can.pdf>
+Package pdftex.def Info: ./Bilder/fig_can.pdf  used on input line 123.
+(pdftex.def)             Requested size: 298.75697pt x 169.61116pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43 <./Bilder/fig_main_detail.pdf> <./Bilder/fig_POS.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/fig_POS.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+<./Bilder/fig_sen.pdf, id=2390, 117.45456pt x 271.35236pt>
+File: ./Bilder/fig_sen.pdf Graphic file (type pdf)
+<use ./Bilder/fig_sen.pdf>
+Package pdftex.def Info: ./Bilder/fig_sen.pdf  used on input line 134.
+(pdftex.def)             Requested size: 99.58313pt x 230.06264pt.
+ [44 <./Bilder/fig_can.pdf> <./Bilder/fig_sen.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/fig_sen.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+<./Bilder/fig_err.pdf, id=2502, 79.24419pt x 260.0348pt>
+File: ./Bilder/fig_err.pdf Graphic file (type pdf)
+<use ./Bilder/fig_err.pdf>
+Package pdftex.def Info: ./Bilder/fig_err.pdf  used on input line 143.
+(pdftex.def)             Requested size: 99.58313pt x 326.7806pt.
+<./Bilder/fig_cal.pdf, id=2503, 79.47961pt x 51.84976pt>
+File: ./Bilder/fig_cal.pdf Graphic file (type pdf)
+<use ./Bilder/fig_cal.pdf>
+Package pdftex.def Info: ./Bilder/fig_cal.pdf  used on input line 153.
+(pdftex.def)             Requested size: 149.37848pt x 97.46169pt.
+
+
+LaTeX Warning: Citation 'VorgaengerADP' on page 45 undefined on input line 158.
+
+
+[45 <./Bilder/fig_err.pdf> <./Bilder/fig_cal.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/fig_cal.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+<./Bilder/fig_conh_cons.pdf, id=2571, 80.46326pt x 101.6019pt>
+File: ./Bilder/fig_conh_cons.pdf Graphic file (type pdf)
+<use ./Bilder/fig_conh_cons.pdf>
+Package pdftex.def Info: ./Bilder/fig_conh_cons.pdf  used on input line 164.
+(pdftex.def)             Requested size: 99.58313pt x 125.74783pt.
+
+
+LaTeX Warning: Citation 'VorgaengerADP' on page 46 undefined on input line 169.
+
+
+<./Bilder/fig_pwm.pdf, id=2573, 49.64285pt x 61.53226pt>
+File: ./Bilder/fig_pwm.pdf Graphic file (type pdf)
+<use ./Bilder/fig_pwm.pdf>
+Package pdftex.def Info: ./Bilder/fig_pwm.pdf  used on input line 175.
+(pdftex.def)             Requested size: 99.58313pt x 123.43785pt.
+<./Bilder/fig_mot.pdf, id=2574, 45.455pt x 54.73523pt>
+File: ./Bilder/fig_mot.pdf Graphic file (type pdf)
+<use ./Bilder/fig_mot.pdf>
+Package pdftex.def Info: ./Bilder/fig_mot.pdf  used on input line 186.
+(pdftex.def)             Requested size: 99.58313pt x 119.91838pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./Bilder/fig_conh_cons.pdf> <./Bilder/fig_pwm.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/fig_pwm.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] [47 <./Bilder/fig_mot.pdf>]
+<./Bilder/fig_clock.png, id=2703, 1955.05406pt x 1404.74812pt>
+File: ./Bilder/fig_clock.png Graphic file (type png)
+<use ./Bilder/fig_clock.png>
+Package pdftex.def Info: ./Bilder/fig_clock.png  used on input line 205.
+(pdftex.def)             Requested size: 497.92325pt x 357.76662pt.
+<./Bilder/fig_can_ov.pdf, id=2708, 1810.69087pt x 1114.40706pt>
+File: ./Bilder/fig_can_ov.pdf Graphic file (type pdf)
+<use ./Bilder/fig_can_ov.pdf>
+Package pdftex.def Info: ./Bilder/fig_can_ov.pdf  used on input line 216.
+(pdftex.def)             Requested size: 298.75697pt x 183.86923pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 227--228
+[]\T1/5ch/m/n/9.5 Durch Set-zen die-ses Bits
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 228--228
+[]\T1/5ch/m/n/9.5 Wahl des ge-wünsch-ten Be-triebs-mo-dus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+LaTeX Font Info:    Font shape `T1/5fp/m/it' in size <9.5> not available
+(Font)              Font shape `T1/5fp/m/sl' tried instead on input line 236.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+\T1/5ch/m/n/9.5 in gül-ti-gem To-le-ranz-be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+\T1/5ch/m/n/9.5 in gül-ti-gem To-le-ranz-be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+\T1/5ch/m/n/9.5 in gül-ti-gem To-le-ranz-be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+[]\T1/5ch/m/n/9.5 Aktor in Be-triebs-mo-dus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+\T1/5ch/b/n/9.5 Feh-ler\T1/5ch/m/n/9.5 , In-for-ma-tio-nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+\T1/5ch/m/n/9.5 zu-stands-au-to-ma-ten (zur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]\T1/5ch/m/n/9.5 Übertemperatur in Spu-len-wick-lun-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+\T1/5ch/m/n/9.5 oder feh-ler-haf-te Lang-
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 273--273
+[]\T1/5ch/m/n/9.5 Eingangsspannungsbereich unter- oder
+ []
+
+
+Underfull \hbox (badness 5771) in paragraph at lines 273--274
+\T1/5ch/m/n/9.5 über \T1/5ch/m/it/9.5 ERR_dcLimMin \T1/5ch/m/n/9.5 und
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 274--275
+\T1/5ch/m/n/9.5 er-war-te-ten Be-reichs oder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+[]\T1/5ch/m/n/9.5 Timeout über-schrit-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[]\T1/5ch/m/n/9.5 Softwaresystem be-fin-
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 277--278
+\T1/5ch/m/n/9.5 det sich in un-ge-plan-tem
+ []
+
+) (input/7_Analyse.tex [48 <./Bilder/fig_clock.png>] [49 <./Bilder/fig_can_ov.p
+df>] [50] [51] [52
 
 
 ]
 chapter 7.
-<./Bilder/Platinenkosten.pdf, id=1636, 719.60843pt x 359.66371pt>
-File: ./Bilder/Platinenkosten.pdf Graphic file (type pdf)
-<use ./Bilder/Platinenkosten.pdf>
-Package pdftex.def Info: ./Bilder/Platinenkosten.pdf  used on input line 41.
-(pdftex.def)             Requested size: 248.96162pt x 124.42986pt.
-<./Bilder/Platinenkosten-tausend.pdf, id=1637, 719.60843pt x 353.6412pt>
-File: ./Bilder/Platinenkosten-tausend.pdf Graphic file (type pdf)
-<use ./Bilder/Platinenkosten-tausend.pdf>
-Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input lin
-e 44.
-(pdftex.def)             Requested size: 248.96162pt x 122.34628pt.
-
-Overfull \hbox (2.0045pt too wide) in paragraph at lines 40--46
-[]$[]$ $[]$ 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41]
-
-LaTeX Warning: Citation 'Bowden2001' on page 42 undefined on input line 67.
-
-[42 <./Bilder/Platinenkosten.pdf> <./Bilder/Platinenkosten-tausend.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Bilder/Platinenkosten-tausend.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]
-<Bilder/shift_gear2_test.pdf, id=1674, 603.26111pt x 629.22357pt>
-File: Bilder/shift_gear2_test.pdf Graphic file (type pdf)
-<use Bilder/shift_gear2_test.pdf>
-Package pdftex.def Info: Bilder/shift_gear2_test.pdf  used on input line 71.
-(pdftex.def)             Requested size: 497.92325pt x 519.35588pt.
-<Bilder/shift_toneutral.pdf, id=1675, 603.26111pt x 629.22357pt>
-File: Bilder/shift_toneutral.pdf Graphic file (type pdf)
-<use Bilder/shift_toneutral.pdf>
-Package pdftex.def Info: Bilder/shift_toneutral.pdf  used on input line 78.
-(pdftex.def)             Requested size: 497.92325pt x 519.35588pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43 <./Bilder/shift_gear2_test.pdf>]
-<Bilder/aktor_anschlag2.pdf, id=1696, 640.21109pt x 515.54932pt>
-File: Bilder/aktor_anschlag2.pdf Graphic file (type pdf)
-<use Bilder/aktor_anschlag2.pdf>
-Package pdftex.def Info: Bilder/aktor_anschlag2.pdf  used on input line 88.
-(pdftex.def)             Requested size: 497.92325pt x 400.97832pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 4291) has occurred while \output is active []
-
- [44 <./Bilder/shift_toneutral.pdf>] [45 <./Bilder/aktor_anschlag2.pdf>]
-Underfull \hbox (badness 3815) in paragraph at lines 122--122
+[53]
+Underfull \hbox (badness 3815) in paragraph at lines 29--29
 []\T1/5ch/m/n/9.5 Effizienz (ge-mit-telt über einen
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (input/8_Fazit.tex [46] [47] [48
+<./Bilder/Platinenkosten.pdf, id=2789, 719.60843pt x 359.66371pt>
+File: ./Bilder/Platinenkosten.pdf Graphic file (type pdf)
+<use ./Bilder/Platinenkosten.pdf>
+Package pdftex.def Info: ./Bilder/Platinenkosten.pdf  used on input line 75.
+(pdftex.def)             Requested size: 248.96162pt x 124.42986pt.
+<./Bilder/Platinenkosten-tausend.pdf, id=2790, 719.60843pt x 353.6412pt>
+File: ./Bilder/Platinenkosten-tausend.pdf Graphic file (type pdf)
+<use ./Bilder/Platinenkosten-tausend.pdf>
+Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input lin
+e 78.
+(pdftex.def)             Requested size: 248.96162pt x 122.34628pt.
+
+Overfull \hbox (2.0045pt too wide) in paragraph at lines 74--80
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54]
+Underfull \vbox (badness 1810) has occurred while \output is active []
+
+ [55 <./Bilder/Platinenkosten.pdf> <./Bilder/Platinenkosten-tausend.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Bilder/Platinenkosten-tausend.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation 'Bowden2001' on page 56 undefined on input line 104.
+
+<Bilder/shift_gear2_test.pdf, id=2828, 603.26111pt x 629.22357pt>
+File: Bilder/shift_gear2_test.pdf Graphic file (type pdf)
+<use Bilder/shift_gear2_test.pdf>
+Package pdftex.def Info: Bilder/shift_gear2_test.pdf  used on input line 108.
+(pdftex.def)             Requested size: 497.92325pt x 519.35588pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+<Bilder/shift_toneutral.pdf, id=2833, 603.26111pt x 629.22357pt>
+File: Bilder/shift_toneutral.pdf Graphic file (type pdf)
+<use Bilder/shift_toneutral.pdf>
+Package pdftex.def Info: Bilder/shift_toneutral.pdf  used on input line 115.
+(pdftex.def)             Requested size: 497.92325pt x 519.35588pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./Bilder/shift_gear2_test.pdf>]
+<Bilder/aktor_anschlag2.pdf, id=2854, 640.21109pt x 515.54932pt>
+File: Bilder/aktor_anschlag2.pdf Graphic file (type pdf)
+<use Bilder/aktor_anschlag2.pdf>
+Package pdftex.def Info: Bilder/aktor_anschlag2.pdf  used on input line 125.
+(pdftex.def)             Requested size: 497.92325pt x 400.97832pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (input/8_Fazit.tex [58 <./Bilder/shift_toneutral.pdf>] [59 <./Bilder/aktor_an
+schlag2.pdf>] [60
 
 
 ]
 chapter 8.
-<Bilder/fazit.pdf, id=1748, 1044.19798pt x 400.23006pt>
+<Bilder/fazit.pdf, id=2885, 1044.19798pt x 400.23006pt>
 File: Bilder/fazit.pdf Graphic file (type pdf)
 <use Bilder/fazit.pdf>
-Package pdftex.def Info: Bilder/fazit.pdf  used on input line 11.
+Package pdftex.def Info: Bilder/fazit.pdf  used on input line 10.
 (pdftex.def)             Requested size: 497.92325pt x 190.84409pt.
-) [49 <./Bilder/fazit.pdf>] [50]
-Overfull \hbox (75.27173pt too wide) in paragraph at lines 98--98
-[]\T1/5ch/m/it/9.5 Advanced Brush and Brus-hless Di-gi-tal Mo-tor Con-trol-lers
- User Ma-nu-al\T1/5ch/m/n/9.5 . Ro-bo-teQ. https://www.roboteq.com/index.php/do
-cman/motor-
- []
-
-
-Overfull \hbox (2.03096pt too wide) in paragraph at lines 98--98
-\T1/5ch/m/n/9.5 controllers-documents-and-files/documentation/user-manual/272-r
-oboteq-controllers-user-manual-v17/file, []Aug.
- []
-
+) [61 <./Bilder/fazit.pdf>] [62]
 
 Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 97.
+(biblatex)                Using fallback driver on input line 98.
 
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 97.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 98.
 
 ("C:\Users\Johannes\AppData\Local\Programs\MiKTeX 2.9\tex\latex\txfonts\t1txtt.
 fd"
 File: t1txtt.fd 2000/12/15 v3.1
-) [51
+) [63
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
- [52]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+ [64]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (ADP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `ADP.out' has not changed.
-(rerunfilecheck)             Checksum: 52BE795220B4F2861E416F60EC37A7F4;4405.
+(rerunfilecheck)             Checksum: 260538E6D398E40C26053CBBC39812FB;5469.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2381,9 +2643,6 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
-
-
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                ADP
 (biblatex)                and rerun LaTeX afterwards.
@@ -2391,14 +2650,14 @@ Package biblatex Warning: Please (re)run BibTeX on the file(s):
 Package logreq Info: Writing requests to 'ADP.run.xml'.
 \openout1 = `ADP.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 21612 strings out of 492970
- 376460 string characters out of 3125262
- 918707 words of memory out of 3000000
- 24788 multiletter control sequences out of 15000+200000
- 139166 words of font info for 139 fonts, out of 3000000 for 9000
+ 21788 strings out of 492970
+ 379776 string characters out of 3125262
+ 922486 words of memory out of 3000000
+ 24896 multiletter control sequences out of 15000+200000
+ 153766 words of font info for 141 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,100p,9105b,1907s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.
@@ -2408,21 +2667,21 @@ xnansi.enc}<C:/Program Files/tuddesign/fonts/type1/softmake/charter/5chb8a.pfb>
  Files/tuddesign/fonts/type1/softmake/charter/5chr8a.pfb><C:/Program Files/tudd
 esign/fonts/type1/softmake/charter/5chri8a.pfb><C:/Program Files/tuddesign/font
 s/type1/softmake/frontpage/5fpm8a.pfb><C:/Program Files/tuddesign/fonts/type1/s
-oftmake/frontpage/5fpr8a.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Johannes/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Johannes/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/U
-sers/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md
--chr7t.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mat
-hdesign/mdbch/md-chr7v.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Johannes/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb><C:/Users/Johannes/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb><C:
-/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/t1
-xtt.pfb>
-Output written on ADP.pdf (60 pages, 22219044 bytes).
+oftmake/frontpage/5fpr8a.pfb><C:/Program Files/tuddesign/fonts/type1/softmake/f
+rontpage/5fpr8a.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/bitstrea/charter/bchr8a.pfb><C:/Users/Johannes/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Johannes/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7m.pfb><C:/Users/Joha
+nnes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7t.pf
+b><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/mathdesign/m
+dbch/md-chr7v.pfb><C:/Users/Johannes/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/mathdesign/mdbch/md-chr7y.pfb><C:/Users/Johannes/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/mathdesign/mdbch/md-chri7m.pfb><C:/Users/Johannes/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb><C:/Users/Jo
+hannes/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on ADP.pdf (73 pages, 23158501 bytes).
 PDF statistics:
- 1912 PDF objects out of 2073 (max. 8388607)
- 237 named destinations out of 1000 (max. 500000)
- 749 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3067 PDF objects out of 3580 (max. 8388607)
+ 285 named destinations out of 1000 (max. 500000)
+ 936 words of extra memory for PDF output out of 10000 (max. 10000000)
 

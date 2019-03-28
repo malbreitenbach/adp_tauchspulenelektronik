@@ -443,7 +443,6 @@
 @Manual{manual,
   title        = {Advanced Brush and Brushless Digital Motor Controllers User Manual},
   organization = {RoboteQ},
-  address      = {https://www.roboteq.com/index.php/docman/motor-controllers-documents-and-files/documentation/user-manual/272-roboteq-controllers-user-manual-v17/file},
   month        = aug,
   year         = {2017},
 }
@@ -491,6 +490,93 @@
 @Booklet{swd,
   title  = {Serial Wire Debug—Ideal for Microcontrollers},
   author = {Texas Instruments},
+}
+
+@Book{BasSof,
+  title        = {Basiswissen Softwaretest : Aus- und Weiterbildung zum Certified Tester},
+  publisher    = {dpunkt.verlag},
+  year         = {2012},
+  author       = {Spillner, Andreas},
+  address      = {Heidelberg},
+  edition      = {5., überarb. und aktualisierte Aufl.},
+  isbn         = {9783864900242},
+  hdsurl       = {https://hds.hebis.de/ulbda/Record/HEB30936096X},
+  howpublished = {dpunkt.verlag},
+  uniqueid     = {HEB30936096X},
+  url          = {http://d-nb.info/1024745341/04},
+}
+
+@Electronic{ISO_25010,
+  month = mar,
+  year  = {2011},
+  title = {ISO/IEC 25010 Systems and software engineering -Systems and software Quality Requirements and Evaluation (SQuaRE)},
+}
+
+@InProceedings{Boehm79,
+  author    = {Boehm, B. W.},
+  title     = {Guidelines for Verifying and Validating Software Requirements and Design Specifications},
+  booktitle = {Euro IFIP 79},
+  year      = {1979},
+  editor    = {Samet, P. A.},
+  pages     = {711-719},
+  publisher = {North Holland},
+  added-at  = {2007-08-29T18:00:48.000+0200},
+  biburl    = {https://www.bibsonomy.org/bibtex/2eafee1c68c0fcbafcf6d52dfa6b87e71/kochm},
+  interhash = {97a5484e8471c8c927ee9723f976b041},
+  intrahash = {eafee1c68c0fcbafcf6d52dfa6b87e71},
+  keywords  = {engineering software},
+  timestamp = {2007-08-29T18:00:52.000+0200},
+}
+
+@Electronic{Wolfsperger,
+  author   = {Wolfsperger, Hans A},
+  year     = {2008},
+  title    = {Elektromagnetische Schirmung : Theorie und Praxisbeispiele},
+  address  = {Berlin, Heidelberg},
+  url      = {http://dx.doi.org/10.1007/978-3-540-76913-2},
+  hdsurl   = {https://hds.hebis.de/ulbda/Record/HEB199035377},
+  isbn     = {9783540769125},
+  series   = {VDI-Buch},
+  uniqueid = {HEB199035377},
+}
+
+@Misc{ADC,
+  author   = {Stuhlmüller, Peter},
+  title    = {A-D-Wandler in embedded Systemen : Aufbau und Anwendung},
+  year     = {2004},
+  address  = {Poing},
+  hdsurl   = {https://hds.hebis.de/ulbda/Record/HEB120280078},
+  isbn     = {3772353002},
+  series   = {Elektronik},
+  uniqueid = {HEB120280078},
+  url      = {http://scans.hebis.de/HEBCGI/show.pl?12028007_toc.pdf},
+}
+
+@Electronic{ISO_25010,
+  month = mar,
+  year  = {2011},
+  title = {ISO/IEC 25010 Systems and software engineering -Systems and software Quality Requirements and Evaluation (SQuaRE)},
+}
+
+@Misc{embeddedCoder,
+  title     = {Matlab Embedded Coder},
+  timestamp = {2019-03-27},
+  url       = {https://de.mathworks.com/products/embedded-coder.html},
+}
+
+@Misc{simulinkCoder,
+  title     = {Simulink Coder},
+  timestamp = {2019-03-27},
+  url       = {https://de.mathworks.com/products/simulink-coder.html},
+}
+
+@Misc{waijung,
+  title     = {Waijung aimagin - Features},
+  timestamp = {2019-03-27},
+  url       = {http://waijung.aimagin.com/},
+}
+
+@Misc{,
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
