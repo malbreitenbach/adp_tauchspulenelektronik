@@ -1,9 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.1}Zusammenfassung}{1}{section.0.1}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.2}Abstract}{1}{section.0.2}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{5}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivation und Ziele der Arbeit}{5}{section.1.1}% 
@@ -102,5 +98,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Fertigung}{41}{section.5.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{43}{section*.56}% 
+\contentsline {chapter}{\numberline {6}Fazit und Ausblick}{43}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Ausblick}{43}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbildungsverzeichnis}{45}{section*.57}% 
 \contentsfinish 

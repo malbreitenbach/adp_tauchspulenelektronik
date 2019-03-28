@@ -35,8 +35,8 @@ Class=LaTeXView
 Document=ADP.tex
 
 [Frame1_View0,0]
-TopLine=81
-Cursor=3937
+TopLine=106
+Cursor=5817
 
 [Frame2]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
 [Frame2_View0,0]
-TopLine=480
-Cursor=17945
+TopLine=441
+Cursor=33248
 
 [Frame3]
 Flags=0
@@ -71,7 +71,7 @@ Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame3_View0,0]
-TopLine=274
+TopLine=22
 Cursor=20156
 
 [Frame4]
@@ -125,7 +125,7 @@ Class=LaTeXView
 Document=input\5_Platinendesign.tex
 
 [Frame6_View0,0]
-TopLine=45
+TopLine=47
 Cursor=4695
 
 [Frame7]
@@ -161,10 +161,10 @@ Class=LaTeXView
 Document=input\8_Fazit.tex
 
 [Frame8_View0,0]
-TopLine=0
-Cursor=39
+TopLine=19
+Cursor=3068
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=1
+ActiveFrame=8
 
