@@ -39,7 +39,7 @@ Sein Querschnitt ist in folgender Abbildung schematisch dargestellt.
 
 Der Aufbau ist zylindrisch und kann in den ortsfesten Stator und den beweglichen Läufer unterteilt werden. Der Stator des Aktors besteht aus zwei in Reihe geschalteten Kupferspulen, welche fest in dem Gehäuse aus Weicheisen liegen und nach oben und unten mit Deckeln aus Aluminium fixiert werden. Der Läufer besteht aus einer nichtmagnetischen Läuferwelle, auf der sich fünf Permanentmagneten aus Neodym-Eisen-Bor befinden, welche mit Hilfe von zwei Polstücken aus Weicheisen axial auf der Läuferstange montiert sind. 
 Werden nun die Kupferspulen von Strom durchflossen, so wirkt eine vom Magnetfeld der Permanentmagneten induzierte Lorentzkraft orthogonal auf sie. Diese Kraft ist abhängig von der Stromstärke I, der magnetischen Flussdichte der Permanentmagneten B und der vom Magnetfeld durchsetzten Leiterlänge l:
-\begin{equation}
+\begin{equation}\label{eq:lorentz}
 F=I\cdot l\cdot B
 \end{equation}
 Da die Spulen jedoch fest im Gehäuse verbaut sind, wirkt eine entgegengerichtete Kraft auf die Permanentmagneten, die auf der axial verschiebbaren Läuferwelle lagern. Diese Kraft bewirkt dann eine translatorische Bewegung der Welle und somit auch der Schaltgabel. Die Richtung der translatorischen Bewegung kann dabei über die Richtung des in den Spulen fließenden Stromes, der Betrag der Kraft über den Betrag des Stromes eingestellt werden.
@@ -60,7 +60,7 @@ Zur Aktoransteuerung wird ein Arduino IBT2 Motortreiber verwendet, die Stromvers
 
 Die bisherigen Funktionen am Prüfstand laufen auf einer MicroAutoBox II 1401/1513 der dSpace GmbH. Das Programm zum Schalten des Aktors und der Positionsregelung, welches in MATLAB/SIMULINK entwickelt wurde, wird auf die AutoBox geflasht und diese über die Software dSpace ControlDesk gesteuert.
 
-\subsection {Positionsmessung und -regelung}
+\subsection {Positionsmessung und -regelung}\label{regler}
 
 Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen berührungslose PLCD (permanentmagnetic linear contactless displacement) Technologie die magnetische Sättigung zur Positionsbestimmung verwendet. Der weichmagnetische Kern des Sensors ist über seine komplette Länge von einer Primärspule umgeben. Auf der Schaltgabel ist ein Permanentmagnet befestigt, welcher je nach Position zu einer lokalen Sättigung des weichmagnetischen Kerns führt. Über zwei Auswertungsspulen am Rand des Sensors kann die Position der Sättigungszone entlang der Sensorachse über die induzierte Spannung bestimmt werden.
 
@@ -75,7 +75,6 @@ Die Kalibrierung wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bishe
 \begin{equation}\label{eq:Lage}
 	x=\frac{U\textsubscript{a} -U\textsubscript{0}}{U\textsubscript{1}-U\textsubscript{2}}\cdot x\textsubscript{ges}
 \end{equation}
- 
 
 Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenem Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu $K_P$ =\SI{0,026}{\frac{V}{mm}}, $K_I$ =\SI{0,2}{\frac{V}{s mm}} und $K_D$ =\SI{0,016}{\frac{Vs}{mm}} bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
 \begin{figure}[h]

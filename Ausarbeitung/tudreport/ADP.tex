@@ -65,23 +65,23 @@ Institut für Mechatronische Systeme im Maschinenbau\\
 
 \begin{document}
 \maketitle
-\begin{abstract}
-
+\pagenumbering{roman}
+\addcontentsline{toc}{chapter}{Kurzfassung}
+\section*{Kurzfassung}
 Die vorliegende Arbeit befasst sich mit der Entwicklung und der Realisierung  einer eingebetteten Elektronik für einen linearen Tauchspulenaktor.  Dieser wird am Prüfstand des Instituts für Mechatronische Systeme eingesetzt um die Schaltgabel eines Getriebes translatorisch zu bewegen.
-In vorangegangenen Arbeiten wurde bereits eine Regelung der Schaltgabelposition entworfen. Auf Basis dessen erfolgt zunächst die Implementierung der bisherigen Programmierung mittels einer geeigneten Toolchain in Matlab-Simulink auf einem Mikrocontroller, der von nun an die Steuerung der Schaltgabel übernehmen soll. Mithilfe von CAN-Kommunikation soll der Mikrocontroller einerseits Statusmeldungen und besonders Fehlzustände übermitteln können, andererseits bietet die CAN-Schnittstelle die Möglichkeit, dem Mikrocontroller Befehle zu senden. Im nächsten Schritt wird die für die Regelstrecke benötigte Elektronik, die Aktoransteuerung, Sensorik sowie Spannungsversorgung, umfasst an den Aktor integriert, indem die gesamte Schaltung auf einer eigens entworfenen Platine verwirklicht wird, welche anschließend in einem Gehäuse liegend am Motor verschraubt wird. Zusätzlich wird ein Temperatursensor integriert, der Übertemperaturen erkennen kann sowie einige bauteilinternen Funktionen, beispielsweise eine Strommessung innerhalb der verwendeten Halbbrücken, genutzt.  Das Ergebnis der Arbeit ist ein Smart Actuator inklusive kompakter eingebetteter Elektronik, der auf einfachen Befehl über die Benutzeroberfläche Controldesk selbstständig die zwei Gänge einlegen oder in Neutralstellung schalten kann.
+In vorangegangenen Arbeiten wurde bereits eine Regelung der Schaltgabelposition entworfen. Auf Basis dessen erfolgt zunächst die Implementierung der bisherigen Programmierung mittels einer geeigneten Toolchain in Matlab-Simulink auf einem Mikrocontroller, der von nun an die Steuerung der Schaltgabel übernehmen soll. Mithilfe von CAN-Kommunikation soll der Mikrocontroller einerseits Statusmeldungen und besonders Fehlzustände übermitteln können, andererseits bietet die CAN-Schnittstelle die Möglichkeit, dem Mikrocontroller Befehle zu senden. Im nächsten Schritt wird die für die Regelstrecke benötigte Elektronik, die Aktoransteuerung, Sensorik sowie Spannungsversorgung, umfasst an den Aktor integriert, indem die gesamte Schaltung auf einer eigens entworfenen Platine verwirklicht wird, welche anschließend in einem Gehäuse liegend am Motor verschraubt wird. Zusätzlich wird ein Temperatursensor integriert, der Übertemperaturen erkennen kann sowie einige bauteilinternen Funktionen, beispielsweise eine Strommessung innerhalb der verwendeten Halbbrücken, genutzt.  Das Ergebnis der Arbeit ist ein Smart Actuator inklusive kompakter eingebetteter Elektronik, der auf einfachen Befehl über die Benutzeroberfläche Controldesk selbstständig die zwei Gänge einlegen oder in Neutralstellung schalten kann.\\
 
-\textbf{Schlagwörter: Smart Actuator, eingebettetes System, Linearaktor, Platinendesign}
+\textbf{Schlagwörter:} Smart Actuator, eingebettetes System, Linearaktor, Platinendesign
 
-
+\section*{Abstract}
 This thesis deals with the evaluation and implementation of an embedded electronics for a linear plunger coil actuator.  This actuator is used at the test bench of the Institute of Mechatronic Systems to move the shift fork of a gearbox.
-In previous work a control of the shift fork position has already been developed. On the foundation of this, the implementation of the previous programming is carried out using a suitable toolchain in Matlab-Simulink on a microcontroller, which henceforth will take over the control of the shift fork. With the use of CAN communication, the microcontroller should be able to transmit status messages and especially error states but also the CAN interface gives the opportunity to send commands directly to the microcontroller. In the next step, the electronics required for the controlled system, including the actuator control, sensor technology and power supply, are integrated into the actuator by realizing the entire circuit on a specially designed circuit board, which is then mounted to the motor in a case. In addition, a temperature sensor, which can detect overtemperatures, is integrated as well as some internal functions, for example the current measurement within the used half bridges.  The result of the work is a Smart Actuator including compact embedded electronics, which can engage the two gears independently or shift to neutral position with a simple command via the user interface Control Desk.
+In previous work a control of the shift fork position has already been developed. On the foundation of this, the implementation of the previous programming is carried out using a suitable toolchain in Matlab-Simulink on a microcontroller, which henceforth will take over the control of the shift fork. With the use of CAN communication, the microcontroller should be able to transmit status messages and especially error states but also the CAN interface gives the opportunity to send commands directly to the microcontroller. In the next step, the electronics required for the controlled system, including the actuator control, sensor technology and power supply, are integrated into the actuator by realizing the entire circuit on a specially designed circuit board, which is then mounted to the motor in a case. In addition, a temperature sensor, which can detect overtemperatures, is integrated as well as some internal functions, for example the current measurement within the used half bridges.  The result of the work is a Smart Actuator including compact embedded electronics, which can engage the two gears independently or shift to neutral position with a simple command via the user interface Control Desk.\\
 
-\textbf{Keywords: smart actuator, embedded system, linear actuator, PCB design}
-
-\end{abstract}
-
-\tableofcontents
-
+\textbf{Keywords:} smart actuator, embedded system, linear actuator, PCB design\newpage
+\listoffigures\addcontentsline{toc}{chapter}{\listfigurename}
+\tableofcontents\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+\newpage
+\pagenumbering{arabic}
 %% Hier Tex-Dateien includen
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./input/1_Einleitung}
@@ -89,12 +89,11 @@ In previous work a control of the shift fork position has already been developed
 \input{./input/3_Vorgehensweise}
 \input{./input/4_Komponentenauswahl}
 \input{./input/5_Platinendesign}
-%\input{./input/6_Software}
-%\input{./input/7_Analyse}
+\input{./input/6_Software}
+\input{./input/7_Analyse}
 \input{./input/8_Fazit}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\listoffigures\addcontentsline{toc}{chapter}{\listfigurename}
 \printbibliography
 
 \end{document}
