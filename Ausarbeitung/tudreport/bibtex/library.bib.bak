@@ -49,7 +49,8 @@
 }
 
 @Manual{ldo,
-  title = {LDL1117 - Datasheet - production data},
+  title  = {LDL1117 - Datasheet - production data},
+  author = {STMicroelectronics},
 }
 
 @Manual{emcdes,
@@ -550,12 +551,6 @@
   series   = {Elektronik},
   uniqueid = {HEB120280078},
   url      = {http://scans.hebis.de/HEBCGI/show.pl?12028007_toc.pdf},
-}
-
-@Electronic{ISO_25010,
-  month = mar,
-  year  = {2011},
-  title = {ISO/IEC 25010 Systems and software engineering -Systems and software Quality Requirements and Evaluation (SQuaRE)},
 }
 
 @Misc{embeddedCoder,
