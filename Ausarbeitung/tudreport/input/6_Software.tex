@@ -144,7 +144,7 @@ Die Sensorik umfasst eine Strommessung durch den Aktor, eine Spannungsmessung am
 \caption{Fehlererkennung}%
 \label{fig_err}%
 \end{figure}
-Durch die Fehlererkennung werden die gemessenen Überwachungsgrößen mit Schwellwerten verglichen und ggf. ein Fehlersignal zum Hauptzustandsautomaten weitergeleitet. Dabei muss berücksichtigt werden, dass Messfehler erkannt und ggf. gefiltert werden und nicht zu falsch positiv Ergebnissen führen. Auf der anderen Seite sollten Fehler schnellstmöglich erkannt werden und die falsch negativ - Rate minimal sein. Neben dem Hauptzustandsautomaten besitzt die Komponente auch noch eine Schnittstelle zum Motortreiber, um den Stromfluss im Aktor schnellstmöglich zu unterbinden.
+Durch die Fehlererkennung werden die gemessenen Überwachungsgrößen mit Schwellwerten verglichen und ggf. ein Fehlersignal zum Hauptzustandsautomaten weitergeleitet. Dabei muss berücksichtigt werden, dass Messfehler erkannt und ggf. gefiltert werden und nicht zu falsch positiv Ergebnissen führen. Auf der anderen Seite sollten Fehler schnellstmöglich erkannt werden und die falsch negativ - Rate minimal sein. Neben dem Hauptzustandsautomaten besitzt die Komponente auch noch eine Schnittstelle zum Motortreiber, um den Stromfluss im Aktor schnellstmöglich zu unterbinden. Hierfür wird das in \autoref{subsec:MOT} genauer erklärte \textit{enable}-Signale genutzt.
 
 \subsection{Kalibrierung (CAL)}
 
@@ -188,7 +188,7 @@ Für die Regelung der Schaltgabelposition nach \autoref{regler} werden den Regle
 \label{fig_mot}%
 \end{figure}
 
-Der Motortreiber erwartet ein vorgegebenes PWM-Signal, bzw. dessen Puls/Pause-Verhältnis. Über das Vorzeichen wird bestimmt, welche der beiden H-Brücken gepulst angesteuert wird und welche konstant auf Erdpotential gesetzt wird. Über ein explizites Enable-Signal kann der Treiber bzw. die H-Brücken bspw. im Falle einer Notausschaltung deaktiviert werden. Zwei Vorgabewerte werden demnach in Signale umgewandelt, die zu den H-Brücken weitergeführt werden.
+Der Motortreiber erwartet ein vorgegebenes PWM-Signal, bzw. dessen Puls/Pause-Verhältnis. Über das Vorzeichen wird bestimmt, welche der beiden H-Brücken gepulst angesteuert wird und welche konstant auf Erdpotential gesetzt wird. Über ein explizites \textit{nable}-Signal kann der Motortreiber bspw. im Falle einer Notausschaltung deaktiviert werden. Hierfür wird der Motortreiber über einen separaten Pin in einen \textit{sleep-mode} gesetzt (vgl. \autoref{sec:hbridge}). Zwei Vorgabewerte werden demnach in Signale umgewandelt, die zur H-Brücke weitergeführt werden.
 
 
 \section{Codegenerierung und Performanceoptimierung} \label{performanceopt}
