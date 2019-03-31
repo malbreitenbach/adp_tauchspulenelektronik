@@ -88,7 +88,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Lagesensor}{27}{subsection.4.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Sensorik Eingangsspannung}{27}{subsection.4.5.3}% 
+\contentsline {subsection}{\numberline {4.5.3}Sensorik Eingangsspannung}{28}{subsection.4.5.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Platinenentwurf}{29}{chapter.5}% 
 \defcounter {refsection}{0}\relax 

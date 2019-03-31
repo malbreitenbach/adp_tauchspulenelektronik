@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.7)  31 MAR 2019 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.7)  31 MAR 2019 11:39
 entering extended mode
 **./ADP.tex
 (ADP.tex
@@ -1958,61 +1958,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-<Bilder/IS_Pin.pdf, id=913, 369.22878pt x 221.89243pt>
+<Bilder/IS_Pin.pdf, id=914, 369.22878pt x 221.89243pt>
 File: Bilder/IS_Pin.pdf Graphic file (type pdf)
 <use Bilder/IS_Pin.pdf>
 Package pdftex.def Info: Bilder/IS_Pin.pdf  used on input line 185.
 (pdftex.def)             Requested size: 348.54475pt x 209.46597pt.
 [22 <./Bilder/IS_Pin.pdf>]
-<Bilder/buffer.pdf, id=956, 127.84335pt x 171.30522pt>
+<Bilder/buffer.pdf, id=957, 127.84335pt x 171.30522pt>
 File: Bilder/buffer.pdf Graphic file (type pdf)
 <use Bilder/buffer.pdf>
 Package pdftex.def Info: Bilder/buffer.pdf  used on input line 203.
 (pdftex.def)             Requested size: 142.13992pt x 190.4557pt.
-<Bilder/tabelle.pdf, id=957, 239.13951pt x 89.34079pt>
+<Bilder/tabelle.pdf, id=958, 239.13951pt x 89.34079pt>
 File: Bilder/tabelle.pdf Graphic file (type pdf)
 <use Bilder/tabelle.pdf>
 Package pdftex.def Info: Bilder/tabelle.pdf  used on input line 208.
 (pdftex.def)             Requested size: 179.93437pt x 67.21986pt.
-<Bilder/Strommessung.png, id=959, 421.575pt x 316.18124pt>
+<Bilder/Strommessung.png, id=960, 421.575pt x 316.18124pt>
 File: Bilder/Strommessung.png Graphic file (type png)
 <use Bilder/Strommessung.png>
 Package pdftex.def Info: Bilder/Strommessung.png  used on input line 219.
 (pdftex.def)             Requested size: 298.75697pt x 224.07051pt.
-<Bilder/schematisch_hbruecke.pdf, id=961, 545.53004pt x 313.49033pt>
-File: Bilder/schematisch_hbruecke.pdf Graphic file (type pdf)
-<use Bilder/schematisch_hbruecke.pdf>
-Package pdftex.def Info: Bilder/schematisch_hbruecke.pdf  used on input line 228.
-(pdftex.def)             Requested size: 497.92325pt x 286.14722pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [23 <./Bilder/buffer.pdf> <./Bilder/tabelle.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/tabelle.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
-> <./Bilder/Strommessung.png (PNG copy)>]
-<Bilder/Simulationsergebnisse.pdf, id=1081, 1173.8768pt x 635.65012pt>
+>]
+<Bilder/schematisch_hbruecke.pdf, id=1080, 545.53004pt x 313.49033pt>
+File: Bilder/schematisch_hbruecke.pdf Graphic file (type pdf)
+<use Bilder/schematisch_hbruecke.pdf>
+Package pdftex.def Info: Bilder/schematisch_hbruecke.pdf  used on input line 228.
+(pdftex.def)             Requested size: 497.92325pt x 286.14722pt.
+ [24 <./Bilder/Strommessung.png (PNG copy)> <./Bilder/schematisch_hbruecke.pdf>]
+<Bilder/Simulationsergebnisse.pdf, id=1160, 1173.8768pt x 635.65012pt>
 File: Bilder/Simulationsergebnisse.pdf Graphic file (type pdf)
 <use Bilder/Simulationsergebnisse.pdf>
 Package pdftex.def Info: Bilder/Simulationsergebnisse.pdf  used on input line 239.
 (pdftex.def)             Requested size: 448.12788pt x 242.66496pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24 <./Bilder/schematisch_hbruecke.pdf>]
+ [25 <./Bilder/Simulationsergebnisse.pdf>]
 Overfull \hbox (8.90096pt too wide) in paragraph at lines 254--257
 \T1/5ch/m/n/9.5 Eine mög-li-che Schal-tung zur hoch-ge-nau-en Tem-pe-ra-tur-mes-sung mit-tels Heiÿ-lei-tern ist die Whea
 tstonsche-Brückenschaltung
  []
 
-<Bilder/wheatstone.pdf, id=1165, 136.30507pt x 120.66626pt>
+<Bilder/wheatstone.pdf, id=1184, 136.30507pt x 120.66626pt>
 File: Bilder/wheatstone.pdf Graphic file (type pdf)
 <use Bilder/wheatstone.pdf>
 Package pdftex.def Info: Bilder/wheatstone.pdf  used on input line 260.
 (pdftex.def)             Requested size: 199.16626pt x 176.32408pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25 <./Bilder/Simulationsergebnisse.pdf>]
-<./Bilder/fig_ther_elek.pdf, id=1196, 395.66322pt x 303.17213pt>
+<./Bilder/fig_ther_elek.pdf, id=1194, 395.66322pt x 303.17213pt>
 File: ./Bilder/fig_ther_elek.pdf Graphic file (type pdf)
 <use ./Bilder/fig_ther_elek.pdf>
 Package pdftex.def Info: ./Bilder/fig_ther_elek.pdf  used on input line 275.
@@ -2022,27 +2019,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--278
 
  []
 
-
-Underfull \vbox (badness 6708) has occurred while \output is active []
-
- [26 <./Bilder/wheatstone.pdf>])
-(input/5_Platinendesign.tex [27 <./Bilder/fig_ther_elek.pdf>] [28
-
-
-]
+[26 <./Bilder/wheatstone.pdf>]) (input/5_Platinendesign.tex [27 <./Bilder/fig_ther_elek.pdf>] [28]
 chapter 5.
-<./Bilder/Elektronik_Gehauese_ver3.png, id=1244, 683.55376pt x 473.51906pt>
+<./Bilder/Elektronik_Gehauese_ver3.png, id=1245, 683.55376pt x 473.51906pt>
 File: ./Bilder/Elektronik_Gehauese_ver3.png Graphic file (type png)
 <use ./Bilder/Elektronik_Gehauese_ver3.png>
 Package pdftex.def Info: ./Bilder/Elektronik_Gehauese_ver3.png  used on input line 9.
 (pdftex.def)             Requested size: 300.0pt x 207.82156pt.
-<./Bilder/Elektronik_Gehauese.png, id=1247, 532.23843pt x 364.36125pt>
+<./Bilder/Elektronik_Gehauese.png, id=1248, 532.23843pt x 364.36125pt>
 File: ./Bilder/Elektronik_Gehauese.png Graphic file (type png)
 <use ./Bilder/Elektronik_Gehauese.png>
 Package pdftex.def Info: ./Bilder/Elektronik_Gehauese.png  used on input line 19.
 (pdftex.def)             Requested size: 300.0pt x 205.38078pt.
-[29 <./Bilder/Elektronik_Gehauese_ver3.png>] [30 <./Bilder/Elektronik_Gehauese.png>]
-<./Bilder/docu.pdf, id=1270, 592.5337pt x 328.74818pt>
+[29
+
+
+ <./Bilder/Elektronik_Gehauese_ver3.png>] [30 <./Bilder/Elektronik_Gehauese.png>]
+<./Bilder/docu.pdf, id=1271, 592.5337pt x 328.74818pt>
 File: ./Bilder/docu.pdf Graphic file (type pdf)
 <use ./Bilder/docu.pdf>
 Package pdftex.def Info: ./Bilder/docu.pdf  used on input line 32.
@@ -2061,7 +2054,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/temp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
-<./Bilder/temp-eps-converted-to.pdf, id=1294, 421.575pt x 316.18124pt>
+<./Bilder/temp-eps-converted-to.pdf, id=1295, 421.575pt x 316.18124pt>
 File: ./Bilder/temp-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Bilder/temp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Bilder/temp-eps-converted-to.pdf  used on input line 92.
@@ -2079,13 +2072,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./Bilder/quer-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at m
 ost version <1.5> allowed
-<./Bilder/quer-eps-converted-to.pdf, id=1295, 421.575pt x 316.18124pt>
+<./Bilder/quer-eps-converted-to.pdf, id=1296, 421.575pt x 316.18124pt>
 File: ./Bilder/quer-eps-converted-to.pdf Graphic file (type pdf)
 <use ./Bilder/quer-eps-converted-to.pdf>
 Package pdftex.def Info: ./Bilder/quer-eps-converted-to.pdf  used on input line 93.
 (pdftex.def)             Requested size: 247.0pt x 185.25233pt.
 [32 <./Bilder/temp-eps-converted-to.pdf> <./Bilder/quer-eps-converted-to.pdf>]
-<./Bilder/layer.pdf, id=1329, 356.25473pt x 157.06233pt>
+<./Bilder/layer.pdf, id=1330, 356.25473pt x 157.06233pt>
 File: ./Bilder/layer.pdf Graphic file (type pdf)
 <use ./Bilder/layer.pdf>
 Package pdftex.def Info: ./Bilder/layer.pdf  used on input line 126.
@@ -2094,7 +2087,7 @@ Package pdftex.def Info: ./Bilder/layer.pdf  used on input line 126.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-<./Bilder/logb.pdf, id=1343, 334.25047pt x 326.42123pt>
+<./Bilder/logb.pdf, id=1344, 334.25047pt x 326.42123pt>
 File: ./Bilder/logb.pdf Graphic file (type pdf)
 <use ./Bilder/logb.pdf>
 Package pdftex.def Info: ./Bilder/logb.pdf  used on input line 140.
@@ -2104,12 +2097,12 @@ Package pdftex.def Info: ./Bilder/logb.pdf  used on input line 140.
 pdfTeX warning: pdflatex.exe (file ./Bilder/logb.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
 >]
-<./Bilder/top2.pdf, id=1512, 450.0012pt x 258.48569pt>
+<./Bilder/top2.pdf, id=1513, 450.0012pt x 258.48569pt>
 File: ./Bilder/top2.pdf Graphic file (type pdf)
 <use ./Bilder/top2.pdf>
 Package pdftex.def Info: ./Bilder/top2.pdf  used on input line 150.
 (pdftex.def)             Requested size: 400.0pt x 229.7636pt.
-<./Bilder/bottom2.pdf, id=1515, 450.0012pt x 266.51572pt>
+<./Bilder/bottom2.pdf, id=1516, 450.0012pt x 266.51572pt>
 File: ./Bilder/bottom2.pdf Graphic file (type pdf)
 <use ./Bilder/bottom2.pdf>
 Package pdftex.def Info: ./Bilder/bottom2.pdf  used on input line 157.
@@ -2118,12 +2111,12 @@ Package pdftex.def Info: ./Bilder/bottom2.pdf  used on input line 157.
 Underfull \vbox (badness 3209) has occurred while \output is active []
 
  [35 <./Bilder/top2.pdf>] [36 <./Bilder/bottom2.pdf>]
-<./Bilder/pla_top2.jpg, id=1543, 2752.2825pt x 1574.88374pt>
+<./Bilder/pla_top2.jpg, id=1544, 2752.2825pt x 1574.88374pt>
 File: ./Bilder/pla_top2.jpg Graphic file (type jpg)
 <use ./Bilder/pla_top2.jpg>
 Package pdftex.def Info: ./Bilder/pla_top2.jpg  used on input line 167.
 (pdftex.def)             Requested size: 400.0pt x 228.86896pt.
-<./Bilder/pla_bot2.jpg, id=1544, 2761.31625pt x 1620.0525pt>
+<./Bilder/pla_bot2.jpg, id=1545, 2761.31625pt x 1620.0525pt>
 File: ./Bilder/pla_bot2.jpg Graphic file (type jpg)
 <use ./Bilder/pla_bot2.jpg>
 Package pdftex.def Info: ./Bilder/pla_bot2.jpg  used on input line 173.
@@ -2142,7 +2135,7 @@ LaTeX Warning: Reference `simulinkCoder' on page 39 undefined on input line 5.
 
 LaTeX Warning: Reference `embeddedCoder' on page 39 undefined on input line 5.
 
-<./Bilder/fig_toolchain.pdf, id=1554, 785.87462pt x 331.97827pt>
+<./Bilder/fig_toolchain.pdf, id=1555, 785.87462pt x 331.97827pt>
 File: ./Bilder/fig_toolchain.pdf Graphic file (type pdf)
 <use ./Bilder/fig_toolchain.pdf>
 Package pdftex.def Info: ./Bilder/fig_toolchain.pdf  used on input line 10.
@@ -2153,13 +2146,13 @@ LaTeX Warning: Citation 'automated' on page 39 undefined on input line 17.
 
 LaTeX Warning: Citation 'automated' on page 39 undefined on input line 17.
 
-<./Bilder/fig_arch.pdf, id=1556, 577.31584pt x 346.57857pt>
+<./Bilder/fig_arch.pdf, id=1557, 577.31584pt x 346.57857pt>
 File: ./Bilder/fig_arch.pdf Graphic file (type pdf)
 <use ./Bilder/fig_arch.pdf>
 Package pdftex.def Info: ./Bilder/fig_arch.pdf  used on input line 21.
 (pdftex.def)             Requested size: 398.3401pt x 239.13417pt.
 [39 <./Bilder/fig_toolchain.pdf>]
-<./Bilder/fig_gesamtsystem.pdf, id=1566, 654.57144pt x 487.36829pt>
+<./Bilder/fig_gesamtsystem.pdf, id=1567, 654.57144pt x 487.36829pt>
 File: ./Bilder/fig_gesamtsystem.pdf Graphic file (type pdf)
 <use ./Bilder/fig_gesamtsystem.pdf>
 Package pdftex.def Info: ./Bilder/fig_gesamtsystem.pdf  used on input line 54.
@@ -2169,7 +2162,7 @@ Package pdftex.def Info: ./Bilder/fig_gesamtsystem.pdf  used on input line 54.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [40 <./Bilder/fig_arch.pdf>]
-<./Bilder/fig_main.pdf, id=1581, 92.9217pt x 108.76979pt>
+<./Bilder/fig_main.pdf, id=1582, 92.9217pt x 108.76979pt>
 File: ./Bilder/fig_main.pdf Graphic file (type pdf)
 <use ./Bilder/fig_main.pdf>
 Package pdftex.def Info: ./Bilder/fig_main.pdf  used on input line 64.
@@ -2185,18 +2178,18 @@ LaTeX Warning: Reference `CAN_Nachrichten' on page 42 undefined on input line 86
 
 LaTeX Warning: Reference `CAN_Nachrichten' on page 42 undefined on input line 87.
 
-<./Bilder/fig_main_detail.pdf, id=1957, 798.23372pt x 448.35222pt>
+<./Bilder/fig_main_detail.pdf, id=1958, 798.23372pt x 448.35222pt>
 File: ./Bilder/fig_main_detail.pdf Graphic file (type pdf)
 <use ./Bilder/fig_main_detail.pdf>
 Package pdftex.def Info: ./Bilder/fig_main_detail.pdf  used on input line 96.
 (pdftex.def)             Requested size: 298.75697pt x 167.80328pt.
 [42]
-<./Bilder/fig_POS.pdf, id=1962, 77.15518pt x 50.2933pt>
+<./Bilder/fig_POS.pdf, id=1963, 77.15518pt x 50.2933pt>
 File: ./Bilder/fig_POS.pdf Graphic file (type pdf)
 <use ./Bilder/fig_POS.pdf>
 Package pdftex.def Info: ./Bilder/fig_POS.pdf  used on input line 104.
 (pdftex.def)             Requested size: 149.37848pt x 97.38928pt.
-<./Bilder/fig_can.pdf, id=1964, 196.26942pt x 111.41624pt>
+<./Bilder/fig_can.pdf, id=1965, 196.26942pt x 111.41624pt>
 File: ./Bilder/fig_can.pdf Graphic file (type pdf)
 <use ./Bilder/fig_can.pdf>
 Package pdftex.def Info: ./Bilder/fig_can.pdf  used on input line 123.
@@ -2209,7 +2202,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: pdflatex.exe (file ./Bilder/fig_POS.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]
-<./Bilder/fig_sen.pdf, id=2209, 117.45456pt x 271.35236pt>
+<./Bilder/fig_sen.pdf, id=2210, 117.45456pt x 271.35236pt>
 File: ./Bilder/fig_sen.pdf Graphic file (type pdf)
 <use ./Bilder/fig_sen.pdf>
 Package pdftex.def Info: ./Bilder/fig_sen.pdf  used on input line 134.
@@ -2219,12 +2212,12 @@ Package pdftex.def Info: ./Bilder/fig_sen.pdf  used on input line 134.
 pdfTeX warning: pdflatex.exe (file ./Bilder/fig_sen.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]
-<./Bilder/fig_err.pdf, id=2321, 79.24419pt x 260.0348pt>
+<./Bilder/fig_err.pdf, id=2322, 79.24419pt x 260.0348pt>
 File: ./Bilder/fig_err.pdf Graphic file (type pdf)
 <use ./Bilder/fig_err.pdf>
 Package pdftex.def Info: ./Bilder/fig_err.pdf  used on input line 143.
 (pdftex.def)             Requested size: 99.58313pt x 326.7806pt.
-<./Bilder/fig_cal.pdf, id=2322, 79.47961pt x 51.84976pt>
+<./Bilder/fig_cal.pdf, id=2323, 79.47961pt x 51.84976pt>
 File: ./Bilder/fig_cal.pdf Graphic file (type pdf)
 <use ./Bilder/fig_cal.pdf>
 Package pdftex.def Info: ./Bilder/fig_cal.pdf  used on input line 153.
@@ -2238,7 +2231,7 @@ LaTeX Warning: Citation 'VorgaengerADP' on page 45 undefined on input line 158.
 pdfTeX warning: pdflatex.exe (file ./Bilder/fig_cal.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]
-<./Bilder/fig_conh_cons.pdf, id=2390, 80.46326pt x 101.6019pt>
+<./Bilder/fig_conh_cons.pdf, id=2391, 80.46326pt x 101.6019pt>
 File: ./Bilder/fig_conh_cons.pdf Graphic file (type pdf)
 <use ./Bilder/fig_conh_cons.pdf>
 Package pdftex.def Info: ./Bilder/fig_conh_cons.pdf  used on input line 164.
@@ -2247,12 +2240,12 @@ Package pdftex.def Info: ./Bilder/fig_conh_cons.pdf  used on input line 164.
 
 LaTeX Warning: Citation 'VorgaengerADP' on page 46 undefined on input line 169.
 
-<./Bilder/fig_pwm.pdf, id=2392, 49.64285pt x 61.53226pt>
+<./Bilder/fig_pwm.pdf, id=2393, 49.64285pt x 61.53226pt>
 File: ./Bilder/fig_pwm.pdf Graphic file (type pdf)
 <use ./Bilder/fig_pwm.pdf>
 Package pdftex.def Info: ./Bilder/fig_pwm.pdf  used on input line 175.
 (pdftex.def)             Requested size: 99.58313pt x 123.43785pt.
-<./Bilder/fig_mot.pdf, id=2393, 45.455pt x 54.73523pt>
+<./Bilder/fig_mot.pdf, id=2394, 45.455pt x 54.73523pt>
 File: ./Bilder/fig_mot.pdf Graphic file (type pdf)
 <use ./Bilder/fig_mot.pdf>
 Package pdftex.def Info: ./Bilder/fig_mot.pdf  used on input line 186.
@@ -2265,12 +2258,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning: pdflatex.exe (file ./Bilder/fig_pwm.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >] [47 <./Bilder/fig_mot.pdf>]
-<./Bilder/fig_clock.png, id=2522, 1955.05406pt x 1404.74812pt>
+<./Bilder/fig_clock.png, id=2523, 1955.05406pt x 1404.74812pt>
 File: ./Bilder/fig_clock.png Graphic file (type png)
 <use ./Bilder/fig_clock.png>
 Package pdftex.def Info: ./Bilder/fig_clock.png  used on input line 207.
 (pdftex.def)             Requested size: 497.92325pt x 357.76662pt.
-<./Bilder/fig_can_ov.pdf, id=2527, 1810.69087pt x 1114.40706pt>
+<./Bilder/fig_can_ov.pdf, id=2528, 1810.69087pt x 1114.40706pt>
 File: ./Bilder/fig_can_ov.pdf Graphic file (type pdf)
 <use ./Bilder/fig_can_ov.pdf>
 Package pdftex.def Info: ./Bilder/fig_can_ov.pdf  used on input line 218.
@@ -2384,12 +2377,12 @@ Underfull \hbox (badness 3815) in paragraph at lines 29--29
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Bilder/Platinenkosten.pdf, id=2608, 719.60843pt x 359.66371pt>
+<./Bilder/Platinenkosten.pdf, id=2609, 719.60843pt x 359.66371pt>
 File: ./Bilder/Platinenkosten.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten.pdf  used on input line 75.
 (pdftex.def)             Requested size: 248.96162pt x 124.42986pt.
-<./Bilder/Platinenkosten-tausend.pdf, id=2609, 719.60843pt x 353.6412pt>
+<./Bilder/Platinenkosten-tausend.pdf, id=2610, 719.60843pt x 353.6412pt>
 File: ./Bilder/Platinenkosten-tausend.pdf Graphic file (type pdf)
 <use ./Bilder/Platinenkosten-tausend.pdf>
 Package pdftex.def Info: ./Bilder/Platinenkosten-tausend.pdf  used on input line 78.
@@ -2413,7 +2406,7 @@ cluded in a single page
 
 LaTeX Warning: Citation 'Bowden2001' on page 56 undefined on input line 104.
 
-<Bilder/shift_gear2_test.pdf, id=2647, 603.26111pt x 629.22357pt>
+<Bilder/shift_gear2_test.pdf, id=2648, 603.26111pt x 629.22357pt>
 File: Bilder/shift_gear2_test.pdf Graphic file (type pdf)
 <use Bilder/shift_gear2_test.pdf>
 Package pdftex.def Info: Bilder/shift_gear2_test.pdf  used on input line 108.
@@ -2422,7 +2415,7 @@ Package pdftex.def Info: Bilder/shift_gear2_test.pdf  used on input line 108.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56]
-<Bilder/shift_toneutral.pdf, id=2652, 603.26111pt x 629.22357pt>
+<Bilder/shift_toneutral.pdf, id=2653, 603.26111pt x 629.22357pt>
 File: Bilder/shift_toneutral.pdf Graphic file (type pdf)
 <use Bilder/shift_toneutral.pdf>
 Package pdftex.def Info: Bilder/shift_toneutral.pdf  used on input line 115.
@@ -2431,7 +2424,7 @@ Package pdftex.def Info: Bilder/shift_toneutral.pdf  used on input line 115.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57 <./Bilder/shift_gear2_test.pdf>]
-<Bilder/aktor_anschlag2.pdf, id=2673, 640.21109pt x 515.54932pt>
+<Bilder/aktor_anschlag2.pdf, id=2674, 640.21109pt x 515.54932pt>
 File: Bilder/aktor_anschlag2.pdf Graphic file (type pdf)
 <use Bilder/aktor_anschlag2.pdf>
 Package pdftex.def Info: Bilder/aktor_anschlag2.pdf  used on input line 125.
@@ -2445,7 +2438,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 chapter 8.
-<Bilder/fazit.pdf, id=2704, 1044.19798pt x 400.23006pt>
+<Bilder/fazit.pdf, id=2705, 1044.19798pt x 400.23006pt>
 File: Bilder/fazit.pdf Graphic file (type pdf)
 <use Bilder/fazit.pdf>
 Package pdftex.def Info: Bilder/fazit.pdf  used on input line 10.
@@ -2489,10 +2482,10 @@ Package logreq Info: Writing requests to 'ADP.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 22085 strings out of 492946
- 377770 string characters out of 3135528
+ 22086 strings out of 492946
+ 377782 string characters out of 3135528
  936004 words of memory out of 3000000
- 25211 multiletter control sequences out of 15000+200000
+ 25212 multiletter control sequences out of 15000+200000
  153766 words of font info for 141 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,100p,9105b,1907s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2507,9 +2500,9 @@ ea/charter/bchri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch
 Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/m
 dbch/md-chri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/txfonts/t1xtt.pfb>
-Output written on ADP.pdf (73 pages, 23101857 bytes).
+Output written on ADP.pdf (73 pages, 23102381 bytes).
 PDF statistics:
- 3114 PDF objects out of 3580 (max. 8388607)
+ 3115 PDF objects out of 3580 (max. 8388607)
  285 named destinations out of 1000 (max. 500000)
  936 words of extra memory for PDF output out of 10000 (max. 10000000)
 
