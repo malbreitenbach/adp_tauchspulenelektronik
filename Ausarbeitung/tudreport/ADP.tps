@@ -10,14 +10,14 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\8_Fazit.tex
 
 [Frame0_View0,0]
-TopLine=41
+TopLine=0
 Cursor=5583
 
 [Frame1]
@@ -28,14 +28,14 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\2_Pruefstand.tex
 
 [Frame1_View0,0]
-TopLine=248
+TopLine=165
 Cursor=16976
 
 [Frame2]
@@ -46,15 +46,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\6_Software.tex
 
 [Frame2_View0,0]
-TopLine=295
-Cursor=20811
+TopLine=183
+Cursor=16227
 
 [Frame3]
 Flags=0
@@ -64,14 +64,14 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\1_Einleitung.tex
 
 [Frame3_View0,0]
-TopLine=3
+TopLine=0
 Cursor=5003
 
 [Frame4]
@@ -82,9 +82,9 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=ADP.tex
 
@@ -100,15 +100,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\4_Komponentenauswahl.tex
 
 [Frame5_View0,0]
-TopLine=106
-Cursor=8753
+TopLine=151
+Cursor=18271
 
 [Frame6]
 Flags=0
@@ -118,9 +118,9 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\5_Platinendesign.tex
 
@@ -136,14 +136,14 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\7_Analyse.tex
 
 [Frame7_View0,0]
-TopLine=180
+TopLine=117
 Cursor=17635
 
 [Frame8]
@@ -154,9 +154,9 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\Akronymverzeichnis.tex
 
@@ -172,9 +172,9 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
+NormalPos.top=36
+NormalPos.right=3482
+NormalPos.bottom=1539
 Class=LaTeXView
 Document=input\3_Vorgehensweise.tex
 
@@ -182,61 +182,7 @@ Document=input\3_Vorgehensweise.tex
 TopLine=0
 Cursor=255
 
-[Frame10]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
-Class=LaTeXView
-Document=..\..\..\..\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesign\tudreport.cls
-
-[Frame10_View0,0]
-TopLine=138
-Cursor=5142
-
-[Frame11]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
-Class=LaTeXView
-Document=..\..\..\..\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesign\base\tudpage.sty
-
-[Frame11_View0,0]
-TopLine=41
-Cursor=1266
-
-[Frame12]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1660
-NormalPos.bottom=365
-Class=LaTeXView
-Document=..\..\..\..\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pslatex\tuddesign\base\tudheading.sty
-
-[Frame12_View0,0]
-TopLine=6
-Cursor=398
-
 [SessionInfo]
-FrameCount=13
+FrameCount=10
 ActiveFrame=2
 
