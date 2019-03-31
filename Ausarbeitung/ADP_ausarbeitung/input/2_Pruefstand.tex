@@ -136,10 +136,10 @@ berechnet werden.
 
 In \autoref{CANNachrichten} wird speziell auf die in dieser Arbeit eingerichtete CAN-Kommunikation eingegangen. Es wird ein CAN-Bus verwendet, mit dem lediglich zwei Teilnehmer miteinander verbunden werden. Diese sind zum einen die MicroAutoBox und zum anderen der Mikrocontroller des Smart Actuators. Die Länge der Leitungen zwischen den beiden ist wesentlich kürzer als 3m, wodurch nach Formel (\ref{eq:CAN}) die maximale Bitrate von 1Mbit/s möglich wird.
 
-\section{Pulsweitenmodulation}
+\section{Pulsweitenmodulation} \label{sec:PWM_kap2}
 Pulsweitenmodulation (PWM) bietet die Möglichkeit, ein analoges Signal anhand einer digitalen Quelle zu bilden, indem das Tastverhältnis eines Rechteckimpulses bei gleichbleibender Frequenz moduliert wird. Dabei wird der Effekt ausgenutzt, dass sich ein digitales Signal, welches schnell genug und in einem gewissen Tastverhältnis seinen Zustand wechselt, sich verhält wie ein analoges Signal mit konstanter Spannung. So ist es mithilfe von PWM zum Beispiel möglich mit einem Mikrocontroller, der nur einen gewissen Spannungsbetrag liefern kann, verschieden hohe Spannungsignale am Endgerät zu erzeugen um es zu betreiben. Es muss allerdings darauf geachtet werden, dass die Pulse im Endeffekt nicht mehr als einzelne Pulse wahrgenommen werden können, das heißt die Frequenz der Pulse muss höher sein als die Abtastrate des Empfängers.
 
-Das Tastverhältnis, oder der Tastgrad p, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer T:
+Das Tastverhältnis, oder der Tastgrad \textit{p}, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer T:
 
 \begin{equation}
 	p=\frac{t\textsubscript{ein}}{T} = \frac{t\textsubscript{ein}}{t\textsubscript{ein}+t\textsubscript{aus}}

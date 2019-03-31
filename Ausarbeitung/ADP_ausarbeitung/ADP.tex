@@ -66,6 +66,7 @@ Institut für Mechatronische Systeme im Maschinenbau\\
 \begin{document}
 \maketitle
 \pagenumbering{roman}
+\phantomsection
 \addcontentsline{toc}{chapter}{Kurzfassung}
 \section*{Kurzfassung}
 Die vorliegende Arbeit befasst sich mit der Entwicklung und der Realisierung  einer eingebetteten Elektronik für einen linearen Tauchspulenaktor.  Dieser wird am Prüfstand des Instituts für Mechatronische Systeme eingesetzt um die Schaltgabel eines Getriebes translatorisch zu bewegen.
@@ -77,9 +78,15 @@ In vorangegangenen Arbeiten wurde bereits eine Regelung der Schaltgabelposition 
 This thesis deals with the evaluation and implementation of an embedded electronics for a linear plunger coil actuator.  This actuator is used at the test bench of the Institute of Mechatronic Systems to move the shift fork of a gearbox.
 In previous work a control of the shift fork position has already been developed. On the foundation of this, the implementation of the previous programming is carried out using a suitable toolchain in Matlab-Simulink on a microcontroller, which henceforth will take over the control of the shift fork. With the use of CAN communication, the microcontroller should be able to transmit status messages and especially error states but also the CAN interface gives the opportunity to send commands directly to the microcontroller. In the next step, the electronics required for the controlled system, including the actuator control, sensor technology and power supply, are integrated into the actuator by realizing the entire circuit on a specially designed circuit board, which is then mounted to the motor in a case. In addition, a temperature sensor, which can detect overtemperatures, is integrated as well as some internal functions, for example the current measurement within the used half bridges.  The result of the work is a Smart Actuator including compact embedded electronics, which can engage the two gears independently or shift to neutral position with a simple command via the user interface Control Desk.\\
 
-\textbf{Keywords:} smart actuator, embedded system, linear actuator, PCB design\newpage
-\listoffigures\addcontentsline{toc}{chapter}{\listfigurename}
-\tableofcontents\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+\textbf{Keywords:} smart actuator, embedded system, linear actuator, PCB design
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+\tableofcontents
 \input{./input/Akronymverzeichnis}
 \newpage
 \pagenumbering{arabic}
@@ -94,7 +101,9 @@ In previous work a control of the shift fork position has already been developed
 \input{./input/7_Analyse}
 \input{./input/8_Fazit}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\printbibliography
-
+\newpage
+\pagenumbering{Roman}
+\phantomsection
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\printbibliography[title=Literaturverzeichnis]
 \end{document}
