@@ -44,8 +44,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.51559869"
-     inkscape:cx="1008.1243"
-     inkscape:cy="451.81898"
+     inkscape:cx="1219.2783"
+     inkscape:cy="290.76304"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -575,7 +575,7 @@
          xml:space="preserve"
          y="15"
          style="stroke:none"
-         id="text187">Zeit [s]</text>
+         id="text187">Zeit in s</text>
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;stroke-width:0.66670001;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
@@ -796,7 +796,7 @@
          id="text257">12</text>
     </g>
     <g
-       transform="rotate(-90,231.08325,5.41655)"
+       transform="rotate(-90,230.08325,14.41655)"
        style="font-size:14.66670036px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g263">
       <text
@@ -804,7 +804,7 @@
          xml:space="preserve"
          y="-4"
          style="stroke:none"
-         id="text261">Strom [A]</text>
+         id="text261">Strom in A</text>
     </g>
     <g
        transform="translate(994.001,69.25)"
@@ -838,7 +838,8 @@
     </g>
     <g
        style="color-interpolation:sRGB;fill:#ffffff;stroke:#ffffff;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed"
-       id="g279">
+       id="g279"
+       transform="translate(-14)">
       <path
          style="stroke:none"
          d="m 1727,390 v -53 h -116 v 53 z"
@@ -846,7 +847,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(1658,347)"
+       transform="translate(1644,347)"
        style="font-family:SansSerif;color-interpolation:linearRGB;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g283">
       <text
@@ -858,7 +859,8 @@
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#0072bd;stroke:#0072bd;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g287">
+       id="g287"
+       transform="translate(-14)">
       <line
          y2="347"
          style="fill:none"
@@ -868,7 +870,7 @@
          id="line285" />
     </g>
     <g
-       transform="translate(1658,363.5)"
+       transform="translate(1644,363.5)"
        style="font-family:SansSerif;color-interpolation:linearRGB;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g291">
       <text
@@ -880,7 +882,8 @@
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#ff0000;stroke:#ff0000;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g295">
+       id="g295"
+       transform="translate(-14)">
       <line
          y2="363.5"
          style="fill:none"
@@ -890,7 +893,7 @@
          id="line293" />
     </g>
     <g
-       transform="translate(1658,380)"
+       transform="translate(1644,380)"
        style="font-family:SansSerif;color-interpolation:linearRGB;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g299">
       <text
@@ -902,7 +905,8 @@
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#d95319;stroke:#d95319;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g305">
+       id="g305"
+       transform="matrix(1.0618935,0,0,0.9996548,-113.70951,0.13367645)">
       <line
          y2="380"
          style="fill:none"
@@ -918,13 +922,7 @@
     </g>
     <g
        style="color-interpolation:sRGB;fill:#ffffff;stroke:#ffffff;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed"
-       id="g309">
-      <path
-         style="stroke:none"
-         d="M 250,857 H 1738 V 529 H 250 Z"
-         id="path307"
-         inkscape:connector-curvature="0" />
-    </g>
+       id="g309" />
     <g
        style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;stroke-width:0.66670001;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g359">
@@ -1227,7 +1225,7 @@
          xml:space="preserve"
          y="15"
          style="stroke:none"
-         id="text405">Zeit [s]</text>
+         id="text405">Zeit in s</text>
     </g>
     <g
        style="color-interpolation:linearRGB;fill:#262626;stroke:#262626;stroke-width:0.66670001;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
@@ -1398,7 +1396,7 @@
          id="text459">10.5</text>
     </g>
     <g
-       transform="rotate(-90,453.8332,239.1667)"
+       transform="rotate(-90,457.8332,243.1667)"
        style="font-size:14.66670036px;font-family:SansSerif;color-interpolation:linearRGB;fill:#262626;stroke:#262626;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
        id="g465">
       <text
@@ -1406,7 +1404,7 @@
          xml:space="preserve"
          y="-4"
          style="stroke:none"
-         id="text463">Strom [A]</text>
+         id="text463">Strom in A</text>
     </g>
     <g
        transform="translate(994.0006,526.2499)"
@@ -1439,84 +1437,88 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       style="color-interpolation:sRGB;fill:#ffffff;stroke:#ffffff;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed"
-       id="g481">
+       transform="matrix(1.064955,0,0,1,-118.64247,455.94286)"
+       id="g4768"
+       style="color-interpolation:sRGB;fill:#ffffff;stroke:#ffffff;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed">
       <path
-         style="stroke:none"
-         d="m 1727,846 v -53 h -116 v 53 z"
-         id="path479"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         id="path4766"
+         d="m 1727,390 v -53 h -116 v 53 z"
+         style="stroke:none" />
     </g>
     <g
-       transform="translate(1658,803)"
+       id="g4772"
        style="font-family:SansSerif;color-interpolation:linearRGB;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g485">
+       transform="translate(1644,802.94286)">
       <text
-         x="0"
-         xml:space="preserve"
-         y="5"
+         id="text4770"
          style="stroke:none"
-         id="text483">R=0 Ohm</text>
+         y="5"
+         xml:space="preserve"
+         x="0">R=0 Ohm</text>
     </g>
     <g
-       style="color-interpolation:linearRGB;fill:#0072bd;stroke:#0072bd;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g489">
+       transform="translate(-14,455.94286)"
+       id="g4776"
+       style="color-interpolation:linearRGB;fill:#0072bd;stroke:#0072bd;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision">
       <line
-         y2="803"
-         style="fill:none"
-         x1="1615"
+         id="line4774"
+         y1="347"
          x2="1655"
-         y1="803"
-         id="line487" />
+         x1="1615"
+         style="fill:none"
+         y2="347" />
     </g>
     <g
-       transform="translate(1658,819.5)"
+       id="g4780"
        style="font-family:SansSerif;color-interpolation:linearRGB;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g493">
+       transform="translate(1644,819.44286)">
       <text
-         x="0"
-         xml:space="preserve"
-         y="5"
+         id="text4778"
          style="stroke:none"
-         id="text491">R=10 kOhm</text>
+         y="5"
+         xml:space="preserve"
+         x="0">R=10 kOhm</text>
     </g>
     <g
-       style="color-interpolation:linearRGB;fill:#ff0000;stroke:#ff0000;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g497">
+       transform="translate(-14,455.94286)"
+       id="g4784"
+       style="color-interpolation:linearRGB;fill:#ff0000;stroke:#ff0000;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision">
       <line
-         y2="819.5"
-         style="fill:none"
-         x1="1615"
+         id="line4782"
+         y1="363.5"
          x2="1655"
-         y1="819.5"
-         id="line495" />
+         x1="1615"
+         style="fill:none"
+         y2="363.5" />
     </g>
     <g
-       transform="translate(1658,836)"
+       id="g4788"
        style="font-family:SansSerif;color-interpolation:linearRGB;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g501">
+       transform="translate(1644,835.94286)">
       <text
-         x="0"
-         xml:space="preserve"
-         y="5"
+         id="text4786"
          style="stroke:none"
-         id="text499">R=51 kOhm</text>
+         y="5"
+         xml:space="preserve"
+         x="0">R=51 kOhm</text>
     </g>
     <g
-       style="color-interpolation:linearRGB;fill:#d95319;stroke:#d95319;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision"
-       id="g507">
+       transform="matrix(1.0618935,0,0,0.9996548,-113.70951,456.07654)"
+       id="g4794"
+       style="color-interpolation:linearRGB;fill:#d95319;stroke:#d95319;stroke-width:0.66670001;stroke-linecap:butt;stroke-linejoin:round;color-rendering:optimizeQuality;image-rendering:optimizeQuality;text-rendering:geometricPrecision">
       <line
-         y2="836"
-         style="fill:none"
-         x1="1615"
+         id="line4790"
+         y1="380"
          x2="1655"
-         y1="836"
-         id="line503" />
+         x1="1615"
+         style="fill:none"
+         y2="380" />
       <path
-         d="m 1611,846 v -53 h 116 v 53 z"
+         inkscape:connector-curvature="0"
+         id="path4792"
          style="fill:none;fill-rule:evenodd;stroke:#262626;stroke-linejoin:miter"
-         id="path505"
-         inkscape:connector-curvature="0" />
+         d="m 1611,390 v -53 h 116 v 53 z" />
     </g>
   </g>
 </svg>
