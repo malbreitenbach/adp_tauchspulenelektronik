@@ -1,162 +1,162 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Kurzfassung}{i}{Doc-Start}% 
+\contentsline {chapter}{Kurzfassung}{i}{Doc-Start}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{iv}{section*.3}% 
+\contentsline {chapter}{Abbildungsverzeichnis}{iv}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Inhaltsverzeichnis}{vi}{section*.6}% 
+\contentsline {chapter}{Inhaltsverzeichnis}{vi}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Nomenklatur}{vii}{section*.9}% 
+\contentsline {chapter}{Nomenklatur}{vii}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivation und Ziele der Arbeit}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.1}Motivation und Ziele der Arbeit}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Anforderungsliste}{1}{section.1.2}% 
+\contentsline {section}{\numberline {1.2}Anforderungsliste}{1}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{1}{section.1.3}% 
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{1}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Aufbau des Pr\IeC {\"u}fstands und Grundlagen}{3}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Aufbau des Pr\IeC {\"u}fstands und Grundlagen}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Grundlagen des Pr\IeC {\"u}fstandes}{3}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Grundlagen des Pr\IeC {\"u}fstandes}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Getriebe allgemein}{3}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Getriebe allgemein}{3}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Getriebe des Pr\IeC {\"u}fstands}{3}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.2}Getriebe des Pr\IeC {\"u}fstands}{3}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Aktor}{4}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.3}Aktor}{4}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.4}Aktoransteuerung}{5}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.4}Aktoransteuerung}{5}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.5}Autobox}{5}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.5}Autobox}{5}{subsection.2.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.6}Positionsmessung und -regelung}{6}{subsection.2.1.6}% 
+\contentsline {subsection}{\numberline {2.1.6}Positionsmessung und -regelung}{6}{subsection.2.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Grundlagen L\IeC {\"o}ten}{6}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Grundlagen L\IeC {\"o}ten}{6}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Mikrocontroller}{7}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Mikrocontroller}{7}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Eingebettete Systeme und Smart Actuators}{7}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}Eingebettete Systeme und Smart Actuators}{7}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Controller Area Network (CAN)}{8}{section.2.5}% 
+\contentsline {section}{\numberline {2.5}Controller Area Network (CAN)}{8}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Pulsweitenmodulation}{9}{section.2.6}% 
+\contentsline {section}{\numberline {2.6}Pulsweitenmodulation}{9}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Zustandsautomaten}{10}{section.2.7}% 
+\contentsline {section}{\numberline {2.7}Zustandsautomaten}{10}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Serial Wire Debug}{10}{section.2.8}% 
+\contentsline {section}{\numberline {2.8}Serial Wire Debug}{10}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Vorgehensweise und Testverfahren}{11}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Vorgehensweise und Testverfahren}{11}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Entwicklungsmodell}{11}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Entwicklungsmodell}{11}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Das V-Modell}{11}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Das V-Modell}{11}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Konstruktive Entwicklung (linker Zweig)}{11}{subsubsection*.21}% 
+\contentsline {subsubsection}{Konstruktive Entwicklung (linker Zweig)}{11}{subsubsection*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Testaktivit\IeC {\"a}ten (rechter Zweig)}{12}{subsubsection*.22}% 
+\contentsline {subsubsection}{Testaktivit\IeC {\"a}ten (rechter Zweig)}{12}{subsubsection*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Konkretes Vorgehen mit inkrementellem Entwicklungsansatz}{13}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.2}Konkretes Vorgehen mit inkrementellem Entwicklungsansatz}{13}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Auswahl elektronischer Komponenten und Verschaltung}{15}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Auswahl elektronischer Komponenten und Verschaltung}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Anforderungen an die Komponenten}{15}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Anforderungen an die Komponenten}{15}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Passive Bauteile}{15}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Passive Bauteile}{15}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Aktive Bauteile}{15}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.2}Aktive Bauteile}{15}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Komponentenauswahl}{16}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Komponentenauswahl}{16}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Mikrocontroller}{16}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}Mikrocontroller}{16}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}CAN-Transciever}{18}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.2}CAN-Transciever}{18}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Spannungsversorgung}{18}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.3}Spannungsversorgung}{18}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Low Dropout Spannungsregler}{19}{subsubsection*.31}% 
+\contentsline {subsubsection}{Low Dropout Spannungsregler}{19}{subsubsection*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verschaltung auf Platine}{19}{subsubsection*.33}% 
+\contentsline {subsubsection}{Verschaltung auf Platine}{19}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Platinenanschluss}{20}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Platinenanschluss}{20}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}H-Br\IeC {\"u}cke}{20}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}H-Br\IeC {\"u}cke}{20}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Sensorik}{25}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Sensorik}{25}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Temperatursensor}{25}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.1}Temperatursensor}{25}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Lagesensor}{27}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.2}Lagesensor}{27}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Sensorik Eingangsspannung}{28}{subsection.4.5.3}% 
+\contentsline {subsection}{\numberline {4.5.3}Sensorik Eingangsspannung}{28}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Platinenentwurf}{29}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Platinenentwurf}{29}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Elektronikgeh\IeC {\"a}use und Anforderungen an die Platinendimensionierung}{29}{section.5.1}% 
+\contentsline {section}{\numberline {5.1}Elektronikgeh\IeC {\"a}use und Anforderungen an die Platinendimensionierung}{29}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Komponentenplatzierung auf der Platine}{30}{section.5.2}% 
+\contentsline {section}{\numberline {5.2}Komponentenplatzierung auf der Platine}{30}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Dimensionierung der Leiterbahnen}{31}{section.5.3}% 
+\contentsline {section}{\numberline {5.3}Dimensionierung der Leiterbahnen}{31}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Anwendung auf realer Platine}{33}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {5.3.1}Anwendung auf realer Platine}{33}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Routen der Platine}{33}{section.5.4}% 
+\contentsline {section}{\numberline {5.4}Routen der Platine}{33}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Design-Regeln und EMV}{33}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {5.4.1}Design-Regeln und EMV}{33}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Leiterbahnverlegung des Entwicklungsboards}{35}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {5.4.2}Leiterbahnverlegung des Entwicklungsboards}{35}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Fertigung}{37}{section.5.5}% 
+\contentsline {section}{\numberline {5.5}Fertigung}{37}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Software}{39}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Software}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Toolchain}{39}{section.6.1}% 
+\contentsline {section}{\numberline {6.1}Toolchain}{39}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Vorstellung des Hauptprogramms}{39}{section.6.2}% 
+\contentsline {section}{\numberline {6.2}Vorstellung des Hauptprogramms}{39}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Gesamtsystem}{40}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.2.1}Gesamtsystem}{40}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Hauptzustandsautomat (MAIN)}{41}{subsection.6.2.2}% 
+\contentsline {subsection}{\numberline {6.2.2}Hauptzustandsautomat (MAIN)}{41}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Positionsermittlung (POS)}{43}{subsection.6.2.3}% 
+\contentsline {subsection}{\numberline {6.2.3}Positionsermittlung (POS)}{43}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.4}CAN-Kommunikation (CAN)}{44}{subsection.6.2.4}% 
+\contentsline {subsection}{\numberline {6.2.4}CAN-Kommunikation (CAN)}{44}{subsection.6.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.5}Sensorik (SEN)}{44}{subsection.6.2.5}% 
+\contentsline {subsection}{\numberline {6.2.5}Sensorik (SEN)}{44}{subsection.6.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.6}Fehlererkennung (ERR)}{45}{subsection.6.2.6}% 
+\contentsline {subsection}{\numberline {6.2.6}Fehlererkennung (ERR)}{45}{subsection.6.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.7}Kalibrierung (CAL)}{45}{subsection.6.2.7}% 
+\contentsline {subsection}{\numberline {6.2.7}Kalibrierung (CAL)}{45}{subsection.6.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.8}Regelung (CONS/CONH)}{46}{subsection.6.2.8}% 
+\contentsline {subsection}{\numberline {6.2.8}Regelung (CONS/CONH)}{46}{subsection.6.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.9}Auswahlglied f\IeC {\"u}r PWM-Signal (PWM)}{46}{subsection.6.2.9}% 
+\contentsline {subsection}{\numberline {6.2.9}Auswahlglied f\IeC {\"u}r PWM-Signal (PWM)}{46}{subsection.6.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.10}Motortreiber (MOT)}{47}{subsection.6.2.10}% 
+\contentsline {subsection}{\numberline {6.2.10}Motortreiber (MOT)}{47}{subsection.6.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Codegenerierung und Performanceoptimierung}{47}{section.6.3}% 
+\contentsline {section}{\numberline {6.3}Codegenerierung und Performanceoptimierung}{47}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Einleitung in benutzerseitige CAN Schnittstelle}{48}{section.6.4}% 
+\contentsline {section}{\numberline {6.4}Einleitung in benutzerseitige CAN Schnittstelle}{48}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Analyse und Performance}{53}{chapter.7}% 
+\contentsline {chapter}{\numberline {7}Analyse und Performance}{53}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Produktvergleich mit Anforderungsliste}{53}{section.7.1}% 
+\contentsline {section}{\numberline {7.1}Produktvergleich mit Anforderungsliste}{53}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Kostenaufstellung}{54}{section.7.2}% 
+\contentsline {section}{\numberline {7.2}Kostenaufstellung}{54}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Platinendesign-Analyse}{55}{section.7.3}% 
+\contentsline {section}{\numberline {7.3}Platinendesign-Analyse}{55}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Regelergebnisse}{56}{section.7.4}% 
+\contentsline {section}{\numberline {7.4}Regelergebnisse}{56}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.1}Schalten in Gang 2}{56}{subsection.7.4.1}% 
+\contentsline {subsection}{\numberline {7.4.1}Schalten in Gang 2}{56}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.2}Schalten in Neutral}{56}{subsection.7.4.2}% 
+\contentsline {subsection}{\numberline {7.4.2}Schalten in Neutral}{56}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.3}Diskussion der Regelergebnisse}{56}{subsection.7.4.3}% 
+\contentsline {subsection}{\numberline {7.4.3}Diskussion der Regelergebnisse}{56}{subsection.7.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.4}Schaltgabelkraft am Anschlag}{58}{subsection.7.4.4}% 
+\contentsline {subsection}{\numberline {7.4.4}Schaltgabelkraft am Anschlag}{58}{subsection.7.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{61}{chapter.8}% 
+\contentsline {chapter}{\numberline {8}Fazit und Ausblick}{61}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Ausblick}{62}{section.8.1}% 
+\contentsline {section}{\numberline {8.1}Ausblick}{62}{section.8.1}
 \contentsfinish 
