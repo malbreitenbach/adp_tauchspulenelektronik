@@ -33,7 +33,7 @@ Sein Querschnitt ist in folgender Abbildung schematisch dargestellt.
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/QuerschnittAktor.pdf}
+		\includegraphics[width=0.9\columnwidth]{Bilder/QuerschnittAktordo.pdf}
 	\caption{Querschnitt Tauchspulenaktor \cite[S.30]{Hahn2018}}
 	\label{fig:Querschnitt Aktor}
 \end{figure} \noindent
@@ -43,11 +43,11 @@ Werden nun die Kupferspulen von Strom durchflossen, so wirkt eine vom Magnetfeld
 F=I\cdot l\cdot B
 \end{equation}
 Da die Spulen jedoch fest im Gehäuse verbaut sind, wirkt eine entgegengerichtete Kraft auf die Permanentmagneten, die auf der axial verschiebbaren Läuferwelle lagern. Diese Kraft bewirkt dann eine translatorische Bewegung der Welle und somit auch der Schaltgabel. Die Richtung der translatorischen Bewegung kann dabei über die Richtung des in den Spulen fließenden Stromes, der Betrag der Kraft über den Betrag des Stromes eingestellt werden.
-Anhand von Abbildung \autoref{fig:Kennlinie Aktor} ist zu erkennen, dass die Kraft-Weg Kennlinien des Aktor innerhalb des Nutzungsbereichs von -10 Millimeter bis +10 Millimeter bei verschiedenen Stromstärken annähernd linear verlaufen. 
+Anhand von Abbildung \autoref{fig:Kennlinie Aktor} ist zu erkennen, dass die Kraft-Weg Kennlinien des Aktor innerhalb des Nutzungsbereichs von -10 Millimeter bis +10 Millimeter bei verschiedenen Stromstärken annähernd linear verlaufen. \\
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/KennlinieAktor.pdf}
+		\includegraphics[width=0.6\columnwidth]{Bilder/KennlinieAktor.pdf}
 	\caption{Kraft-Weg-Strom Kennlinien des Tauchspulenaktors \cite[S.12]{adp}}
 	\label{fig:Kennlinie Aktor}
 \end{figure} \noindent
@@ -65,7 +65,7 @@ Die bisherigen Funktionen am Prüfstand laufen auf einer MicroAutoBox II 1401/15
 Das Blockschaltbildes zur gesamten Regelstrecke ist in Abbildung \autoref{fig:Regelstrecke} dargestellt.
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/Schaltgabelregelung.pdf}
+		\includegraphics[width=0.95\columnwidth]{Bilder/Schaltgabelregelung.pdf}
 	\caption{Regelstrecke Prüfstand}
 	\label{fig:Regelstrecke}
 \end{figure} \noindent
@@ -74,7 +74,7 @@ Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/Sensor.pdf}
+		\includegraphics[width=0.35\columnwidth]{Bilder/Sensor.pdf}
 	\caption{Einbauposition PLCD Sensor an der Schaltgabel \cite[S.14]{adp}}
 	\label{fig:Sensor}
 \end{figure} \noindent
@@ -87,7 +87,7 @@ Die Kalibrierung des Sensors wurde in \cite[S.24f]{messtechnik} entwickelt und e
 Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenem Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu $K_P$ =\SI{2,6}{\frac{\%V}{mm}}, $K_I$ =\SI{20}{\frac{\%V}{s mm}} und $K_D$ =\SI{1,6}{\frac{\%Vs}{mm}} bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/SprungantwortSchaltgabelposition.pdf}
+		\includegraphics[width=0.6\columnwidth]{Bilder/SprungantwortSchaltgabelposition.pdf}
 	\caption{Sprungantwort Schaltgabelposition \cite[S.35]{adp}}
 	\label{fig:Sprungantwort Schaltgabelposition}
 \end{figure} \noindent
@@ -99,7 +99,7 @@ Löten gehört zu den Fügeverfahren und bezeichnet das Verbinden zweier Metalle
 Ein Mikrocontroller (\textit{MCU: microcontroller unit}) ist ein hochintegrierter Halbleiterchip, der ein komplettes Mikrorechnersystem enthält. Prozessoren, Speicher, Ein- und Ausgabegeräte sind somit auf einem kleinen Chip enthalten der zum Ziel hat, Steuerungs- und Kommunikationsaufgaben möglichst simpel mit wenig Bauelementen zu bearbeiten. 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/BlockschaltbildMikrocontroller.pdf}
+		\includegraphics[width=0.55\columnwidth]{Bilder/BlockschaltbildMikrocontroller.pdf}
 	\caption{Blockschaltbild eines Mikrocontrollers \cite[S.3]{Bernstein2015}}
 	\label{fig:Blockschaltbild Mikrocontroller}
 \end{figure} \noindent
@@ -129,7 +129,7 @@ Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an d
 
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/CAN2.pdf}
+		\includegraphics[width=0.6\columnwidth]{Bilder/CAN2.pdf}
 	\caption{Aufbau CAN-Bus \cite[S.158]{manual}}
 	\label{fig:CAN}
 \end{figure} \noindent
@@ -165,7 +165,7 @@ In Abbildung \ref{fig:PWM} ist ein pulsweitenmoduliertes Signal mit dem entsprec
 
 \begin{figure}
 	\centering
-		\includegraphics{Bilder/PWM.pdf}
+		\includegraphics[width=0.6\columnwidth]{Bilder/PWM.pdf}
 	\caption{Beispielhaftes PWM Signal}
 	\label{fig:PWM}
 \end{figure} \noindent
