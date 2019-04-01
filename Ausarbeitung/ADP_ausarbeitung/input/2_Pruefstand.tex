@@ -1,33 +1,34 @@
 \chapter{Aufbau des Prüfstands und Grundlagen}\label{kap2}
 In diesem Kapitel wird der verwendete Schaltaktorikprüfstand des IMS vorgestellt, an dem  die Entwicklung des Smart Actuators stattgefunden hat. Beschrieben wird der Aufbau des Prüfstands, wie er vor den Änderungen im Rahmen dieses Projektes vorlag.
 \section{Grundlagen des Prüfstandes}
-Die Konstruktion des Prüfstandes erfolgte in vorangegangenen Arbeiten und wurde seitdem stetig weiterentwickelt. An ihm werden Schaltaktoriksysteme für Fahrzeugantriebe untersucht. Abbildung \ref{fig:Pruefstand} zeigt die in dieser Arbeit verwendeten Subsysteme des Prüfstandes. Es erfolgt zunächst die Vorstellung des mechanischen Aufbaus, woraufhin der elektronische Aufbau anschließt. 
+Die Konstruktion des Prüfstandes erfolgte in vorangegangenen Arbeiten und wurde seitdem stetig weiterentwickelt. An ihm werden Schaltaktoriksysteme für Fahrzeugantriebe untersucht. Abbildung \autoref{fig:Pruefstand} zeigt die in dieser Arbeit verwendeten Subsysteme des Prüfstandes. Es erfolgt zunächst die Vorstellung des mechanischen Aufbaus, woraufhin der elektronische Aufbau anschließt. 
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/Pruefstand.pdf}
 	\caption{Prüfstand \cite[S.5]{adp}}
 	\label{fig:Pruefstand}
-\end{figure}
+\end{figure} \noindend
 \subsection{Getriebe allgemein}
 
-Ein Getriebe ist im Automobil dafür zuständig, die Drehzahl des Motors in ein Drehmoment umzuwandeln, welches die Räder antreibt. Da Motoren nur einen kleinen Bereich von Motordrehzahlen abdecken, werden mehrstufige Getriebe verwendet die verschiedene Raddrehzahlen durch unterschiedliche Übersetzungsverhältnisse bereitstellen können.  Das Einstellen des jeweiligen Ganges kann dabei per Hand (Handschaltgetriebe) oder automatisiert über einen Aktor (Schaltaktorik) erfolgen. 
-Im Fahrzeuggetriebe, beispielhaft dargestellt in \autoref{fig:Fahrzeuggetriebe} ist die Eingangswelle, welche durch den Motor angetrieben wird, über eine Zahnradverbindung  fest mit der  Vorgelegewelle verbunden. Auf ihr sind noch weitere fest fixierte Zahnräder angebracht, deren Anzahl mit den verfügbaren Gängen übereinstimmt. Diese greifen jeweils in Losräder auf der Abtriebswelle. Um einen bestimmten Gang einzulegen muss nun das jeweilige Losrad für den Moment fest mit der Abtriebswelle verbunden werden, sodass nur diese Zahnverbindung ein Drehmoment überträgt. Dies geschieht über eine formschlüssige Verbindung mit einer Schaltmuffe, die über die durch den Aktor angetrieben Schaltgabel in Position gebracht wird.
+Ein Getriebe ist im Automobil dafür zuständig, die Drehzahl des Motors in ein Drehmoment umzuwandeln, welches schließlich die Räder antreibt.
+Da Verbrennungsmotoren nur einen vergleichbar kleinen Drehzahlbereich abdecken, werden mehrstufige Getriebe verwendet, um verschiedene Raddrehzahlen durch unterschiedliche Übersetzungsverhältnisse der Getriebezahnräder bereitstellen zu können.  Das Einstellen des jeweiligen Ganges kann dabei per Hand (Handschaltgetriebe) oder automatisiert über einen Aktor (Schaltaktorik) erfolgen. 
+Im Fahrzeuggetriebe, beispielhaft dargestellt in \autoref{fig:Fahrzeuggetriebe} ist die Eingangswelle, welche durch den Motor angetrieben wird, über eine Zahnradverbindung  fest mit der  Vorgelegewelle verbunden. Auf ihr sind noch weitere fest fixierte Zahnräder angebracht, deren Anzahl mit den verfügbaren Gängen übereinstimmt. Diese greifen jeweils in Losräder auf der Abtriebswelle. Um einen bestimmten Gang einzulegen muss nun das jeweilige Losrad für diesen Zeitpunkt fest mit der Abtriebswelle verbunden werden, sodass nur diese Zahnverbindung ein Drehmoment überträgt. Dies geschieht über eine formschlüssige Verbindung mit einer Schaltmuffe, die über die durch den Aktor angetriebe Schaltgabel in Position gebracht wird.
 
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/Fahrzeuggetriebe.pdf}
-	\caption{Fahrzeuggetriebe}
+	\caption{Fahrzeuggetriebe \cite[S.17]{Hilgers2016}}
 	\label{fig:Fahrzeuggetriebe}
-\end{figure}
+\end{figure} \noindend
 
 \subsection{Getriebe des Prüfstands}
 
 Der Prüfstand besitzt zwei Gänge, in die über eine Schaltgabel geschaltet werden kann. Eine Bewegung der Schaltgabel nach links legt Gang 1 über eine mechanische Synchronisierung ein, während mit Hilfe einer Bewegung nach rechts die Schaltung des Ganges 2 durch eine Klauenkupplung erfolgt. Somit können sowohl Schaltaktoriksysteme mit als auch ohne Synchronring untersucht werden.
-Die Bewegung der Schaltgabel wird durch einen Linearaktor ermöglicht, welcher von außen an das Item-Profil verschraubt ist. In diesem ist eine Tauchspule verbaut, die die benötigten Kräfte auf die Läuferstange aufbringt. Über eine starre Wellenkupplung sind Läuferstange und Schaltgabel miteinander verbunden, wodurch die Kräfte auf die Schaltgabel übertragen werden und Schaltvorgänge ermöglicht werden.
+Die Bewegung der Schaltgabel wird durch einen Linearaktor ermöglicht, welcher von außen an dem Item-Profil verschraubt ist. In diesem ist eine Tauchspule verbaut, die die benötigten Kräfte auf die Läuferstange aufbringt. Über eine starre Wellenkupplung sind Läuferstange und Schaltgabel miteinander verbunden, wodurch die Kräfte auf die Schaltgabel übertragen werden und Schaltvorgänge ermöglicht werden.
 
 \subsection{Aktor}
 
-Der momentan in dem Prüfstand verbaute Tauchspulenaktor wurde von Oliver Hahn im Rahmen seiner Bachelorthesis entwickelt und konstruiert. Er übernimmt im automatisierten Schaltvorgang die Aufgabe, die Schaltgabel  über die Schaltstange translatorisch zu verschieben, welche ursprünglich mit einem Schalthebel per Hand ausgeführt wurde. Die Übertragung des Schaltbefehls an den Getriebeaktor erfolgt dabei durch ein elektrisches Signal (\textit{shift by wire}).
+Der momentan in dem Prüfstand verbaute Tauchspulenaktor wurde von \cite{Hahn2018} im Rahmen einer Bachelorthesis entwickelt und konstruiert. Er übernimmt im automatisierten Schaltvorgang die Aufgabe, die Schaltgabel  über die Schaltstange translatorisch zu verschieben, welche im Handschaltgetriebe ursprünglich mit einem Schalthebel vom Fahrer selbst ausgeführt wurde. Die Übertragung des Schaltbefehls an den Getriebeaktor erfolgt dabei durch ein elektrisches Signal (\textit{shift by wire}).
 Sein Querschnitt ist in folgender Abbildung schematisch dargestellt.
 
 \begin{figure}[h]
@@ -35,26 +36,25 @@ Sein Querschnitt ist in folgender Abbildung schematisch dargestellt.
 		\includegraphics{Bilder/QuerschnittAktor.pdf}
 	\caption{Querschnitt Tauchspulenaktor \cite[S.30]{Hahn2018}}
 	\label{fig:Querschnitt Aktor}
-\end{figure}
-
-Der Aufbau ist zylindrisch und kann in den ortsfesten Stator und den beweglichen Läufer unterteilt werden. Der Stator des Aktors besteht aus zwei in Reihe geschalteten Kupferspulen, welche fest in dem Gehäuse aus Weicheisen liegen und nach oben und unten mit Deckeln aus Aluminium fixiert werden. Der Läufer besteht aus einer nichtmagnetischen Läuferwelle, auf der sich fünf Permanentmagneten aus Neodym-Eisen-Bor befinden, welche mit Hilfe von zwei Polstücken aus Weicheisen axial auf der Läuferstange montiert sind. 
+\end{figure} \noindend
+Der Aufbau ist zylindrisch und kann in den ortsfesten Stator und den beweglichen Läufer unterteilt werden. Der Stator des Aktors besteht aus zwei gegensinnig in Reihe geschalteten Kupferspulen, welche fest in dem Gehäuse aus Weicheisen liegen und nach oben und unten mit Deckeln aus Aluminium fixiert werden. Der Läufer besteht aus einer nichtmagnetischen Läuferwelle, auf der sich fünf Permanentmagneten aus Neodym-Eisen-Bor befinden, welche mit Hilfe von zwei Polstücken aus Weicheisen axial auf der Läuferstange montiert sind. 
 Werden nun die Kupferspulen von Strom durchflossen, so wirkt eine vom Magnetfeld der Permanentmagneten induzierte Lorentzkraft orthogonal auf sie. Diese Kraft ist abhängig von der Stromstärke I, der magnetischen Flussdichte der Permanentmagneten B und der vom Magnetfeld durchsetzten Leiterlänge l:
 \begin{equation}\label{eq:lorentz}
 F=I\cdot l\cdot B
 \end{equation}
 Da die Spulen jedoch fest im Gehäuse verbaut sind, wirkt eine entgegengerichtete Kraft auf die Permanentmagneten, die auf der axial verschiebbaren Läuferwelle lagern. Diese Kraft bewirkt dann eine translatorische Bewegung der Welle und somit auch der Schaltgabel. Die Richtung der translatorischen Bewegung kann dabei über die Richtung des in den Spulen fließenden Stromes, der Betrag der Kraft über den Betrag des Stromes eingestellt werden.
-Anhand von Abbildung \ref{fig:Kennlinie Aktor} ist zu erkennen, dass die Kraft-Weg Kennlinien des Aktor innerhalb des Nutzungsbereichs von -10 Millimeter bis +10 Millimeter bei verschiedenen Stromstärken annähernd linear verlaufen. 
+Anhand von Abbildung \autoref{fig:Kennlinie Aktor} ist zu erkennen, dass die Kraft-Weg Kennlinien des Aktor innerhalb des Nutzungsbereichs von -10 Millimeter bis +10 Millimeter bei verschiedenen Stromstärken annähernd linear verlaufen. 
 
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/KennlinieAktor.pdf}
 	\caption{Kraft-Weg-Strom Kennlinien des Tauchspulenaktors \cite[S.12]{adp}}
 	\label{fig:Kennlinie Aktor}
-\end{figure}
+\end{figure} \noindend
 
-\subsection{Aktoransteuerung}
+\subsection{Aktorsteuerung}
 
-Zur Aktoransteuerung wird ein Arduino IBT2 Motortreiber verwendet, die Stromversorgung erfolgt über ein Manson SBC-2130 Battery Charger im Power Supply Mode. Der Motortreiber besteht aus zwei BTS7960 MOSFETs, die je nach Vorgabe des pulsdauermodulierten Signals (PWM-Frequenz) eine Spannung von bis zu 13,8V an den Aktor durchschalten. 
+Zur Aktoransteuerung wird ein Arduino IBT2 Motortreiber verwendet, die Stromversorgung erfolgt über ein Manson SBC-2130 Battery Charger im Power Supply Mode. Der Motortreiber besteht aus zwei BTS7960 MOSFETs, die je nach Vorgabe des pulsdauermodulierten Signals (PWM-Frequenz) eine Spannung von bis zu 13,8 V an den Aktor durchschalten. 
 
 \subsection{Autobox}
 
@@ -62,6 +62,14 @@ Die bisherigen Funktionen am Prüfstand laufen auf einer MicroAutoBox II 1401/15
 
 \subsection {Positionsmessung und -regelung}\label{regler}
 
+Das Blockschaltbildes zur gesamten Regelstrecke ist in Abbildung \autoref{fig:Regelstrecke} dargestellt.
+\begin{figure}[h]
+	\centering
+		\includegraphics{Bilder/Regelstrecke.pdf}
+	\caption{Regelstrecke Prüfstand}
+	\label{fig:Regelstrecke}
+\end{figure} \noindend
+Über das Programm Control Desk erfolgt die Sollwertvorgabe am PC. Diese wird per Ethernet an die MicroAutoBox, welche den Regler darstellt, übermittelt, die den Wert mit der Istgröße vergleicht, den der Sensor bereitstellt. Die H-Brücke, welche mit einer Stellenergie versorgt werden muss steuert den Aktor an, um die Schaltgabelposition zu verändern.
 Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen berührungslose PLCD (permanentmagnetic linear contactless displacement) Technologie die magnetische Sättigung zur Positionsbestimmung verwendet. Der weichmagnetische Kern des Sensors ist über seine komplette Länge von einer Primärspule umgeben. Auf der Schaltgabel ist ein Permanentmagnet befestigt, welcher je nach Position zu einer lokalen Sättigung des weichmagnetischen Kerns führt. Über zwei Auswertungsspulen am Rand des Sensors kann die Position der Sättigungszone entlang der Sensorachse über die induzierte Spannung bestimmt werden.
 
 \begin{figure}[h]
@@ -69,20 +77,20 @@ Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen
 		\includegraphics{Bilder/Sensor.pdf}
 	\caption{Einbauposition PLCD Sensor an der Schaltgabel \cite[S.14]{adp}}
 	\label{fig:Sensor}
-\end{figure}
-Die Kalibrierung wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bisher bei jedem Start. Zu Beginn des Einfahrvorgangs der Schaltwalze wird dabei das Spannungssignal $U\textsubscript{0}$ ausgelesen, welches der Ausgangslage von $x\textsubscript{0}=\SI{0}{mm}$ entspricht. Anschließend werden die Spannungssignale $U\textsubscript{1}$ und $U\textsubscript{2}$ an beiden Anschlägen gemessen. Die Wegdifferenz zwischen den beiden Anschlagspositionen beträgt $x_{ges}$=\SI{16,97}{mm}. Nun kann eine Geradengleichung zur Bestimmung der aktuellen Schaltgabelposition aufgestellt werden. U\textsubscript{a} entspricht dabei immer dem aktuellen Ausgangssignal.
+\end{figure} \noindend
+Die Kalibrierung des Sensors wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bisher bei jedem Start. Zu Beginn des Einfahrvorgangs der Schaltwalze wird dabei das Spannungssignal $U\textsubscript{0}$ ausgelesen, welches der Ausgangslage von $x\textsubscript{0}=\SI{0}{mm}$ entspricht. Anschließend werden die Spannungssignale $U\textsubscript{1}$ und $U\textsubscript{2}$ an beiden Anschlägen gemessen. Die Wegdifferenz zwischen den beiden Anschlagspositionen beträgt $x_{ges}$=\SI{18,2}{mm}. Nun kann eine Geradengleichung zur Bestimmung der aktuellen Schaltgabelposition aufgestellt werden. U\textsubscript{a} entspricht dabei immer dem aktuellen Ausgangssignal.
 
 \begin{equation}\label{eq:Lage}
 	x=\frac{U\textsubscript{a} -U\textsubscript{0}}{U\textsubscript{1}-U\textsubscript{2}}\cdot x\textsubscript{ges}
 \end{equation}
 
-Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenem Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu $K_P$ =\SI{0,026}{\frac{V}{mm}}, $K_I$ =\SI{0,2}{\frac{V}{s mm}} und $K_D$ =\SI{0,016}{\frac{Vs}{mm}} bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
+Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenem Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu $K_P$ =\SI{2,6}{\frac{\%V}{mm}}, $K_I$ =\SI{20}{\frac{\%V}{s mm}} und $K_D$ =\SI{1,6}{\frac{\%Vs}{mm}} bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/SprungantwortSchaltgabelposition.pdf}
 	\caption{Sprungantwort Schaltgabelposition \cite[S.35]{adp}}
 	\label{fig:Sprungantwort Schaltgabelposition}
-\end{figure}
+\end{figure} \noindend
 
 \section{Grundlagen Löten}
 Löten gehört zu den Fügeverfahren und bezeichnet das Verbinden zweier Metalle durch eine Metalllegierung unter Einfluss von Wärme \cite{loeten}. Die Metalllegierung wird dabei als Lot bezeichnet und hat eine geringere Schmelztemperatur (Liquidustemperatur) als die beiden zu verbindenden Metalle (Solidustemperatur). Durch das Löten entsteht eine feste, korrosionsbeständige sowie strom- und wärmeleitende Verbindung. Lötverfahren werden nach Arbeitstemperatur eingeteilt in Weichlöten (bis 450°C), Hartlöten (450°C - 900°C) und Hochtemperaturlöten (über 900°C). Im Rahmen dieses Projektes wird das Verfahren Weichlöten mit Lötkolben angewendet, um die elektrischen Bauteile auf der Platine anzubringen. Dazu können die vom Institut bereitgestellten Lötstationen und –materialien verwendet werden. 
@@ -94,7 +102,7 @@ Ein Mikrocontroller (\textit{MCU: microcontroller unit}) ist ein hochintegrierte
 		\includegraphics{Bilder/BlockschaltbildMikrocontroller.pdf}
 	\caption{Blockschaltbild eines Mikrocontrollers \cite[S.3]{Bernstein2015}}
 	\label{fig:Blockschaltbild Mikrocontroller}
-\end{figure}
+\end{figure} \noindend
 
 In Abbildung \ref{fig:Blockschaltbild Mikrocontroller} ist der typische Aufbau eines Mikrocontroller dargestellt. Die Schnittstellen zur Peripherie sind durch einen Betriebsspannungsanschluss, einen Takteingang sowie die Portleitungen  gegeben. Bei den Ports wird zwischen Eingangskanälen (\textit{\textbf{I}nput Port}), die digitale Signale lesen, und Ausgangskanälen (\textit{\textbf{O}utput Port}), die digitale Signale setzen beziehungsweise löschen, unterschieden. Des Weiteren können I/O Pins digitale oder analoge Signale auslesen und stellen, wobei analoge Signale mithilfe eines Analog/Digital Wandlers (\textit{ADC}) zuerst in digital Signale umgewandelt werden müssen, damit der Mikrocontroller sie verarbeiten kann.
 Eine Spezialform von Eingängskanälen sind die Interrupt-Pins, die bei bestimmten Ereignissen Unterbrechungen des laufenden Programms verursachen, um temporär einen anderen Vorgang zu bearbeiten. 
@@ -107,38 +115,39 @@ Ein sogenannter Timer hilft dabei, das Auftreten von Ereignissen zu zählen oder
 
 Die genaue Ausführung des Chips kann je nach Aufgabentyp variieren, sodass eine Vielzahl an verschiedenen Mikrocontrollern erhältlich ist. Diese unterscheiden sich in der Größe des Speichers, in der Anzahl der Anschlüsse beziehungsweise Schnittstellen, in der Bitbreite, in den Taktraten sowie in der Bauform. Typischerweise werden Mikrocontroller in eingebetteten Systemen (\textit{embedded systems}) verwendet, bei denen die Steuereinheit direkt im System selbst integriert ist. Übliche Anwendungen für Mikrocontroller sind Robotik, Handys, Temperaturregler oder Motorsteuerungen \cite{Brinkschulte}. 
 
-\section{Eingebettete Systeme und Smart Actuators}
+\section{Eingebettete Systeme und Smart Actuator}
 Eingebettete Systeme werden definiert als Rechenmaschinen, die für den Anwender weitgehend unsichtbar in einem technischen System eingebettet sind und mit diesem in Wechselwirkung stehen \cite[S.8]{Gessler2014}. Der Rechner kann dabei für Regelungs-, Steuer- oder Überwachungsaufgaben und/ oder für Signal- und Datenverarbeitung zuständig sein. Der allgemeine Zweck ist es, die Stellglieder als Reaktion auf Eingangssignale, die von Sensoren oder manuell vorgegeben werden, zu steuern \cite[S.1]{Broy2003}. Eingebettete Systeme werden oft für speziell eine isolierte Aufgabe entwickelt und angepasst.
 Ein Aktor, beziehungsweise Aktuator (aus dem englischen: \textit{actuator}) wird genutzt um elektrischen Signale in eine Bewegung oder Kraft umzusetzen und bildet somit das Stellglied. 
 Ein intelligenter Aktor (\textit{smart actuator}) ist definiert als das integrierte Stellglied inklusive aller Komponenten wie Motor, Steuerung, Sensorik und Kommunikationseinheit \cite[S.442]{smartactuator}.
 Das Konzept besteht darin, den Aktor um Informationsverarbeitungs- und Kommunikationsmöglichkeiten zu erweitern, sodass der Aktor die eingebettete Elektronik enthält.
 Smart Actuators reduzieren beziehungsweise ersetzen die benötigte Interaktion mit einem Menschen oder externen Rechner und können somit effektiver und schneller arbeiten. Außerdem kann oft viel Bauraum eingespart werden, es gibt weniger Komponenten und deutlich weniger Verkabelung, womit der Einbau in ein Gesamtsystem komfortabler ist. Hervorzuheben sind weiterhin die verringerten Kosten, die Überwachung und Diagnose des eigenen Zustands sowie die verbesserte Präzision. Einbußen müssen Smart Actuators allerdings in Bezug auf flexible Anwendungen machen, da sie oft für eine spezielle Aufgabe ausgelegt sind und ihr Verhalten stark vorgegeben ist \cite[S.4]{smartaktor}.
 
-\section{Controller Area Network (CAN)}\label{sec:CAN_KAP2}
+
+\section{Controller Area Network (CAN)}
 Um eine Kommunikation zwischen zwei Geräten (z.B. Sensoren, Aktoren und Steuergeräten) zu ermöglichen, muss ein System zur Datenübertragung vorhanden sein. Dabei hat sich bei vielen PKW- und NKW-Herstellern  das Controller Area Network (CAN) durchgesetzt \cite[S.57]{Werner2014}. CAN ist ein von Bosch für den Automobilbau entwickeltes Bussystem, mit dem mehrere gleichberechtigte Teilnehmer verbunden werden und miteinander kommunizieren können \cite[S. 278]{Woern2006}.
-Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an denen alle zu verbindenden Teilnehmer parallel angeschlossen sind. Die beiden Leitungen werden an beiden Enden mit Wellenwiderständen von 120 Ohm verbunden. Der schematische Aufbau eines CAN-Buses mit zwei Teilnehmern ist in Abbildung \ref{fig:CAN} dargestellt. 
+Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an denen alle zu verbindenden Teilnehmer parallel angeschlossen sind. Die beiden Leitungen werden an beiden Enden mit Wellenwiderständen von 120 Ohm verbunden. Der schematische Aufbau eines CAN-Busses mit zwei Teilnehmern ist in Abbildung \ref{fig:CAN} dargestellt. 
 
 \begin{figure}[h]
 	\centering
 		\includegraphics{Bilder/CAN2.pdf}
 	\caption{Aufbau CAN-Bus \cite[S.158]{manual}}
 	\label{fig:CAN}
-\end{figure}
+\end{figure} \noindend
 
 Sollten mehrere Teilnehmer gleichzeitig versuchen eine Nachricht zu senden und somit ein gleichzeitiger Buszugriff vorliegt, kommt es zu einer Kollision. Um diese Aufzulösen wird ein CSMA/CR-Verfahren (\textit{Carrier Sense Multiple Access/Collision Resolution}) verwendet, bei dem die höher gewichtete (dominante) Nachricht die niedriger gewichtete (rezessive) Nachricht überschreibt, sodass der Übertragungsversuch beendet wird. Die Einteilung der Relevanz einer Nachricht erfolgt auf Basis der sogenannten Identifier(ID)-Bits, wobei niedrige ID-Bits eine höhere Relevanz als höhere ID-Bits haben. Dadurch wird eine Hierarchie der Nachrichten erzeugt, wodurch die Nachricht mit der niedrigsten ID immer gesendet werden darf. Dementsprechend werden wichtigen Nachrichten niedrige IDs zugeteilt \cite{Lawrenz2010}. 
 Die Geschwindigkeit der Datenübertragung zwischen den Teilnehmer ist dabei von der Länge der Leitungen abhängig und beträgt maximal 1Mbit/s. Nach \cite[S.58]{Werner2014} kann die Bitrate überschlagsmäßig mit 
 \begin{equation}
-	\text{Buslänge}\leq 40...50 m\cdot \frac{1MBit/s}{Bitrate}
+	\text{Buslänge}\leq \SI{40...50 m}\cdot \SI{\frac{1MBit/s}{Bitrate}}
 	\label{eq:CAN}
 \end{equation}
 berechnet werden.
 
 In \autoref{CANNachrichten} wird speziell auf die in dieser Arbeit eingerichtete CAN-Kommunikation eingegangen. Es wird ein CAN-Bus verwendet, mit dem lediglich zwei Teilnehmer miteinander verbunden werden. Diese sind zum einen die MicroAutoBox und zum anderen der Mikrocontroller des Smart Actuators. Die Länge der Leitungen zwischen den beiden ist wesentlich kürzer als 3m, wodurch nach Formel (\ref{eq:CAN}) die maximale Bitrate von 1Mbit/s möglich wird.
 
-\section{Pulsweitenmodulation} \label{sec:PWM_kap2}
+\section{Pulsweitenmodulation}
 Pulsweitenmodulation (PWM) bietet die Möglichkeit, ein analoges Signal anhand einer digitalen Quelle zu bilden, indem das Tastverhältnis eines Rechteckimpulses bei gleichbleibender Frequenz moduliert wird. Dabei wird der Effekt ausgenutzt, dass sich ein digitales Signal, welches schnell genug und in einem gewissen Tastverhältnis seinen Zustand wechselt, sich verhält wie ein analoges Signal mit konstanter Spannung. So ist es mithilfe von PWM zum Beispiel möglich mit einem Mikrocontroller, der nur einen gewissen Spannungsbetrag liefern kann, verschieden hohe Spannungsignale am Endgerät zu erzeugen um es zu betreiben. Es muss allerdings darauf geachtet werden, dass die Pulse im Endeffekt nicht mehr als einzelne Pulse wahrgenommen werden können, das heißt die Frequenz der Pulse muss höher sein als die Abtastrate des Empfängers.
 
-Das Tastverhältnis, oder der Tastgrad \textit{p}, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer T:
+Das Tastverhältnis, oder der Tastgrad p, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer T:
 
 \begin{equation}
 	p=\frac{t\textsubscript{ein}}{T} = \frac{t\textsubscript{ein}}{t\textsubscript{ein}+t\textsubscript{aus}}
@@ -159,7 +168,7 @@ In Abbildung \ref{fig:PWM} ist ein pulsweitenmoduliertes Signal mit dem entsprec
 		\includegraphics{Bilder/PWM.pdf}
 	\caption{Beispielhaftes PWM Signal}
 	\label{fig:PWM}
-\end{figure}
+\end{figure} \noindend
 
 \section{Zustandsautomaten}
 Zustandsautomaten, auch endliche Automaten genannt, eignen sich zur Beschreibung von Systemen, in denen eine endliche Anzahl an Ereignissen eintreten können. In ihnen treten Zustände, Zustandsübergänge und Aktionen auf, aus dem das Verhalten einen Systems modelliert wird. Zustandsübergänge sind logische Operatoren, die erfüllt sein müssen, damit ein System von Zustand X in Zustand Y wechselt. Dementsprechend hat ein Übergang immer einen Zustand als Ein- und Ausgang. Aktionen können durch den Eingang in einen Zustand, den Ausgang aus einem Zustand oder durch eine Eingabe ausgelöst werden. \\
