@@ -7,7 +7,7 @@ Die Konstruktion des Prüfstandes erfolgte in vorangegangenen Arbeiten und wurde
 		\includegraphics{Bilder/Pruefstand.pdf}
 	\caption{Prüfstand \cite[S.5]{adp}}
 	\label{fig:Pruefstand}
-\end{figure} \noindend
+\end{figure} \noindent
 \subsection{Getriebe allgemein}
 
 Ein Getriebe ist im Automobil dafür zuständig, die Drehzahl des Motors in ein Drehmoment umzuwandeln, welches schließlich die Räder antreibt.
@@ -19,7 +19,7 @@ Im Fahrzeuggetriebe, beispielhaft dargestellt in \autoref{fig:Fahrzeuggetriebe} 
 		\includegraphics{Bilder/Fahrzeuggetriebe.pdf}
 	\caption{Fahrzeuggetriebe \cite[S.17]{Hilgers2016}}
 	\label{fig:Fahrzeuggetriebe}
-\end{figure} \noindend
+\end{figure} \noindent
 
 \subsection{Getriebe des Prüfstands}
 
@@ -36,7 +36,7 @@ Sein Querschnitt ist in folgender Abbildung schematisch dargestellt.
 		\includegraphics{Bilder/QuerschnittAktor.pdf}
 	\caption{Querschnitt Tauchspulenaktor \cite[S.30]{Hahn2018}}
 	\label{fig:Querschnitt Aktor}
-\end{figure} \noindend
+\end{figure} \noindent
 Der Aufbau ist zylindrisch und kann in den ortsfesten Stator und den beweglichen Läufer unterteilt werden. Der Stator des Aktors besteht aus zwei gegensinnig in Reihe geschalteten Kupferspulen, welche fest in dem Gehäuse aus Weicheisen liegen und nach oben und unten mit Deckeln aus Aluminium fixiert werden. Der Läufer besteht aus einer nichtmagnetischen Läuferwelle, auf der sich fünf Permanentmagneten aus Neodym-Eisen-Bor befinden, welche mit Hilfe von zwei Polstücken aus Weicheisen axial auf der Läuferstange montiert sind. 
 Werden nun die Kupferspulen von Strom durchflossen, so wirkt eine vom Magnetfeld der Permanentmagneten induzierte Lorentzkraft orthogonal auf sie. Diese Kraft ist abhängig von der Stromstärke I, der magnetischen Flussdichte der Permanentmagneten B und der vom Magnetfeld durchsetzten Leiterlänge l:
 \begin{equation}\label{eq:lorentz}
@@ -50,7 +50,7 @@ Anhand von Abbildung \autoref{fig:Kennlinie Aktor} ist zu erkennen, dass die Kra
 		\includegraphics{Bilder/KennlinieAktor.pdf}
 	\caption{Kraft-Weg-Strom Kennlinien des Tauchspulenaktors \cite[S.12]{adp}}
 	\label{fig:Kennlinie Aktor}
-\end{figure} \noindend
+\end{figure} \noindent
 
 \subsection{Aktorsteuerung}
 
@@ -65,10 +65,10 @@ Die bisherigen Funktionen am Prüfstand laufen auf einer MicroAutoBox II 1401/15
 Das Blockschaltbildes zur gesamten Regelstrecke ist in Abbildung \autoref{fig:Regelstrecke} dargestellt.
 \begin{figure}[h]
 	\centering
-		\includegraphics{Bilder/Regelstrecke.pdf}
+		\includegraphics{Bilder/Schaltgabelregelung.pdf}
 	\caption{Regelstrecke Prüfstand}
 	\label{fig:Regelstrecke}
-\end{figure} \noindend
+\end{figure} \noindent
 Über das Programm Control Desk erfolgt die Sollwertvorgabe am PC. Diese wird per Ethernet an die MicroAutoBox, welche den Regler darstellt, übermittelt, die den Wert mit der Istgröße vergleicht, den der Sensor bereitstellt. Die H-Brücke, welche mit einer Stellenergie versorgt werden muss steuert den Aktor an, um die Schaltgabelposition zu verändern.
 Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen berührungslose PLCD (permanentmagnetic linear contactless displacement) Technologie die magnetische Sättigung zur Positionsbestimmung verwendet. Der weichmagnetische Kern des Sensors ist über seine komplette Länge von einer Primärspule umgeben. Auf der Schaltgabel ist ein Permanentmagnet befestigt, welcher je nach Position zu einer lokalen Sättigung des weichmagnetischen Kerns führt. Über zwei Auswertungsspulen am Rand des Sensors kann die Position der Sättigungszone entlang der Sensorachse über die induzierte Spannung bestimmt werden.
 
@@ -77,7 +77,7 @@ Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen
 		\includegraphics{Bilder/Sensor.pdf}
 	\caption{Einbauposition PLCD Sensor an der Schaltgabel \cite[S.14]{adp}}
 	\label{fig:Sensor}
-\end{figure} \noindend
+\end{figure} \noindent
 Die Kalibrierung des Sensors wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bisher bei jedem Start. Zu Beginn des Einfahrvorgangs der Schaltwalze wird dabei das Spannungssignal $U\textsubscript{0}$ ausgelesen, welches der Ausgangslage von $x\textsubscript{0}=\SI{0}{mm}$ entspricht. Anschließend werden die Spannungssignale $U\textsubscript{1}$ und $U\textsubscript{2}$ an beiden Anschlägen gemessen. Die Wegdifferenz zwischen den beiden Anschlagspositionen beträgt $x_{ges}$=\SI{18,2}{mm}. Nun kann eine Geradengleichung zur Bestimmung der aktuellen Schaltgabelposition aufgestellt werden. U\textsubscript{a} entspricht dabei immer dem aktuellen Ausgangssignal.
 
 \begin{equation}\label{eq:Lage}
@@ -90,7 +90,7 @@ Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenem Ad
 		\includegraphics{Bilder/SprungantwortSchaltgabelposition.pdf}
 	\caption{Sprungantwort Schaltgabelposition \cite[S.35]{adp}}
 	\label{fig:Sprungantwort Schaltgabelposition}
-\end{figure} \noindend
+\end{figure} \noindent
 
 \section{Grundlagen Löten}
 Löten gehört zu den Fügeverfahren und bezeichnet das Verbinden zweier Metalle durch eine Metalllegierung unter Einfluss von Wärme \cite{loeten}. Die Metalllegierung wird dabei als Lot bezeichnet und hat eine geringere Schmelztemperatur (Liquidustemperatur) als die beiden zu verbindenden Metalle (Solidustemperatur). Durch das Löten entsteht eine feste, korrosionsbeständige sowie strom- und wärmeleitende Verbindung. Lötverfahren werden nach Arbeitstemperatur eingeteilt in Weichlöten (bis 450°C), Hartlöten (450°C - 900°C) und Hochtemperaturlöten (über 900°C). Im Rahmen dieses Projektes wird das Verfahren Weichlöten mit Lötkolben angewendet, um die elektrischen Bauteile auf der Platine anzubringen. Dazu können die vom Institut bereitgestellten Lötstationen und –materialien verwendet werden. 
@@ -102,7 +102,7 @@ Ein Mikrocontroller (\textit{MCU: microcontroller unit}) ist ein hochintegrierte
 		\includegraphics{Bilder/BlockschaltbildMikrocontroller.pdf}
 	\caption{Blockschaltbild eines Mikrocontrollers \cite[S.3]{Bernstein2015}}
 	\label{fig:Blockschaltbild Mikrocontroller}
-\end{figure} \noindend
+\end{figure} \noindent
 
 In Abbildung \ref{fig:Blockschaltbild Mikrocontroller} ist der typische Aufbau eines Mikrocontroller dargestellt. Die Schnittstellen zur Peripherie sind durch einen Betriebsspannungsanschluss, einen Takteingang sowie die Portleitungen  gegeben. Bei den Ports wird zwischen Eingangskanälen (\textit{\textbf{I}nput Port}), die digitale Signale lesen, und Ausgangskanälen (\textit{\textbf{O}utput Port}), die digitale Signale setzen beziehungsweise löschen, unterschieden. Des Weiteren können I/O Pins digitale oder analoge Signale auslesen und stellen, wobei analoge Signale mithilfe eines Analog/Digital Wandlers (\textit{ADC}) zuerst in digital Signale umgewandelt werden müssen, damit der Mikrocontroller sie verarbeiten kann.
 Eine Spezialform von Eingängskanälen sind die Interrupt-Pins, die bei bestimmten Ereignissen Unterbrechungen des laufenden Programms verursachen, um temporär einen anderen Vorgang zu bearbeiten. 
@@ -132,12 +132,12 @@ Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an d
 		\includegraphics{Bilder/CAN2.pdf}
 	\caption{Aufbau CAN-Bus \cite[S.158]{manual}}
 	\label{fig:CAN}
-\end{figure} \noindend
+\end{figure} \noindent
 
 Sollten mehrere Teilnehmer gleichzeitig versuchen eine Nachricht zu senden und somit ein gleichzeitiger Buszugriff vorliegt, kommt es zu einer Kollision. Um diese Aufzulösen wird ein CSMA/CR-Verfahren (\textit{Carrier Sense Multiple Access/Collision Resolution}) verwendet, bei dem die höher gewichtete (dominante) Nachricht die niedriger gewichtete (rezessive) Nachricht überschreibt, sodass der Übertragungsversuch beendet wird. Die Einteilung der Relevanz einer Nachricht erfolgt auf Basis der sogenannten Identifier(ID)-Bits, wobei niedrige ID-Bits eine höhere Relevanz als höhere ID-Bits haben. Dadurch wird eine Hierarchie der Nachrichten erzeugt, wodurch die Nachricht mit der niedrigsten ID immer gesendet werden darf. Dementsprechend werden wichtigen Nachrichten niedrige IDs zugeteilt \cite{Lawrenz2010}. 
 Die Geschwindigkeit der Datenübertragung zwischen den Teilnehmer ist dabei von der Länge der Leitungen abhängig und beträgt maximal 1Mbit/s. Nach \cite[S.58]{Werner2014} kann die Bitrate überschlagsmäßig mit 
 \begin{equation}
-	\text{Buslänge}\leq \SI{40...50 m}\cdot \SI{\frac{1MBit/s}{Bitrate}}
+	\text{Buslänge}\leq 40...\SI{50}{m}\cdot \frac{1\text{MBit/s}}{\text{Bitrate}}
 	\label{eq:CAN}
 \end{equation}
 berechnet werden.
@@ -168,7 +168,7 @@ In Abbildung \ref{fig:PWM} ist ein pulsweitenmoduliertes Signal mit dem entsprec
 		\includegraphics{Bilder/PWM.pdf}
 	\caption{Beispielhaftes PWM Signal}
 	\label{fig:PWM}
-\end{figure} \noindend
+\end{figure} \noindent
 
 \section{Zustandsautomaten}
 Zustandsautomaten, auch endliche Automaten genannt, eignen sich zur Beschreibung von Systemen, in denen eine endliche Anzahl an Ereignissen eintreten können. In ihnen treten Zustände, Zustandsübergänge und Aktionen auf, aus dem das Verhalten einen Systems modelliert wird. Zustandsübergänge sind logische Operatoren, die erfüllt sein müssen, damit ein System von Zustand X in Zustand Y wechselt. Dementsprechend hat ein Übergang immer einen Zustand als Ein- und Ausgang. Aktionen können durch den Eingang in einen Zustand, den Ausgang aus einem Zustand oder durch eine Eingabe ausgelöst werden. \\
