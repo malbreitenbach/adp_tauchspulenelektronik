@@ -152,10 +152,10 @@ In realen Systemen werden die Schalter durch Transistoren realisiert. Um Kurzsch
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{Bilder/btn8982.pdf}
-	\caption{Blockdiagramm der BTN8982 Halbbrücke}
+	\caption{Blockdiagramm der BTN8982 Halbbrücke \cite[S.4]{btn}}
 	\label{fig:btn8982}
 \end{figure}\noindent
-Sie besteht aus einem \textit{p-channel highside MOSFET}, einem \textit{n-channel lowside MOSFET} und einem \textit{Driver IC}, die \textit{logic level inputs} unterstützt, wodurch der Anschluss an einen Microcontroller erleichtert wird. Die \textit{BTN8982} ist in einem Temperaturbereich von \SI{-40}{^\circ C} bis \SI{150}{^\circ C} einsetzbar und kann mit einer Versorgungsspannung von bis zu \SI{40}{V} betrieben werden, wobei diese im normalen Betrieb zwischen \SI{8}{V} bis \SI{18}{V} liegen sollte. Zusätzlich sind mehrere Schutzfunktionen integriert, beispielsweise ein Überstrom- und ein Übertemperaturschutz. Die \textit{BTN8982} besitzt acht Ausgänge, welche in \autoref{tab:Pinverteilung} aufgelistet und im fFolgenden näher erläutert werden.
+Sie besteht aus einem \textit{p-channel highside MOSFET}, einem \textit{n-channel lowside MOSFET} und einem \textit{Driver IC}, die \textit{logic level inputs} unterstützt, wodurch der Anschluss an einen Microcontroller erleichtert wird. Die \textit{BTN8982} ist in einem Temperaturbereich von \SI{-40}{^\circ C} bis \SI{150}{^\circ C} einsetzbar und kann mit einer Versorgungsspannung von bis zu \SI{40}{V} betrieben werden, wobei diese im normalen Betrieb zwischen \SI{8}{V} bis \SI{18}{V} liegen sollte. Zusätzlich sind mehrere Schutzfunktionen integriert, beispielsweise ein Überstrom- und ein Übertemperaturschutz. Die \textit{BTN8982} besitzt acht Ausgänge, welche in \autoref{tab:Pinverteilung} aufgelistet und im Folgenden näher erläutert werden.
 
 \begin{table}[H]
 	\centering
@@ -209,7 +209,7 @@ Die H-Brücke kann auch ohne einen Leitungsverstärker direkt mit dem Microcontr
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{Bilder/Strommessung.pdf}
-	\caption{Strommessung mit und ohne Leitungsverstärker bei unterschiedlichen PWM-Signalen}
+	\caption{Strommessung mit und ohne Leitungsverstärker bei unterschiedlichen PWM-Signalen \cite[S.2]{Buffer}}
 	\label{fig:Strommessung}
 \end{figure}\noindent
 Der schematische Aufbau der verwendeten H-Brücke ist in \autoref{fig:schematisch_hbruecke} zu sehen und wird im Folgenden genauer erläutert. Bei dem hier vorgestellten Aufbau wurde sich am Datenblatt der \textit{BTN8982}-Halbbrücken orientiert.
