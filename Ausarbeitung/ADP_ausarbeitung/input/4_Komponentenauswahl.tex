@@ -105,7 +105,7 @@ Zur Kommunikation des Mikrocontrollers mit der MicroAutobox ist eine Signalüber
 \end{figure}\noindent
 Über den Pin RS lassen sich durch den Widerstand R\_RS verschiedene \textit{slew rates} einstellen und damit, wie schnell der Ausgangstransistor bei der Übermittlung von Nachrichten durchschaltet \cite[2]{cantrans}. Für einen Widerstandswert von \SI{0}{\Omega} ist die Geschwindigkeit maximal, während sie bei \SI{10}{k\Omega} etwa \SI{15}{\frac{V}{\mu s}} beträgt. Zwischen CAN-HIGH und CAN-LOW wird nach dem Datenblatt ein \SI{120}{\Omega} geschaltet. Bei der Wahl von R5 und R\_RS wurde sich an der bestehenden Konfiguration des STM-Discovery-Shields orientiert, mit der die CAN-Kommunikation aufgebaut wurde. 
 
-\subsection{Spannungsversorgung}
+\subsection{Spannungsversorgung}\label{sec:spannver}
 Die Elektronik wird weiterhin mit dem bisher verwendeten Manson SBC-2130 Battery Charger versorgt. Dieser stellt eine konstante Spannung von \SI{13,8}{V}. Da die verschiedenen Komponenten jedoch Versorgungsspannungen von \SI{3,3}{V} und \SI{5}{V} benötigen, muss die Schaltung durch einen Spannungsregler erweitert werden. Zusätzlich werden dadurch Schwankungen in der Eingangsspannung geglättet. 
 
 \subsubsection{Low Dropout Spannungsregler}
