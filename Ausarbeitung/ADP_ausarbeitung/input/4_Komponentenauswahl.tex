@@ -72,13 +72,14 @@ Wichtig bei der Beschaltung ist außerdem die Belegung von BOOT0 und BOOT1, welc
 
 \begin{table}[H]%
 \centering
+\captionabove{Boot modes des STM32F405RGT7 nach \cite[S.69]{stmref}}
 \begin{tabular}{c c c c}
 BOOT1 & BOOT0 & Boot mode & Aliasing \\ \hline
 x & 0 & Main Flash memory & Main Flash memory is selected as the boot space\\
 0 & 1 & System memory & System memory is selected as the boot space\\
 1 & 1 & Embedded SRAM & Embedded SRAM is selected as the boot space
 \end{tabular}
-\caption{Boot modes des STM32F405RGT7 nach \cite[S.69]{stmref}}
+
 \label{tab:boot}
 \end{table}
 
@@ -158,7 +159,8 @@ Sie besteht aus einem \textit{p-channel highside MOSFET}, einem \textit{n-channe
 
 \begin{table}[H]
 	\centering
-		\begin{tabular}{l|p{2,5cm}|p{8cm}|p{3cm}}
+		\captionabove{Pinverteilung Halbbrücken}
+		\begin{tabular}{l p{2,5cm} p{8cm} p{3cm}}
 			\textbf{Pin Nummer} & \textbf{Bezeichnung} & \textbf{Erläuterung} & \textbf{Anschluss an} \\ \hline
 			1 & GND (Ground) & Erdung & Ground MCU \\
 			2 & IN (Input) & definiert die Schalterstellung (1 = High Switch Mode; 0 = Low Switch Mode) & O-Pin MCU \\
@@ -168,7 +170,7 @@ Sie besteht aus einem \textit{p-channel highside MOSFET}, einem \textit{n-channe
 			6 & IS (Status) & Strommessung \& Fehlererkennung & I-Pin MCU\\
 			7 & VS (Supply) & Stromversorgung & Batterie\\
 		\end{tabular}
-	\caption{Pinverteilung Halbbrücken}
+	
 	\label{tab:Pinverteilung}
 \end{table}\noindent
 Pin 1 ist der GND-Pin und bestimmt das Bezugsniveau der Versorgungsspannung, welche an Pin 7 angelegt wird. Ob Strom durch den highside MOSFET oder den lowside MOSFET fließt, wird durch Pin 2 (IN) bestimmt. Liegt eine 1 an fließt Strom durch den highside MOSFET, während bei einer 0 Strom durch letzteren fließt. Wird die Halbbrücke über ein PWM Signal geschaltet, geschieht dies über das Signal an diesem Pin. Der dritte Pin (INH) setzt die Halbbrücke in einen \textit{sleep-mode}, solange eine 0 anliegt. Somit kann die Halbbrücke nur genutzt werden, wenn eine 1 anliegt. Der \textit{sleep-mode} wird als Notaus verwendet, falls die Software einen kritischen Fehler detektiert (siehe \autoref{subsec:MOT}). Pin 4 und 8 (OUT) sind die Pins an die die Versorgungsspannung durchgeschaltet wird und stellen damit die direkte Schnittstelle mit dem Aktor da. Pin 5 (SR) bestimmt die Slew Rate des PWM Signals IN-Pin. Der sechste Pin (IS) ist für die Strommessung, sowie für die Meldung von Fehlern zuständig. Die Funktionsweise ist in \autoref{fig:IS_Pin} dargestellt.\\

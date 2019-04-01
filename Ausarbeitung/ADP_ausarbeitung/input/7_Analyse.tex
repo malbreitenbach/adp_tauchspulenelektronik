@@ -16,6 +16,7 @@ Nach \autoref{schaltgabelkraft} ist zu erkennen, dass über Gegenbestromung der 
 
 \begin{table}[h]
 	\centering
+	\captionabove{Anforderungsliste}
 		\begin{tabular}{l|p{5cm}|p{7cm}|c}
 			\textbf{Relevanz} & \textbf{Anforderung} & \textbf{Erläuterung} & Erfüllt?\\ \hline
 			& &\\
@@ -33,15 +34,14 @@ Nach \autoref{schaltgabelkraft} ist zu erkennen, dass über Gegenbestromung der 
 			W & Schaltgabelkraft am Anschlag & möglichst gering& \checkmark \\ \hline
 			FF & Standby & Standbyleistungsaufnahme < 2W& \checkmark \\ \hline
 		\end{tabular}
-	\caption{Anforderungsliste}
 	\label{tab:Anforderungsliste2}
 \end{table}
 \section{Kostenaufstellung}
 Die Materialkosten für die fertige Platine inklusive aller Bauteile belaufen sich bei einer einzigen Platine auf \SI{80}{\euro}. Bei einer Stückzahl von 100 kann der Preis bereits auf \SI{33,5}{\euro} gesenkt werden, während die Bauteilkosten bei einer Fertigung von 1000 Platinen nochmal auf knapp unter \SI{25}{\euro} sinken. Diesen großen Preisunterschied verursacht vor allem die unbestückte Platine selbst, die bei Bestellung von einer einzigen \SI{38,5}{\euro} kostet und bei einer Bestellung von 1000 Stück nur noch \SI{0,82}{\euro}. \autoref{tab:Preisliste} zeigt die verwendeten Bauteile und deren Anzahl sowie den kumulierte Preis pro Bauteilart (Anzahl des Bauteils multipliziert mit dem Einzelpreis) für jeweils eine Fertigung von einer Platine, von 100 Platinen und von 1000 Platinen. Die Nettopreise stammen dabei von den Anbietern, bei denen die Komponenten jeweils eingekauft wurden.
 \begin{table}[h]
 	\centering
-\begin{tabular}{ | l | l | l | l | l | }
-\hline
+	\captionabove{Preisliste}
+\begin{tabular}{ l   l   l   l   l }
 	Anzahl & Bauteil & Bauteilpreis & Bauteilpreis 100+ & Bauteilpreis 1000+\\ \hline
 	1 & Platine & \SI{38,5}{\euro} & \SI{2,39}{\euro} & \SI{0,82}{\euro}\\
 	\  & \  & \  & \  & \  \\
@@ -59,10 +59,10 @@ Die Materialkosten für die fertige Platine inklusive aller Bauteile belaufen si
 	\  & \  & \  & \  & \  \\
 	1 & Quarz & \SI{0,61}{\euro} & \SI{0,36}{\euro} & \SI{0,38}{\euro} \\
 	21 & Widerstände & \SI{4,88}{\euro} & \SI{3,05}{\euro} & \SI{1,68}{\euro}\\
-	21 & Kondensatoren & \SI{5,91}{\euro} & \SI{3,06}{\euro} & \SI{1,50}{\euro}\\ \hline
-	\  & \textbf{Gesamtpreis} & \textbf{\SI{80,26}{\euro}}  & \textbf{\SI{33,51}{\euro}}  & \textbf{\SI{24,68}{\euro}}  \\ \hline
+	21 & Kondensatoren & \SI{5,91}{\euro} & \SI{3,06}{\euro} & \SI{1,50}{\euro}\\
+	\  & \  & \  & \  & \  \\
+	\  & \textbf{Gesamtpreis} & \textbf{\SI{80,26}{\euro}}  & \textbf{\SI{33,51}{\euro}}  & \textbf{\SI{24,68}{\euro}}  \\
 \end{tabular}
-\caption{Preisliste}
 	\label{tab:Preisliste}
 \end{table}\noindent
 Die gesamte Preisauflistung für die Stückzahlen eins, 100 und 1000 inklusive der einzelnen Widerstände und Kondensatoren, sowie die Händlerlinks zu allen Bauteilen befindet sich im Anhang.
