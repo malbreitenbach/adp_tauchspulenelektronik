@@ -14,7 +14,7 @@
    viewBox="0 0 276.20334 116.67702"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="fig_toolchain.svg">
   <defs
      id="defs2" />
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="457.66575"
-     inkscape:cy="353.69473"
+     inkscape:zoom="1.4"
+     inkscape:cx="803.10652"
+     inkscape:cy="193.93443"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,10 +35,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,7 +78,7 @@
            x="47.477169"
            y="92.164085"
            style="font-size:16px" /></flowRegion><flowPara
-         id="flowPara823"></flowPara></flowRoot>    <flowRoot
+         id="flowPara823" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot825"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -105,7 +105,7 @@
            height="154.15457"
            x="47.87595"
            y="92.562866" /></flowRegion><flowPara
-         id="flowPara839"></flowPara></flowRoot>    <rect
+         id="flowPara839" /></flowRoot>    <rect
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect843"
        width="73.510597"
@@ -238,7 +238,7 @@
            x="-49.456982"
            y="492.22504"
            style="font-size:21.33333397px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
-         id="flowPara1010"></flowPara></flowRoot>    <flowRoot
+         id="flowPara1010" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot1012"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -277,7 +277,7 @@
        xml:space="preserve"
        id="flowRoot1085"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,10.682913,10.690781)"><flowRegion
+       transform="matrix(0.26458333,0,0,0.26458333,8.9820201,10.312805)"><flowRegion
          id="flowRegion1087"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Courier New';-inkscape-font-specification:'Courier New'"><rect
            id="rect1089"
@@ -289,7 +289,7 @@
          id="flowPara1091"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Courier New';-inkscape-font-specification:'Courier New'" /><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Courier New';-inkscape-font-specification:'Courier New'"
-         id="flowPara1095">for(int arg){</flowPara><flowPara
+         id="flowPara1095">func(int arg){</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Courier New';-inkscape-font-specification:'Courier New'"
          id="flowPara1102">…}</flowPara><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;font-family:'Courier New';-inkscape-font-specification:'Courier New'"
@@ -328,7 +328,7 @@
            x="487.32245"
            y="365.91544"
            style="font-size:21.33333397px" /></flowRegion><flowPara
-         id="flowPara1135"></flowPara></flowRoot>    <flowRoot
+         id="flowPara1135" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot1137"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Charter;-inkscape-font-specification:Charter;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
