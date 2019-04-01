@@ -178,7 +178,7 @@ Pin 1 ist der GND-Pin und bestimmt das Bezugsniveau der Versorgungsspannung, wel
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Bilder/IS_Pin.pdf}
-	\caption{Funktionsweise des IS-Pins}
+	\caption{Funktionsweise des IS \cite[S.18]{btn}}
 	\label{fig:IS_Pin}
 \end{figure}\noindent
 Im normalen Operationsmodus (Current Sense Mode) liefert eine integrierte Stromquelle einen Strom $I_{is}$ der proportional zum durchgeschalteten Strom $I_{l}$ ist. Tritt ein Fehler auf wie zum Beispiel Übertemperatur oder Überstrom, schaltet die Halbbrücke in den Error Flag Mode. Hierbei wird die Stromquelle am IS-Pin gewechselt, welche einen konstanten Strom $I_{IS}$ liefert.  Dieser beträgt maximal \SI{6,5}{mA}. Der Proportionalitätsfaktor $k$ ist durch
