@@ -1,5 +1,5 @@
 \appendix
-\chapter{Vollständiges Boardlayout}
+\chapter{Vollständiges Boardlayout}\label{app:boardlayout}
 \begin{figure}[H]%
 \centering
 \includegraphics[angle=0,width=1
@@ -33,18 +33,18 @@
 \label{}%
 \end{figure}
 
-\chapter{Alternativkonzept auf 4 Layern mit Buck-Converter}
+\chapter{Alternativkonzept auf 4 Layern mit Buck-Converter}\label{app:4layer}
 Wie in \autoref{sec:platan} beschrieben sind bisher keine Probleme durch EMI aufgetreten, sodass die Erweiterung auf ein 4-Layer Platinenlayout nur notwendig wäre, wenn in der zukünftigen Aktorkonfiguration Probleme auftreten sollen. Die Erweiterung bezieht sich hauptsächlich auf die Einführung eines Buck-Converters aus \autoref{fig:buckcon}, welcher die \SI{5}{V} Spannungsebene erzeugen könnte und die Einführung einer GND-Plane im zweiten Layer (vgl. \autoref{fig:groundplane}). Der Buck-Converter regelt auf die \SI{5}{V} über Schaltzyklen ähnlich denen eines PWM-Signals. Über die \SI{5}{V} des Buck-Converters wird der LDO für die \SI{3,3}{V} Spannungsebene gespeist, wie \autoref{fig:ldobuck} zeigt.
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.9\columnwidth]{./Bilder/buck}%
+\includegraphics[width=0.8\columnwidth]{./Bilder/buck}%
 \caption{Buck-Converter zum Regeln auf \SI{5}{V}}%
 \label{fig:buckcon}%
 \end{figure}\noindent
 Diese Konfiguration hat den Vorteil, dass der LDO der \SI{3,3}{V} Spannungsebene weniger stark belastet wird. Problem an einem Buck-Converter ist, dass aufgrund der Schaltzyklen die Spannung weniger konstant ist, als bei einem LDO. Durch die Kombination beider Regler ist die \SI{3,3}{V} Spannungsebene so stabil wie in der vorherigen Spannungsregler-Konfiguration. Zu Analysieren wäre allerdings, wie sich der Buck-Converter auf das Auslesen der Lagesensorik auswirkt, welche von den \SI{5}{V} gespeist wird. Im derzeitigen Entwurf wurde sich deshalb für zwei seperate LDOs entschieden (vgl. \autoref{sec:spannver}).
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.9\columnwidth]{./Bilder/v334layer}%
+\includegraphics[width=0.8\columnwidth]{./Bilder/v334layer}%
 \caption{LDO-Converter zum Regeln auf \SI{3,3}{V} bei \SI{5}{V} Eingangsspannung}%
 \label{fig:ldobuck}%
 \end{figure}\noindent
