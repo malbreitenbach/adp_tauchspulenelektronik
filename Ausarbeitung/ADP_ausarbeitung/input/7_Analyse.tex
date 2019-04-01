@@ -117,9 +117,21 @@ Mit der erreichten stationären Genauigkeit sind die Bedingungen für eine erfol
 \subsection{Schaltgabelkraft am Anschlag}\label{schaltgabelkraft}
 In \autoref{fig:aktor_anschlag} ist ein Schaltvorgang von Neutral in Gang 2 und die zugehörige Strommessung des Aktors aufgetragen. Zu sehen ist, dass beim Erreichen der Sollgröße zum Zeitpunkt $t$ = \SI{0,1316}{s} nur etwa \SI{0,1}{A} im Aktor fließt. Das bedeutet, dass die Lorentzkraft der Spule auf den Läufer gemäß \autoref{eq:lorentz} keine nennenswerte Kraft auf den Aktor ausübt. Somit wirkt auf den Läufer zu diesem Zeitpunkt fast ausschließlich die Kraft aufgrund seiner Massenträgheit. Nach dem Übertreten des Läufers der Sollposition reagiert die Regelung durch Gegenbestromung, sodass die Massenträgheit durch die Lorentzkraft gebremst wird und der Läufer in Richtung Sollposition gebracht wird. Die Anschlagskraft wird somit minimiert.
 
-\begin{figure} [h]
+\begin{figure} [H]
 	\centering
 	\includegraphics[width=1\linewidth]{Bilder/aktor_anschlag2.pdf}
 	\caption{Strommessung im Schaltvorgang von Neutral in Gang 2}
 	\label{fig:aktor_anschlag}
 \end{figure}
+
+\subsection{WAS WEIß ICH DENN WIE ICH DICH DIESE UNTERKAPITEL NENNEN SOLL!!!!!}
+In \autoref{fig:spannungsverlaeufe} sind die Spannungsabfälle am Aktor bei verschiedenen PWM-Signalen dargestellt. Zusätzlich ist der jeweils zugehörige Spannungsverlauf der Batterie aufgetragen. Zu sehen ist, dass die Spannung der Batterie immer sinkt, sobald die H-Brücken die Spannung an den Aktor durchschaltet und anschließend wieder steigt. Diese Schwankung ist für größer werdende PWM-Signale ausgeprägter. Neben den zu beobachtbaren Schwankungen, fällt auch das Gesamtniveau der Batteriespannung für steigende PWM-Signale.   
+
+
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=1\linewidth]{Bilder/spannungsverlauefe.pdf}
+	\caption{Strommessung im Schaltvorgang von Neutral in Gang 2}
+	\label{fig:spannungsverlaeufe}
+\end{figure}
+
