@@ -1,8 +1,8 @@
 \chapter{Software}\label{kap6}
-Dieses Kapitel behandelt das zum Einsatz kommende Softwaresystem in Hinblick auf die verwendete Toolchain, die Programmstruktur als solche und Optimierungspotentiale. Dadurch soll dem Leser ein Überblick gegeben werden, sodass dieser den Programmablauf nachvollziehen kann und selbstständig Weiterentwicklungen durchführen kann.
+Dieses Kapitel behandelt das zum Einsatz kommende Softwaresystem in Hinblick auf die verwendete Toolchain, die Programmstruktur als solche und Optimierungspotential. Dadurch soll dem Leser ein Überblick gegeben werden, sodass dieser den Programmablauf nachvollziehen kann und selbstständig Weiterentwicklungen durchführen kann.
 
 \section{Toolchain}
-Unter Toolchain werden die Werkzeuge bzw. Programme und ihr Zusammenwirken bezeichnet, die zur Programmentwicklung verwendet werden.\\ Für die vorliegende Aufgabenstellung ist ein Programm notwendig, das auf einem Mikrocontroller des Typs STM32F4 lauffähig ist. Zur Entwicklung des Programms kommt ein innovativer Ansatz zum Einsatz, der einfach verständlich und schnell erlernbar ist. Er basiert auf \textit{Matlab Simulink} und ermöglicht die Programmierung des Mikrocontrollers auf intuitive Weise. Um hardwarespezifische Blöcke bspw. zum Auslesen der ADCs benutzen zu können, wird ein Simulink Blockset namens \textit{Waijung} eingesetzt \cite{waijung}. Um das Blockschaltbild für den STM32 ausführbar zu machen, wird neben Simulink selbst auch der \textit{Simulink Coder} und der \textit{Embedded Coder} für Matlab benötigt. Durch diese Toolboxes ist es möglich aus einem Simulink Modell  C-Code zu generieren\cite{simulinkCoder}. Der \textit{Embedded Coder} führt dabei zusätzlich Optimierungen durch, die eine effiziente Ausführung auf einem eingebettetem System ermöglichen \cite{embeddedCoder}. 
+Unter Toolchain werden die Werkzeuge bzw. Programme und ihr Zusammenwirken bezeichnet, die zur Programmentwicklung verwendet werden.\\ Für die vorliegende Aufgabenstellung ist ein Programm notwendig, das auf einem Mikrocontroller des Typs STM32F4 lauffähig ist. Zur Entwicklung des Programms kommt ein innovativer Ansatz zum Einsatz, der einfach verständlich und schnell erlernbar ist. Er basiert auf \textit{Matlab Simulink} und ermöglicht die Programmierung des Mikrocontrollers auf intuitive Weise. Um hardwarespezifische Blöcke bspw. zum Auslesen der ADCs nutzen zu können, wird ein Simulink Blockset namens \textit{Waijung} eingesetzt \cite{waijung}. Um das Blockschaltbild für den STM32 ausführbar zu machen, wird neben Simulink selbst auch der \textit{Simulink Coder} und der \textit{Embedded Coder} für Matlab benötigt. Durch diese Toolboxes ist es möglich aus einem Simulink Modell  C-Code zu generieren\cite{simulinkCoder}. Der \textit{Embedded Coder} führt dabei zusätzlich Optimierungen durch, die eine effiziente Ausführung auf einem eingebettetem System ermöglichen \cite{embeddedCoder}. 
 Auch dieser C-Code ist nicht direkt ausführbar auf einem ARM-basierten Prozessor, wie es der STM32F4 ist. Es existieren jedoch geeignete Übersetzungstools (Compiler), die den C-Code in ARM-Assembler übersetzen und direkt lauffähig machen können. Im \textit{Waijung Blockset} werden dafür die \textit{GNU Tools for ARM embedded processors} mitgeliefert. Der kompilierte Code muss im letzten Schritt auf den Mikrocontroller übertragen werden, auch \textit{flashen} oder \textit{programmieren} genannt. Die Firma ST liefert dafür ein Programm namens \textit{STLink Utility}, welches neben des Programmiervorgangs über die definierte Programmierschnittstelle SWD auch Debugging-Fähigkeiten liefert, womit Fehlerzustände lokalisiert und beseitigt werden können. Einen groben Überblick über den Prozess vom Simulink  Modell bis zur Ausführung auf der Zielhardware wird in \autoref{fig_toolchain} gegeben.
 
 \begin{figure}[H]%
@@ -17,7 +17,7 @@ Um einen Einblick in das Hauptprogramm zu bieten, das auf dem finalen Smart Actu
 Insbesondere im Gebiet des \textit{automated driving} sind viele Architekturansätze bekannt, durch welche komplexe Software strukturierter, robuster und zuverlässiger werden soll \cite{automated}.\\
  Weit verbreitet ist die 1983 entwickelte Architektur von Rasmussen, die zwischen wissensbasiertem, regelbasiertem und reflexbasiertem Verhalten unterscheidet. Unter reflexbasiertem Verhalten werden Aktionen verstanden, die rein reaktiv Sensordaten in Aktor-Aktivitäten umsetzen, ohne dabei komplexen Regeln zu folgen. Regelbasiertes Verhalten auf der anderen Seite ist bestimmt durch feste vordefinierte Regeln, die auf bestimmte Situationen angewendet werden. Falls eine Situation jedoch nicht vorhersehbar ist bzw. keine Regeln dafür hinterlegt sind, muss durch wissensbasiertes Verhalten gehandelt werden . Dieses Verhalten kann beispielsweise durch neuronale Netze erreicht werden, die jedoch in dieser Arbeit keine Anwendung finden. \cite{Rasmussen}\\
 Wichtig sind daher die unteren beiden Ebenen, wobei nur die reflexbasierte Ebene Zugriff auf Sensorik und Aktorik hat. Auf übergeordneter regelbasierter Ebene werden dann vorverarbeitete Werte ausgewertet und anhand fester Regeln Handlungsanweisungen an die untere Ebene erzeugt. In \autoref{fig_arch} ist die Architektur nochmal vereinfacht dargestellt.
-\begin{figure}%
+\begin{figure}[H]%
 \centering
 \includegraphics[width=0.8\columnwidth]{./Bilder/fig_arch}%
 \caption{Drei-Ebenenarchitektur nach Rasmussen (vereinfacht)}%
@@ -158,7 +158,7 @@ Eine Sonderstellung nimmt der Systemfehler (\textit{TSA\_SystErr}) ein, der bei 
 \label{fig_cal}%
 \end{figure}
 
-Die Kalibrierung dient dazu, den Spannungswerten des Lagesensors konkrete Positionen der Schaltgabel zuordnen zu können. Das Kalibrierungsverfahren basiert auf dem Ansatz von \cite{vADP}. Es werden dabei die Anschlagspositionen durch große Stellgrößen angefahren und der Sensor an diesen Werten ausgelesen. Nach mehrmaliger Ausführung und anschließender Mittlung werden die Kalibrierungswerte nichtflüchtig abgespeichert. Im Falle eines Spannungsverlustes stehen die Kalibrierungsdaten nach wie vor bereit. Die Komponente besitzt Schnittstellen zur Lagesensorik sowie zum Hauptzustandsautomaten, von welchem aus die Kalibrierung eingeleitet wird.
+Die Kalibrierung dient dazu, den Spannungswerten des Lagesensors konkrete Positionen der Schaltgabel zuordnen zu können. Das Kalibrierungsverfahren basiert auf dem Ansatz von \cite{adp}. Es werden dabei die Anschlagspositionen durch große Stellgrößen angefahren und der Sensor an diesen Werten ausgelesen. Nach mehrmaliger Ausführung und anschließender Mittlung werden die Kalibrierungswerte nichtflüchtig abgespeichert. Im Falle eines Spannungsverlustes stehen die Kalibrierungsdaten nach wie vor bereit. Die Komponente besitzt Schnittstellen zur Lagesensorik sowie zum Hauptzustandsautomaten, von welchem aus die Kalibrierung eingeleitet wird.
 
 \subsection{Halteregler (CONH) und Schaltregler (CONS)}
 
@@ -169,7 +169,7 @@ Die Kalibrierung dient dazu, den Spannungswerten des Lagesensors konkrete Positi
 \label{fig_conh_cons}%
 \end{figure}
 
-Für die Regelung der Schaltgabelposition nach \autoref{regler} werden den Reglern die momentane Gabelpositon zugeführt. Darüber hinaus wird über den Hauptzustandsautomaten die Sollposition vorgegeben. Über den Soll-Ist-Vergleich und die Anwendung eines Regelgesetzes wird schließlich eine PWM als Stellgröße ermittelt. Eine Regelfrequenz von \SI{10}{kHz} hat sich als ausreichend schnell herausgestellt und kann durch den Mikrocontroller geleistet werden. Beim \textit{Schaltregler} kommt ein PID-Regler mit Störgrößenkompensation zum Einsatz, der in \cite{vADP} erarbeitet wurde. Eine praktikable Lösung für einen \textit{Halteregler} konnte nicht ermittelt werden. Der jeweilige Regler ist nur aktiv, falls er durch den \textit{MAIN\_PWM\_SELECT} des Hauptzustandsautomaten auch explizit angefragt ist.
+Für die Regelung der Schaltgabelposition nach \autoref{regler} werden den Reglern die momentane Gabelpositon zugeführt. Darüber hinaus wird über den Hauptzustandsautomaten die Sollposition vorgegeben. Über den Soll-Ist-Vergleich und die Anwendung eines Regelgesetzes wird schließlich eine PWM als Stellgröße ermittelt. Eine Regelfrequenz von \SI{10}{kHz} hat sich als ausreichend schnell herausgestellt und kann durch den Mikrocontroller geleistet werden. Beim \textit{Schaltregler} kommt ein PID-Regler mit Störgrößenkompensation zum Einsatz, der in \cite{adp} erarbeitet wurde. Eine praktikable Lösung für einen \textit{Halteregler} konnte nicht ermittelt werden. Der jeweilige Regler ist nur aktiv, falls er durch den \textit{MAIN\_PWM\_SELECT} des Hauptzustandsautomaten auch explizit angefragt ist.
  
 \subsection{Auswahlglied für PWM-Signal (PWMS)}
 
@@ -218,14 +218,14 @@ Im Fall mit Sensor kann auf eine \textit{Burst}-Messung aufgrund ausreichender G
 
 \section{Einleitung in benutzerseitige CAN Schnittstelle} \label{CANNachrichten}
 
-Für den späteren Anwender ist vornehmlich die Benutzerschnittstelle über CAN relevant. Hier wird zunächst zwischen drei Nachrichten unterschieden, die innerhalb des CAN-Netzwerkes fortlaufend ausgetauscht werden. Über die Nachricht \textit{TSA\_req}, die in \autoref{tab_tsa_req} beschrieben ist, kann ein übergeordnetes Steuergerät Befehle an den Aktor schicken. Diese werden dann abhängig des aktuellen Zustands entsprechend umgesetzt. Parallel werden vom Aktor permanent Nachrichten an das Steuergerät gesendet, die Informationen über den aktuellen Zustands liefern. Dabei werden die Informationen auf zwei Nachrichten aufgeteilt, genaueres ist \autoref{tab_tsa_trqs} und \autoref{tab_tsa_error} zu entnehmen. Das Gesamtkonzept ist in \autoref{fig_can_ov} dargestellt.
-
-\begin{figure}[h]%
+\begin{figure}[H]%
 \centering
-\includegraphics[width=0.8\columnwidth]{./Bilder/fig_can_ov}%
+\includegraphics[width=1.0\columnwidth]{./Bilder/fig_can_ov}%
 \caption{Gesamtkonzept der CAN-Kommunikation}%
 \label{fig_can_ov}%
 \end{figure}
+
+Für den späteren Anwender ist vornehmlich die Benutzerschnittstelle über CAN relevant. Hier wird zunächst zwischen drei Nachrichten unterschieden, die innerhalb des CAN-Netzwerkes fortlaufend ausgetauscht werden. Über die Nachricht \textit{TSA\_req}, die in \autoref{tab_tsa_req} beschrieben ist, kann ein übergeordnetes Steuergerät Befehle an den Aktor schicken. Diese werden dann abhängig des aktuellen Zustands entsprechend umgesetzt. Parallel werden vom Aktor permanent Nachrichten an das Steuergerät gesendet, die Informationen über den aktuellen Zustands liefern. Dabei werden die Informationen auf zwei Nachrichten aufgeteilt, genaueres ist \autoref{tab_tsa_trqs} und \autoref{tab_tsa_error} zu entnehmen. Das Gesamtkonzept ist in \autoref{fig_can_ov} dargestellt.
 
 \begin{table}%
 \centering
@@ -234,7 +234,7 @@ Für den späteren Anwender ist vornehmlich die Benutzerschnittstelle über CAN 
 Bezeichnung & Datentyp & Erläuterung & Zusatz \\
 \hline
 TSA\_EnableRq & Bit & Aktivierungssignal des Aktors & Durch Setzen dieses Bits wird von Betriebsmodus \textbf{Inaktiv} zu \textbf{Regulär} gewechselt \newline \\
-TSA\_ModeRq & Bit & Wahl des gewünschten Betriebsmodus \textbf{Regulär} oder  \textbf{Kalibrierung }& 0: Regulär, 1: Kalibrierung \newline \\
+TSA\_ModeRq & Bit & Wahl des gewünschten Betriebsmodus \textbf{Regulär} oder  \textbf{Kalibrierung }, über dieses Signal kann die Kalibrierung gestartet werden \newline & 0: Regulär, 1: Kalibrierung \newline \\
 TSA\_ClearError & Bit & Fehler Quittierung & Durch Setzen wird von Betriebsmodus \textbf{Fehler} zu \textbf{Inaktiv} gewechselt, falls der Fehler behoben wurde \newline \\
 TSA\_ShiftFirst & Bit & Schaltbefehl in ersten Gang & nur möglich in Betriebsmodus \textbf{Regulär} \newline\\
 TSA\_ShiftSecond & Bit & Schaltbefehl in zweiten Gang & nur möglich in Betriebsmodus \textbf{Regulär} \newline \\
