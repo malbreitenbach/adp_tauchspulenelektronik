@@ -83,7 +83,7 @@ Die Kalibrierung des Sensors wurde in \cite[S.24f]{messtechnik} entwickelt und e
 	x=\frac{U\textsubscript{a} -U\textsubscript{0}}{U\textsubscript{1}-U\textsubscript{2}}\cdot x\textsubscript{ges}
 \end{equation}
 \noindent
-Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenen Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu $K_P$ =\SI{2,6}{\%\frac{V}{mm}}, $K_I$ =\SI{20}{\%\frac{V}{s mm}} und $K_D$ =\SI{1,6}{\%\frac{Vs}{mm}} bestimmt. Der Verlauf der Sprungantwort ist in nachstehender Abbildung (\ref{fig:Sprungantwort Schaltgabelposition}) dargestellt.
+Die bisherige Regelung der Schaltgabelposition wurde in einem vorangegangenen Advanced Design Project ausgelegt. Dazu wurden mithilfe des Ziegler-Nichols-Verfahren zunächst Parameter für einen PID-Regler ermittelt, welcher allerdings noch zu große Totzeiten und ein Überschwingen aufwies. In einer anschließenden iterativen Optimierung mit Störgrößenkompensation wurden die Regelparameter zu $K_P$ =\SI{2,6}{\%\frac{V}{mm}}, $K_I$ =\SI{20}{\%\frac{V}{s mm}} und $K_D$ =\SI{1,6}{\%\frac{Vs}{mm}} bestimmt. Der Verlauf der Sprungantwort ist in nachstehender \autoref{fig:Sprungantwort Schaltgabelposition} dargestellt.
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=0.6\columnwidth]{Bilder/SprungantwortSchaltgabelposition.pdf}
@@ -103,7 +103,7 @@ Ein Mikrocontroller (\textit{MCU: microcontroller unit}) ist ein hochintegrierte
 	\label{fig:Blockschaltbild Mikrocontroller}
 \end{figure} 
 \noindent
-In Abbildung \ref{fig:Blockschaltbild Mikrocontroller} ist der typische Aufbau eines Mikrocontroller dargestellt. Die Schnittstellen zur Peripherie sind durch einen Betriebsspannungsanschluss, einen Takteingang sowie die Portleitungen  gegeben. Bei den Ports wird zwischen Eingangskanälen (\textit{\textbf{I}nput Port}), die digitale Signale lesen, und Ausgangskanälen (\textit{\textbf{O}utput Port}), die digitale Signale setzen beziehungsweise löschen, unterschieden. Des Weiteren können I/O Pins digitale oder analoge Signale auslesen und stellen, wobei analoge Signale mithilfe eines Analog/Digital Wandlers (\textit{ADC}) zuerst in digital Signale umgewandelt werden müssen, damit der Mikrocontroller sie verarbeiten kann.
+In \autoref{fig:Blockschaltbild Mikrocontroller} ist der typische Aufbau eines Mikrocontroller dargestellt. Die Schnittstellen zur Peripherie sind durch einen Betriebsspannungsanschluss, einen Takteingang sowie die Portleitungen  gegeben. Bei den Ports wird zwischen Eingangskanälen (\textit{\textbf{I}nput Port}), die digitale Signale lesen, und Ausgangskanälen (\textit{\textbf{O}utput Port}), die digitale Signale setzen beziehungsweise löschen, unterschieden. Des Weiteren können I/O Pins digitale oder analoge Signale auslesen und stellen, wobei analoge Signale mithilfe eines Analog/Digital Wandlers (\textit{ADC}) zuerst in digital Signale umgewandelt werden müssen, damit der Mikrocontroller sie verarbeiten kann.
 Eine Spezialform von Eingängskanälen sind die Interrupt-Pins, die bei bestimmten Ereignissen Unterbrechungen des laufenden Programms verursachen, um temporär einen anderen Vorgang zu bearbeiten. \\
 Intern sind die einzelnen Bausteine, die im Folgenden kurz erläutert werden, über ein Bussystem verbunden.
 Der Prozessor (\textit{CPU: central processing unit}) führt Berechnungen und logische Operationen durch.
@@ -121,7 +121,7 @@ Smart Actuators reduzieren beziehungsweise ersetzen die benötigte Interaktion m
 
 \section{Controller Area Network (CAN)}\label{sec:CAN_KAP2}
 Um eine Kommunikation zwischen mehreren Geräten (z.B. Sensoren, Aktoren oder Steuergeräten) zu ermöglichen, muss ein System zur Datenübertragung vorhanden sein. Dabei hat sich bei vielen PKW- und NKW-Herstellern  das Controller Area Network (CAN) durchgesetzt \cite[S.57]{Werner2014}. CAN ist ein von Bosch für den Automobilbau entwickeltes Bussystem, mit dem mehrere gleichberechtigte Teilnehmer verbunden werden und miteinander kommunizieren können \cite[S. 278]{Woern2006}.
-Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an denen alle zu verbindenden Teilnehmer parallel angeschlossen sind. Die beiden Leitungen werden an beiden Enden mit Wellenwiderständen von 120 Ohm verbunden. Der schematische Aufbau eines CAN-Busses mit zwei Teilnehmern ist in Abbildung \ref{fig:CAN} dargestellt.\\
+Für ein CAN-Netzwerk werden zwei Leitungen CAN-High und CAN-Low benötigt, an denen alle zu verbindenden Teilnehmer parallel angeschlossen sind. Die beiden Leitungen werden an beiden Enden mit Wellenwiderständen von 120 Ohm verbunden. Der schematische Aufbau eines CAN-Busses mit zwei Teilnehmern ist in \autoref{fig:CAN} dargestellt.\\
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=0.7\columnwidth]{Bilder/CAN2.pdf}
@@ -135,7 +135,7 @@ Die Geschwindigkeit der Datenübertragung zwischen den Teilnehmer ist dabei von 
 	\label{eq:CAN}
 \end{equation}
 berechnet werden.\\
-In \autoref{CANNachrichten} wird speziell auf die in dieser Arbeit eingerichtete CAN-Kommunikation eingegangen. Es wird ein CAN-Bus verwendet, mit dem im derzeitigen Versuchsstand zwei Teilnehmer miteinander verbunden werden. Diese sind zum einen die MicroAutoBox und zum anderen der Mikrocontroller des Smart Actuators. Die Länge der Leitungen zwischen den beiden ist wesentlich kürzer als \SI{3}{m}, wodurch nach Formel (\ref{eq:CAN}) die maximale Bitrate von 1Mbit/s möglich wird.
+In \autoref{CANNachrichten} wird speziell auf die in dieser Arbeit eingerichtete CAN-Kommunikation eingegangen. Es wird ein CAN-Bus verwendet, mit dem im derzeitigen Versuchsstand zwei Teilnehmer miteinander verbunden werden. Diese sind zum einen die MicroAutoBox und zum anderen der Mikrocontroller des Smart Actuators. Die Länge der Leitungen zwischen den beiden ist wesentlich kürzer als \SI{3}{m}, wodurch nach \autoref{eq:CAN} die maximale Bitrate von 1Mbit/s möglich wird.
 
 \section{Pulsweitenmodulation}
 Pulsweitenmodulation (PWM) bietet die Möglichkeit, ein analoges Signal anhand einer digitalen Quelle zu bilden, indem das Tastverhältnis eines Rechteckimpulses bei gleichbleibender Frequenz moduliert wird. Dabei wird der Effekt ausgenutzt, dass sich ein digitales Signal, welches schnell genug und in einem gewissen Tastverhältnis seinen Zustand wechselt, verhält wie ein analoges Signal mit konstanter Spannung. So kann mithilfe von PWM beispielsweise ein Motortreiber angesteuert werden, der über MOSFETS das PWM Signal mit höherem Spannungslevel durchschaltet. Über die Tiefpasswirkung des Motors wird das Signal geglättet, sodass es sich annähernd wie eine angelegte Gleichspannung verhält (vgl. \autoref{sec:hbridge}).\\
