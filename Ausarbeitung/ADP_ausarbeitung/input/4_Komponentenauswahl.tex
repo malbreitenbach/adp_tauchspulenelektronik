@@ -245,7 +245,7 @@ Eine mögliche Schaltung zur hochgenauen Temperaturmessung mittels Heißleitern 
 \begin{figure} [h]
 	\centering
 	\includegraphics[width=0.4\linewidth]{Bilder/wheatstone.pdf}
-	\caption{Wheatstone-Brückenschaltung}
+	\caption{Wheatstone-Brückenschaltung nach \cite[S.12]{Weissgerber2018}}
 	\label{fig:wheatstone}
 \end{figure}\noindent
 Solange die Brücke ausgeglichen ist, liegt keine Spannungsdifferenz zwischen $P_1$ und $P_4$ vor. Ändert sich der Widerstand des Thermistors, wird der ausgeglichene Zustand verlassen und es kommt zu einer Spannungsdifferenz, aus der der veränderte Widerstand des Thermistors bestimmt werden kann. Wird \autoref{eq:NTC} nach der Temperatur $T$ umgestellt, lässt sich daraus die aktuelle Temperatur berechnen. Aus Platzgründen auf der endgültigen Platine und da die hiermit erzielbare Genauigkeit nicht benötigt wird, ist stattdessen ein Spannungsteiler zum Einsatz gekommen. Dieser Spannungsteiler teilt den am Thermistor und an einem festen Widerstand abfallende Spannung und ist in \autoref{fig_ther_elek} dargestellt. Aus der Spannung, die am konstanten Widerstand $R_c$ abfällt, kann auf die Spannung geschlossen werden, die am Thermistor $R_t$ abfällt und somit auch auf dessen aktuellen Widerstand. Über \autoref{eq:NTC} ist dann ein direkter Zusammenhang zur gemessenen Temperatur gegeben.
