@@ -200,7 +200,7 @@ Die Spannungen an IN- und INH-Pins und somit auch die Funktionalität der H-Brü
 			\includegraphics[height=0.3\textwidth]{Bilder/tabelle.pdf}
 		\end{minipage} %Ende der zweiten Minipage
 	\end{center}
-	\caption{Schematischer Aufbau und Logiktabelle des CD74HCT125 Leitungsverstärkers}
+	\caption{Schematischer Aufbau und Logiktabelle des CD74HCT125 Leitungsverstärkers \cite[S.2]{Buffer}}
 	\label{fig:buffer}
 \end{figure}\noindent
 Die H-Brücke kann auch ohne einen Leitungsverstärker direkt mit dem Microcontroller verbunden werden, was zur Folge hätte, dass keine \SI{5}{V} sondern \SI{3,3}{V} Spannung an den Pins der H-Brücke anliegen. \autoref{fig:Strommessung} zeigt den geflossenen Strom durch den dabei angeschlossenen Aktor mit und ohne Leitungsverstärker bei variierenden PWM-Signalen. Es ist zu sehen, dass die Messung mit Geschalteten Leitungsverstärker deutlich symmetrischer sind, was auf eine bessere bidirektionale Schaltbarkeit schließen lässt. Außerdem sind die maximal durchgeschalteten Ströme größer. Dies lässt vermuten, dass die \SI{3,3}{V} nicht ausreichen um die Transistoren in den Halbbrücken vollständig schalten zu lassen. Dementsprechend wurde sich bei der endgültigen Schaltung für den Einsatz eines Leitungsverstärkers entschieden. 
@@ -208,7 +208,7 @@ Die H-Brücke kann auch ohne einen Leitungsverstärker direkt mit dem Microcontr
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{Bilder/Strommessung.pdf}
-	\caption{Strommessung mit und ohne Leitungsverstärker bei unterschiedlichen PWM-Signalen \cite[S.2]{Buffer}}
+	\caption{Strommessung mit und ohne Leitungsverstärker bei unterschiedlichen PWM-Signalen}
 	\label{fig:Strommessung}
 \end{figure}\noindent
 Der schematische Aufbau der verwendeten H-Brücke ist in \autoref{fig:schematisch_hbruecke} zu sehen und wird im Folgenden genauer erläutert. Bei dem hier vorgestellten Aufbau wurde sich am Datenblatt der \textit{BTN8982}-Halbbrücken orientiert.
