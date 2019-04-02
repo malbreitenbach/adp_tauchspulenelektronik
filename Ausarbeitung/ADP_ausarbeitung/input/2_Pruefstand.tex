@@ -77,7 +77,7 @@ Die Position der Läuferstange wird über einen PLCD-25M Sensor gemessen, dessen
 	\caption{Einbauposition PLCD Sensor an der Schaltgabel \cite[S.14]{adp}}
 	\label{fig:Sensor}
 \end{figure} \noindent
-Die Kalibrierung des Sensors wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bisher bei jedem Start. Zu Beginn des Einfahrvorgangs der Schaltwalze wird dabei das Spannungssignal $U\textsubscript{0}$ ausgelesen, welches der Ausgangslage von $x\textsubscript{0}=\SI{0}{mm}$ entspricht. Anschließend werden die Spannungssignale $U\textsubscript{1}$ und $U\textsubscript{2}$ an beiden Anschlägen gemessen. Die Wegdifferenz zwischen den beiden Anschlagspositionen beträgt $x_{ges}$=\SI{18,2}{mm}. Nun kann eine Geradengleichung zur Bestimmung der aktuellen Schaltgabelposition gemäß \autoref{eq:Lage}aufgestellt werden. U\textsubscript{a} entspricht dabei immer dem aktuellen Ausgangssignal.
+Die Kalibrierung des Sensors wurde in \cite[S.24f]{messtechnik} entwickelt und erfolgt bisher bei jedem Start. Zu Beginn des Einfahrvorgangs der Schaltwalze wird dabei das Spannungssignal $U\textsubscript{0}$ ausgelesen, welches der Ausgangslage von $x\textsubscript{0}=\SI{0}{mm}$ entspricht. Anschließend werden die Spannungssignale $U\textsubscript{1}$ und $U\textsubscript{2}$ an beiden Anschlägen gemessen. Die Wegdifferenz zwischen den beiden Anschlagspositionen beträgt $x_{ges}$=\SI{18,2}{mm}. Nun kann eine Geradengleichung zur Bestimmung der aktuellen Schaltgabelposition gemäß \autoref{eq:Lage} aufgestellt werden. U\textsubscript{a} entspricht dabei immer dem aktuellen Ausgangssignal.
 
 \begin{equation}\label{eq:Lage}
 	x=\frac{U\textsubscript{a} -U\textsubscript{0}}{U\textsubscript{1}-U\textsubscript{2}}\cdot x\textsubscript{ges}
@@ -139,7 +139,7 @@ In \autoref{CANNachrichten} wird speziell auf die in dieser Arbeit eingerichtete
 
 \section{Pulsweitenmodulation}
 Pulsweitenmodulation (PWM) bietet die Möglichkeit, ein analoges Signal anhand einer digitalen Quelle zu bilden, indem das Tastverhältnis eines Rechteckimpulses bei gleichbleibender Frequenz moduliert wird. Dabei wird der Effekt ausgenutzt, dass sich ein digitales Signal, welches schnell genug und in einem gewissen Tastverhältnis seinen Zustand wechselt, verhält wie ein analoges Signal mit konstanter Spannung. So kann mithilfe von PWM beispielsweise ein Motortreiber angesteuert werden, der über MOSFETS das PWM Signal mit höherem Spannungslevel durchschaltet. Über die Tiefpasswirkung des Motors wird das Signal geglättet, sodass es sich annähernd wie eine angelegte Gleichspannung verhält (vgl. \autoref{sec:hbridge}).\\
-Das Tastverhältnis, oder der Tastgrad p, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer $\tau$:
+Das Tastverhältnis, oder der Tastgrad, p beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer $\tau$:
 \begin{equation}
 	p=\frac{t\textsubscript{ein}}{\tau} = \frac{t\textsubscript{ein}}{t\textsubscript{ein}+t\textsubscript{aus}}
 \end{equation}
