@@ -15,6 +15,7 @@
 \usepackage{amsmath}
 \usepackage{caption} 
 \usepackage{float}
+\usepackage{pdfpages}
 
 
 \hypersetup{%
@@ -47,10 +48,12 @@ innovativen Schaltaktor},
 % \printpicturesize
 
 \title{Entwicklung und Test einer eingebetteten Elektronik für einen innovativen Schaltaktor}
-\subtitle{Malte Breitenbach, Johannes Faupel, Jonas Tautz, Johanna Vetter}
+\subtitle{Development and test of embedded electronics for an innovative shift actuator}
+\subsubtitle{Advanced Design Project (ADP)\\Autoren: Malte Breitenbach, Johannes Faupel, Jonas Tautz, Johanna Vetter\\ Betreuer: Daniel Schöneberger\\Bearbeitungszeitraum: 27. November 2018 ~- 03. April 2019\\Technische Universität Darmstadt}
 %\subsubtitle{email: \textaccent{tud-design@pro-kevin.de}}
 %\setinstitutionlogo[width]{TUD_sublogo}
 %\uppertitleback{(\textaccent{\textbackslash uppertitleback})}
+\setinstitutionlogo{./Bilder/IMSLogo}
 \lowertitleback{\hfill\today}
 \institution{ 
 Institut für Mechatronische Systeme im Maschinenbau\\
@@ -65,9 +68,19 @@ Institut für Mechatronische Systeme im Maschinenbau\\
 %\sponsor{\color{tud9b}\rule{\linewidth}{7mm}}
 %\sponsor{\hfill\includegraphics[height=6ex]{tud_logo}\hspace{1em}\includegraphics[height=6ex]{TUD_chaos}}
 
+
 \begin{document}
 \maketitle
 \pagenumbering{roman}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Aufgabenstellung}
+\includepdf[pagecommand={\thispagestyle{plain}},width=1.16\columnwidth]{./input/aufgabenstellung2.pdf}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Erklärung}
+\input{./input/Erklaerung} 
+\cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Kurzfassung}
 \section*{Kurzfassung}
@@ -84,14 +97,18 @@ In previous work a control of the shift fork position has already been developed
 \textbf{Keywords:} smart actuator, embedded system, linear actuator, PCB design
 \cleardoublepage
 \phantomsection
-\addcontentsline{toc}{chapter}{\listfigurename}
-\listoffigures
-\newpage
-\phantomsection
 \addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
 \tableofcontents
-\input{./input/Akronymverzeichnis}
-\newpage
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+\input{./input/Abkuerzungsverzeichnis}
+\cleardoublepage
 \pagenumbering{arabic}
 %% Hier Tex-Dateien includen
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

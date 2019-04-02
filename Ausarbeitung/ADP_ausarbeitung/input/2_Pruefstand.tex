@@ -65,7 +65,7 @@ Das momentane Ziel des Aufbaus ist es, die Schaltgabelposition zu regeln, um sch
 \begin{figure}[h]
 	\centering
 		\includegraphics[width=0.95\columnwidth]{Bilder/Schaltgabelregelung.pdf}
-	\caption{Regelstrecke Prüfstand nach \cite{Vorgaengeradp}}
+	\caption{Regelstrecke Prüfstand nach \cite{adp}}
 	\label{fig:Regelstrecke}
 \end{figure} \noindent
 Über das Programm Control Desk erfolgt die Sollwertvorgabe am PC. Diese wird per Ethernet an die MicroAutoBox, welche den Regler darstellt, übermittelt, die den Wert mit der Istgröße vergleicht, die der Sensor bereitstellt. Die H-Brücke, welche mit einer Stellenergie versorgt werden muss, steuert den Aktor an, um die Schaltgabelposition zu verändern.
@@ -139,9 +139,9 @@ In \autoref{CANNachrichten} wird speziell auf die in dieser Arbeit eingerichtete
 
 \section{Pulsweitenmodulation}
 Pulsweitenmodulation (PWM) bietet die Möglichkeit, ein analoges Signal anhand einer digitalen Quelle zu bilden, indem das Tastverhältnis eines Rechteckimpulses bei gleichbleibender Frequenz moduliert wird. Dabei wird der Effekt ausgenutzt, dass sich ein digitales Signal, welches schnell genug und in einem gewissen Tastverhältnis seinen Zustand wechselt, verhält wie ein analoges Signal mit konstanter Spannung. So kann mithilfe von PWM beispielsweise ein Motortreiber angesteuert werden, der über MOSFETS das PWM Signal mit höherem Spannungslevel durchschaltet. Über die Tiefpasswirkung des Motors wird das Signal geglättet, sodass es sich annähernd wie eine angelegte Gleichspannung verhält (vgl. \autoref{sec:hbridge}).\\
-Das Tastverhältnis, oder der Tastgrad p, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer T:
+Das Tastverhältnis, oder der Tastgrad p, beschreibt dabei das Verhältnis zwischen der Einschaltzeit t\textsubscript{ein} und der Periodendauer $\tau$:
 \begin{equation}
-	p=\frac{t\textsubscript{ein}}{T} = \frac{t\textsubscript{ein}}{t\textsubscript{ein}+t\textsubscript{aus}}
+	p=\frac{t\textsubscript{ein}}{\tau} = \frac{t\textsubscript{ein}}{t\textsubscript{ein}+t\textsubscript{aus}}
 \end{equation}
 Das Tastverhältnis kann nur Werte zwischen 0 und 1 annehmen.\\
 Der zeitliche Mittelwert der Spannung U\textsubscript{m} ergibt sich dann bei einer Betriebsspannung V\textsubscript{b} zu:
