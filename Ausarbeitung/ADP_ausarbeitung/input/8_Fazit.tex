@@ -1,9 +1,9 @@
 \chapter{Fazit und Ausblick}\label{kap8}
 Ziel dieser Arbeit war es, eine eingebettete Elektronik für den linearen Schaltaktor am Prüfstand zu entwickeln und zu testen. Im ersten Schritt wurden dazu die bereits bestehende Hard- und Software der bisher am Prüfstand angebrachten Elektronik analysiert, die Anforderungen an das Endprodukt festgelegt und auf Grundlage dessen schrittweise eigene Schaltungen auf Testboards kreiert und untersucht. Hierfür wurde die Elektronik in die Subsysteme Aktoransteuerung, Recheneinheit und Sensorik unterteilt, welche später auf der Endplatine wieder zusammengeführt wurden. Nachdem die H-Brücke, geschaltet über den Mikrocontroller, erfolgreich den Aktor in Betrieb setzten konnte und die Datenübertragung von Lage- und Temperatursensor mit dem Mikrocontroller sichergestellt werden konnte, wurden anschließend alle Subsysteme kombiniert, sodass ein endgültiger Prototyp entstand, welcher alle Performanceanforderungen erfüllen sollte. Dieser wurde mit Hilfe der parallel erarbeiteten Programmierung in Matlab Simulink durch Verwendung des Waijung Blocksets über den Mikrocontroller gesteuert und die Funktionen überprüft. Auch die Regelung der Schaltgabelposition wurde überarbeitet und optimiert.
 Anhand des funktionierenden Prototypen wurde daraufhin die Platine nach einer Einarbeitung in Platinendesign geplant und entworfen. Die industriell gefertigte Platine konnte nun im institutseigenen Lötlabor mit allen Komponenten bestückt werden und im Anschluss am Prüfstand angeschlossen und getestet werden. \autoref{fig:endprodukt} zeigt die fertig bestückte Platine, also das Endprodukt dieser Arbeit.
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
-\includegraphics[width=220pt]{./Bilder/Endprodukt}
+\includegraphics[width=270pt]{./Bilder/Endprodukt.pdf}
 \caption{Die fertig bestückte Platine}
 \label{fig:endprodukt}
 \end{figure} \noindent
@@ -11,10 +11,10 @@ Nachdem der Mikrocontroller einmal \textit{geflasht} wird, steht die Funktionali
 In der vorliegenden Arbeit konnte eine funktionierende eingebettete Elektronik für den linearen Tauchspulenaktor am Prüfstand des IMS entwickelt werden. Besonders hervorzuheben ist dabei die Kompaktheit der Platine, die direkt am Aktor angebracht wird, gegenüber dem vorherigen Zustand. In \autoref{fig:vergleich} wird das Endprodukt dem Arduino IBT2 Motortreiber gegenübergestellt. Der Größenvergleich zeigt, dass die Platine nur ungefähr doppelt so groß ist, dabei aber deutlich mehr Komponenten integriert hat.
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.35\columnwidth]{./Bilder/VergleichPlatine}%
+\includegraphics[width=0.6\columnwidth]{./Bilder/vergleichplat}%
 \caption{Größenvergleich des Endprodukts mit IBT2 Motortreiber}%
 \label{fig:vergleich}%
-\end{figure}
+\end{figure}\noindent
 Schnittstellen sowie Versorgung sind über einen einzigen Steckerausgang verbunden, der wahlweise mit dem passenden Gegenstück zur Programmierung oder zum Betrieb gekoppelt werden kann. 
 \autoref{fig:platineaktor} zeigt auf der linken Seite die Platine in ihrem Elektronikgehäuse, welches an den nebenliegenden Aktor montiert wird. In der rechten Darstellung ist Platine samt Gehäuse und neuem Aktor zu sehen, wie das System später am Prüfstand angebracht wird. Auch der alte Aktor ist links daneben zu sehen.
 \begin{figure}[H]
@@ -22,7 +22,7 @@ Schnittstellen sowie Versorgung sind über einen einzigen Steckerausgang verbund
 \includegraphics[width=480pt]{./Bilder/Platinefertig}
 \caption{Anbringung der Platine in ihr Gehäuse und an den Aktor}
 \label{fig:platineaktor}
-\end{figure}
+\end{figure}\noindent
 Die gestellten Anforderungen wurden weitestgehend erfüllt (vgl. \autoref{vergleich}), sodass von einem erfolgreichen und zufriedenstellenden Produktdesign ausgegangen werden kann. Eine Weiterentwicklung der eingebetteten Elektronik kann aufgrund der flexiblen Systemintegrierbarkeit und des leicht zu bedienenden Programms in weiteren Arbeiten erfolgen. 
 
 \section{Ausblick} 
