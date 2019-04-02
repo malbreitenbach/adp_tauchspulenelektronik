@@ -224,9 +224,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="401.36035"
-     inkscape:cy="181.91319"
+     inkscape:zoom="0.7"
+     inkscape:cx="463.77785"
+     inkscape:cy="224.01928"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -247,7 +247,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -345,7 +345,7 @@
          id="tspan5167"
          x="267.83859"
          y="112.01495"
-         style="font-size:11.64166641px;stroke-width:0.26458332">PC</tspan></text>
+         style="font-size:11.64166641px;stroke-width:0.26458332">ECU</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:2.32187438;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart)"
        d="m 205.0278,62.635328 c 68.87666,0 68.87666,0 68.87666,0"
@@ -410,14 +410,20 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:Charter;-inkscape-font-specification:Charter;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="149.86203"
-       y="67.335068"
-       id="text16234"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.89926624px;line-height:1.25;font-family:Charter;-inkscape-font-specification:Charter;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16686125"
+       x="147.25932"
+       y="62.445148"
+       id="text16234"
+       transform="scale(1.0005501,0.99945021)"><tspan
          sodipodi:role="line"
          id="tspan16232"
-         x="149.86203"
-         y="67.335068"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;font-family:Charter;-inkscape-font-specification:'Charter, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.26458332">Platine</tspan></text>
+         x="147.25932"
+         y="62.445148"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89926624px;font-family:Charter;-inkscape-font-specification:'Charter, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.16686125">eingebettete </tspan><tspan
+         sodipodi:role="line"
+         x="147.25932"
+         y="73.570038"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.89926624px;font-family:Charter;-inkscape-font-specification:'Charter, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.16686125"
+         id="tspan956">Elektronik</tspan></text>
   </g>
 </svg>
