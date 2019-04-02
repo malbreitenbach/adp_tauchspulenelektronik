@@ -42,7 +42,7 @@ MAIN & Hauptzustandsautomat\\
 SEN & Sensorik\\
 CONS & Regler zum Schalten\\
 CONH & Regler zum Positionshalten\\
-PWM & Auswahlglied für PWM-Signal\\
+PWMS & Auswahlglied für PWM-Signal\\
 MOT & Motortreiber \\
 
 \end{tabular}
@@ -64,7 +64,7 @@ Im Folgenden wird der Hauptzustandsautomat und die reflexbasierten Komponenten e
 
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.4\columnwidth]{./Bilder/fig_main}%
+\includegraphics[width=0.6\columnwidth]{./Bilder/fig_main}%
 \caption{Hauptzustandsautomat (MAIN), Außenansicht}%
 \label{fig_main}%
 \end{figure}
@@ -72,7 +72,7 @@ Im Folgenden wird der Hauptzustandsautomat und die reflexbasierten Komponenten e
 Der Hauptzustandsautomat ist die Kernkomponente der Software und beeinflusst jede Komponente des Systems. Als Eingangssignal wird dem Hauptzustandsautomaten
 \begin{itemize}
 	\item der aktuell eingelegte Gang (\textit{POS\_CurrentGear}),
-	\item die letzte empfangene \textit{Trqs}-CAN-Nachricht (),
+	\item die letzte empfangene \textit{Trqs}-CAN-Nachricht (\textit{Main\_CAN\_TSA\_Trqs}),
 	\item das Statussignal einer laufenden/abgeschlossenen Kalibrierung (\textit{CAL\_calibrationSuccess}),
 	\item das Fehlersignal bei \textit{normalen Fehlern} (\textit{ERR\_Occurs\_Normal}),
 	\item das Fehlersignal bei \textit{kritischen Fehlern} (\textit{ERR\_Occurs\_Ciritcal}),
@@ -81,7 +81,7 @@ Der Hauptzustandsautomat ist die Kernkomponente der Software und beeinflusst jed
 \end{itemize}
 zugeführt. Als Ausgangssignal gibt der Hauptzustandsautomat
 \begin{itemize}
-	\item die aktuelle Quelle für PWM Generierung (\textit{MAIN\_PWM\_Select}),
+	\item die aktuelle Quelle für PWM Generierung (\textit{MAIN\_PWMS\_Select}),
 	\item den Wunschgang (\textit{MAIN\_CON\_TargetPosition}),
 	\item das Aktivierungssignal der Kalibrierung  (\textit{MAIN\_CAL\_Activate}),
 	\item den aktuellen Zustand des Automaten  (\textit{MAIN\_state}),
@@ -90,7 +90,7 @@ zugeführt. Als Ausgangssignal gibt der Hauptzustandsautomat
 	\item die \textit{Error}-CAN-Nachricht  (\textit{MAIN\_CAN\_TSA\_Error}) und
 	\item den Auslöser zum Auslesen der Kalibrierparameter  (\textit{MAIN\_UpdateParameters()})
 \end{itemize}
-aus. Über \textit{MAIN\_PWM\_Select} wird nicht nur die Quelle ausgewählt, die den Motortreiber ansteuert, sondern ebenfalls welche Teilsysteme aktiv sind. Somit wird sichergestellt, dass zu jedem Zeitpunkt ausschließlich ein einziger Regelalgorithmus oder Kalibrieralgorithmus ausgeführt wird (siehe dazu auch \autoref{performanceopt}).\\
+aus. Über \textit{MAIN\_PWMS\_Select} wird nicht nur die Quelle ausgewählt, die den Motortreiber ansteuert, sondern ebenfalls welche Teilsysteme aktiv sind. Somit wird sichergestellt, dass zu jedem Zeitpunkt ausschließlich ein einziger Regelalgorithmus oder Kalibrieralgorithmus ausgeführt wird (siehe dazu auch \autoref{performanceopt}).\\
 Intern agiert der Zustandsautomat in vier streng separierten Betriebsmodi. Nach jedem Reset (bspw. nach dem Anlegen der Versorgungsspannung) befindet sich der Automat zunächst im Initialisierungsschritt. Hier werden zunächst für die Ausführung relevante Variablen initialisiert. Daran anschließend werden die Kalibrierparameter aus dem nichtflüchtigen Speicher geladen. Das Auslesen und Zwischenspeichern der Werte findet dabei im Block zur Schaltgabelpositionsermittlung (POS) statt und wird durch das Setzen eines entsprechenden Triggersignals angestoßen. Durch die Kalibrierwerte ist es nun möglich die aktuelle Schaltgabelposition zu bestimmen, wobei zunächst im Betriebsmodus \textbf{Inaktiv} verblieben wird. Durch einen entsprechenden CAN-Befehl kann der Übergang in den Betriebsmodus \textbf{Regulär} erfolgen. Hierin ist es möglich Schaltbefehle auszuführen. Es wird unterschieden zwischen \textit{Schalte in Gang X} und \textit{Bleibe in Gang X}, wobei jeweils entweder der Regler zum Schalten oder der Regler zum Halten der Position aktiv ist. Für Letzteren existiert noch keine zufriedenstellende Realisierung. Falls eine Kalibrierung durchgeführt werden soll, kann aus diesem Betriebsmodus in den Betriebsmodus \textbf{Kalibrierung} gewechselt werden. Aus allen Betriebsmodi wird durch das Auftreten eines Fehlers (angezeigt durch die entsprechenden Eingangssignale am Automaten) direkt in den Betriebsmodus \textbf{Fehler} übergegangen. In diesem Betriebsmodus werden keine Stellgrößen am Motortreiber zugelassen und alle Regler sind deaktiviert. Erst durch das Senden des entsprechenden Freigabe-Befehls wird wieder in den Betriebsmodus \textbf{Inaktiv} geschaltet.
  
 \begin{figure}[H]%
@@ -133,26 +133,27 @@ Die Sendekomponente basiert auf \textit{Non-Blocking}-Basis. Dadurch können wä
 \subsection{Sensorik (SEN)}\label{SEN}
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.2\columnwidth]{./Bilder/fig_sen}%
+\includegraphics[width=0.3\columnwidth]{./Bilder/fig_sen}%
 \caption{Sensorik}%
 \label{fig_sen}%
 \end{figure}
 Die Sensorik umfasst eine Strommessung durch den Aktor, eine Spannungsmessung am Eingang, eine Spulentemperaturmessung und eine Detektion gegen Übertemperatur/Überstrom an den Halbbrücken. Die Sensorwerte stehen zunächst als ADC-Rohwerte für die weitere Verarbeitung bereit. Diese werden je nach Sensortyp skaliert oder wie im Falle des externen Thermistors durch komplexe Formeln in den realen Messwert konvertiert (vgl. \autoref{ch:komp}). An den Ausgängen stehen anschließend die Messgrößen in gewünschter Einheit bereit. Der Lagesensor wird nach \autoref{lagesens} implementiert.
 
-\subsection{Fehlererkennung (ERR)}
+\subsection{Fehlererkennung (ERR)}\label{err}
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.2\columnwidth]{./Bilder/fig_err}%
+\includegraphics[width=0.25\columnwidth]{./Bilder/fig_err}%
 \caption{Fehlererkennung}%
 \label{fig_err}%
 \end{figure}
-Durch die Fehlererkennung werden die gemessenen Überwachungsgrößen mit Schwellwerten verglichen und ggf. ein Fehlersignal zum Hauptzustandsautomaten weitergeleitet. Dabei muss berücksichtigt werden, dass Messfehler erkannt und ggf. gefiltert werden und nicht zu falsch positiv Ergebnissen führen. Auf der anderen Seite sollten Fehler schnellstmöglich erkannt werden und die falsch negativ - Rate minimal sein. Neben dem Hauptzustandsautomaten besitzt die Komponente auch noch eine Schnittstelle zum Motortreiber, um den Stromfluss im Aktor schnellstmöglich zu unterbinden. Hierfür wird das in \autoref{subsec:MOT} genauer erklärte \textit{enable}-Signale genutzt.
+Durch die Fehlererkennung werden die gemessenen Überwachungsgrößen mit Schwellwerten verglichen und ggf. ein Fehlersignal zum Hauptzustandsautomaten weitergeleitet. Dabei muss berücksichtigt werden, dass Messfehler erkannt und ggf. gefiltert werden und nicht zu falsch positiv Ergebnissen führen. Auf der anderen Seite sollten Fehler schnellstmöglich erkannt werden und die falsch negativ - Rate minimal sein. Neben dem Hauptzustandsautomaten besitzt die Komponente auch noch eine Schnittstelle zum Motortreiber, um den Stromfluss im Aktor schnellstmöglich zu unterbinden. Hierfür wird das in \autoref{subsec:MOT} genauer erklärte \textit{enable}-Signale genutzt. \\
+Eine Sonderstellung nimmt der Systemfehler (\textit{TSA\_SystErr}) ein, der bei Fehlern im Softwaresystem auftritt. Dazu zählen Zustände, die nie erreicht werden sollten und ausschließlich zur Fehlererkennung dienen. Das Erreichen der Zustände deutet auf einen Programmierfehler und/oder eine nicht berücksichtigte Situation hin. Durch einen CAN-Befehl zur Fehlerfreigabe, wird das Softwaresystem wieder in den Initialzustand versetzt.
 
 \subsection{Kalibrierung (CAL)}
 
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.3\columnwidth]{./Bilder/fig_cal}%
+\includegraphics[width=0.35\columnwidth]{./Bilder/fig_cal}%
 \caption{Kalibrierung (Lagesensor)}%
 \label{fig_cal}%
 \end{figure}
@@ -163,18 +164,18 @@ Die Kalibrierung dient dazu, den Spannungswerten des Lagesensors konkrete Positi
 
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.2\columnwidth]{./Bilder/fig_conh_cons}%
+\includegraphics[width=0.3\columnwidth]{./Bilder/fig_conh_cons}%
 \caption{Regelung}%
 \label{fig_conh_cons}%
 \end{figure}
 
 Für die Regelung der Schaltgabelposition nach \autoref{regler} werden den Reglern die momentane Gabelpositon zugeführt. Darüber hinaus wird über den Hauptzustandsautomaten die Sollposition vorgegeben. Über den Soll-Ist-Vergleich und die Anwendung eines Regelgesetzes wird schließlich eine PWM als Stellgröße ermittelt. Eine Regelfrequenz von \SI{10}{kHz} hat sich als ausreichend schnell herausgestellt und kann durch den Mikrocontroller geleistet werden. Beim \textit{Schaltregler} kommt ein PID-Regler mit Störgrößenkompensation zum Einsatz, der in \cite{vADP} erarbeitet wurde. Eine praktikable Lösung für einen \textit{Halteregler} konnte nicht ermittelt werden. Der jeweilige Regler ist nur aktiv, falls er durch den \textit{MAIN\_PWM\_SELECT} des Hauptzustandsautomaten auch explizit angefragt ist.
  
-\subsection{Auswahlglied für PWM-Signal (PWM)}
+\subsection{Auswahlglied für PWM-Signal (PWMS)}
 
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.2\columnwidth]{./Bilder/fig_pwm}%
+\includegraphics[width=0.25\columnwidth]{./Bilder/fig_pwm}%
 \caption{Auswahlglied für PWM-Signal}%
 \label{fig_pwm}%
 \end{figure}
@@ -185,7 +186,7 @@ Für die Regelung der Schaltgabelposition nach \autoref{regler} werden den Regle
 
 \begin{figure}[H]%
 \centering
-\includegraphics[width=0.2\columnwidth]{./Bilder/fig_mot}%
+\includegraphics[width=0.10\columnwidth]{./Bilder/fig_mot}%
 \caption{Motortreiber}%
 \label{fig_mot}%
 \end{figure}
@@ -194,8 +195,8 @@ Der Motortreiber erwartet ein vorgegebenes PWM-Signal, bzw. dessen Tastgrad \tex
 
 
 \section{Codegenerierung und Performanceoptimierung} \label{performanceopt}
-Der generierte und kompilierte Code wird auf dem Mikroprozessor Cortex M4 ausgeführt, der auf dem STM32F4 eingesetzt wird. Dieser Mikroprozessor zeichnet sich durch eine vergleichsweise hohe Rechenleistung aus und verfügt darüber hinaus über eine \textit{Floating Point Unit} (FPU). Somit ist er in der Lage Gleitkommazahlen zu verrechnen. Bei maximaler Taktfrequenz ist die Rechenleistung begrenzt auf \SI{225}{DMIPS}. In DMIPS wird dabei die Leistungsfähigkeit, gemessen an einem repräsentativen Testprogramm namens \textit{Dhrystone}, angegeben \cite{https://www.itwissen.info/DMIPS-Dhrystone-MIPS.html}. Der Prozessor kann daher nicht beliebig viele Aufgaben in beliebiger Arbeitsfrequenz abarbeiten. Für weiterführende Informationen sei auf das Datenblatt \cite{stm32} verwiesen.\\
-Um zu verstehen, wie die begrenzten Rechenressourcen optimal ausgelastet werden können, ist es von Vorteil den Codegenerierungsprozess zu kennen. Über Waijung und die Simulink Toolboxes wird Code nach dem sogenannten \textit{Multirate Single Tasking}- Prinzip generiert. Somit ist es möglich, mehrere Aufgaben mit unterschiedlichen Arbeitsfrequenzen abzuarbeiten. Über den sogenannten \textit{SysTick Timer} wird in der Frequenz der höchstfrequenten Aufgabe ein Interrupt ausgelöst. Ein Interrupt bezeichnet eine Unterbrechung des regulären Programmablaufs, wobei nach der Abarbeitung der sogenannten Interrupt Service Routine wieder der reguläre Programmablauf an der letzten Stelle fortgeführt wird. 
+Der generierte und kompilierte Code wird auf dem Mikroprozessor Cortex M4 ausgeführt, der auf dem STM32F4 eingesetzt wird. Dieser Mikroprozessor zeichnet sich durch eine vergleichsweise hohe Rechenleistung aus und verfügt darüber hinaus über eine \textit{Floating Point Unit} (FPU). Somit ist er in der Lage Gleitkommazahlen zu verrechnen. Bei maximaler Taktfrequenz ist die Rechenleistung begrenzt auf \SI{225}{DMIPS}. In DMIPS wird dabei die Leistungsfähigkeit, gemessen an einem repräsentativen Testprogramm namens \textit{Dhrystone}, angegeben \cite{dmips}. Der Prozessor kann daher nicht beliebig viele Aufgaben in beliebiger Arbeitsfrequenz abarbeiten. Für weiterführende Informationen sei auf das Datenblatt \cite{stm32} verwiesen.\\
+Um zu verstehen, wie die begrenzten Rechenressourcen optimal ausgelastet werden können, ist es von Vorteil den Codegenerierungsprozess zu kennen. Über Waijung und die Simulink Toolboxes wird Code nach dem sogenannten \textit{Multirate Single Tasking}- Prinzip generiert. Somit ist es möglich, mehrere Aufgaben mit unterschiedlichen Arbeitsfrequenzen abzuarbeiten.  Über den sogenannten \textit{SysTick Timer} wird in der Frequenz der höchstfrequenten Aufgabe ein Interrupt ausgelöst. Ein Interrupt bezeichnet eine Unterbrechung des regulären Programmablaufs, wobei nach der Abarbeitung der sogenannten Interrupt Service Routine wieder der reguläre Programmablauf an der letzten Stelle fortgeführt wird. 
 Innerhalb des \textit{SysTick Timer}-Interrupts wird angestoßen, dass diejenigen Aufgaben ausgeführt werden, die zum entsprechenden Zeitpunkt ausgeführt werden sollen. Beispielsweise wird eine Aufgabe, die mit \SI{100}{Hz} ausgeführt werden soll, durch jeden zehnten \textit{SysTick Timer}-Interrupt mit \SI{1}{kHz} angestoßen. Eine Besonderheit fallen Aufgaben zu, die als laufzeitkritisch eingestuft werden, denn diese Aufgaben werden direkt innerhalb der Interrupt Service Routine abgearbeitet und haben somit Priorität vor den übrigen Aufgaben. Ein Beispiel einer solchen Aufgabe ist der geschlossene Regelkreis zur Reglung der Gabelposition. Um den Ablauf des Programms nicht zu gefährden, muss darauf geachtet werden, dass diese Aufgaben nicht länger dauern als bis zum Auslösen des nächsten \textit{SysTick Timer}-Interrupts. Zusätzlich muss noch genügend Zeit bleiben, um die übrigen Aufgaben auszuführen.\cite{waijung}\\
 Um dies zu ermöglichen wird eine Reihe von Maßnahmen ergriffen, die im Folgenden kurz vorgestellt werden.
 Zunächst sind ausschließlich Teile des Systems aktiv, die zum aktuellen Zeitpunkt auch benötigt werden. Alle Funktionalitäten zur Kalibrierung, Halteregelung und Speicherung nichtflüchtiger Daten sind beispielsweise während eines Schaltvorgangs deaktiviert. So wird verhindert, dass wartende inaktive Prozesse Rechenzeit beanspruchen.
@@ -205,8 +206,9 @@ Neben des Programms als solches kann auch der Mikrocontroller in seiner Leistung
 
 \section{Performancevergleich zu vorherigen Ansätzen} \label{perfVergl}
 Für das Programm wird bei maximaler Kerntaktfrequenz von \SI{168}{MHz} eine Regelfrequenz von \SI{10}{kHz} erreicht. Es wird demnach in einem Abstand von \SI{100}{\mu s} ein Soll-/Ist-Vergleich der Gabelposition durchgeführt, darauf das Regelgesetz angewendet und anschließend der resultierende Stellwert an den Motortreiber weitergegeben. Im Vergleich zum vorherigen Ansatz mit \textit{micro AutoBox} ist somit eine um den Faktor $10$ höhere Regelfrequenz möglich (vlg. \cite{vADP}). Hierbei muss jedoch beachtet werden, dass die Programme nicht identisch sind. Während im vorliegenden Programm zahlreiche Zusatzfunktionalitäten neben der eigentlichen Regelung bereitgestellt werden, werden auf der \textit{micro AutoBox} zusätzliche Berechnungen zur sensorlosen Messungen angestellt. \\
-Vorteile besitzt der Mikrocontroller weiterhin in der hohen Abtastrate seiner ADCs, was nach \cite{vADP} für eine sensorlose Positionsermittlung zwingend notwendig ist. Im sogenannten \textit{triple interleaved mode} sind bis zu \SI{7,2}{MSPS} (Millionen Abtastungen pro Sekunde) möglich, wobei alle drei ADCs des STM32 versetzt einen Eingang abtasten. Jeder einzelne ADC tastet demnach mit bis zu \SI{2,4}{MSPS} ab \cite{stm32}. Berücksichtigt werden muss jedoch, dass eine \textit{Burst}-Messung, wie sie in \cite{vADP} verwendet wird, nicht nativ unter Waijung  unterstützt wird. Um zusätzlich das volle Potential der ADCs auch unter Waijung auszuschöpfen, kann ein weiterer \textit{Custom-Block} in C programmiert werden, der eine \textit{Burst}-Messung realisiert. Damit wäre der ADC des STM32 der \textit{micro Autobox} in allen Belangen überlegen und würde den Anforderungen aus \cite{vADP} entsprechen.  \\
-Im Fall mit Sensor kann auf eine \textit{Burst}-Messung verzichtet werden, daher wird auf den nativen Block zurück gegriffen.   
+Vorteile besitzt der Mikrocontroller weiterhin in der hohen Abtastrate seiner ADCs, was nach \cite{vADP} für eine sensorlose Positionsermittlung zwingend notwendig ist. Im sogenannten \textit{triple interleaved mode} sind bis zu \SI{7,2}{MSPS} (Millionen Abtastungen pro Sekunde) möglich, wobei alle drei ADCs des STM32 versetzt einen Eingang abtasten. Jeder einzelne ADC tastet demnach mit bis zu \SI{2,4}{MSPS} ab \cite{stm32}. 
+Berücksichtigt werden muss jedoch, dass eine \textit{Burst}-Messung, wie sie in \cite{vADP} verwendet wird, nicht nativ unter Waijung  unterstützt wird. Um zusätzlich das volle Potential der ADCs auch unter Waijung auszuschöpfen, kann ein weiterer \textit{Custom-Block} in C programmiert werden, der eine \textit{Burst}-Messung realisiert. Damit wäre der ADC des STM32 der \textit{micro Autobox} in allen Belangen überlegen und würde den Anforderungen aus \cite{vADP} entsprechen.  \\
+Im Fall mit Sensor kann auf eine \textit{Burst}-Messung aufgrund ausreichender Genauigkeit verzichtet werden, daher wird auf den nativen Block zurück gegriffen. Die sich aus den genannten Vorteilen ergebenen Verbesserungen bei der Ausregelung werden in \autoref{reglerergebnisse} thematisiert.
 
 \begin{figure}%
 \includegraphics[width=\columnwidth]{./Bilder/fig_clock}%
@@ -220,7 +222,7 @@ Für den späteren Anwender ist vornehmlich die Benutzerschnittstelle über CAN 
 
 \begin{figure}[h]%
 \centering
-\includegraphics[width=0.6\columnwidth]{./Bilder/fig_can_ov}%
+\includegraphics[width=0.8\columnwidth]{./Bilder/fig_can_ov}%
 \caption{Gesamtkonzept der CAN-Kommunikation}%
 \label{fig_can_ov}%
 \end{figure}
@@ -281,7 +283,7 @@ TSA\_dcVErr & Bit &  Eingangsspannungsbereich unter- oder überschritten & Schwe
 TSA\_SensErr & Bit & Fehlerhafte Sensormesswerte & Sensorwerte außerhalb des erwarteten Bereichs oder inkonsistent \newline \\
 TSA\_ShiftErr & Bit & Fehler bei Schaltvorgang & Timeout überschritten oder unerwarter schlechter Schaltverlauf \newline \\
 TSA\_ShortCirc & Bit &  Überstromerkennung in Aktor & Schwellwert konfigurierbar über \textit{ERR\_limCurrent} \newline \\
-TSA\_SystErr& Bit & Ein Systemfehler ist aufgetreten & Softwaresystem befindet sich in ungeplantem Zustand und muss zurückgesetzt werden \newline \\
+TSA\_SystErr& Bit & Ein Systemfehler ist aufgetreten & Softwaresystem befindet sich in ungeplantem Zustand (vgl. \autoref{err}) und muss zurückgesetzt werden \newline \\
 
 \end{tabular}
 \caption{Erläuterung der CAN-Nachricht \textit{TSA\_Error}}

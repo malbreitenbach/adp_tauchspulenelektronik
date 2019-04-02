@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2304"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="fig_mot.svg">
+  <defs
+     id="defs2298">
+    <clipPath
+       id="clipPath2871"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2869"
+         d="M 0,0 H 44 V 54 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2885"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2883"
+         d="M 0,0 H 44 V 54 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2899"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2897"
+         d="M 0,0 H 44 V 54 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2915"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2913"
+         d="M 0,0 H 44 V 54 H 0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2933"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2931"
+         d="M 0,0 H 44 V 54 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="451.75633"
+     inkscape:cy="534.51554"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g2949"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2301">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.35277777,0,0,0.35277777,83.456089,136.20045)"
+       inkscape:label="fig_mot"
+       id="g2857">
+      <g
+         id="g2859" />
+      <g
+         id="g2873" />
+      <g
+         id="g2875">
+        <g
+           id="g2877">
+          <g
+             id="g2879">
+            <g
+               clip-path="url(#clipPath2885)"
+               id="g2881">
+              <g
+                 id="g2887">
+                <path
+                   inkscape:connector-curvature="0"
+                   id="path2889"
+                   style="fill:#6b963d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   d="m 3.348,0.137 h 40.07 V 48.496 H 3.348 Z" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g2891">
+          <g
+             id="g2893">
+            <g
+               clip-path="url(#clipPath2899)"
+               id="g2895">
+              <g
+                 id="g2901">
+                <g
+                   id="g2903">
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path2905"
+                     style="fill:none;stroke:#000000;stroke-width:0.27634099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+                     d="m 3.348,0.137 h 40.07 V 48.496 H 3.348 Z" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g2907">
+          <g
+             id="g2909">
+            <g
+               clip-path="url(#clipPath2915)"
+               id="g2911">
+              <g
+                 id="g2917">
+                <path
+                   inkscape:connector-curvature="0"
+                   id="path2919"
+                   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   d="M 3.348,12.57 1.137,11.469 v 2.207 z" />
+                <g
+                   id="g2921">
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path2923"
+                     style="fill:none;stroke:#000000;stroke-width:0.27634099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+                     d="M -10.469,12.57 H 1.137" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g2925">
+          <g
+             id="g2927">
+            <g
+               clip-path="url(#clipPath2933)"
+               id="g2929">
+              <g
+                 id="g2935">
+                <path
+                   inkscape:connector-curvature="0"
+                   id="path2937"
+                   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   d="M 3.348,36.063 1.137,34.961 v 2.211 z" />
+                <g
+                   id="g2939">
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path2941"
+                     style="fill:none;stroke:#000000;stroke-width:0.27634099;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-dasharray:none;stroke-opacity:1"
+                     d="M -206.672,282.008 H -0.797 V 36.063 h 1.934" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <text
+           id="text2947"
+           style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="translate(4.111475,14.732728)">
+          <tspan
+             id="tspan2943"
+             sodipodi:role="line"
+             y="0"
+             x="0 3.9960001 9.6540003">PWM</tspan>
+          <tspan
+             id="tspan2945"
+             sodipodi:role="line"
+             y="23.632835"
+             x="0.067079403 4.0630794 7.3990793 10.73508 14.071079 15.42108">Enable</tspan>
+        </text>
+      </g>
+      <g
+         id="g2949"
+         transform="translate(0,0.6498353)">
+        <text
+           id="text2953"
+           style="font-variant:normal;font-weight:normal;font-size:6px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="translate(17.671773,53.38053)">
+          <tspan
+             id="tspan2951"
+             sodipodi:role="line"
+             y="0"
+             x="0 4.9980001 9.6599998">MOT</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
